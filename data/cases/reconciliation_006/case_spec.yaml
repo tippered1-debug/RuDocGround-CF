@@ -1,0 +1,37 @@
+case_id: reconciliation_006
+domain: procurement reconciliation and invoice verification
+counterfactual_change_type: supplier invoice quantity and total
+controlling_document: supplier_invoice
+changed_field: invoice_quantity_and_total
+values:
+  A: 50 units and 1 600 000 rubles
+  B: 55 units and 1 760 000 rubles
+document_ids:
+  - payment_control_policy
+  - purchase_request
+  - purchase_order
+  - delivery_note
+  - warehouse_receipt
+  - supplier_invoice_A
+  - supplier_invoice_B
+  - payment_request_006
+flip_questions:
+  - Q6
+  - Q7
+  - Q8
+  - Q14
+  - Q15
+  - Q16
+invariant_questions:
+  - Q1
+  - Q2
+  - Q3
+  - Q4
+  - Q5
+  - Q9
+  - Q10
+  - Q11
+  - Q12
+  - Q13
+expected_documents: 7
+expected_gold_records: 32

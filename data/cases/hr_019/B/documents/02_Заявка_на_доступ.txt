@@ -1,0 +1,1 @@
+Variant B: the same access request is approved on 2026-06-13, after the old role has ended and before a new authorization appears.

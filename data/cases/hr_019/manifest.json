@@ -1,0 +1,83 @@
+{
+  "case_id": "hr_019",
+  "documents": [
+    {
+      "doc_id": "01_приказ_о_переводе",
+      "neutral_file_name": "01_Приказ_о_переводе.txt",
+      "source_file_name": "01_Приказ_о_переводе.txt",
+      "source_sha256": "4733e00840f4f4dc878af15f34555aaf23fabf3b592b7333e187c183c9e051f7",
+      "variant_a_sha256": "4733e00840f4f4dc878af15f34555aaf23fabf3b592b7333e187c183c9e051f7",
+      "variant_b_sha256": "4733e00840f4f4dc878af15f34555aaf23fabf3b592b7333e187c183c9e051f7",
+      "variant_c_sha256": "4733e00840f4f4dc878af15f34555aaf23fabf3b592b7333e187c183c9e051f7",
+      "order": 1,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "02_заявка_на_доступ",
+      "neutral_file_name": "02_Заявка_на_доступ.txt",
+      "source_file_name": "02_Заявка_на_доступ_A.txt",
+      "source_sha256": "c302cba27a231984d97578987bfc3b856225fc5498caa2318ce4aa86a6098c30",
+      "variant_a_sha256": "c302cba27a231984d97578987bfc3b856225fc5498caa2318ce4aa86a6098c30",
+      "variant_b_sha256": "eb69b37d2c4fcf028fdde31f40de6932b1ffd8c8a951b06617104b0227481020",
+      "variant_c_sha256": "ee1f51b8cdccee37728c576e3ac97979035c9f0510b2a2863ed7b865c4549aa7",
+      "order": 2,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "03_лог_iam",
+      "neutral_file_name": "03_Лог_IAM.txt",
+      "source_file_name": "03_Лог_IAM.txt",
+      "source_sha256": "21b0d82768360d3a875618d8ea309db2decada6951e6b975f0b4182a351adff5",
+      "variant_a_sha256": "21b0d82768360d3a875618d8ea309db2decada6951e6b975f0b4182a351adff5",
+      "variant_b_sha256": "21b0d82768360d3a875618d8ea309db2decada6951e6b975f0b4182a351adff5",
+      "variant_c_sha256": "21b0d82768360d3a875618d8ea309db2decada6951e6b975f0b4182a351adff5",
+      "order": 5,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "04_служебная_записка_hr",
+      "neutral_file_name": "04_Служебная_записка_HR.txt",
+      "source_file_name": "04_Служебная_записка_HR.txt",
+      "source_sha256": "14fcb3ce3f39fa0395042d841da75248d004d0b308543863285c3e455c07457c",
+      "variant_a_sha256": "14fcb3ce3f39fa0395042d841da75248d004d0b308543863285c3e455c07457c",
+      "variant_b_sha256": "14fcb3ce3f39fa0395042d841da75248d004d0b308543863285c3e455c07457c",
+      "variant_c_sha256": "14fcb3ce3f39fa0395042d841da75248d004d0b308543863285c3e455c07457c",
+      "order": 6,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "05_согласование_руководителя",
+      "neutral_file_name": "05_Согласование_руководителя.txt",
+      "source_file_name": "05_Согласование_руководителя.txt",
+      "source_sha256": "0226f6b6173014d3792713f0370016581d460ef19452c244f46fa5fa6392f49f",
+      "variant_a_sha256": "0226f6b6173014d3792713f0370016581d460ef19452c244f46fa5fa6392f49f",
+      "variant_b_sha256": "0226f6b6173014d3792713f0370016581d460ef19452c244f46fa5fa6392f49f",
+      "variant_c_sha256": "0226f6b6173014d3792713f0370016581d460ef19452c244f46fa5fa6392f49f",
+      "order": 7,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    }
+  ],
+  "changed_fragment_A_to_B": "Approval happens after role end, creating an unauthorized gap.",
+  "changed_fragment_A_to_C": "Badge number and office location change only.",
+  "document_grounded_only": true
+}

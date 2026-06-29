@@ -1,0 +1,137 @@
+{
+  "case_id": "shipping_027",
+  "package": "B",
+  "documents": [
+    {
+      "doc_id": "policy",
+      "filename": "01_policy.txt",
+      "source_file_name": "01_policy.txt",
+      "source_sha256": "92095a638c6838eeecd5bc81015ccbfd5e440f1a7e003f35a3709340ad2b48d7",
+      "order": 1,
+      "text": "[PARAGRAPH] [controlling_rule] The Freight liability transfer case is governed by the freight_contract.\n[PARAGRAPH] [authoritative_source] freight_contract is the authoritative source for this package.\n[PARAGRAPH] [domain] supply and logistics",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[controlling_rule] The Freight liability transfer case is governed by the freight_contract."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[authoritative_source] freight_contract is the authoritative source for this package."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[domain] supply and logistics"
+        }
+      ]
+    },
+    {
+      "doc_id": "core_record",
+      "filename": "02_core_record.txt",
+      "source_file_name": "02_core_record.txt",
+      "source_sha256": "bbf56c6cf52adc7525e251baa569c26af93bf5efe07e3b2002d0ef27da55c1bf",
+      "order": 2,
+      "text": "[PARAGRAPH] [substantive_fact] Risk transfers at unloading.\n[PARAGRAPH] [amount] unloading\n[PARAGRAPH] [deadline_date] 2026-08-11\n[PARAGRAPH] [identifier] FRT-2701\n[PARAGRAPH] [code_set] risk_transfer | bill_of_lading",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[substantive_fact] Risk transfers at unloading."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[amount] unloading"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[deadline_date] 2026-08-11"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[identifier] FRT-2701"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[code_set] risk_transfer | bill_of_lading"
+        }
+      ]
+    },
+    {
+      "doc_id": "nuisance_memo",
+      "filename": "03_nuisance_memo.txt",
+      "source_file_name": "03_nuisance_memo.txt",
+      "source_sha256": "5780f4b3f179c818839374bc298404e2df652a5355897faa5650843bb52be564",
+      "order": 3,
+      "text": "[PARAGRAPH] [reference_number] FRT-2701\n[PARAGRAPH] [timestamp] 2026-08-10T17:00:00\n[PARAGRAPH] [case_tag] shipping_027",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[reference_number] FRT-2701"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[timestamp] 2026-08-10T17:00:00"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[case_tag] shipping_027"
+        }
+      ]
+    },
+    {
+      "doc_id": "decision_memo",
+      "filename": "04_decision_memo.txt",
+      "source_file_name": "04_decision_memo.txt",
+      "source_sha256": "554604a7494db034d6e00333fb3bc302a90cd7ddcfc0e4eef4e4f9d35ce5a416",
+      "order": 4,
+      "text": "[PARAGRAPH] [final_status] carrier_liable\n[PARAGRAPH] [decision_reason] The decision follows the substantive fact and the controlling source.",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[final_status] carrier_liable"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[decision_reason] The decision follows the substantive fact and the controlling source."
+        }
+      ]
+    },
+    {
+      "doc_id": "support_note",
+      "filename": "05_support_note.txt",
+      "source_file_name": "05_support_note.txt",
+      "source_sha256": "85ae30dc76fb4173cd6fcdf9de0182679fdb48a430e3b2712709290f162e4d2f",
+      "order": 5,
+      "text": "[PARAGRAPH] [support_note_sufficient] true\n[PARAGRAPH] [missing_information] No mandatory supporting document is missing.\n[PARAGRAPH] [support_note] The supporting note is sufficient.",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[support_note_sufficient] true"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[missing_information] No mandatory supporting document is missing."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[support_note] The supporting note is sufficient."
+        }
+      ]
+    }
+  ],
+  "text": "[DOCUMENT doc_id=policy]\n=== DOCUMENT 1 | 01_policy.txt ===\n[PARAGRAPH] [controlling_rule] The Freight liability transfer case is governed by the freight_contract.\n[PARAGRAPH] [authoritative_source] freight_contract is the authoritative source for this package.\n[PARAGRAPH] [domain] supply and logistics\n[/DOCUMENT]\n\n[DOCUMENT doc_id=core_record]\n=== DOCUMENT 2 | 02_core_record.txt ===\n[PARAGRAPH] [substantive_fact] Risk transfers at unloading.\n[PARAGRAPH] [amount] unloading\n[PARAGRAPH] [deadline_date] 2026-08-11\n[PARAGRAPH] [identifier] FRT-2701\n[PARAGRAPH] [code_set] risk_transfer | bill_of_lading\n[/DOCUMENT]\n\n[DOCUMENT doc_id=nuisance_memo]\n=== DOCUMENT 3 | 03_nuisance_memo.txt ===\n[PARAGRAPH] [reference_number] FRT-2701\n[PARAGRAPH] [timestamp] 2026-08-10T17:00:00\n[PARAGRAPH] [case_tag] shipping_027\n[/DOCUMENT]\n\n[DOCUMENT doc_id=decision_memo]\n=== DOCUMENT 4 | 04_decision_memo.txt ===\n[PARAGRAPH] [final_status] carrier_liable\n[PARAGRAPH] [decision_reason] The decision follows the substantive fact and the controlling source.\n[/DOCUMENT]\n\n[DOCUMENT doc_id=support_note]\n=== DOCUMENT 5 | 05_support_note.txt ===\n[PARAGRAPH] [support_note_sufficient] true\n[PARAGRAPH] [missing_information] No mandatory supporting document is missing.\n[PARAGRAPH] [support_note] The supporting note is sufficient.\n[/DOCUMENT]"
+}

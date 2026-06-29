@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "checks": [
+    "all_documents_exist",
+    "all_evidence_references_present",
+    "all_priority_rules_embedded",
+    "gold_from_documents_only"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "case_id": "authority_003",
+  "status": "ok",
+  "documents": 7,
+  "variants": [
+    "A",
+    "B"
+  ],
+  "gold_records": 32,
+  "questions": 16,
+  "flip_questions": [
+    "Q6",
+    "Q7",
+    "Q12",
+    "Q14",
+    "Q16"
+  ],
+  "invariant_questions": [
+    "Q1",
+    "Q2",
+    "Q3",
+    "Q4",
+    "Q5",
+    "Q8",
+    "Q9",
+    "Q10",
+    "Q11",
+    "Q13",
+    "Q15"
+  ],
+  "prompt_counts": {
+    "A": 16,
+    "B": 16,
+    "all": 32
+  },
+  "notes": [
+    "A and B differ only in the subject matter of the power of attorney.",
+    "All other documents are identical across variants."
+  ]
+}

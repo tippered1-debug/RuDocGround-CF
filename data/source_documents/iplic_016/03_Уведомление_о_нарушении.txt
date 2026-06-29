@@ -1,0 +1,1 @@
+Variant A: notice requests a cure for a missing build checksum and gives the vendor until 2026-06-10 18:00.

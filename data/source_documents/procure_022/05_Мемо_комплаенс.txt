@@ -1,0 +1,1 @@
+Compliance memo explains that one authoritative registry entry overrides all vendor-provided certificates.

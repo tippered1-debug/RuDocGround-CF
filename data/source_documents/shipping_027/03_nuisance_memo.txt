@@ -1,0 +1,3 @@
+[reference_number] FRT-2701
+[timestamp] 2026-08-10T17:00:00
+[case_tag] shipping_027

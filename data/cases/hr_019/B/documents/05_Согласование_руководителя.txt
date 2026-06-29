@@ -1,0 +1,1 @@
+Manager approval confirms the access need but does not override employment timing.

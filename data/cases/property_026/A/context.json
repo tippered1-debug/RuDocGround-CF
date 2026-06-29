@@ -1,0 +1,137 @@
+{
+  "case_id": "property_026",
+  "package": "A",
+  "documents": [
+    {
+      "doc_id": "policy",
+      "filename": "01_policy.txt",
+      "source_file_name": "01_policy.txt",
+      "source_sha256": "36c390dcc1192c22fd539907ee582f8b057689869cdabc44289402908ff3b672",
+      "order": 1,
+      "text": "[PARAGRAPH] [controlling_rule] The Security deposit offset case is governed by the lease_guarantee_clause.\n[PARAGRAPH] [authoritative_source] lease_guarantee_clause is the authoritative source for this package.\n[PARAGRAPH] [domain] lease property and guarantees",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[controlling_rule] The Security deposit offset case is governed by the lease_guarantee_clause."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[authoritative_source] lease_guarantee_clause is the authoritative source for this package."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[domain] lease property and guarantees"
+        }
+      ]
+    },
+    {
+      "doc_id": "core_record",
+      "filename": "02_core_record.txt",
+      "source_file_name": "02_core_record.txt",
+      "source_sha256": "23283ac89291e4a8c3fdf171068794685f87dbb635cc071bcb9b20de850218d6",
+      "order": 2,
+      "text": "[PARAGRAPH] [substantive_fact] The repair act is missing.\n[PARAGRAPH] [amount] 20000\n[PARAGRAPH] [deadline_date] 2026-10-15\n[PARAGRAPH] [identifier] LEASE-2601\n[PARAGRAPH] [code_set] offset_gate | repair_act",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[substantive_fact] The repair act is missing."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[amount] 20000"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[deadline_date] 2026-10-15"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[identifier] LEASE-2601"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[code_set] offset_gate | repair_act"
+        }
+      ]
+    },
+    {
+      "doc_id": "nuisance_memo",
+      "filename": "03_nuisance_memo.txt",
+      "source_file_name": "03_nuisance_memo.txt",
+      "source_sha256": "bd937501247b8da67d88a009ecd000137f36f5838b1d8a6b532be138c518c465",
+      "order": 3,
+      "text": "[PARAGRAPH] [reference_number] LEASE-2601\n[PARAGRAPH] [timestamp] 2026-10-15T09:00:00\n[PARAGRAPH] [case_tag] property_026",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[reference_number] LEASE-2601"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[timestamp] 2026-10-15T09:00:00"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[case_tag] property_026"
+        }
+      ]
+    },
+    {
+      "doc_id": "decision_memo",
+      "filename": "04_decision_memo.txt",
+      "source_file_name": "04_decision_memo.txt",
+      "source_sha256": "81635712e8bfcd04d1837158905093075e39e6eade7768396623b56b4cac848f",
+      "order": 4,
+      "text": "[PARAGRAPH] [final_status] not_allowed\n[PARAGRAPH] [decision_reason] The decision follows the substantive fact and the controlling source.",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[final_status] not_allowed"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[decision_reason] The decision follows the substantive fact and the controlling source."
+        }
+      ]
+    },
+    {
+      "doc_id": "support_note",
+      "filename": "05_support_note.txt",
+      "source_file_name": "05_support_note.txt",
+      "source_sha256": "85ae30dc76fb4173cd6fcdf9de0182679fdb48a430e3b2712709290f162e4d2f",
+      "order": 5,
+      "text": "[PARAGRAPH] [support_note_sufficient] true\n[PARAGRAPH] [missing_information] No mandatory supporting document is missing.\n[PARAGRAPH] [support_note] The supporting note is sufficient.",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[support_note_sufficient] true"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[missing_information] No mandatory supporting document is missing."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[support_note] The supporting note is sufficient."
+        }
+      ]
+    }
+  ],
+  "text": "[DOCUMENT doc_id=policy]\n=== DOCUMENT 1 | 01_policy.txt ===\n[PARAGRAPH] [controlling_rule] The Security deposit offset case is governed by the lease_guarantee_clause.\n[PARAGRAPH] [authoritative_source] lease_guarantee_clause is the authoritative source for this package.\n[PARAGRAPH] [domain] lease property and guarantees\n[/DOCUMENT]\n\n[DOCUMENT doc_id=core_record]\n=== DOCUMENT 2 | 02_core_record.txt ===\n[PARAGRAPH] [substantive_fact] The repair act is missing.\n[PARAGRAPH] [amount] 20000\n[PARAGRAPH] [deadline_date] 2026-10-15\n[PARAGRAPH] [identifier] LEASE-2601\n[PARAGRAPH] [code_set] offset_gate | repair_act\n[/DOCUMENT]\n\n[DOCUMENT doc_id=nuisance_memo]\n=== DOCUMENT 3 | 03_nuisance_memo.txt ===\n[PARAGRAPH] [reference_number] LEASE-2601\n[PARAGRAPH] [timestamp] 2026-10-15T09:00:00\n[PARAGRAPH] [case_tag] property_026\n[/DOCUMENT]\n\n[DOCUMENT doc_id=decision_memo]\n=== DOCUMENT 4 | 04_decision_memo.txt ===\n[PARAGRAPH] [final_status] not_allowed\n[PARAGRAPH] [decision_reason] The decision follows the substantive fact and the controlling source.\n[/DOCUMENT]\n\n[DOCUMENT doc_id=support_note]\n=== DOCUMENT 5 | 05_support_note.txt ===\n[PARAGRAPH] [support_note_sufficient] true\n[PARAGRAPH] [missing_information] No mandatory supporting document is missing.\n[PARAGRAPH] [support_note] The supporting note is sufficient.\n[/DOCUMENT]"
+}

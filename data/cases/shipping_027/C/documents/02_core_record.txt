@@ -1,0 +1,5 @@
+[substantive_fact] Risk transfers at loading.
+[amount] loading
+[deadline_date] 2026-08-10
+[identifier] FRT-2701
+[code_set] risk_transfer | bill_of_lading

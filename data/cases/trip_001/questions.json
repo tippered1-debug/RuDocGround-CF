@@ -1,0 +1,90 @@
+{
+  "case_id": "trip_001",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Какое подразделение указано для сотрудника?",
+      "answer_type": "json"
+    },
+    {
+      "question_id": "Q2",
+      "question": "Как указано полное имя сотрудника?",
+      "answer_type": "json"
+    },
+    {
+      "question_id": "Q3",
+      "question": "Какой город назначения указан в пакете документов?",
+      "answer_type": "json"
+    },
+    {
+      "question_id": "Q4",
+      "question": "Каков лимит возмещения в рублях?",
+      "answer_type": "money"
+    },
+    {
+      "question_id": "Q5",
+      "question": "Какая дата начала поездки указана в служебной записке?",
+      "answer_type": "date"
+    },
+    {
+      "question_id": "Q6",
+      "question": "Какая конечная дата периода командировки указана в приказе?",
+      "answer_type": "date"
+    },
+    {
+      "question_id": "Q7",
+      "question": "Сколько календарных дней охватывает приказ о командировке?",
+      "answer_type": "integer"
+    },
+    {
+      "question_id": "Q8",
+      "question": "Сколько поездок такси зафиксировано в чеках?",
+      "answer_type": "integer"
+    },
+    {
+      "question_id": "Q9",
+      "question": "Какова сумма первой поездки такси?",
+      "answer_type": "money"
+    },
+    {
+      "question_id": "Q10",
+      "question": "Какова сумма второй поездки такси?",
+      "answer_type": "money"
+    },
+    {
+      "question_id": "Q11",
+      "question": "Какова общая сумма поездок такси?",
+      "answer_type": "money"
+    },
+    {
+      "question_id": "Q12",
+      "question": "Есть ли предварительное согласование выезда?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q13",
+      "question": "Какой деловой целью подтвержден выезд?",
+      "answer_type": "json"
+    },
+    {
+      "question_id": "Q14",
+      "question": "Какой адрес назначения указан для первой поездки такси?",
+      "answer_type": "json"
+    },
+    {
+      "question_id": "Q15",
+      "question": "Какой адрес назначения указан для второй поездки такси?",
+      "answer_type": "json"
+    },
+    {
+      "question_id": "Q16",
+      "question": "Остается ли сумма поездок в пределах лимита?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q17",
+      "question": "Какой адрес назначения и какая деловая цель указаны для второй поездки?",
+      "answer_type": "json"
+    }
+  ]
+}

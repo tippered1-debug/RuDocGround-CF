@@ -1,0 +1,37 @@
+case_id: notice_005
+domain: contract notice and automatic renewal
+counterfactual_change_type: notice delivery date
+controlling_document: delivery_confirmation
+changed_field: delivery_date
+values:
+  A: 2026-10-19
+  B: 2026-10-22
+document_ids:
+  - service_contract
+  - termination_notice
+  - delivery_confirmation_A
+  - delivery_confirmation_B
+  - internal_memo
+  - dispatch_email
+  - november_invoice
+  - payment_request
+flip_questions:
+  - Q6
+  - Q7
+  - Q8
+  - Q13
+  - Q15
+  - Q16
+invariant_questions:
+  - Q1
+  - Q2
+  - Q3
+  - Q4
+  - Q5
+  - Q9
+  - Q10
+  - Q11
+  - Q12
+  - Q14
+expected_documents: 7
+expected_gold_records: 32

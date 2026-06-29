@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "checks": [
+    "no_answer_leakage",
+    "no_cardinality_leakage",
+    "no_schema_leakage",
+    "no_exact_match_free_text"
+  ],
+  "findings": []
+}

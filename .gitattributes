@@ -1,0 +1,10 @@
+release_assets/ export-ignore
+release_manifest.json export-ignore
+SHA256SUMS.txt export-ignore
+docs/*manual_review.md export-ignore
+data/cases/**/manual_review.md export-ignore
+data/cases/**/question_matrix.md export-ignore
+data/cases/**/*_gold_review.jsonl export-ignore
+data/cases/**/*_gold_snapshot.jsonl export-ignore
+data/cases/**/validation_report.json export-ignore
+data/cases/**/integration_handoff.md export-ignore

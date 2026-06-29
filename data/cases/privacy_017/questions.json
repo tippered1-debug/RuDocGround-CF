@@ -1,0 +1,75 @@
+{
+  "case_id": "privacy_017",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Which basis is documented in A?",
+      "answer_type": "categorical"
+    },
+    {
+      "question_id": "Q2",
+      "question": "Which basis is documented in B?",
+      "answer_type": "categorical"
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is transfer allowed under the internal policy in A?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is transfer allowed under the internal policy in B?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does a separate consent record exist for every recipient in B?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q6",
+      "question": "Does the policy fully determine admissibility?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is external law required to answer the question?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q8",
+      "question": "Is the department code changed in C?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q9",
+      "question": "Is the transfer path encrypted in all variants?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q10",
+      "question": "Is the processor agreement satisfied if basis is missing?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q11",
+      "question": "What is the final answer type for the transfer decision?",
+      "answer_type": "categorical"
+    },
+    {
+      "question_id": "Q12",
+      "question": "Would a changed signature block in C alter admissibility?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q13",
+      "question": "Is the internal policy included in the package?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q14",
+      "question": "Does any question require exact-match free text?",
+      "answer_type": "boolean"
+    }
+  ]
+}

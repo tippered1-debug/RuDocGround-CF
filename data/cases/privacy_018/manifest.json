@@ -1,0 +1,83 @@
+{
+  "case_id": "privacy_018",
+  "documents": [
+    {
+      "doc_id": "policy",
+      "neutral_file_name": "01_policy.txt",
+      "source_file_name": "01_policy.txt",
+      "source_sha256": "97fe052016e098f1454ba0d8ee9d656154df170832cf301e4c19f74e9184cfc5",
+      "variant_a_sha256": "97fe052016e098f1454ba0d8ee9d656154df170832cf301e4c19f74e9184cfc5",
+      "variant_b_sha256": "97fe052016e098f1454ba0d8ee9d656154df170832cf301e4c19f74e9184cfc5",
+      "variant_c_sha256": "97fe052016e098f1454ba0d8ee9d656154df170832cf301e4c19f74e9184cfc5",
+      "order": 1,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "core_record",
+      "neutral_file_name": "02_core_record.txt",
+      "source_file_name": "02_core_record.txt",
+      "source_sha256": "119a8f745e33ed20ed331b4ef1b5297221e95c5f3c2e51a532fcebf470386186",
+      "variant_a_sha256": "119a8f745e33ed20ed331b4ef1b5297221e95c5f3c2e51a532fcebf470386186",
+      "variant_b_sha256": "8b440a61f33d5b18e0c9e08862c454d28e3d28ea47835daf9a3e43bb21756027",
+      "variant_c_sha256": "119a8f745e33ed20ed331b4ef1b5297221e95c5f3c2e51a532fcebf470386186",
+      "order": 2,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "nuisance_memo",
+      "neutral_file_name": "03_nuisance_memo.txt",
+      "source_file_name": "03_nuisance_memo.txt",
+      "source_sha256": "c06c969f221f9c4ba7e3829e7d9e326ed5e1d520cd967f86a6c500ba9bf0cd3b",
+      "variant_a_sha256": "c06c969f221f9c4ba7e3829e7d9e326ed5e1d520cd967f86a6c500ba9bf0cd3b",
+      "variant_b_sha256": "c06c969f221f9c4ba7e3829e7d9e326ed5e1d520cd967f86a6c500ba9bf0cd3b",
+      "variant_c_sha256": "bf9839e1534cb7b53c39502d84adf109bc7589c69ed429505439338085a3f87e",
+      "order": 3,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "decision_memo",
+      "neutral_file_name": "04_decision_memo.txt",
+      "source_file_name": "04_decision_memo.txt",
+      "source_sha256": "9fb1afe91d1e2de4dcd70fcf6bfdb254434667864b8b51376f5bb85a6d288bc0",
+      "variant_a_sha256": "9fb1afe91d1e2de4dcd70fcf6bfdb254434667864b8b51376f5bb85a6d288bc0",
+      "variant_b_sha256": "62cd26310ae1cf2ef6ae05efbc214d107f1782a024b11d95b35db25fe27d911a",
+      "variant_c_sha256": "9fb1afe91d1e2de4dcd70fcf6bfdb254434667864b8b51376f5bb85a6d288bc0",
+      "order": 4,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "support_note",
+      "neutral_file_name": "05_support_note.txt",
+      "source_file_name": "05_support_note.txt",
+      "source_sha256": "85ae30dc76fb4173cd6fcdf9de0182679fdb48a430e3b2712709290f162e4d2f",
+      "variant_a_sha256": "85ae30dc76fb4173cd6fcdf9de0182679fdb48a430e3b2712709290f162e4d2f",
+      "variant_b_sha256": "85ae30dc76fb4173cd6fcdf9de0182679fdb48a430e3b2712709290f162e4d2f",
+      "variant_c_sha256": "85ae30dc76fb4173cd6fcdf9de0182679fdb48a430e3b2712709290f162e4d2f",
+      "order": 5,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    }
+  ],
+  "changed_fragment_A_to_B": "The notice deadline is met.",
+  "changed_fragment_A_to_C": "Nuisance memo reference INC-3301 and timestamp 2026-09-12T09:55:00.",
+  "document_grounded_only": true
+}

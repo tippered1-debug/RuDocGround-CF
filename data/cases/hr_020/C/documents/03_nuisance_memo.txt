@@ -1,0 +1,3 @@
+[reference_number] DEL-3301
+[timestamp] 2026-10-01T13:25:00
+[case_tag] hr_020

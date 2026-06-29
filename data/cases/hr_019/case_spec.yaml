@@ -1,0 +1,15 @@
+{
+  "case_id": "hr_019",
+  "domain": "HR access and authority",
+  "counterfactual_change_type": "temporal sequence of role, approval, revocation",
+  "controlling_document": "01_приказ_о_переводе",
+  "document_ids": [
+    "01_приказ_о_переводе",
+    "02_заявка_на_доступ",
+    "03_лог_iam",
+    "04_служебная_записка_hr",
+    "05_согласование_руководителя"
+  ],
+  "expected_questions": 14,
+  "gold_rows": 42
+}

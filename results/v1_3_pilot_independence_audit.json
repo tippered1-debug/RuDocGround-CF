@@ -1,0 +1,45 @@
+{
+  "status": "pass",
+  "warnings": [
+    {
+      "case_id": "logistics_014",
+      "nearest_case": "acceptance_004",
+      "similarity_reason": "goods acceptance workflow with a threshold gate",
+      "independent_element": "temperature threshold and excursion duration",
+      "redesign_required": false,
+      "decision": "accepted"
+    },
+    {
+      "case_id": "iplic_016",
+      "nearest_case": "notice_005",
+      "similarity_reason": "conditional document-triggered outcome",
+      "independent_element": "escrow release scope and cure procedure",
+      "redesign_required": false,
+      "decision": "accepted"
+    },
+    {
+      "case_id": "privacy_017",
+      "nearest_case": "approval_chain_009",
+      "similarity_reason": "policy authorization structure resembles access approval",
+      "independent_element": "internal basis matrix for personal-data transfer",
+      "redesign_required": false,
+      "decision": "accepted"
+    },
+    {
+      "case_id": "hr_019",
+      "nearest_case": "approval_chain_009",
+      "similarity_reason": "timed approval resembles access sequencing",
+      "independent_element": "role-end timing and revocation gap",
+      "redesign_required": false,
+      "decision": "accepted"
+    },
+    {
+      "case_id": "procure_022",
+      "nearest_case": "procurement_002",
+      "similarity_reason": "procurement compliance envelope overlaps old purchasing case",
+      "independent_element": "authoritative registry override rule",
+      "redesign_required": false,
+      "decision": "accepted"
+    }
+  ]
+}

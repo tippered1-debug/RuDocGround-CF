@@ -1,0 +1,30 @@
+{
+  "seed": 42,
+  "replicates": 10000,
+  "case_clusters": 30,
+  "independent_release_bundle": "results/qwen3.5-4b_v1.3.1_release_bundle.json",
+  "batched_report": "results/qwen3.5-4b_v1.3.1_compact_full_report.json",
+  "case_bootstrap_summary": "results/statistics/qwen3.5-4b_case_bootstrap_summary.json",
+  "case_bootstrap_distributions": "results/statistics/qwen3.5-4b_case_bootstrap_distributions.csv",
+  "protocol_effect_summary": "results/statistics/qwen3.5-4b_protocol_effect_summary.json",
+  "protocol_effect_distributions": "results/statistics/qwen3.5-4b_protocol_effect_distributions.csv",
+  "case_level_comparison": "results/statistics/qwen3.5-4b_case_level_comparison.csv",
+  "charts": {
+    "batched_vs_independent_answer_accuracy": {
+      "svg": "results/statistics/batched_vs_independent_answer_accuracy.svg",
+      "png": "results/statistics/batched_vs_independent_answer_accuracy.png"
+    },
+    "delta_answer_accuracy_distribution": {
+      "svg": "results/statistics/delta_answer_accuracy_distribution.svg",
+      "png": "results/statistics/delta_answer_accuracy_distribution.png"
+    },
+    "independent_format_failure_rate_by_case": {
+      "svg": "results/statistics/independent_format_failure_rate_by_case.svg",
+      "png": "results/statistics/independent_format_failure_rate_by_case.png"
+    },
+    "counterfactual_strict_vs_valid_pair_scores": {
+      "svg": "results/statistics/counterfactual_strict_vs_valid_pair_scores.svg",
+      "png": "results/statistics/counterfactual_strict_vs_valid_pair_scores.png"
+    }
+  }
+}

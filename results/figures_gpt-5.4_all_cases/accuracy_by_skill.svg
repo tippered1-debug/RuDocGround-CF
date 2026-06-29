@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+  <rect width="100%" height="100%" fill="white"/>
+  <text x="24" y="38" font-size="26" font-family="Arial, sans-serif" fill="black">Benchmark Answer Accuracy by Skill</text>
+  <text x="24" y="88" font-size="15" font-family="Arial, sans-serif">unknown</text>
+  <rect x="340" y="70" width="780" height="24" fill="#1f77b4" />
+  <text x="1128" y="88" font-size="15" font-family="Arial, sans-serif">0.84</text>
+</svg>

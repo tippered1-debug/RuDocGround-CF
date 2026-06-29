@@ -1,0 +1,3 @@
+[reference_number] PRE-1101
+[timestamp] 2026-06-01T09:00:00
+[case_tag] finset_011

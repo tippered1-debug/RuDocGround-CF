@@ -1,0 +1,37 @@
+case_id: acceptance_004
+domain: services acceptance and payment basis
+counterfactual_change_type: acceptance act customer signature
+controlling_document: acceptance_act
+changed_field: customer_signature_block
+values:
+  A: signed_by_both_parties
+  B: customer_signature_missing
+document_ids:
+  - service_contract
+  - technical_specification
+  - technical_report
+  - project_correspondence
+  - acceptance_act_A
+  - acceptance_act_B
+  - service_invoice
+  - service_payment_request
+flip_questions:
+  - Q6
+  - Q7
+  - Q8
+  - Q14
+  - Q15
+  - Q16
+invariant_questions:
+  - Q1
+  - Q2
+  - Q3
+  - Q4
+  - Q5
+  - Q9
+  - Q10
+  - Q11
+  - Q12
+  - Q13
+expected_documents: 7
+expected_gold_records: 32

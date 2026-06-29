@@ -1,0 +1,15 @@
+{
+  "total_tasks": 320,
+  "passed_tasks": 320,
+  "failed_tasks": 0,
+  "errors": [],
+  "errors_by_case_id": {},
+  "errors_by_question_id": {},
+  "decision_enum_schemas": 168,
+  "code_set_enum_schemas": 2,
+  "possible_label_leaks": 0,
+  "gold_rows": 320,
+  "unique_prompt_keys": 320,
+  "duplicate_prompt_keys": [],
+  "duplicate_gold_keys": []
+}

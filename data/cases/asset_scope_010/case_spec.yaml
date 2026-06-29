@@ -1,0 +1,37 @@
+case_id: asset_scope_010
+domain: server maintenance and payment basis
+counterfactual_change_type: inventory card serial number
+controlling_document: inventory_card
+changed_field: serial_number
+values:
+  A: NX-7421
+  B: NX-7427
+document_ids:
+  - maintenance_contract
+  - covered_equipment_list
+  - inventory_card_A
+  - inventory_card_B
+  - repair_request
+  - repair_act
+  - repair_invoice
+  - payment_request
+flip_questions:
+  - Q6
+  - Q7
+  - Q8
+  - Q14
+  - Q15
+  - Q16
+invariant_questions:
+  - Q1
+  - Q2
+  - Q3
+  - Q4
+  - Q5
+  - Q9
+  - Q10
+  - Q11
+  - Q12
+  - Q13
+expected_documents: 7
+expected_gold_records: 32

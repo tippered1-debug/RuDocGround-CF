@@ -1,0 +1,24 @@
+[DOCUMENT doc_id=01_соглашение_об_эскроу_исходного_кода]
+=== DOCUMENT 1 | 01_Соглашение_об_эскроу_исходного_кода.txt ===
+[PARAGRAPH] Escrow may be released if the vendor fails to provide a working build and written cure response within 5 business days after a valid notice. The escrow agent releases only the source code archive and build scripts, not customer data.
+[/DOCUMENT]
+
+[DOCUMENT doc_id=02_лицензионный_договор_на_по]
+=== DOCUMENT 2 | 02_Лицензионный_договор_на_ПО.txt ===
+[PARAGRAPH] License governs use of the software for one client site and defines the support channel for cure notices.
+[/DOCUMENT]
+
+[DOCUMENT doc_id=03_уведомление_о_нарушении]
+=== DOCUMENT 3 | 03_Уведомление_о_нарушении.txt ===
+[PARAGRAPH] Variant B: notice is the same except the vendor never delivered a working build within the deadline and the trigger conditions are met.
+[/DOCUMENT]
+
+[DOCUMENT doc_id=04_журнал_поддержки]
+=== DOCUMENT 6 | 04_Журнал_поддержки.txt ===
+[PARAGRAPH] Support log records ticket times and whether a build was delivered before the cure deadline.
+[/DOCUMENT]
+
+[DOCUMENT doc_id=05_мемо_юриста]
+=== DOCUMENT 7 | 05_Мемо_юриста.txt ===
+[PARAGRAPH] Legal memo states the escrow agreement controls over the license summary when release conditions conflict.
+[/DOCUMENT]

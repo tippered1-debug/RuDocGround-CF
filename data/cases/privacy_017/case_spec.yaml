@@ -1,0 +1,15 @@
+{
+  "case_id": "privacy_017",
+  "domain": "privacy and infosec",
+  "counterfactual_change_type": "documented basis sufficiency",
+  "controlling_document": "01_политика_передачи_пдн",
+  "document_ids": [
+    "01_политика_передачи_пдн",
+    "02_договор_обработки_пдн",
+    "03_оценка_передачи",
+    "04_список_реквизитов",
+    "05_служебная_записка_иб"
+  ],
+  "expected_questions": 14,
+  "gold_rows": 42
+}

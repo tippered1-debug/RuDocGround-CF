@@ -1,0 +1,3 @@
+[reference_number] FX-3301
+[timestamp] 2026-07-01T10:11:00
+[case_tag] finset_012

@@ -1,0 +1,14 @@
+{
+  "status": "pass",
+  "case_count": 5,
+  "variant_count": 15,
+  "task_row_count": 210,
+  "unique_task_rows": 210,
+  "expected_change_pairs": 28,
+  "expected_invariant_pairs": 42,
+  "nuisance_detection_pairs": 10,
+  "causal_invariance_pairs": 60,
+  "nuisance_detection_rate": 0.14285714285714285,
+  "causal_invariance_rate": 0.8571428571428571,
+  "over_update_rate": 0.14285714285714285
+}

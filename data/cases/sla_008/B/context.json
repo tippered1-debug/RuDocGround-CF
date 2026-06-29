@@ -1,0 +1,182 @@
+{
+  "case_id": "sla_008",
+  "package": "B",
+  "documents": [
+    {
+      "doc_id": "sla_contract",
+      "filename": "01_Договор_на_сопровождение_облачной_платформы.txt",
+      "source_file_name": "01_Договор_на_сопровождение_облачной_платформы.txt",
+      "source_sha256": "a00383ac0a17611fc2a23e71115869104aed947eeae2ebbfc7dec8e22c93bddd",
+      "order": 1,
+      "text": "[PARAGRAPH] executor\n[PARAGRAPH] Исполнитель: ООО «ОблакоСервис».\n[PARAGRAPH] monthly_fee\n[PARAGRAPH] 500 000 руб. в месяц\n[PARAGRAPH] recovery_limit\n[PARAGRAPH] не более 4 часов\n[PARAGRAPH] monitoring_start\n[PARAGRAPH] с момента автоматической регистрации инцидента системой мониторинга\n[PARAGRAPH] reduction_rate\n[PARAGRAPH] уменьшается на 5 %",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "executor"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "Исполнитель: ООО «ОблакоСервис»."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "monthly_fee"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "500 000 руб. в месяц"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "recovery_limit"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "не более 4 часов"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "monitoring_start"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "с момента автоматической регистрации инцидента системой мониторинга"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "reduction_rate"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "уменьшается на 5 %"
+        }
+      ]
+    },
+    {
+      "doc_id": "sla_monitoring_log",
+      "filename": "02_Журнал_системы_мониторинга.txt",
+      "source_file_name": "02_Журнал_системы_мониторинга.txt",
+      "source_sha256": "9ebc333e667a67232b3353c647cfc8f2abc6a52994c3068531ba79c2c2d3df5d",
+      "order": 2,
+      "text": "[PARAGRAPH] incident_registered\n[PARAGRAPH] Критический инцидент № CI-2026-08-12-01 зарегистрирован автоматически системой мониторинга\n[PARAGRAPH] 12 августа 2026 г., 10:00",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "incident_registered"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "Критический инцидент № CI-2026-08-12-01 зарегистрирован автоматически системой мониторинга"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "12 августа 2026 г., 10:00"
+        }
+      ]
+    },
+    {
+      "doc_id": "sla_support_request",
+      "filename": "03_Обращение_в_службу_поддержки.txt",
+      "source_file_name": "03_Обращение_в_службу_поддержки.txt",
+      "source_sha256": "b408ae61b715fffbb5ac36c2e3f1ca17a8681af52a4b5c80554ec8f10de56e95",
+      "order": 3,
+      "text": "[PARAGRAPH] received_at\n[PARAGRAPH] Запрос в службу поддержки поступил 12 августа 2026 г. в 10:15",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "received_at"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "Запрос в службу поддержки поступил 12 августа 2026 г. в 10:15"
+        }
+      ]
+    },
+    {
+      "doc_id": "technical_report_B",
+      "filename": "04_Технический_отчёт.txt",
+      "source_file_name": "04_Технический_отчёт_B.txt",
+      "source_sha256": "21c57e4429371e30e7c3c5dd68df48b7435c9d3f9b41fe3c4d66a5b397c88a5e",
+      "order": 5,
+      "text": "[PARAGRAPH] restoration_time\n[PARAGRAPH] Восстановление завершено в 14:01.",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "restoration_time"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "Восстановление завершено в 14:01."
+        }
+      ]
+    },
+    {
+      "doc_id": "monthly_report",
+      "filename": "05_Ежемесячный_отчёт_за_август.txt",
+      "source_file_name": "05_Ежемесячный_отчёт_за_август.txt",
+      "source_sha256": "89c25defb9e797d001fe394df1f033633e67ffa215673ca3368085284bbff39b",
+      "order": 6,
+      "text": "[PARAGRAPH] Ежемесячный отчёт за август 2026 г.",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "Ежемесячный отчёт за август 2026 г."
+        }
+      ]
+    },
+    {
+      "doc_id": "sla_invoice",
+      "filename": "06_Счёт_за_август_2026.txt",
+      "source_file_name": "06_Счёт_за_август_2026.txt",
+      "source_sha256": "9f76b01056df2a3af154590b5b0f76067a1e22be288f0a0a1fb757a80bad0a12",
+      "order": 7,
+      "text": "[PARAGRAPH] invoice_amount\n[PARAGRAPH] Сумма к оплате: 500 000 руб.",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "invoice_amount"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "Сумма к оплате: 500 000 руб."
+        }
+      ]
+    },
+    {
+      "doc_id": "payment_request",
+      "filename": "07_Заявка_на_оплату.txt",
+      "source_file_name": "07_Заявка_на_оплату.txt",
+      "source_sha256": "1c2dfbbb65bec7429a02244b219904eb8e774abb24617f2d0e500a66dc0199e4",
+      "order": 8,
+      "text": "[PARAGRAPH] Просим оплатить счёт за август 2026 г.",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "Просим оплатить счёт за август 2026 г."
+        }
+      ]
+    }
+  ],
+  "text": "[DOCUMENT doc_id=sla_contract]\n=== DOCUMENT 1 | 01_Договор_на_сопровождение_облачной_платформы.txt ===\n[PARAGRAPH] executor\n[PARAGRAPH] Исполнитель: ООО «ОблакоСервис».\n[PARAGRAPH] monthly_fee\n[PARAGRAPH] 500 000 руб. в месяц\n[PARAGRAPH] recovery_limit\n[PARAGRAPH] не более 4 часов\n[PARAGRAPH] monitoring_start\n[PARAGRAPH] с момента автоматической регистрации инцидента системой мониторинга\n[PARAGRAPH] reduction_rate\n[PARAGRAPH] уменьшается на 5 %\n[/DOCUMENT]\n\n[DOCUMENT doc_id=sla_monitoring_log]\n=== DOCUMENT 2 | 02_Журнал_системы_мониторинга.txt ===\n[PARAGRAPH] incident_registered\n[PARAGRAPH] Критический инцидент № CI-2026-08-12-01 зарегистрирован автоматически системой мониторинга\n[PARAGRAPH] 12 августа 2026 г., 10:00\n[/DOCUMENT]\n\n[DOCUMENT doc_id=sla_support_request]\n=== DOCUMENT 3 | 03_Обращение_в_службу_поддержки.txt ===\n[PARAGRAPH] received_at\n[PARAGRAPH] Запрос в службу поддержки поступил 12 августа 2026 г. в 10:15\n[/DOCUMENT]\n\n[DOCUMENT doc_id=technical_report_B]\n=== DOCUMENT 5 | 04_Технический_отчёт.txt ===\n[PARAGRAPH] restoration_time\n[PARAGRAPH] Восстановление завершено в 14:01.\n[/DOCUMENT]\n\n[DOCUMENT doc_id=monthly_report]\n=== DOCUMENT 6 | 05_Ежемесячный_отчёт_за_август.txt ===\n[PARAGRAPH] Ежемесячный отчёт за август 2026 г.\n[/DOCUMENT]\n\n[DOCUMENT doc_id=sla_invoice]\n=== DOCUMENT 7 | 06_Счёт_за_август_2026.txt ===\n[PARAGRAPH] invoice_amount\n[PARAGRAPH] Сумма к оплате: 500 000 руб.\n[/DOCUMENT]\n\n[DOCUMENT doc_id=payment_request]\n=== DOCUMENT 8 | 07_Заявка_на_оплату.txt ===\n[PARAGRAPH] Просим оплатить счёт за август 2026 г.\n[/DOCUMENT]"
+}

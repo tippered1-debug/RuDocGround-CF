@@ -1,0 +1,322 @@
+{
+  "case_id": "approval_chain_009",
+  "package": "A",
+  "documents": [
+    {
+      "doc_id": "access_policy",
+      "filename": "01_Регламент_предоставления_привилегированного_доступа.txt",
+      "source_file_name": "01_Регламент_предоставления_привилегированного_доступа.txt",
+      "source_sha256": "ce42411d84e113526c72ed68506f71daa2b27ef1943f296c46c88d5f15e5427e",
+      "order": 1,
+      "text": "[PARAGRAPH] [PARAGRAPH] ООО «Северный контур»\n[PARAGRAPH] [PARAGRAPH] РЕГЛАМЕНТ ПРЕДОСТАВЛЕНИЯ ПРИВИЛЕГИРОВАННОГО ДОСТУПА\n[PARAGRAPH] [PARAGRAPH] 1. Общие положения\n[PARAGRAPH] [PARAGRAPH] 1.1. Настоящий регламент применяется к производственным информационным системам ООО «Северный контур».\n[PARAGRAPH] [PARAGRAPH] 1.2. Привилегированный доступ предоставляется только после согласования владельца информационной системы и службы информационной безопасности.\n[PARAGRAPH] [PARAGRAPH] 1.3. Оба согласования являются обязательными.\n[PARAGRAPH] [PARAGRAPH] 1.4. Согласования должны быть получены до технической активации доступа.\n[PARAGRAPH] [PARAGRAPH] 1.5. При отсутствии хотя бы одного обязательного согласования активированный доступ приостанавливается до завершения процедуры.\n[PARAGRAPH] [PARAGRAPH] 1.6. Период доступа указывается в заявке и не может выходить за пределы периода, согласованного владельцем информационной системы и службой информационной безопасности.",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] ООО «Северный контур»"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] РЕГЛАМЕНТ ПРЕДОСТАВЛЕНИЯ ПРИВИЛЕГИРОВАННОГО ДОСТУПА"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] 1. Общие положения"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] 1.1. Настоящий регламент применяется к производственным информационным системам ООО «Северный контур»."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] 1.2. Привилегированный доступ предоставляется только после согласования владельца информационной системы и службы информационной безопасности."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] 1.3. Оба согласования являются обязательными."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] 1.4. Согласования должны быть получены до технической активации доступа."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] 1.5. При отсутствии хотя бы одного обязательного согласования активированный доступ приостанавливается до завершения процедуры."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] 1.6. Период доступа указывается в заявке и не может выходить за пределы периода, согласованного владельцем информационной системы и службой информационной безопасности."
+        }
+      ]
+    },
+    {
+      "doc_id": "access_request",
+      "filename": "02_Заявка_на_предоставление_доступа.txt",
+      "source_file_name": "02_Заявка_на_предоставление_доступа.txt",
+      "source_sha256": "d51cf026f8818bf4f98ff833426f807de1d16836a59845823b88e851405f0e91",
+      "order": 2,
+      "text": "[PARAGRAPH] [PARAGRAPH] ООО «Северный контур»\n[PARAGRAPH] [PARAGRAPH] ЗАЯВКА НА ПРЕДОСТАВЛЕНИЕ ПРИВИЛЕГИРОВАННОГО ДОСТУПА № 11/11-26\n[PARAGRAPH] [PARAGRAPH] 9 ноября 2026 г.\n[PARAGRAPH] [PARAGRAPH] Пользователь: Сергей Волков.\n[PARAGRAPH] [PARAGRAPH] Организация: ООО «СфераИнтеграция».\n[PARAGRAPH] [PARAGRAPH] Информационная система: Orion-Prod.\n[PARAGRAPH] [PARAGRAPH] Запрошенная роль: привилегированный администратор.\n[PARAGRAPH] [PARAGRAPH] Период доступа: с 10 ноября 2026 г. по 17 ноября 2026 г. включительно.\n[PARAGRAPH] [PARAGRAPH] Деловая цель: проведение работ по настройке интеграции.\n[PARAGRAPH] [PARAGRAPH] Просьба рассмотреть заявку в установленном порядке.",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] ООО «Северный контур»"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] ЗАЯВКА НА ПРЕДОСТАВЛЕНИЕ ПРИВИЛЕГИРОВАННОГО ДОСТУПА № 11/11-26"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] 9 ноября 2026 г."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] Пользователь: Сергей Волков."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] Организация: ООО «СфераИнтеграция»."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] Информационная система: Orion-Prod."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] Запрошенная роль: привилегированный администратор."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] Период доступа: с 10 ноября 2026 г. по 17 ноября 2026 г. включительно."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] Деловая цель: проведение работ по настройке интеграции."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] Просьба рассмотреть заявку в установленном порядке."
+        }
+      ]
+    },
+    {
+      "doc_id": "system_owner_approval",
+      "filename": "03_Согласование_владельца_системы.txt",
+      "source_file_name": "03_Согласование_владельца_системы.txt",
+      "source_sha256": "3581d8dfd2df79f511c52bff5b25be4eb8487f7d3f82227f3a303598314de33e",
+      "order": 3,
+      "text": "[PARAGRAPH] [PARAGRAPH] ООО «Северный контур»\n[PARAGRAPH] [PARAGRAPH] СОГЛАСОВАНИЕ ВЛАДЕЛЬЦА ИНФОРМАЦИОННОЙ СИСТЕМЫ\n[PARAGRAPH] [PARAGRAPH] 9 ноября 2026 г.\n[PARAGRAPH] [PARAGRAPH] К заявке № 11/11-26 на предоставление привилегированного доступа к системе Orion-Prod.\n[PARAGRAPH] [PARAGRAPH] Владелец информационной системы согласовал предоставление доступа пользователю Сергей Волков на период с 10 ноября 2026 г. по 17 ноября 2026 г. включительно.",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] ООО «Северный контур»"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] СОГЛАСОВАНИЕ ВЛАДЕЛЬЦА ИНФОРМАЦИОННОЙ СИСТЕМЫ"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] 9 ноября 2026 г."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] К заявке № 11/11-26 на предоставление привилегированного доступа к системе Orion-Prod."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] Владелец информационной системы согласовал предоставление доступа пользователю Сергей Волков на период с 10 ноября 2026 г. по 17 ноября 2026 г. включительно."
+        }
+      ]
+    },
+    {
+      "doc_id": "security_review_A",
+      "filename": "04_Заключение_информационной_безопасности.txt",
+      "source_file_name": "04_Заключение_информационной_безопасности_A.txt",
+      "source_sha256": "5584382aa667cc946e4093912d8740804b51f1dbacadfd5c0f143fa1091bb98f",
+      "order": 4,
+      "text": "[PARAGRAPH] [PARAGRAPH] ООО «Северный контур»\n[PARAGRAPH] [PARAGRAPH] ЗАКЛЮЧЕНИЕ СЛУЖБЫ ИНФОРМАЦИОННОЙ БЕЗОПАСНОСТИ\n[PARAGRAPH] [PARAGRAPH] 9 ноября 2026 г.\n[PARAGRAPH] [PARAGRAPH] К заявке № 11/11-26 на предоставление привилегированного доступа к системе Orion-Prod для пользователя Сергей Волков.\n[PARAGRAPH] [PARAGRAPH] Результат проверки: согласовано.",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] ООО «Северный контур»"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] ЗАКЛЮЧЕНИЕ СЛУЖБЫ ИНФОРМАЦИОННОЙ БЕЗОПАСНОСТИ"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] 9 ноября 2026 г."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] К заявке № 11/11-26 на предоставление привилегированного доступа к системе Orion-Prod для пользователя Сергей Волков."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] Результат проверки: согласовано."
+        }
+      ]
+    },
+    {
+      "doc_id": "activation_log",
+      "filename": "05_Журнал_активации_доступа.txt",
+      "source_file_name": "05_Журнал_активации_доступа.txt",
+      "source_sha256": "159b2d340a8f6943aa64d10d8d38ae3ab8a311a27e70c1254c228a4800dae499",
+      "order": 6,
+      "text": "[PARAGRAPH] [PARAGRAPH] ООО «Северный контур»\n[PARAGRAPH] [PARAGRAPH] ЖУРНАЛ ТЕХНИЧЕСКОЙ АКТИВАЦИИ ДОСТУПА\n[PARAGRAPH] [PARAGRAPH] 10 ноября 2026 г., 09:05\n[PARAGRAPH] [PARAGRAPH] Пользователь: Сергей Волков.\n[PARAGRAPH] [PARAGRAPH] Информационная система: Orion-Prod.\n[PARAGRAPH] [PARAGRAPH] Роль: привилегированный администратор.\n[PARAGRAPH] [PARAGRAPH] Учетная запись активирована.\n[PARAGRAPH] [PARAGRAPH] Срок действия доступа установлен до 17 ноября 2026 г. включительно.",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] ООО «Северный контур»"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] ЖУРНАЛ ТЕХНИЧЕСКОЙ АКТИВАЦИИ ДОСТУПА"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] 10 ноября 2026 г., 09:05"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] Пользователь: Сергей Волков."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] Информационная система: Orion-Prod."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] Роль: привилегированный администратор."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] Учетная запись активирована."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] Срок действия доступа установлен до 17 ноября 2026 г. включительно."
+        }
+      ]
+    },
+    {
+      "doc_id": "access_registry",
+      "filename": "06_Реестр_привилегированных_учётных_записей.txt",
+      "source_file_name": "06_Реестр_привилегированных_учётных_записей.txt",
+      "source_sha256": "a0b0a11c0a3d31346a93fb7a6a17c932c93ce6a5d199f21def87f391f55efeee",
+      "order": 7,
+      "text": "[PARAGRAPH] [PARAGRAPH] ООО «Северный контур»\n[PARAGRAPH] [PARAGRAPH] РЕЕСТР ПРИВИЛЕГИРОВАННЫХ УЧЁТНЫХ ЗАПИСЕЙ\n[PARAGRAPH] [PARAGRAPH] Учётная запись: Сергей Волков.\n[PARAGRAPH] [PARAGRAPH] Информационная система: Orion-Prod.\n[PARAGRAPH] [PARAGRAPH] Роль: привилегированный администратор.\n[PARAGRAPH] [PARAGRAPH] Статус учётной записи: активна.\n[PARAGRAPH] [PARAGRAPH] Дата окончания доступа: 17 ноября 2026 г.",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] ООО «Северный контур»"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] РЕЕСТР ПРИВИЛЕГИРОВАННЫХ УЧЁТНЫХ ЗАПИСЕЙ"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] Учётная запись: Сергей Волков."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] Информационная система: Orion-Prod."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] Роль: привилегированный администратор."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] Статус учётной записи: активна."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] Дата окончания доступа: 17 ноября 2026 г."
+        }
+      ]
+    },
+    {
+      "doc_id": "activity_log",
+      "filename": "07_Журнал_действий_пользователя.txt",
+      "source_file_name": "07_Журнал_действий_пользователя.txt",
+      "source_sha256": "bd4a2854c7f839e97db3bfd66a552cc51ca124f6c39e628031658c0ec33d5bbb",
+      "order": 8,
+      "text": "[PARAGRAPH] [PARAGRAPH] ООО «Северный контур»\n[PARAGRAPH] [PARAGRAPH] ЖУРНАЛ ДЕЙСТВИЙ ПОЛЬЗОВАТЕЛЯ\n[PARAGRAPH] [PARAGRAPH] 10 ноября 2026 г.\n[PARAGRAPH] [PARAGRAPH] После технической активации зафиксирован вход пользователя Сергей Волков в Orion-Prod с привилегированной учётной записью.\n[PARAGRAPH] [PARAGRAPH] Выполнено подключение к производственному кластеру Orion-Prod.",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] ООО «Северный контур»"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] ЖУРНАЛ ДЕЙСТВИЙ ПОЛЬЗОВАТЕЛЯ"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] 10 ноября 2026 г."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] После технической активации зафиксирован вход пользователя Сергей Волков в Orion-Prod с привилегированной учётной записью."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] Выполнено подключение к производственному кластеру Orion-Prod."
+        }
+      ]
+    }
+  ],
+  "text": "[DOCUMENT doc_id=access_policy]\n=== DOCUMENT 1 | 01_Регламент_предоставления_привилегированного_доступа.txt ===\n[PARAGRAPH] [PARAGRAPH] ООО «Северный контур»\n[PARAGRAPH] [PARAGRAPH] РЕГЛАМЕНТ ПРЕДОСТАВЛЕНИЯ ПРИВИЛЕГИРОВАННОГО ДОСТУПА\n[PARAGRAPH] [PARAGRAPH] 1. Общие положения\n[PARAGRAPH] [PARAGRAPH] 1.1. Настоящий регламент применяется к производственным информационным системам ООО «Северный контур».\n[PARAGRAPH] [PARAGRAPH] 1.2. Привилегированный доступ предоставляется только после согласования владельца информационной системы и службы информационной безопасности.\n[PARAGRAPH] [PARAGRAPH] 1.3. Оба согласования являются обязательными.\n[PARAGRAPH] [PARAGRAPH] 1.4. Согласования должны быть получены до технической активации доступа.\n[PARAGRAPH] [PARAGRAPH] 1.5. При отсутствии хотя бы одного обязательного согласования активированный доступ приостанавливается до завершения процедуры.\n[PARAGRAPH] [PARAGRAPH] 1.6. Период доступа указывается в заявке и не может выходить за пределы периода, согласованного владельцем информационной системы и службой информационной безопасности.\n[/DOCUMENT]\n\n[DOCUMENT doc_id=access_request]\n=== DOCUMENT 2 | 02_Заявка_на_предоставление_доступа.txt ===\n[PARAGRAPH] [PARAGRAPH] ООО «Северный контур»\n[PARAGRAPH] [PARAGRAPH] ЗАЯВКА НА ПРЕДОСТАВЛЕНИЕ ПРИВИЛЕГИРОВАННОГО ДОСТУПА № 11/11-26\n[PARAGRAPH] [PARAGRAPH] 9 ноября 2026 г.\n[PARAGRAPH] [PARAGRAPH] Пользователь: Сергей Волков.\n[PARAGRAPH] [PARAGRAPH] Организация: ООО «СфераИнтеграция».\n[PARAGRAPH] [PARAGRAPH] Информационная система: Orion-Prod.\n[PARAGRAPH] [PARAGRAPH] Запрошенная роль: привилегированный администратор.\n[PARAGRAPH] [PARAGRAPH] Период доступа: с 10 ноября 2026 г. по 17 ноября 2026 г. включительно.\n[PARAGRAPH] [PARAGRAPH] Деловая цель: проведение работ по настройке интеграции.\n[PARAGRAPH] [PARAGRAPH] Просьба рассмотреть заявку в установленном порядке.\n[/DOCUMENT]\n\n[DOCUMENT doc_id=system_owner_approval]\n=== DOCUMENT 3 | 03_Согласование_владельца_системы.txt ===\n[PARAGRAPH] [PARAGRAPH] ООО «Северный контур»\n[PARAGRAPH] [PARAGRAPH] СОГЛАСОВАНИЕ ВЛАДЕЛЬЦА ИНФОРМАЦИОННОЙ СИСТЕМЫ\n[PARAGRAPH] [PARAGRAPH] 9 ноября 2026 г.\n[PARAGRAPH] [PARAGRAPH] К заявке № 11/11-26 на предоставление привилегированного доступа к системе Orion-Prod.\n[PARAGRAPH] [PARAGRAPH] Владелец информационной системы согласовал предоставление доступа пользователю Сергей Волков на период с 10 ноября 2026 г. по 17 ноября 2026 г. включительно.\n[/DOCUMENT]\n\n[DOCUMENT doc_id=security_review_A]\n=== DOCUMENT 4 | 04_Заключение_информационной_безопасности.txt ===\n[PARAGRAPH] [PARAGRAPH] ООО «Северный контур»\n[PARAGRAPH] [PARAGRAPH] ЗАКЛЮЧЕНИЕ СЛУЖБЫ ИНФОРМАЦИОННОЙ БЕЗОПАСНОСТИ\n[PARAGRAPH] [PARAGRAPH] 9 ноября 2026 г.\n[PARAGRAPH] [PARAGRAPH] К заявке № 11/11-26 на предоставление привилегированного доступа к системе Orion-Prod для пользователя Сергей Волков.\n[PARAGRAPH] [PARAGRAPH] Результат проверки: согласовано.\n[/DOCUMENT]\n\n[DOCUMENT doc_id=activation_log]\n=== DOCUMENT 6 | 05_Журнал_активации_доступа.txt ===\n[PARAGRAPH] [PARAGRAPH] ООО «Северный контур»\n[PARAGRAPH] [PARAGRAPH] ЖУРНАЛ ТЕХНИЧЕСКОЙ АКТИВАЦИИ ДОСТУПА\n[PARAGRAPH] [PARAGRAPH] 10 ноября 2026 г., 09:05\n[PARAGRAPH] [PARAGRAPH] Пользователь: Сергей Волков.\n[PARAGRAPH] [PARAGRAPH] Информационная система: Orion-Prod.\n[PARAGRAPH] [PARAGRAPH] Роль: привилегированный администратор.\n[PARAGRAPH] [PARAGRAPH] Учетная запись активирована.\n[PARAGRAPH] [PARAGRAPH] Срок действия доступа установлен до 17 ноября 2026 г. включительно.\n[/DOCUMENT]\n\n[DOCUMENT doc_id=access_registry]\n=== DOCUMENT 7 | 06_Реестр_привилегированных_учётных_записей.txt ===\n[PARAGRAPH] [PARAGRAPH] ООО «Северный контур»\n[PARAGRAPH] [PARAGRAPH] РЕЕСТР ПРИВИЛЕГИРОВАННЫХ УЧЁТНЫХ ЗАПИСЕЙ\n[PARAGRAPH] [PARAGRAPH] Учётная запись: Сергей Волков.\n[PARAGRAPH] [PARAGRAPH] Информационная система: Orion-Prod.\n[PARAGRAPH] [PARAGRAPH] Роль: привилегированный администратор.\n[PARAGRAPH] [PARAGRAPH] Статус учётной записи: активна.\n[PARAGRAPH] [PARAGRAPH] Дата окончания доступа: 17 ноября 2026 г.\n[/DOCUMENT]\n\n[DOCUMENT doc_id=activity_log]\n=== DOCUMENT 8 | 07_Журнал_действий_пользователя.txt ===\n[PARAGRAPH] [PARAGRAPH] ООО «Северный контур»\n[PARAGRAPH] [PARAGRAPH] ЖУРНАЛ ДЕЙСТВИЙ ПОЛЬЗОВАТЕЛЯ\n[PARAGRAPH] [PARAGRAPH] 10 ноября 2026 г.\n[PARAGRAPH] [PARAGRAPH] После технической активации зафиксирован вход пользователя Сергей Волков в Orion-Prod с привилегированной учётной записью.\n[PARAGRAPH] [PARAGRAPH] Выполнено подключение к производственному кластеру Orion-Prod.\n[/DOCUMENT]"
+}

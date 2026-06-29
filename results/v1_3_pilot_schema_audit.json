@@ -1,0 +1,21 @@
+{
+  "status": "pass",
+  "checks": [
+    "source_fidelity",
+    "answer_schema_validity",
+    "gold_in_allowed_values",
+    "A_B_C_question_consistency",
+    "no_exact_match_free_text"
+  ],
+  "answer_type_counts": {
+    "categorical": 30,
+    "boolean": 159,
+    "integer": 3,
+    "code_set": 3,
+    "date": 9,
+    "identifier": 3,
+    "datetime": 3
+  },
+  "task_rows": 210,
+  "unique_task_rows": 210
+}

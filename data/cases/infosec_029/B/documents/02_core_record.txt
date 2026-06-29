@@ -1,0 +1,5 @@
+[substantive_fact] The emergency access session is still valid.
+[amount] 2026-11-20T17:00:00
+[deadline_date] 2026-11-20T16:15:00
+[identifier] ACC-2901
+[code_set] emergency_access | post_review

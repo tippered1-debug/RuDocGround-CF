@@ -1,0 +1,1 @@
+Variant C: only the certificate contact email and footer wording change; compliance status stays compliant and aligned with the registry.

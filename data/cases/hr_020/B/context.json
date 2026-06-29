@@ -1,0 +1,137 @@
+{
+  "case_id": "hr_020",
+  "package": "B",
+  "documents": [
+    {
+      "doc_id": "policy",
+      "filename": "01_policy.txt",
+      "source_file_name": "01_policy.txt",
+      "source_sha256": "643ebb71379eb8dcaeec1ee82e817aff6226d363a1ed2e15759e26361b0ec71c",
+      "order": 1,
+      "text": "[PARAGRAPH] [controlling_rule] The Delegated authority gap case is governed by the delegation_policy.\n[PARAGRAPH] [authoritative_source] delegation_policy is the authoritative source for this package.\n[PARAGRAPH] [domain] HR access and authority",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[controlling_rule] The Delegated authority gap case is governed by the delegation_policy."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[authoritative_source] delegation_policy is the authoritative source for this package."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[domain] HR access and authority"
+        }
+      ]
+    },
+    {
+      "doc_id": "core_record",
+      "filename": "02_core_record.txt",
+      "source_file_name": "02_core_record.txt",
+      "source_sha256": "f84ab73948d46e96a40bf26078f53586f94d8616bf9e1a5e62d7763288dcae78",
+      "order": 2,
+      "text": "[PARAGRAPH] [substantive_fact] The signer is inside delegated authority.\n[PARAGRAPH] [amount] purchase_contracts\n[PARAGRAPH] [deadline_date] 2026-10-15\n[PARAGRAPH] [identifier] DEL-2001\n[PARAGRAPH] [code_set] authority_scope | delegated_signing",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[substantive_fact] The signer is inside delegated authority."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[amount] purchase_contracts"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[deadline_date] 2026-10-15"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[identifier] DEL-2001"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[code_set] authority_scope | delegated_signing"
+        }
+      ]
+    },
+    {
+      "doc_id": "nuisance_memo",
+      "filename": "03_nuisance_memo.txt",
+      "source_file_name": "03_nuisance_memo.txt",
+      "source_sha256": "49daadad8decd5c4205da3a981aee9844f24190cd18ed291aaae9b43495ea615",
+      "order": 3,
+      "text": "[PARAGRAPH] [reference_number] DEL-2001\n[PARAGRAPH] [timestamp] 2026-10-01T13:00:00\n[PARAGRAPH] [case_tag] hr_020",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[reference_number] DEL-2001"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[timestamp] 2026-10-01T13:00:00"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[case_tag] hr_020"
+        }
+      ]
+    },
+    {
+      "doc_id": "decision_memo",
+      "filename": "04_decision_memo.txt",
+      "source_file_name": "04_decision_memo.txt",
+      "source_sha256": "398c671b3716c4d4e3063c4e05a795209df4e7ec967755e47b7d8a2f6ff7ef3c",
+      "order": 4,
+      "text": "[PARAGRAPH] [final_status] authorized\n[PARAGRAPH] [decision_reason] The decision follows the substantive fact and the controlling source.",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[final_status] authorized"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[decision_reason] The decision follows the substantive fact and the controlling source."
+        }
+      ]
+    },
+    {
+      "doc_id": "support_note",
+      "filename": "05_support_note.txt",
+      "source_file_name": "05_support_note.txt",
+      "source_sha256": "85ae30dc76fb4173cd6fcdf9de0182679fdb48a430e3b2712709290f162e4d2f",
+      "order": 5,
+      "text": "[PARAGRAPH] [support_note_sufficient] true\n[PARAGRAPH] [missing_information] No mandatory supporting document is missing.\n[PARAGRAPH] [support_note] The supporting note is sufficient.",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[support_note_sufficient] true"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[missing_information] No mandatory supporting document is missing."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[support_note] The supporting note is sufficient."
+        }
+      ]
+    }
+  ],
+  "text": "[DOCUMENT doc_id=policy]\n=== DOCUMENT 1 | 01_policy.txt ===\n[PARAGRAPH] [controlling_rule] The Delegated authority gap case is governed by the delegation_policy.\n[PARAGRAPH] [authoritative_source] delegation_policy is the authoritative source for this package.\n[PARAGRAPH] [domain] HR access and authority\n[/DOCUMENT]\n\n[DOCUMENT doc_id=core_record]\n=== DOCUMENT 2 | 02_core_record.txt ===\n[PARAGRAPH] [substantive_fact] The signer is inside delegated authority.\n[PARAGRAPH] [amount] purchase_contracts\n[PARAGRAPH] [deadline_date] 2026-10-15\n[PARAGRAPH] [identifier] DEL-2001\n[PARAGRAPH] [code_set] authority_scope | delegated_signing\n[/DOCUMENT]\n\n[DOCUMENT doc_id=nuisance_memo]\n=== DOCUMENT 3 | 03_nuisance_memo.txt ===\n[PARAGRAPH] [reference_number] DEL-2001\n[PARAGRAPH] [timestamp] 2026-10-01T13:00:00\n[PARAGRAPH] [case_tag] hr_020\n[/DOCUMENT]\n\n[DOCUMENT doc_id=decision_memo]\n=== DOCUMENT 4 | 04_decision_memo.txt ===\n[PARAGRAPH] [final_status] authorized\n[PARAGRAPH] [decision_reason] The decision follows the substantive fact and the controlling source.\n[/DOCUMENT]\n\n[DOCUMENT doc_id=support_note]\n=== DOCUMENT 5 | 05_support_note.txt ===\n[PARAGRAPH] [support_note_sufficient] true\n[PARAGRAPH] [missing_information] No mandatory supporting document is missing.\n[PARAGRAPH] [support_note] The supporting note is sufficient.\n[/DOCUMENT]"
+}

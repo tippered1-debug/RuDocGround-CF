@@ -1,0 +1,99 @@
+{
+  "release": "RuDocGround-CF v1.3.1",
+  "repository": "tippered1-debug/RuDocGround-CF",
+  "branch": "release/v1.3.1",
+  "commit": "131c32a1d2b056301901fe690f27954f1a3b6b62",
+  "assets": [
+    {
+      "filename": "release_assets/RuDocGround-CF-v1.3.1-benchmark.zip",
+      "purpose": "Benchmark release archive for clean-clone reproduction and GitHub Release download.",
+      "size_bytes": 22263678,
+      "sha256": "cdf13b9df7e39a297bf234dd771ad7b6b4659f49acc87035b0f31b5077e96803",
+      "command": "git archive --format=zip --prefix=RuDocGround-CF-v1.3.1/ HEAD -o release_assets/RuDocGround-CF-v1.3.1-benchmark.zip"
+    },
+    {
+      "filename": "results/qwen3.5-4b_v1.3.1_release_bundle.json",
+      "purpose": "Canonical release summary with frozen hashes, metrics, and artifact pointers.",
+      "size_bytes": 3118,
+      "sha256": "4474a26c28e18d2369050fa51074ee88bb3f2e63b9cd9dbab7b1f161aef1bf92",
+      "command": "cat results/qwen3.5-4b_v1.3.1_release_bundle.json"
+    },
+    {
+      "filename": "results/qwen3.5-4b_v1.3.1_independent_full_predictions.jsonl",
+      "purpose": "Full independent predictions used by the evaluator and statistics pipeline.",
+      "size_bytes": 14194623,
+      "sha256": "08567e35fa0bcc595bd70076494c10e7341ada75d4e76bbbaee256f3ce3f5759",
+      "command": "uv run python -m rudocground strict-audit --gold data/v1_3_full_gold.jsonl --predictions results/qwen3.5-4b_v1.3.1_independent_full_predictions.jsonl --prompts prompts/v1_3_full_prompts.jsonl --output-dir results/statistics --prefix qwen3.5-4b_v1.3.1_independent_full"
+    },
+    {
+      "filename": "results/qwen3.5-4b_v1.3.1_independent_full_report_corrected.json",
+      "purpose": "Corrected independent report for strict end-to-end evaluation.",
+      "size_bytes": 87454,
+      "sha256": "9fd3a4558c757f412dcef1c356ab1278ec9cdf625ef8239b0ffb805cda61eff6",
+      "command": "uv run python -m rudocground strict-audit --gold data/v1_3_full_gold.jsonl --predictions results/qwen3.5-4b_v1.3.1_independent_full_predictions.jsonl --prompts prompts/v1_3_full_prompts.jsonl --output-dir results/statistics --prefix qwen3.5-4b_v1.3.1_independent_full"
+    },
+    {
+      "filename": "results/qwen3.5-4b_v1.3.1_independent_full_report_corrected.csv",
+      "purpose": "Tabular per-row independent evaluation report.",
+      "size_bytes": 2712,
+      "sha256": "84ffde696cdd90da33142da6df9958ac8c10c8034ebae7b6fc76d705600e1c2a",
+      "command": "uv run python -m rudocground strict-audit --gold data/v1_3_full_gold.jsonl --predictions results/qwen3.5-4b_v1.3.1_independent_full_predictions.jsonl --prompts prompts/v1_3_full_prompts.jsonl --output-dir results/statistics --prefix qwen3.5-4b_v1.3.1_independent_full"
+    },
+    {
+      "filename": "results/qwen3.5-4b_v1.3.1_independent_full_counterfactual_corrected.json",
+      "purpose": "Corrected independent counterfactual accounting with namespaced denominators.",
+      "size_bytes": 865689,
+      "sha256": "d692938edf5b67a0bf0bbebbd27a9a410e94b525f6c33832a4efc5f411f1345c",
+      "command": "uv run python -m rudocground strict-audit --gold data/v1_3_full_gold.jsonl --predictions results/qwen3.5-4b_v1.3.1_independent_full_predictions.jsonl --prompts prompts/v1_3_full_prompts.jsonl --output-dir results/statistics --prefix qwen3.5-4b_v1.3.1_independent_full"
+    },
+    {
+      "filename": "results/qwen3.5-4b_v1.3.1_compact_full_report.json",
+      "purpose": "Batched compact protocol report for protocol-effect comparison.",
+      "size_bytes": 985290,
+      "sha256": "96822191512280a79805ef69e8c501f0a7d147a8a74714d845f1bbbd0970ee7a",
+      "command": "cat results/qwen3.5-4b_v1.3.1_compact_full_report.json"
+    },
+    {
+      "filename": "results/qwen3.5-4b_v1.3.1_compact_full_counterfactual.json",
+      "purpose": "Batched compact counterfactual accounting for protocol-effect comparison.",
+      "size_bytes": 289644,
+      "sha256": "b42f57f5f09fb10abf8de436da2476a138b3297979262ef8d950977f7d96a648",
+      "command": "cat results/qwen3.5-4b_v1.3.1_compact_full_counterfactual.json"
+    },
+    {
+      "filename": "results/statistics/qwen3.5-4b_statistics_bundle.zip",
+      "purpose": "Published statistics bundle with bootstrap distributions and publication figures.",
+      "size_bytes": 3489834,
+      "sha256": "4446e169940907ce5874028db188150146bf9aa64230d6aa8f3c824b5d177d6a",
+      "command": "uv run python3 scripts/build_v1_3_statistics.py --output-dir results"
+    },
+    {
+      "filename": "results/statistics/qwen3.5-4b_case_bootstrap_distributions.csv",
+      "purpose": "10,000-replicate case-cluster bootstrap draws.",
+      "size_bytes": 8881920,
+      "sha256": "262698cb66a2c22b6d80f3218d065076cb559a6e3245d853ccae430af82d7cc6",
+      "command": "uv run python3 scripts/build_v1_3_statistics.py --output-dir results"
+    },
+    {
+      "filename": "results/statistics/qwen3.5-4b_protocol_effect_distributions.csv",
+      "purpose": "10,000-replicate paired protocol-effect bootstrap draws.",
+      "size_bytes": 5148386,
+      "sha256": "75a39ce523102a23538b778982f4f6b11b15b7a0c3d65f07737cad9a57860d93",
+      "command": "uv run python3 scripts/build_v1_3_statistics.py --output-dir results"
+    },
+    {
+      "filename": "docs/RuDocGround-CF_v1.3.1_article.pdf",
+      "purpose": "Publication-ready release article PDF.",
+      "size_bytes": 746730,
+      "sha256": "027400bf7444be6f94bb9c0fb24d4083baa47ddf1d46bb2789ad92a437aac6b0",
+      "command": "open docs/RuDocGround-CF_v1.3.1_article.pdf"
+    },
+    {
+      "filename": "docs/RuDocGround-CF_v1.3.1_dataset_card.md",
+      "purpose": "Dataset card for the frozen benchmark release.",
+      "size_bytes": 1502,
+      "sha256": "3263750e91878877d53afc43f48632b0cddff290e4aef96a87d83c3cc114380c",
+      "command": "cat docs/RuDocGround-CF_v1.3.1_dataset_card.md"
+    }
+  ]
+}

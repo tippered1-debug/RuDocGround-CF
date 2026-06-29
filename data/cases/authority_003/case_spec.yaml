@@ -1,0 +1,37 @@
+case_id: authority_003
+domain: corporate authority and contract signing
+counterfactual_change_type: subject matter of power of attorney
+controlling_document: power_of_attorney
+changed_field: scope_of_authority
+values:
+  A: acquisition_and_supply_of_computer_server_and_network_equipment
+  B: technical_service_repair_and_support_of_computer_server_and_network_equipment
+document_ids:
+  - contract_policy
+  - power_of_attorney_A
+  - power_of_attorney_B
+  - service_memo
+  - authority_approval_sheet
+  - authority_contract
+  - transfer_act
+  - authority_payment_request
+flip_questions:
+  - Q6
+  - Q7
+  - Q12
+  - Q14
+  - Q16
+invariant_questions:
+  - Q1
+  - Q2
+  - Q3
+  - Q4
+  - Q5
+  - Q8
+  - Q9
+  - Q10
+  - Q11
+  - Q13
+  - Q15
+expected_documents: 7
+expected_gold_records: 32

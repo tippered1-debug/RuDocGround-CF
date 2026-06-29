@@ -1,0 +1,5 @@
+[substantive_fact] The signer is outside delegated authority.
+[amount] maintenance_contracts
+[deadline_date] 2026-10-01
+[identifier] DEL-2001
+[code_set] authority_scope | delegated_signing

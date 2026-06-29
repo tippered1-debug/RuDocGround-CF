@@ -1,0 +1,1929 @@
+{
+  "case_directory_count": 30,
+  "unique_case_id_count": 30,
+  "legacy_case_ids": [
+    "trip_001",
+    "procurement_002",
+    "authority_003",
+    "acceptance_004",
+    "notice_005",
+    "reconciliation_006",
+    "amendment_007",
+    "sla_008",
+    "approval_chain_009",
+    "asset_scope_010"
+  ],
+  "pilot_case_ids": [
+    "logistics_014",
+    "iplic_016",
+    "privacy_017",
+    "hr_019",
+    "procure_022"
+  ],
+  "batch1_case_ids": [
+    "finset_011",
+    "finset_012",
+    "logistics_013",
+    "iplic_015",
+    "privacy_018"
+  ],
+  "batch2_case_ids": [
+    "hr_020",
+    "procure_021",
+    "it_023",
+    "it_024",
+    "property_025"
+  ],
+  "batch3_case_ids": [
+    "property_026",
+    "shipping_027",
+    "finance_028",
+    "infosec_029",
+    "hr_030"
+  ],
+  "batch4_case_ids": [],
+  "missing_five_case_ids": [
+    "finset_011",
+    "finset_012",
+    "logistics_013",
+    "iplic_015",
+    "privacy_018"
+  ],
+  "full_rows": 1160,
+  "legacy_rows": 320,
+  "pilot_rows": 210,
+  "expansion_rows": 630,
+  "case_rows": {
+    "acceptance_004": 32,
+    "amendment_007": 32,
+    "approval_chain_009": 32,
+    "asset_scope_010": 32,
+    "authority_003": 32,
+    "finance_028": 42,
+    "finset_011": 42,
+    "finset_012": 42,
+    "hr_019": 42,
+    "hr_020": 42,
+    "hr_030": 42,
+    "infosec_029": 42,
+    "iplic_015": 42,
+    "iplic_016": 42,
+    "it_023": 42,
+    "it_024": 42,
+    "logistics_013": 42,
+    "logistics_014": 42,
+    "notice_005": 32,
+    "privacy_017": 42,
+    "privacy_018": 42,
+    "procure_021": 42,
+    "procure_022": 42,
+    "procurement_002": 30,
+    "property_025": 42,
+    "property_026": 42,
+    "reconciliation_006": 32,
+    "shipping_027": 42,
+    "sla_008": 32,
+    "trip_001": 34
+  },
+  "unique_task_key_count": 1160,
+  "duplicate_keys": [],
+  "orphan_gold_keys": [],
+  "orphan_prompt_keys": [],
+  "case_manifest_hash": "65d3a6028618d92fc7c64cf168798b310e4f12ccef5b0c408de63c5ace49af6a",
+  "gold_hash": "463298d46e1fc7b0d1fd1a7a8c3d36d044db1592c74108ee8351fbad5b5b934a",
+  "prompt_hash": "a7e48d2138516a480a2190bc7ad96e4835b7981ac2912f50d30d98612568b4c6",
+  "prediction_fixture_hash": "a4d2da1c003eefb71ee9945ff733c72c561efdabace16962429ec4694799129f",
+  "perfect_fixture_overall": {
+    "count": 1160,
+    "answer_accuracy": 1.0,
+    "decision_accuracy": 1.0,
+    "decision_required_count": 693,
+    "evidence_precision": 1.0,
+    "evidence_recall": 1.0,
+    "evidence_f1": 1.0,
+    "missing_information_accuracy": 1.0,
+    "unsupported_evidence_rate": 0.0
+  },
+  "perfect_fixture_counterfactual": {
+    "flip_score": 1.0,
+    "invariance_score": 1.0,
+    "rows": [
+      {
+        "case_id": "trip_001",
+        "question_id": "Q1",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "9000",
+        "right_answer": "9000",
+        "score": 1.0
+      },
+      {
+        "case_id": "trip_001",
+        "question_id": "Q2",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "12000",
+        "right_answer": "12000",
+        "score": 1.0
+      },
+      {
+        "case_id": "trip_001",
+        "question_id": "Q3",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": ">10000",
+        "right_answer": ">10000",
+        "score": 1.0
+      },
+      {
+        "case_id": "trip_001",
+        "question_id": "Q4",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "trip_001",
+        "question_id": "Q5",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "4",
+        "right_answer": "4",
+        "score": 1.0
+      },
+      {
+        "case_id": "trip_001",
+        "question_id": "Q6",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "48000",
+        "right_answer": "45000",
+        "score": 1.0
+      },
+      {
+        "case_id": "trip_001",
+        "question_id": "Q7",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "45600",
+        "right_answer": "43200",
+        "score": 1.0
+      },
+      {
+        "case_id": "trip_001",
+        "question_id": "Q8",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "trip_001",
+        "question_id": "Q9",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "trip_001",
+        "question_id": "Q10",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "2026-09-15/2026-09-18",
+        "right_answer": "2026-09-15/2026-09-18",
+        "score": 1.0
+      },
+      {
+        "case_id": "trip_001",
+        "question_id": "Q11",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "trip_001",
+        "question_id": "Q12",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "trip_001",
+        "question_id": "Q13",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "2026-09-17T12:26:00",
+        "right_answer": "2026-09-17T12:26:00",
+        "score": 1.0
+      },
+      {
+        "case_id": "trip_001",
+        "question_id": "Q14",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "trip_001",
+        "question_id": "Q15",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "trip_001",
+        "question_id": "Q16",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "trip_001",
+        "question_id": "Q17",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "business_purpose_evidence|destination_address",
+        "right_answer": "business_purpose_evidence|destination_address",
+        "score": 1.0
+      },
+      {
+        "case_id": "procurement_002",
+        "question_id": "Q1",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "300000",
+        "right_answer": "300000",
+        "score": 1.0
+      },
+      {
+        "case_id": "procurement_002",
+        "question_id": "Q2",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "500000",
+        "right_answer": "500000",
+        "score": 1.0
+      },
+      {
+        "case_id": "procurement_002",
+        "question_id": "Q3",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "460000",
+        "right_answer": "460000",
+        "score": 1.0
+      },
+      {
+        "case_id": "procurement_002",
+        "question_id": "Q4",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "2026-10-20",
+        "right_answer": "2026-10-20",
+        "score": 1.0
+      },
+      {
+        "case_id": "procurement_002",
+        "question_id": "Q5",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "procurement_002",
+        "question_id": "Q6",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "procurement_002",
+        "question_id": "Q7",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "procurement_002",
+        "question_id": "Q8",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "procurement_002",
+        "question_id": "Q9",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "procurement_002",
+        "question_id": "Q10",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "procurement_002",
+        "question_id": "Q11",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "procurement_002",
+        "question_id": "Q12",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "procurement_002",
+        "question_id": "Q13",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "500000",
+        "right_answer": "300000",
+        "score": 1.0
+      },
+      {
+        "case_id": "procurement_002",
+        "question_id": "Q14",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "160000",
+        "right_answer": "160000",
+        "score": 1.0
+      },
+      {
+        "case_id": "procurement_002",
+        "question_id": "Q15",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "direct_purchase_permitted",
+        "right_answer": "competitive_procedure_required",
+        "score": 1.0
+      },
+      {
+        "case_id": "authority_003",
+        "question_id": "Q1",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "director_ural_branch",
+        "right_answer": "director_ural_branch",
+        "score": 1.0
+      },
+      {
+        "case_id": "authority_003",
+        "question_id": "Q10",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "authority_003",
+        "question_id": "Q11",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "authority_003",
+        "question_id": "Q12",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "authority_003",
+        "question_id": "Q13",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "power_of_attorney",
+        "right_answer": "power_of_attorney",
+        "score": 1.0
+      },
+      {
+        "case_id": "authority_003",
+        "question_id": "Q14",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "signed_within_presented_authority",
+        "right_answer": "signed_outside_presented_authority",
+        "score": 1.0
+      },
+      {
+        "case_id": "authority_003",
+        "question_id": "Q15",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "no_mismatch",
+        "right_answer": "subject_scope",
+        "score": 1.0
+      },
+      {
+        "case_id": "authority_003",
+        "question_id": "Q16",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "authority_003",
+        "question_id": "Q2",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "supply_of_network_equipment_for_ural_branch",
+        "right_answer": "supply_of_network_equipment_for_ural_branch",
+        "score": 1.0
+      },
+      {
+        "case_id": "authority_003",
+        "question_id": "Q3",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "1180000",
+        "right_answer": "1180000",
+        "score": 1.0
+      },
+      {
+        "case_id": "authority_003",
+        "question_id": "Q4",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "authority_003",
+        "question_id": "Q5",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "authority_003",
+        "question_id": "Q6",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "authority_003",
+        "question_id": "Q7",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "authority_003",
+        "question_id": "Q8",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "authority_003",
+        "question_id": "Q9",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "acceptance_004",
+        "question_id": "Q1",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "ООО «ПроектЛаб»",
+        "right_answer": "ООО «ПроектЛаб»",
+        "score": 1.0
+      },
+      {
+        "case_id": "acceptance_004",
+        "question_id": "Q2",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "780000",
+        "right_answer": "780000",
+        "score": 1.0
+      },
+      {
+        "case_id": "acceptance_004",
+        "question_id": "Q3",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "network_infrastructure_assessment_and_technical_report",
+        "right_answer": "network_infrastructure_assessment_and_technical_report",
+        "score": 1.0
+      },
+      {
+        "case_id": "acceptance_004",
+        "question_id": "Q4",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "acceptance_004",
+        "question_id": "Q5",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "acceptance_004",
+        "question_id": "Q6",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "acceptance_004",
+        "question_id": "Q7",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "acceptance_004",
+        "question_id": "Q8",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "acceptance_004",
+        "question_id": "Q9",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "acceptance_004",
+        "question_id": "Q10",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "acceptance_004",
+        "question_id": "Q11",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "acceptance_004",
+        "question_id": "Q12",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "acceptance_004",
+        "question_id": "Q13",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "acceptance_act",
+        "right_answer": "acceptance_act",
+        "score": 1.0
+      },
+      {
+        "case_id": "acceptance_004",
+        "question_id": "Q14",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "result_delivered_and_formally_accepted",
+        "right_answer": "result_delivered_but_acceptance_not_formalized",
+        "score": 1.0
+      },
+      {
+        "case_id": "acceptance_004",
+        "question_id": "Q15",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "acceptance_004",
+        "question_id": "Q16",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "notice_005",
+        "question_id": "Q1",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "ООО «ОблакоСервис»",
+        "right_answer": "ООО «ОблакоСервис»",
+        "score": 1.0
+      },
+      {
+        "case_id": "notice_005",
+        "question_id": "Q2",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "managed_backup_services",
+        "right_answer": "managed_backup_services",
+        "score": 1.0
+      },
+      {
+        "case_id": "notice_005",
+        "question_id": "Q3",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "2026-10-31",
+        "right_answer": "2026-10-31",
+        "score": 1.0
+      },
+      {
+        "case_id": "notice_005",
+        "question_id": "Q4",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "2026-10-18",
+        "right_answer": "2026-10-18",
+        "score": 1.0
+      },
+      {
+        "case_id": "notice_005",
+        "question_id": "Q5",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "notice_005",
+        "question_id": "Q6",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "notice_005",
+        "question_id": "Q7",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "notice_005",
+        "question_id": "Q8",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "notice_005",
+        "question_id": "Q9",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "notice_005",
+        "question_id": "Q10",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "notice_005",
+        "question_id": "Q11",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "notice_005",
+        "question_id": "Q12",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "delivery_confirmation",
+        "right_answer": "delivery_confirmation",
+        "score": 1.0
+      },
+      {
+        "case_id": "notice_005",
+        "question_id": "Q13",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "expired_without_renewal",
+        "right_answer": "automatically_renewed",
+        "score": 1.0
+      },
+      {
+        "case_id": "notice_005",
+        "question_id": "Q14",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "notice_005",
+        "question_id": "Q15",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "notice_005",
+        "question_id": "Q16",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "reconciliation_006",
+        "question_id": "Q1",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "ООО «СеверТех»",
+        "right_answer": "ООО «СеверТех»",
+        "score": 1.0
+      },
+      {
+        "case_id": "reconciliation_006",
+        "question_id": "Q2",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "32000",
+        "right_answer": "32000",
+        "score": 1.0
+      },
+      {
+        "case_id": "reconciliation_006",
+        "question_id": "Q3",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "50",
+        "right_answer": "50",
+        "score": 1.0
+      },
+      {
+        "case_id": "reconciliation_006",
+        "question_id": "Q4",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "1600000",
+        "right_answer": "1600000",
+        "score": 1.0
+      },
+      {
+        "case_id": "reconciliation_006",
+        "question_id": "Q5",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "32000",
+        "right_answer": "32000",
+        "score": 1.0
+      },
+      {
+        "case_id": "reconciliation_006",
+        "question_id": "Q6",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "reconciliation_006",
+        "question_id": "Q7",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "reconciliation_006",
+        "question_id": "Q8",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "reconciliation_006",
+        "question_id": "Q9",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "reconciliation_006",
+        "question_id": "Q10",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "reconciliation_006",
+        "question_id": "Q11",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "reconciliation_006",
+        "question_id": "Q12",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "supplier_invoice",
+        "right_answer": "supplier_invoice",
+        "score": 1.0
+      },
+      {
+        "case_id": "reconciliation_006",
+        "question_id": "Q13",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "1600000",
+        "right_answer": "1600000",
+        "score": 1.0
+      },
+      {
+        "case_id": "reconciliation_006",
+        "question_id": "Q14",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "documents_reconciled_for_payment",
+        "right_answer": "documents_not_reconciled_due_to_invoice_discrepancy",
+        "score": 1.0
+      },
+      {
+        "case_id": "reconciliation_006",
+        "question_id": "Q15",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "reconciliation_006",
+        "question_id": "Q16",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "amendment_007",
+        "question_id": "Q1",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "ООО «ДатаХост»",
+        "right_answer": "ООО «ДатаХост»",
+        "score": 1.0
+      },
+      {
+        "case_id": "amendment_007",
+        "question_id": "Q2",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "аренда_выделенного_серверного_ресурса",
+        "right_answer": "аренда_выделенного_серверного_ресурса",
+        "score": 1.0
+      },
+      {
+        "case_id": "amendment_007",
+        "question_id": "Q3",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "200000",
+        "right_answer": "200000",
+        "score": 1.0
+      },
+      {
+        "case_id": "amendment_007",
+        "question_id": "Q4",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "240000",
+        "right_answer": "240000",
+        "score": 1.0
+      },
+      {
+        "case_id": "amendment_007",
+        "question_id": "Q5",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "июль_2026",
+        "right_answer": "июль_2026",
+        "score": 1.0
+      },
+      {
+        "case_id": "amendment_007",
+        "question_id": "Q6",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "amendment_007",
+        "question_id": "Q7",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "amendment_007",
+        "question_id": "Q8",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "amendment_007",
+        "question_id": "Q9",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "amendment_007",
+        "question_id": "Q10",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "amendment_007",
+        "question_id": "Q11",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "amendment_007",
+        "question_id": "Q12",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "additional_agreement",
+        "right_answer": "additional_agreement",
+        "score": 1.0
+      },
+      {
+        "case_id": "amendment_007",
+        "question_id": "Q13",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "240000",
+        "right_answer": "240000",
+        "score": 1.0
+      },
+      {
+        "case_id": "amendment_007",
+        "question_id": "Q14",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "240000",
+        "right_answer": "200000",
+        "score": 1.0
+      },
+      {
+        "case_id": "amendment_007",
+        "question_id": "Q15",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "0",
+        "right_answer": "40000",
+        "score": 1.0
+      },
+      {
+        "case_id": "amendment_007",
+        "question_id": "Q16",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "sla_008",
+        "question_id": "Q1",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "ООО «ОблакоСервис»",
+        "right_answer": "ООО «ОблакоСервис»",
+        "score": 1.0
+      },
+      {
+        "case_id": "sla_008",
+        "question_id": "Q2",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "500000",
+        "right_answer": "500000",
+        "score": 1.0
+      },
+      {
+        "case_id": "sla_008",
+        "question_id": "Q3",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "4",
+        "right_answer": "4",
+        "score": 1.0
+      },
+      {
+        "case_id": "sla_008",
+        "question_id": "Q4",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "2026-08-12T10:00:00",
+        "right_answer": "2026-08-12T10:00:00",
+        "score": 1.0
+      },
+      {
+        "case_id": "sla_008",
+        "question_id": "Q5",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "2026-08-12T10:15:00",
+        "right_answer": "2026-08-12T10:15:00",
+        "score": 1.0
+      },
+      {
+        "case_id": "sla_008",
+        "question_id": "Q6",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "239",
+        "right_answer": "241",
+        "score": 1.0
+      },
+      {
+        "case_id": "sla_008",
+        "question_id": "Q7",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "sla_008",
+        "question_id": "Q8",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "sla_008",
+        "question_id": "Q9",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "automatic_monitoring_registration",
+        "right_answer": "automatic_monitoring_registration",
+        "score": 1.0
+      },
+      {
+        "case_id": "sla_008",
+        "question_id": "Q10",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "sla_008",
+        "question_id": "Q11",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "500000",
+        "right_answer": "500000",
+        "score": 1.0
+      },
+      {
+        "case_id": "sla_008",
+        "question_id": "Q12",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "technical_report",
+        "right_answer": "technical_report",
+        "score": 1.0
+      },
+      {
+        "case_id": "sla_008",
+        "question_id": "Q13",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "5",
+        "right_answer": "5",
+        "score": 1.0
+      },
+      {
+        "case_id": "sla_008",
+        "question_id": "Q14",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "0",
+        "right_answer": "25000",
+        "score": 1.0
+      },
+      {
+        "case_id": "sla_008",
+        "question_id": "Q15",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "500000",
+        "right_answer": "475000",
+        "score": 1.0
+      },
+      {
+        "case_id": "sla_008",
+        "question_id": "Q16",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "approval_chain_009",
+        "question_id": "Q1",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "Сергей Волков",
+        "right_answer": "Сергей Волков",
+        "score": 1.0
+      },
+      {
+        "case_id": "approval_chain_009",
+        "question_id": "Q2",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "Orion-Prod",
+        "right_answer": "Orion-Prod",
+        "score": 1.0
+      },
+      {
+        "case_id": "approval_chain_009",
+        "question_id": "Q3",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "привилегированный администратор",
+        "right_answer": "привилегированный администратор",
+        "score": 1.0
+      },
+      {
+        "case_id": "approval_chain_009",
+        "question_id": "Q4",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "2026-11-17",
+        "right_answer": "2026-11-17",
+        "score": 1.0
+      },
+      {
+        "case_id": "approval_chain_009",
+        "question_id": "Q5",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "approval_chain_009",
+        "question_id": "Q6",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "approved",
+        "right_answer": "pending",
+        "score": 1.0
+      },
+      {
+        "case_id": "approval_chain_009",
+        "question_id": "Q7",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "approval_chain_009",
+        "question_id": "Q8",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "approval_chain_009",
+        "question_id": "Q9",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "information_security_approval|system_owner_approval",
+        "right_answer": "information_security_approval|system_owner_approval",
+        "score": 1.0
+      },
+      {
+        "case_id": "approval_chain_009",
+        "question_id": "Q10",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "approval_chain_009",
+        "question_id": "Q11",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "2026-11-10T09:05:00",
+        "right_answer": "2026-11-10T09:05:00",
+        "score": 1.0
+      },
+      {
+        "case_id": "approval_chain_009",
+        "question_id": "Q12",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "активна",
+        "right_answer": "активна",
+        "score": 1.0
+      },
+      {
+        "case_id": "approval_chain_009",
+        "question_id": "Q13",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "approval_chain_009",
+        "question_id": "Q14",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "approval_chain_009",
+        "question_id": "Q15",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "approval_chain_009",
+        "question_id": "Q16",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "asset_scope_010",
+        "question_id": "Q1",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "ООО «ТехРесурс»",
+        "right_answer": "ООО «ТехРесурс»",
+        "score": 1.0
+      },
+      {
+        "case_id": "asset_scope_010",
+        "question_id": "Q2",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "ООО «Северный контур»",
+        "right_answer": "ООО «Северный контур»",
+        "score": 1.0
+      },
+      {
+        "case_id": "asset_scope_010",
+        "question_id": "Q3",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "300000",
+        "right_answer": "300000",
+        "score": 1.0
+      },
+      {
+        "case_id": "asset_scope_010",
+        "question_id": "Q4",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "NX-7421",
+        "right_answer": "NX-7421",
+        "score": 1.0
+      },
+      {
+        "case_id": "asset_scope_010",
+        "question_id": "Q5",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "DB-1",
+        "right_answer": "DB-1",
+        "score": 1.0
+      },
+      {
+        "case_id": "asset_scope_010",
+        "question_id": "Q6",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "NX-7421",
+        "right_answer": "NX-7427",
+        "score": 1.0
+      },
+      {
+        "case_id": "asset_scope_010",
+        "question_id": "Q7",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "asset_scope_010",
+        "question_id": "Q8",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "asset_scope_010",
+        "question_id": "Q9",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "2026-11-21",
+        "right_answer": "2026-11-21",
+        "score": 1.0
+      },
+      {
+        "case_id": "asset_scope_010",
+        "question_id": "Q10",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "asset_scope_010",
+        "question_id": "Q11",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "180000",
+        "right_answer": "180000",
+        "score": 1.0
+      },
+      {
+        "case_id": "asset_scope_010",
+        "question_id": "Q12",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "inventory_card",
+        "right_answer": "inventory_card",
+        "score": 1.0
+      },
+      {
+        "case_id": "asset_scope_010",
+        "question_id": "Q13",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "manufacturer_serial_identifier",
+        "right_answer": "manufacturer_serial_identifier",
+        "score": 1.0
+      },
+      {
+        "case_id": "asset_scope_010",
+        "question_id": "Q14",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "asset_scope_010",
+        "question_id": "Q15",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "asset_scope_010",
+        "question_id": "Q16",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "true",
+        "score": 1.0
+      }
+    ],
+    "flip_count": 55,
+    "invariance_count": 105
+  },
+  "prompt_counts": {
+    "trip_001": 34,
+    "procurement_002": 30,
+    "authority_003": 32,
+    "acceptance_004": 32,
+    "notice_005": 32,
+    "reconciliation_006": 32,
+    "amendment_007": 32,
+    "sla_008": 32,
+    "approval_chain_009": 32,
+    "asset_scope_010": 32,
+    "logistics_014": 42,
+    "iplic_016": 42,
+    "privacy_017": 42,
+    "hr_019": 42,
+    "procure_022": 42,
+    "finset_011": 42,
+    "finset_012": 42,
+    "logistics_013": 42,
+    "iplic_015": 42,
+    "privacy_018": 42,
+    "hr_020": 42,
+    "procure_021": 42,
+    "it_023": 42,
+    "it_024": 42,
+    "property_025": 42,
+    "property_026": 42,
+    "shipping_027": 42,
+    "finance_028": 42,
+    "infosec_029": 42,
+    "hr_030": 42
+  },
+  "schema_audit": {
+    "gold_rows": 1160,
+    "prompt_rows": 1160,
+    "unique_keys": 1160,
+    "answer_types": {
+      "money": 67,
+      "threshold": 2,
+      "boolean": 499,
+      "integer": 34,
+      "date_range": 2,
+      "datetime": 68,
+      "code_set": 52,
+      "date": 55,
+      "status": 70,
+      "categorical": 218,
+      "identifier": 93
+    },
+    "canonical_schema_errors": 0
+  },
+  "source_fidelity_audit": {
+    "checked_cases": 30,
+    "checked_source_files": 184,
+    "missing_source_files": [],
+    "hash_mismatches": [],
+    "passed": true
+  },
+  "relation_audit": {
+    "totals": {
+      "ab_flip": 99,
+      "ab_invariant": 181,
+      "ac_nuisance_flip": 55,
+      "ac_causal_invariant": 221
+    },
+    "per_case": {
+      "logistics_014": {
+        "questions": 14,
+        "ab_flip": 7,
+        "ab_invariant": 7,
+        "ac_nuisance_flip": 2,
+        "ac_causal_invariant": 8
+      },
+      "iplic_016": {
+        "questions": 14,
+        "ab_flip": 4,
+        "ab_invariant": 10,
+        "ac_nuisance_flip": 2,
+        "ac_causal_invariant": 12
+      },
+      "privacy_017": {
+        "questions": 14,
+        "ab_flip": 4,
+        "ab_invariant": 10,
+        "ac_nuisance_flip": 2,
+        "ac_causal_invariant": 12
+      },
+      "hr_019": {
+        "questions": 14,
+        "ab_flip": 5,
+        "ab_invariant": 9,
+        "ac_nuisance_flip": 2,
+        "ac_causal_invariant": 12
+      },
+      "procure_022": {
+        "questions": 14,
+        "ab_flip": 4,
+        "ab_invariant": 10,
+        "ac_nuisance_flip": 2,
+        "ac_causal_invariant": 12
+      },
+      "finset_011": {
+        "questions": 14,
+        "ab_flip": 5,
+        "ab_invariant": 9,
+        "ac_nuisance_flip": 3,
+        "ac_causal_invariant": 11
+      },
+      "finset_012": {
+        "questions": 14,
+        "ab_flip": 5,
+        "ab_invariant": 9,
+        "ac_nuisance_flip": 3,
+        "ac_causal_invariant": 11
+      },
+      "logistics_013": {
+        "questions": 14,
+        "ab_flip": 5,
+        "ab_invariant": 9,
+        "ac_nuisance_flip": 3,
+        "ac_causal_invariant": 11
+      },
+      "iplic_015": {
+        "questions": 14,
+        "ab_flip": 5,
+        "ab_invariant": 9,
+        "ac_nuisance_flip": 3,
+        "ac_causal_invariant": 11
+      },
+      "privacy_018": {
+        "questions": 14,
+        "ab_flip": 5,
+        "ab_invariant": 9,
+        "ac_nuisance_flip": 3,
+        "ac_causal_invariant": 11
+      },
+      "hr_020": {
+        "questions": 14,
+        "ab_flip": 5,
+        "ab_invariant": 9,
+        "ac_nuisance_flip": 3,
+        "ac_causal_invariant": 11
+      },
+      "procure_021": {
+        "questions": 14,
+        "ab_flip": 5,
+        "ab_invariant": 9,
+        "ac_nuisance_flip": 3,
+        "ac_causal_invariant": 11
+      },
+      "it_023": {
+        "questions": 14,
+        "ab_flip": 5,
+        "ab_invariant": 9,
+        "ac_nuisance_flip": 3,
+        "ac_causal_invariant": 11
+      },
+      "it_024": {
+        "questions": 14,
+        "ab_flip": 5,
+        "ab_invariant": 9,
+        "ac_nuisance_flip": 3,
+        "ac_causal_invariant": 11
+      },
+      "property_025": {
+        "questions": 14,
+        "ab_flip": 5,
+        "ab_invariant": 9,
+        "ac_nuisance_flip": 3,
+        "ac_causal_invariant": 11
+      },
+      "property_026": {
+        "questions": 14,
+        "ab_flip": 5,
+        "ab_invariant": 9,
+        "ac_nuisance_flip": 3,
+        "ac_causal_invariant": 11
+      },
+      "shipping_027": {
+        "questions": 14,
+        "ab_flip": 5,
+        "ab_invariant": 9,
+        "ac_nuisance_flip": 3,
+        "ac_causal_invariant": 11
+      },
+      "finance_028": {
+        "questions": 14,
+        "ab_flip": 5,
+        "ab_invariant": 9,
+        "ac_nuisance_flip": 3,
+        "ac_causal_invariant": 11
+      },
+      "infosec_029": {
+        "questions": 14,
+        "ab_flip": 5,
+        "ab_invariant": 9,
+        "ac_nuisance_flip": 3,
+        "ac_causal_invariant": 11
+      },
+      "hr_030": {
+        "questions": 14,
+        "ab_flip": 5,
+        "ab_invariant": 9,
+        "ac_nuisance_flip": 3,
+        "ac_causal_invariant": 11
+      }
+    }
+  },
+  "leakage_audit": {
+    "free_text_answer_types": [],
+    "free_text_exact_match": false,
+    "gold_leakage_detected": false,
+    "schema_leakage_detected": false
+  }
+}

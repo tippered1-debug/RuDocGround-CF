@@ -1,0 +1,5 @@
+[substantive_fact] The emergency access session expired.
+[amount] 2026-11-20T18:00:00
+[deadline_date] 2026-11-20T16:00:00
+[identifier] ACC-2901
+[code_set] emergency_access | post_review

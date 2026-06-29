@@ -1,0 +1,1 @@
+Support log records ticket times and whether a build was delivered before the cure deadline.

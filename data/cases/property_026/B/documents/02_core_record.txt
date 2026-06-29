@@ -1,0 +1,5 @@
+[substantive_fact] The repair act is signed.
+[amount] 0
+[deadline_date] 2026-10-16
+[identifier] LEASE-2601
+[code_set] offset_gate | repair_act

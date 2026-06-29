@@ -1,0 +1,5 @@
+[substantive_fact] Both custody chains are complete.
+[amount] 2
+[deadline_date] 2026-08-02
+[identifier] SHIP-1301
+[code_set] warehouse_a | warehouse_b

@@ -1,0 +1,82 @@
+{
+  "case_id": "hr_019",
+  "package": "B",
+  "documents": [
+    {
+      "doc_id": "01_приказ_о_переводе",
+      "filename": "01_Приказ_о_переводе.txt",
+      "source_file_name": "01_Приказ_о_переводе.txt",
+      "source_sha256": "4733e00840f4f4dc878af15f34555aaf23fabf3b592b7333e187c183c9e051f7",
+      "order": 1,
+      "text": "[PARAGRAPH] The employee is moved to a new role starting 2026-06-12 and the prior role ends on 2026-06-11 at 18:00.",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "The employee is moved to a new role starting 2026-06-12 and the prior role ends on 2026-06-11 at 18:00."
+        }
+      ]
+    },
+    {
+      "doc_id": "02_заявка_на_доступ",
+      "filename": "02_Заявка_на_доступ.txt",
+      "source_file_name": "02_Заявка_на_доступ_A.txt",
+      "source_sha256": "c302cba27a231984d97578987bfc3b856225fc5498caa2318ce4aa86a6098c30",
+      "order": 2,
+      "text": "[PARAGRAPH] Variant B: the same access request is approved on 2026-06-13, after the old role has ended and before a new authorization appears.",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "Variant B: the same access request is approved on 2026-06-13, after the old role has ended and before a new authorization appears."
+        }
+      ]
+    },
+    {
+      "doc_id": "03_лог_iam",
+      "filename": "03_Лог_IAM.txt",
+      "source_file_name": "03_Лог_IAM.txt",
+      "source_sha256": "21b0d82768360d3a875618d8ea309db2decada6951e6b975f0b4182a351adff5",
+      "order": 5,
+      "text": "[PARAGRAPH] IAM log records when the account became active and when it was revoked.",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "IAM log records when the account became active and when it was revoked."
+        }
+      ]
+    },
+    {
+      "doc_id": "04_служебная_записка_hr",
+      "filename": "04_Служебная_записка_HR.txt",
+      "source_file_name": "04_Служебная_записка_HR.txt",
+      "source_sha256": "14fcb3ce3f39fa0395042d841da75248d004d0b308543863285c3e455c07457c",
+      "order": 6,
+      "text": "[PARAGRAPH] HR memo states that access is valid only during the employment period and must be revoked the same day the role ends.",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "HR memo states that access is valid only during the employment period and must be revoked the same day the role ends."
+        }
+      ]
+    },
+    {
+      "doc_id": "05_согласование_руководителя",
+      "filename": "05_Согласование_руководителя.txt",
+      "source_file_name": "05_Согласование_руководителя.txt",
+      "source_sha256": "0226f6b6173014d3792713f0370016581d460ef19452c244f46fa5fa6392f49f",
+      "order": 7,
+      "text": "[PARAGRAPH] Manager approval confirms the access need but does not override employment timing.",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "Manager approval confirms the access need but does not override employment timing."
+        }
+      ]
+    }
+  ],
+  "text": "[DOCUMENT doc_id=01_приказ_о_переводе]\n=== DOCUMENT 1 | 01_Приказ_о_переводе.txt ===\n[PARAGRAPH] The employee is moved to a new role starting 2026-06-12 and the prior role ends on 2026-06-11 at 18:00.\n[/DOCUMENT]\n\n[DOCUMENT doc_id=02_заявка_на_доступ]\n=== DOCUMENT 2 | 02_Заявка_на_доступ.txt ===\n[PARAGRAPH] Variant B: the same access request is approved on 2026-06-13, after the old role has ended and before a new authorization appears.\n[/DOCUMENT]\n\n[DOCUMENT doc_id=03_лог_iam]\n=== DOCUMENT 5 | 03_Лог_IAM.txt ===\n[PARAGRAPH] IAM log records when the account became active and when it was revoked.\n[/DOCUMENT]\n\n[DOCUMENT doc_id=04_служебная_записка_hr]\n=== DOCUMENT 6 | 04_Служебная_записка_HR.txt ===\n[PARAGRAPH] HR memo states that access is valid only during the employment period and must be revoked the same day the role ends.\n[/DOCUMENT]\n\n[DOCUMENT doc_id=05_согласование_руководителя]\n=== DOCUMENT 7 | 05_Согласование_руководителя.txt ===\n[PARAGRAPH] Manager approval confirms the access need but does not override employment timing.\n[/DOCUMENT]"
+}

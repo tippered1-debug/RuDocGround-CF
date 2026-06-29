@@ -1,0 +1,320 @@
+{
+  "overall": {
+    "count": 2,
+    "answer_accuracy": 0.5,
+    "decision_accuracy": 0.5,
+    "decision_required_count": 2,
+    "evidence_precision": 0.5,
+    "evidence_recall": 1.0,
+    "evidence_f1": 0.6666666666666666,
+    "missing_information_accuracy": 1.0,
+    "unsupported_evidence_rate": 0.5
+  },
+  "by_answer_type": {
+    "money": {
+      "count": 2,
+      "answer_accuracy": 0.5,
+      "decision_accuracy": 0.5,
+      "decision_required_count": 2,
+      "evidence_precision": 0.5,
+      "evidence_recall": 1.0,
+      "evidence_f1": 0.6666666666666666,
+      "missing_information_accuracy": 1.0,
+      "unsupported_evidence_rate": 0.5
+    }
+  },
+  "counterfactual": {
+    "flip_score": 0.0,
+    "invariance_score": 0.0,
+    "rows": [
+      {
+        "case_id": "trip_001",
+        "question_id": "Q7",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "45600",
+        "right_answer": "45600",
+        "score": 0.0
+      }
+    ],
+    "flip_count": 1,
+    "invariance_count": 0
+  },
+  "issues": [
+    {
+      "lineno": null,
+      "kind": "missing_prediction",
+      "message": "missing prediction for ('trip_001', 'A', 'Q1')"
+    },
+    {
+      "lineno": null,
+      "kind": "missing_prediction",
+      "message": "missing prediction for ('trip_001', 'B', 'Q1')"
+    },
+    {
+      "lineno": null,
+      "kind": "missing_prediction",
+      "message": "missing prediction for ('trip_001', 'A', 'Q2')"
+    },
+    {
+      "lineno": null,
+      "kind": "missing_prediction",
+      "message": "missing prediction for ('trip_001', 'B', 'Q2')"
+    },
+    {
+      "lineno": null,
+      "kind": "missing_prediction",
+      "message": "missing prediction for ('trip_001', 'A', 'Q3')"
+    },
+    {
+      "lineno": null,
+      "kind": "missing_prediction",
+      "message": "missing prediction for ('trip_001', 'B', 'Q3')"
+    },
+    {
+      "lineno": null,
+      "kind": "missing_prediction",
+      "message": "missing prediction for ('trip_001', 'A', 'Q4')"
+    },
+    {
+      "lineno": null,
+      "kind": "missing_prediction",
+      "message": "missing prediction for ('trip_001', 'B', 'Q4')"
+    },
+    {
+      "lineno": null,
+      "kind": "missing_prediction",
+      "message": "missing prediction for ('trip_001', 'A', 'Q5')"
+    },
+    {
+      "lineno": null,
+      "kind": "missing_prediction",
+      "message": "missing prediction for ('trip_001', 'B', 'Q5')"
+    },
+    {
+      "lineno": null,
+      "kind": "missing_prediction",
+      "message": "missing prediction for ('trip_001', 'A', 'Q6')"
+    },
+    {
+      "lineno": null,
+      "kind": "missing_prediction",
+      "message": "missing prediction for ('trip_001', 'B', 'Q6')"
+    },
+    {
+      "lineno": null,
+      "kind": "missing_prediction",
+      "message": "missing prediction for ('trip_001', 'A', 'Q8')"
+    },
+    {
+      "lineno": null,
+      "kind": "missing_prediction",
+      "message": "missing prediction for ('trip_001', 'B', 'Q8')"
+    },
+    {
+      "lineno": null,
+      "kind": "missing_prediction",
+      "message": "missing prediction for ('trip_001', 'A', 'Q9')"
+    },
+    {
+      "lineno": null,
+      "kind": "missing_prediction",
+      "message": "missing prediction for ('trip_001', 'B', 'Q9')"
+    },
+    {
+      "lineno": null,
+      "kind": "missing_prediction",
+      "message": "missing prediction for ('trip_001', 'A', 'Q10')"
+    },
+    {
+      "lineno": null,
+      "kind": "missing_prediction",
+      "message": "missing prediction for ('trip_001', 'B', 'Q10')"
+    },
+    {
+      "lineno": null,
+      "kind": "missing_prediction",
+      "message": "missing prediction for ('trip_001', 'A', 'Q11')"
+    },
+    {
+      "lineno": null,
+      "kind": "missing_prediction",
+      "message": "missing prediction for ('trip_001', 'B', 'Q11')"
+    },
+    {
+      "lineno": null,
+      "kind": "missing_prediction",
+      "message": "missing prediction for ('trip_001', 'A', 'Q12')"
+    },
+    {
+      "lineno": null,
+      "kind": "missing_prediction",
+      "message": "missing prediction for ('trip_001', 'B', 'Q12')"
+    },
+    {
+      "lineno": null,
+      "kind": "missing_prediction",
+      "message": "missing prediction for ('trip_001', 'A', 'Q13')"
+    },
+    {
+      "lineno": null,
+      "kind": "missing_prediction",
+      "message": "missing prediction for ('trip_001', 'B', 'Q13')"
+    },
+    {
+      "lineno": null,
+      "kind": "missing_prediction",
+      "message": "missing prediction for ('trip_001', 'A', 'Q14')"
+    },
+    {
+      "lineno": null,
+      "kind": "missing_prediction",
+      "message": "missing prediction for ('trip_001', 'B', 'Q14')"
+    },
+    {
+      "lineno": null,
+      "kind": "missing_prediction",
+      "message": "missing prediction for ('trip_001', 'A', 'Q15')"
+    },
+    {
+      "lineno": null,
+      "kind": "missing_prediction",
+      "message": "missing prediction for ('trip_001', 'B', 'Q15')"
+    },
+    {
+      "lineno": null,
+      "kind": "missing_prediction",
+      "message": "missing prediction for ('trip_001', 'A', 'Q16')"
+    },
+    {
+      "lineno": null,
+      "kind": "missing_prediction",
+      "message": "missing prediction for ('trip_001', 'B', 'Q16')"
+    },
+    {
+      "lineno": null,
+      "kind": "missing_prediction",
+      "message": "missing prediction for ('trip_001', 'A', 'Q17')"
+    },
+    {
+      "lineno": null,
+      "kind": "missing_prediction",
+      "message": "missing prediction for ('trip_001', 'B', 'Q17')"
+    }
+  ],
+  "records": [
+    {
+      "key": {
+        "case_id": "trip_001",
+        "variant_id": "A",
+        "question_id": "Q7"
+      },
+      "answer_type": "money",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 0.5,
+      "evidence_recall": 1.0,
+      "evidence_f1": 0.6666666666666666,
+      "unsupported_evidence_rate": 0.5,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "trip_001",
+        "variant_id": "B",
+        "question_id": "Q7"
+      },
+      "answer_type": "money",
+      "decision_required": true,
+      "answer_correct": false,
+      "decision_correct": false,
+      "missing_information_correct": true,
+      "evidence_precision": 0.5,
+      "evidence_recall": 1.0,
+      "evidence_f1": 0.6666666666666666,
+      "unsupported_evidence_rate": 0.5,
+      "answer_error": null
+    }
+  ],
+  "variant_metrics": {
+    "A": {
+      "count": 1,
+      "answer_accuracy": 1.0,
+      "decision_accuracy": 1.0,
+      "decision_required_count": 1,
+      "evidence_precision": 0.5,
+      "evidence_recall": 1.0,
+      "evidence_f1": 0.6666666666666666,
+      "missing_information_accuracy": 1.0,
+      "unsupported_evidence_rate": 0.5
+    },
+    "B": {
+      "count": 1,
+      "answer_accuracy": 0.0,
+      "decision_accuracy": 0.0,
+      "decision_required_count": 1,
+      "evidence_precision": 0.5,
+      "evidence_recall": 1.0,
+      "evidence_f1": 0.6666666666666666,
+      "missing_information_accuracy": 1.0,
+      "unsupported_evidence_rate": 0.5
+    }
+  },
+  "q6_q7": {
+    "Q6": [],
+    "Q7": [
+      {
+        "key": {
+          "case_id": "trip_001",
+          "variant_id": "A",
+          "question_id": "Q7"
+        },
+        "answer_type": "money",
+        "decision_required": true,
+        "answer_correct": true,
+        "decision_correct": true,
+        "missing_information_correct": true,
+        "evidence_precision": 0.5,
+        "evidence_recall": 1.0,
+        "evidence_f1": 0.6666666666666666,
+        "unsupported_evidence_rate": 0.5,
+        "answer_error": null
+      },
+      {
+        "key": {
+          "case_id": "trip_001",
+          "variant_id": "B",
+          "question_id": "Q7"
+        },
+        "answer_type": "money",
+        "decision_required": true,
+        "answer_correct": false,
+        "decision_correct": false,
+        "missing_information_correct": true,
+        "evidence_precision": 0.5,
+        "evidence_recall": 1.0,
+        "evidence_f1": 0.6666666666666666,
+        "unsupported_evidence_rate": 0.5,
+        "answer_error": null
+      }
+    ]
+  },
+  "wrong_answers": [
+    {
+      "case_id": "trip_001",
+      "variant_id": "B",
+      "question_id": "Q7",
+      "skill": "capped_reimbursement",
+      "expected": "43200",
+      "actual": "45600"
+    }
+  ],
+  "errors_by_skill": {
+    "capped_reimbursement": [
+      "Q7"
+    ]
+  }
+}

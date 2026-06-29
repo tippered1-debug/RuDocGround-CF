@@ -1,0 +1,1 @@
+Security memo confirms the transfer path and encrypted channel.

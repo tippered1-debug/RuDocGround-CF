@@ -1,0 +1,5 @@
+[substantive_fact] The license covers two regions.
+[amount] 2
+[deadline_date] 2026-09-30
+[identifier] LIC-1501
+[code_set] territory_scope | renewal_gate

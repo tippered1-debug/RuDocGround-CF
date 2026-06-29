@@ -1,0 +1,15 @@
+{
+  "case_id": "sla_008",
+  "docx_files": [
+    "01_Договор_на_сопровождение_облачной_платформы.docx",
+    "02_Журнал_системы_мониторинга.docx",
+    "03_Обращение_в_службу_поддержки.docx",
+    "04_Технический_отчёт_A.docx",
+    "04_Технический_отчёт_B.docx",
+    "05_Ежемесячный_отчёт_за_август.docx",
+    "06_Счёт_за_август_2026.docx",
+    "07_Заявка_на_оплату.docx"
+  ],
+  "zip": "/Users/stefanbidzamov/goldlink-sla-008-clean/exports/sla_008/sla_008_docx.zip",
+  "source_dir": "/Users/stefanbidzamov/goldlink-sla-008-clean/data/source_documents/sla_008"
+}

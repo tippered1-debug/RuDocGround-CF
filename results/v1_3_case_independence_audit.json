@@ -1,0 +1,56 @@
+{
+  "status": "pass_with_risks",
+  "scope": "v1.3 candidate expansion only; existing v1.2 cases unchanged",
+  "checked_dimensions": [
+    "similarity_to_existing_v1_2_cases",
+    "similarity_among_new_candidates",
+    "diversity_of_causal_mechanisms",
+    "diversity_of_document_graphs",
+    "diversity_of_perturbation_types",
+    "absence_of_number_or_name_only_reskins"
+  ],
+  "findings": [
+    {
+      "dimension": "similarity_to_existing_v1_2_cases",
+      "result": "pass",
+      "evidence": "The candidates span finance, logistics, IP, privacy, HR, procurement, IT, and property, and each one changes the causal mechanism rather than only the names or dates."
+    },
+    {
+      "dimension": "similarity_among_new_candidates",
+      "result": "pass_with_caution",
+      "evidence": "A few clusters remain close in document family, especially privacy and procurement, but they differ in the controlling fact pattern and the answer mechanism."
+    },
+    {
+      "dimension": "diversity_of_causal_mechanisms",
+      "result": "pass",
+      "evidence": "Mechanisms include threshold crossing, temporal trigger, scope inclusion, authority coverage, document conflict, document hierarchy, chain completion, missing evidence, multi-document reconciliation, proportional entitlement, exception or waiver, and identity or asset linkage."
+    },
+    {
+      "dimension": "diversity_of_document_graphs",
+      "result": "pass",
+      "evidence": "The candidate graphs include single-clause documents, two-chain logistics graphs, hierarchy-driven compliance graphs, and conflict-heavy vendor and incident graphs."
+    },
+    {
+      "dimension": "diversity_of_perturbation_types",
+      "result": "pass_with_caution",
+      "evidence": "The perturbations cover scope changes, time-window shifts, threshold activations, evidence conflicts, missing evidence, liability transfer, conditional rights, and process compliance."
+    },
+    {
+      "dimension": "absence_of_number_or_name_only_reskins",
+      "result": "pass",
+      "evidence": "No candidate is a pure renaming of an existing case; the six revised cases were explicitly rewritten to change the reasoning mechanism."
+    }
+  ],
+  "risks": [
+    "Potential overlap between procure_021 and procure_022 if the final manifests overuse the same procurement checklist template.",
+    "Potential overlap between privacy_017 and privacy_018 if both end up using the same legal memo framing.",
+    "Potential overlap between hr_019 and approval_chain_009 if the offboarding timing is not made visibly distinct from approval timing.",
+    "Potential gold ambiguity in cases that require legal, Incoterms, or deadline knowledge unless the controlling excerpt is embedded."
+  ],
+  "recommendations": [
+    "Preserve different document roles for each case even when a shared contract archetype is used.",
+    "Require a manual rationale check for all hard cases before gold generation.",
+    "Prefer at least one unique document family per case whenever possible.",
+    "Avoid reusing the exact same question templates across cases."
+  ]
+}

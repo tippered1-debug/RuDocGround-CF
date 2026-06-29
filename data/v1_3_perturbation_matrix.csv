@@ -1,0 +1,10 @@
+perturbation_type,cases,domains,flip_pressure,invariant_pressure,notes
+scope_change,"authority_003;asset_scope_010;finset_011;iplic_015;hr_020","authority;finance;IP;HR","high","high","Most stable if scope is narrow and local"
+time_window_shift,"trip_001;notice_005;privacy_018;property_025;it_023","travel;notice;privacy;property;IT","high","medium","Good for flip/invariant balance but can overproduce date-only questions"
+threshold_activation,"finset_012;it_023;privacy_018","finance;IT;privacy","high","medium","Needs careful normalization of dates and thresholds"
+evidence_conflict,"logistics_014;procure_022","logistics;procurement","high","medium","Highest risk of gold ambiguity; requires explicit conflict rationale"
+missing_information,"procure_021;hr_030;finance_028","procurement;HR;finance","medium","high","Useful for missing-info tasks but must avoid under-specified gold"
+liability_transfer,"shipping_027;property_026","supply;lease","high","medium","Supports reasoning beyond approval or reimbursement"
+conditional_right,"iplic_016;property_026;infosec_029","IP;property;infosec","high","medium","Requires clear trigger documentation"
+process_compliance,"it_024;hr_019","IT;HR","medium","medium","Good for workflow correctness and access timing"
+

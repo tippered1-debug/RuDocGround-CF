@@ -1,0 +1,82 @@
+{
+  "case_id": "privacy_017",
+  "package": "C",
+  "documents": [
+    {
+      "doc_id": "01_политика_передачи_пдн",
+      "filename": "01_Политика_передачи_ПДн.txt",
+      "source_file_name": "01_Политика_передачи_ПДн.txt",
+      "source_sha256": "4ce8d91415654325e8107b12d666c1a53d3ea7c5d3f72a65b78536a74ea54ede",
+      "order": 1,
+      "text": "[PARAGRAPH] Internal policy allows transfer of personal data only on one of three documented bases: contract necessity, explicit consent, or intra-group processor instruction. The policy fully determines admissibility and has priority over the onboarding note.",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "Internal policy allows transfer of personal data only on one of three documented bases: contract necessity, explicit consent, or intra-group processor instruction. The policy fully determines admissibility and has priority over the onboarding note."
+        }
+      ]
+    },
+    {
+      "doc_id": "02_договор_обработки_пдн",
+      "filename": "02_Договор_обработки_ПДн.txt",
+      "source_file_name": "02_Договор_обработки_ПДн.txt",
+      "source_sha256": "0d944759ef3ce2a32a93d31f5cefca82efb173e1a161f3189e855e448167c8e3",
+      "order": 2,
+      "text": "[PARAGRAPH] The processor agreement states the vendor may receive employee contact details only if the policy basis is documented in the transfer assessment.",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "The processor agreement states the vendor may receive employee contact details only if the policy basis is documented in the transfer assessment."
+        }
+      ]
+    },
+    {
+      "doc_id": "03_оценка_передачи",
+      "filename": "03_Оценка_передачи.txt",
+      "source_file_name": "03_Оценка_передачи_A.txt",
+      "source_sha256": "2675ee65fc888be2b83686a681dc008aec190920f523e5e7739898534789a36a",
+      "order": 3,
+      "text": "[PARAGRAPH] Variant C: only the department code and the signature block order change; the basis and recipients remain identical.",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "Variant C: only the department code and the signature block order change; the basis and recipients remain identical."
+        }
+      ]
+    },
+    {
+      "doc_id": "04_список_реквизитов",
+      "filename": "04_Список_реквизитов.txt",
+      "source_file_name": "04_Список_реквизитов.txt",
+      "source_sha256": "92212f0f8e8600004ce10eb6c22a48e58df5cbe8bbed442d0e1ce0e3d5926925",
+      "order": 6,
+      "text": "[PARAGRAPH] Lists the data categories, recipients, and transmission method.",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "Lists the data categories, recipients, and transmission method."
+        }
+      ]
+    },
+    {
+      "doc_id": "05_служебная_записка_иб",
+      "filename": "05_Служебная_записка_ИБ.txt",
+      "source_file_name": "05_Служебная_записка_ИБ.txt",
+      "source_sha256": "cc6046a3409feb5bed64548dbefe6289875e5f4ecaac9c143f41ffbaa92568da",
+      "order": 7,
+      "text": "[PARAGRAPH] Security memo confirms the transfer path and encrypted channel.",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "Security memo confirms the transfer path and encrypted channel."
+        }
+      ]
+    }
+  ],
+  "text": "[DOCUMENT doc_id=01_политика_передачи_пдн]\n=== DOCUMENT 1 | 01_Политика_передачи_ПДн.txt ===\n[PARAGRAPH] Internal policy allows transfer of personal data only on one of three documented bases: contract necessity, explicit consent, or intra-group processor instruction. The policy fully determines admissibility and has priority over the onboarding note.\n[/DOCUMENT]\n\n[DOCUMENT doc_id=02_договор_обработки_пдн]\n=== DOCUMENT 2 | 02_Договор_обработки_ПДн.txt ===\n[PARAGRAPH] The processor agreement states the vendor may receive employee contact details only if the policy basis is documented in the transfer assessment.\n[/DOCUMENT]\n\n[DOCUMENT doc_id=03_оценка_передачи]\n=== DOCUMENT 3 | 03_Оценка_передачи.txt ===\n[PARAGRAPH] Variant C: only the department code and the signature block order change; the basis and recipients remain identical.\n[/DOCUMENT]\n\n[DOCUMENT doc_id=04_список_реквизитов]\n=== DOCUMENT 6 | 04_Список_реквизитов.txt ===\n[PARAGRAPH] Lists the data categories, recipients, and transmission method.\n[/DOCUMENT]\n\n[DOCUMENT doc_id=05_служебная_записка_иб]\n=== DOCUMENT 7 | 05_Служебная_записка_ИБ.txt ===\n[PARAGRAPH] Security memo confirms the transfer path and encrypted channel.\n[/DOCUMENT]"
+}

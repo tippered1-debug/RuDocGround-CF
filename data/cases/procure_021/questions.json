@@ -1,0 +1,75 @@
+{
+  "case_id": "procure_021",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Which document controls the single-source justification case?",
+      "answer_type": "categorical"
+    },
+    {
+      "question_id": "Q2",
+      "question": "What reference number is shown in the nuisance memo?",
+      "answer_type": "identifier"
+    },
+    {
+      "question_id": "Q3",
+      "question": "What timestamp is shown in the nuisance memo?",
+      "answer_type": "datetime"
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the sole-source justification complete?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q5",
+      "question": "What is the procurement-support outcome?",
+      "answer_type": "categorical"
+    },
+    {
+      "question_id": "Q6",
+      "question": "How many mandatory comparators are documented in the core record?",
+      "answer_type": "integer"
+    },
+    {
+      "question_id": "Q7",
+      "question": "What checklist date is recorded in the core record?",
+      "answer_type": "date"
+    },
+    {
+      "question_id": "Q8",
+      "question": "Which control codes apply to the sole-source file?",
+      "answer_type": "code_set"
+    },
+    {
+      "question_id": "Q9",
+      "question": "What identifier is shown in the core record?",
+      "answer_type": "identifier"
+    },
+    {
+      "question_id": "Q10",
+      "question": "Is the supporting note sufficient?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q11",
+      "question": "Is any mandatory supporting document missing?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q12",
+      "question": "Which authoritative source controls the case?",
+      "answer_type": "categorical"
+    },
+    {
+      "question_id": "Q13",
+      "question": "Did the nuisance memo reference number change in C?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q14",
+      "question": "What is the overall procedural status?",
+      "answer_type": "categorical"
+    }
+  ]
+}

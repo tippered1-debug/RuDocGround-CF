@@ -1,0 +1,1 @@
+The supplier registry is authoritative. If registry status is blocked on the check date, the vendor is not eligible regardless of certificates. The check date is the date on the approval sheet.

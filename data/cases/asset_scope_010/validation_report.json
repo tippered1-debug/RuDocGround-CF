@@ -1,0 +1,16 @@
+{
+  "case_id": "asset_scope_010",
+  "documents_in_a": 7,
+  "documents_in_b": 7,
+  "source_files": 8,
+  "questions": 16,
+  "flip_questions": ["Q6", "Q7", "Q8", "Q14", "Q15", "Q16"],
+  "invariant_questions": ["Q1", "Q2", "Q3", "Q4", "Q5", "Q9", "Q10", "Q11", "Q12", "Q13"],
+  "cross_variant_evidence_ok": true,
+  "notes": [
+    "Q6 is a direct extraction from the inventory card.",
+    "Q7 and Q8 depend on the relationship between the current server and the contract list.",
+    "Q14-Q16 change only after the inventory-card serial number flips."
+  ],
+  "status": "passed"
+}

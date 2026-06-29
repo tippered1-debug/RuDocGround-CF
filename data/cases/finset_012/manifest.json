@@ -1,0 +1,83 @@
+{
+  "case_id": "finset_012",
+  "documents": [
+    {
+      "doc_id": "policy",
+      "neutral_file_name": "01_policy.txt",
+      "source_file_name": "01_policy.txt",
+      "source_sha256": "245089643369e08430d83cf4db3276f18704755777824395bd236bb2e4998dd6",
+      "variant_a_sha256": "245089643369e08430d83cf4db3276f18704755777824395bd236bb2e4998dd6",
+      "variant_b_sha256": "245089643369e08430d83cf4db3276f18704755777824395bd236bb2e4998dd6",
+      "variant_c_sha256": "245089643369e08430d83cf4db3276f18704755777824395bd236bb2e4998dd6",
+      "order": 1,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "core_record",
+      "neutral_file_name": "02_core_record.txt",
+      "source_file_name": "02_core_record.txt",
+      "source_sha256": "e4880f1490e82cbc366e7ec37fabac8e4ed6ccf954093e57e81d0b3654572cee",
+      "variant_a_sha256": "e4880f1490e82cbc366e7ec37fabac8e4ed6ccf954093e57e81d0b3654572cee",
+      "variant_b_sha256": "b20da50823556f3f524c763abfeafe4e57044dcf00566c77d4365062f692e72e",
+      "variant_c_sha256": "e4880f1490e82cbc366e7ec37fabac8e4ed6ccf954093e57e81d0b3654572cee",
+      "order": 2,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "nuisance_memo",
+      "neutral_file_name": "03_nuisance_memo.txt",
+      "source_file_name": "03_nuisance_memo.txt",
+      "source_sha256": "16657bf9f4358cfd08eeadf277cd35ca23edc18e48b860ffbcd190b1cf66cfc6",
+      "variant_a_sha256": "16657bf9f4358cfd08eeadf277cd35ca23edc18e48b860ffbcd190b1cf66cfc6",
+      "variant_b_sha256": "16657bf9f4358cfd08eeadf277cd35ca23edc18e48b860ffbcd190b1cf66cfc6",
+      "variant_c_sha256": "c52a01288fa1546f9c7b2c0e13638461e04d423630deff3d1155d5edb3237987",
+      "order": 3,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "decision_memo",
+      "neutral_file_name": "04_decision_memo.txt",
+      "source_file_name": "04_decision_memo.txt",
+      "source_sha256": "78461f78b7777999866fdcb8471384ee81acaa21dded5ff59b7759b776b0d044",
+      "variant_a_sha256": "78461f78b7777999866fdcb8471384ee81acaa21dded5ff59b7759b776b0d044",
+      "variant_b_sha256": "2e61cb7bfd274f6e2d784f6ebb7b7616fe861b31aa5d85fc2cf8b3fbec54e342",
+      "variant_c_sha256": "78461f78b7777999866fdcb8471384ee81acaa21dded5ff59b7759b776b0d044",
+      "order": 4,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "support_note",
+      "neutral_file_name": "05_support_note.txt",
+      "source_file_name": "05_support_note.txt",
+      "source_sha256": "85ae30dc76fb4173cd6fcdf9de0182679fdb48a430e3b2712709290f162e4d2f",
+      "variant_a_sha256": "85ae30dc76fb4173cd6fcdf9de0182679fdb48a430e3b2712709290f162e4d2f",
+      "variant_b_sha256": "85ae30dc76fb4173cd6fcdf9de0182679fdb48a430e3b2712709290f162e4d2f",
+      "variant_c_sha256": "85ae30dc76fb4173cd6fcdf9de0182679fdb48a430e3b2712709290f162e4d2f",
+      "order": 5,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    }
+  ],
+  "changed_fragment_A_to_B": "The FX threshold is triggered.",
+  "changed_fragment_A_to_C": "Nuisance memo reference FX-3301 and timestamp 2026-07-01T10:11:00.",
+  "document_grounded_only": true
+}

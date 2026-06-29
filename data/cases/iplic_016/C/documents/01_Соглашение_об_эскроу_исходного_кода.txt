@@ -1,0 +1,1 @@
+Escrow may be released if the vendor fails to provide a working build and written cure response within 5 business days after a valid notice. The escrow agent releases only the source code archive and build scripts, not customer data.

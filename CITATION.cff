@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use RuDocGround-CF v1.3.1, please cite the release artifact bundle and the accompanying article."
+title: "RuDocGround-CF v1.3.1 Canonical Release"
+authors:
+  - family-names: Bidzamov
+    given-names: Stefan
+repository-code: "https://github.com/tippered1-debug/RuDocGround-CF"
+version: "v1.3.1"
+date-released: "2026-06-29"
+license: MIT
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Bidzamov
+      given-names: Stefan
+  title: "RuDocGround-CF v1.3.1"
+  year: 2026
+  month: 6
+  note: "Canonical release for the RuDocGround-CF benchmark"
+keywords:
+  - document-grounded evaluation
+  - counterfactual benchmarking
+  - Russian business documents

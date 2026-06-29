@@ -1,0 +1,3771 @@
+{
+  "rows": [
+    {
+      "answer_type": "status",
+      "batched_answer": "ООО «ПроектЛаб»",
+      "batched_decision": "confirmed",
+      "batched_evidence": [
+        "service_contract"
+      ],
+      "batched_input_tokens": 2732,
+      "batched_latency_ms": 54164,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 734,
+      "batched_status": "ok",
+      "case_id": "acceptance_004",
+      "independent_answer": "ООО «ПроектЛаб»",
+      "independent_decision": null,
+      "independent_evidence": [
+        "doc_id=service_contract"
+      ],
+      "independent_input_tokens": 1894,
+      "independent_latency_ms": 10225,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 33,
+      "independent_status": "ok",
+      "question_id": "Q1",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "money",
+      "batched_answer": "780000",
+      "batched_decision": "confirmed",
+      "batched_evidence": [
+        "service_contract"
+      ],
+      "batched_input_tokens": 2708,
+      "batched_latency_ms": 70773,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 709,
+      "batched_status": "ok",
+      "case_id": "acceptance_004",
+      "independent_answer": "780000",
+      "independent_decision": null,
+      "independent_evidence": [
+        "{\"content\": \"2.1. Стоимость услуг составляет 780 000 (семьсот восемьдесят тысяч) руб. 00 коп.\", \"doc_id\": \"service_contract\"}",
+        "{\"content\": \"3. Стоимость услуг по договору составляет 780 000 руб.\", \"doc_id\": \"acceptance_act_B\"}"
+      ],
+      "independent_input_tokens": 1870,
+      "independent_latency_ms": 9893,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 122,
+      "independent_status": "ok",
+      "question_id": "Q2",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "status",
+      "batched_answer": "ООО «ДатаХост»",
+      "batched_decision": "confirmed",
+      "batched_evidence": [
+        "base_contract"
+      ],
+      "batched_input_tokens": 2555,
+      "batched_latency_ms": 53075,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 721,
+      "batched_status": "ok",
+      "case_id": "amendment_007",
+      "independent_answer": "ООО «ДатаХост»",
+      "independent_decision": null,
+      "independent_evidence": [
+        "[DOCUMENT doc_id=base_contract]"
+      ],
+      "independent_input_tokens": 1809,
+      "independent_latency_ms": 6859,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 38,
+      "independent_status": "ok",
+      "question_id": "Q1",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "status",
+      "batched_answer": "Исполнитель предоставляет заказчику выделенный серверный ресурс для размещения и сопровождения прикладных сервисов",
+      "batched_decision": "confirmed",
+      "batched_evidence": [
+        "base_contract"
+      ],
+      "batched_input_tokens": 2555,
+      "batched_latency_ms": 43246,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 723,
+      "batched_status": "ok",
+      "case_id": "amendment_007",
+      "independent_answer": "Предметом договора является предоставление заказчику выделенного серверного ресурса для размещения и сопровождения прикладных сервисов",
+      "independent_decision": null,
+      "independent_evidence": [
+        "[DOCUMENT doc_id=base_contract]"
+      ],
+      "independent_input_tokens": 1807,
+      "independent_latency_ms": 7562,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 57,
+      "independent_status": "ok",
+      "question_id": "Q2",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "status",
+      "batched_answer": "Сергею Волкову",
+      "batched_decision": "approved",
+      "batched_evidence": [
+        "access_request"
+      ],
+      "batched_input_tokens": 2461,
+      "batched_latency_ms": 42680,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 722,
+      "batched_status": "ok",
+      "case_id": "approval_chain_009",
+      "independent_answer": "Сергей Волков",
+      "independent_decision": null,
+      "independent_evidence": [
+        "{\"content\": \"Пользователь: Сергей Волков.\", \"doc_id\": \"access_request\"}"
+      ],
+      "independent_input_tokens": 1777,
+      "independent_latency_ms": 7609,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 56,
+      "independent_status": "ok",
+      "question_id": "Q1",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "date",
+      "batched_answer": "1711-11-20",
+      "batched_decision": "approved",
+      "batched_evidence": [
+        "access_request",
+        "activation_log",
+        "access_registry"
+      ],
+      "batched_input_tokens": 2466,
+      "batched_latency_ms": 54701,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 717,
+      "batched_status": "ok",
+      "case_id": "approval_chain_009",
+      "independent_answer": "2026-11-17",
+      "independent_decision": null,
+      "independent_evidence": [
+        "[DOCUMENT doc_id=access_request]",
+        "[DOCUMENT doc_id=system_owner_approval]"
+      ],
+      "independent_input_tokens": 1773,
+      "independent_latency_ms": 7358,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 51,
+      "independent_status": "ok",
+      "question_id": "Q4",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "status",
+      "batched_answer": "ООО «ТехРесурс»",
+      "batched_decision": "insufficient_information",
+      "batched_evidence": [
+        "maintenance_contract"
+      ],
+      "batched_input_tokens": 2295,
+      "batched_latency_ms": 53902,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 738,
+      "batched_status": "ok",
+      "case_id": "asset_scope_010",
+      "independent_answer": "ООО «ТехРесурс»",
+      "independent_decision": null,
+      "independent_evidence": [
+        "[DOCUMENT doc_id=maintenance_contract]"
+      ],
+      "independent_input_tokens": 1578,
+      "independent_latency_ms": 6466,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 40,
+      "independent_status": "ok",
+      "question_id": "Q1",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "money",
+      "batched_answer": "300000",
+      "batched_decision": "approved",
+      "batched_evidence": [
+        "maintenance_contract"
+      ],
+      "batched_input_tokens": 2295,
+      "batched_latency_ms": 53361,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 702,
+      "batched_status": "ok",
+      "case_id": "asset_scope_010",
+      "independent_answer": "300000",
+      "independent_decision": null,
+      "independent_evidence": [
+        "{\"content\": \"1.4. Ежемесячная абонентская плата составляет 300 000 руб.\", \"doc_id\": \"maintenance_contract\"}"
+      ],
+      "independent_input_tokens": 1578,
+      "independent_latency_ms": 7613,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 73,
+      "independent_status": "ok",
+      "question_id": "Q3",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "status",
+      "batched_answer": "директор Уральского филиала Смирнов Игорь Петрович",
+      "batched_decision": "approved",
+      "batched_evidence": [
+        "authority_contract"
+      ],
+      "batched_input_tokens": 2166,
+      "batched_latency_ms": 57887,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 761,
+      "batched_status": "ok",
+      "case_id": "authority_003",
+      "independent_answer": "Смирнов Игорь Петрович",
+      "independent_decision": null,
+      "independent_evidence": [
+        "[DOCUMENT doc_id=power_of_attorney_A]",
+        "[DOCUMENT doc_id=authority_contract]"
+      ],
+      "independent_input_tokens": 1364,
+      "independent_latency_ms": 6253,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 50,
+      "independent_status": "ok",
+      "question_id": "Q1",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "money",
+      "batched_answer": "1180000",
+      "batched_decision": "approved",
+      "batched_evidence": [
+        "transfer_act"
+      ],
+      "batched_input_tokens": 2177,
+      "batched_latency_ms": 56632,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 761,
+      "batched_status": "ok",
+      "case_id": "authority_003",
+      "independent_answer": "1180000",
+      "independent_decision": null,
+      "independent_evidence": [
+        "{\"content\": \"Просим приобрести сетевое оборудование для Уральского филиала на сумму 1 180 000 руб.\", \"doc_id\": \"service_memo\"}",
+        "{\"content\": \"Сумма договора: 1 180 000 руб.\", \"doc_id\": \"authority_contract\"}"
+      ],
+      "independent_input_tokens": 1366,
+      "independent_latency_ms": 8644,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 119,
+      "independent_status": "ok",
+      "question_id": "Q3",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "status",
+      "batched_answer": "ООО «ОблакоСервис»",
+      "batched_decision": "confirmed",
+      "batched_evidence": [
+        "service_contract"
+      ],
+      "batched_input_tokens": 2468,
+      "batched_latency_ms": 74011,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 828,
+      "batched_status": "ok",
+      "case_id": "notice_005",
+      "independent_answer": "ООО «ОблакоСервис»",
+      "independent_decision": null,
+      "independent_evidence": [
+        "[DOCUMENT doc_id=service_contract]"
+      ],
+      "independent_input_tokens": 1654,
+      "independent_latency_ms": 8125,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 40,
+      "independent_status": "ok",
+      "question_id": "Q1",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "status",
+      "batched_answer": "управляемое резервное копирование корпоративных данных заказчика и сопровождение работ, связанных с восстановлением копий по запросу",
+      "batched_decision": "confirmed",
+      "batched_evidence": [
+        "service_contract"
+      ],
+      "batched_input_tokens": 2468,
+      "batched_latency_ms": 90625,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 827,
+      "batched_status": "ok",
+      "case_id": "notice_005",
+      "independent_answer": "Предметом договора является оказание услуг по управляемому резервному копированию корпоративных данных заказчика и сопровождению работ, связанных с восстановлением копий по запросу",
+      "independent_decision": null,
+      "independent_evidence": [
+        "[DOCUMENT doc_id=service_contract]"
+      ],
+      "independent_input_tokens": 1652,
+      "independent_latency_ms": 9757,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 68,
+      "independent_status": "ok",
+      "question_id": "Q2",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "money",
+      "batched_answer": "300000",
+      "batched_decision": "sufficient_information",
+      "batched_evidence": [
+        "procurement_policy"
+      ],
+      "batched_input_tokens": 2349,
+      "batched_latency_ms": 77679,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 691,
+      "batched_status": "ok",
+      "case_id": "procurement_002",
+      "independent_answer": "300000",
+      "independent_decision": null,
+      "independent_evidence": [
+        "{\"content\": \"\\\"1.2. Прямая закупка допустима при цене договора до 300 000 руб. включительно.\\\"; \\\"1.4. Прямая закупка свыше 300 000 руб. возможна только на основании отдельного письменного решения генерального директора, прямо разрешающего закупку без конкурентной процедуры.\\\"\", \"doc_id\": \"procurement_policy\"}"
+      ],
+      "independent_input_tokens": 1525,
+      "independent_latency_ms": 12031,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 130,
+      "independent_status": "ok",
+      "question_id": "Q1",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "date",
+      "batched_answer": "2010-10-20",
+      "batched_decision": "sufficient_information",
+      "batched_evidence": [
+        "temporary_order",
+        "payment_request"
+      ],
+      "batched_input_tokens": 2349,
+      "batched_latency_ms": 82185,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 695,
+      "batched_status": "ok",
+      "case_id": "procurement_002",
+      "independent_answer": "2026-10-20",
+      "independent_decision": null,
+      "independent_evidence": [
+        "{\"content\": \"[PARAGRAPH] 2.1. На период действия настоящего приказа предел прямой закупки по договорам на серверное оборудование для регионального офиса увеличивается до 500 000 руб.[PARAGRAPH] 2.2. Приказ применяется по дате заключения договора: если договор заключён в период действия приказа, повышенный предел применяется к такому договору.\", \"doc_id\": \"temporary_order\"}",
+        "{\"content\": \"[PARAGRAPH] Дата заключения: 20 октября 2026 г.[PARAGRAPH]\", \"doc_id\": \"supply_contract\"}"
+      ],
+      "independent_input_tokens": 1523,
+      "independent_latency_ms": 14133,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 171,
+      "independent_status": "ok",
+      "question_id": "Q4",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "status",
+      "batched_answer": "ООО «СеверТех»",
+      "batched_decision": "insufficient_information",
+      "batched_evidence": [
+        "purchase_order",
+        "delivery_note",
+        "supplier_invoice_A"
+      ],
+      "batched_input_tokens": 2282,
+      "batched_latency_ms": 71783,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 753,
+      "batched_status": "ok",
+      "case_id": "reconciliation_006",
+      "independent_answer": "ООО «СеверТех»",
+      "independent_decision": null,
+      "independent_evidence": [
+        "[DOCUMENT doc_id=purchase_order]",
+        "[DOCUMENT doc_id=delivery_note]",
+        "[DOCUMENT doc_id=supplier_invoice_A]"
+      ],
+      "independent_input_tokens": 1557,
+      "independent_latency_ms": 9803,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 60,
+      "independent_status": "ok",
+      "question_id": "Q1",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "money",
+      "batched_answer": "32000",
+      "batched_decision": "insufficient_information",
+      "batched_evidence": [
+        "purchase_order",
+        "delivery_note"
+      ],
+      "batched_input_tokens": 2282,
+      "batched_latency_ms": 72555,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 777,
+      "batched_status": "ok",
+      "case_id": "reconciliation_006",
+      "independent_answer": "32000",
+      "independent_decision": null,
+      "independent_evidence": [
+        "{\"content\": \"\\\"Цена за единицу: 32 000 руб.\\\".\", \"doc_id\": \"purchase_order\"}",
+        "{\"content\": \"\\\"Цена за единицу: 32 000 руб.\\\"\", \"doc_id\": \"supplier_invoice_B\"}"
+      ],
+      "independent_input_tokens": 1561,
+      "independent_latency_ms": 6910,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 103,
+      "independent_status": "ok",
+      "question_id": "Q2",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "status",
+      "batched_answer": "ООО «ОблакоСервис»",
+      "batched_decision": "insufficient_information",
+      "batched_evidence": [
+        "sla_contract"
+      ],
+      "batched_input_tokens": 1350,
+      "batched_latency_ms": 50303,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 801,
+      "batched_status": "ok",
+      "case_id": "sla_008",
+      "independent_answer": "ООО «ОблакоСервис»",
+      "independent_decision": null,
+      "independent_evidence": [
+        "[DOCUMENT doc_id=sla_contract]"
+      ],
+      "independent_input_tokens": 775,
+      "independent_latency_ms": 4676,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 40,
+      "independent_status": "ok",
+      "question_id": "Q1",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "money",
+      "batched_answer": "500000",
+      "batched_decision": "insufficient_information",
+      "batched_evidence": [
+        "sla_contract"
+      ],
+      "batched_input_tokens": 1350,
+      "batched_latency_ms": 51388,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 806,
+      "batched_status": "ok",
+      "case_id": "sla_008",
+      "independent_answer": "500000",
+      "independent_decision": null,
+      "independent_evidence": [
+        "[DOCUMENT doc_id=sla_contract]",
+        "[DOCUMENT doc_id=monthly_report]"
+      ],
+      "independent_input_tokens": 775,
+      "independent_latency_ms": 5182,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 49,
+      "independent_status": "ok",
+      "question_id": "Q2",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "money",
+      "batched_answer": "9000",
+      "batched_decision": "canonical_answer",
+      "batched_evidence": [
+        "policy_01"
+      ],
+      "batched_input_tokens": 15012,
+      "batched_latency_ms": 209775,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 905,
+      "batched_status": "ok",
+      "case_id": "trip_001",
+      "independent_answer": "9000",
+      "independent_decision": null,
+      "independent_evidence": [
+        "{\"content\": \"[TABLE ROW] Категория работников | Москва и Санкт-Петербург | Города-миллионники | Прочие населённые пункты [TABLE ROW] Иные работники | 10 000 руб./ночь | 8 000 руб./ночь | 7 000 руб./ночь\", \"doc_id\": \"policy_01\"}",
+        "{\"content\": \"[TABLE ROW] Категория работников | Москва и Санкт-Петербург | Города-миллионники | Прочие населённые пункты [TABLE ROW] Директора подразделений, руководители проектов | 12 000 руб./ночь | 9 000 руб./ночь | 8 000 руб./ночь\", \"doc_id\": \"policy_01\"}"
+      ],
+      "independent_input_tokens": 12123,
+      "independent_latency_ms": 63921,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 225,
+      "independent_status": "ok",
+      "question_id": "Q1",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "threshold",
+      "batched_answer": "Дополнительная проверка требуется при стоимости одной ночи проживания, превышающей 10 000 руб.",
+      "batched_decision": "canonical_answer",
+      "batched_evidence": [
+        "finance_memo"
+      ],
+      "batched_input_tokens": 15012,
+      "batched_latency_ms": 236404,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 970,
+      "batched_status": "ok",
+      "case_id": "trip_001",
+      "independent_answer": null,
+      "independent_decision": "error",
+      "independent_evidence": [],
+      "independent_input_tokens": 0,
+      "independent_latency_ms": 0,
+      "independent_missing": [],
+      "independent_ok": false,
+      "independent_output_tokens": 0,
+      "independent_status": "error",
+      "question_id": "Q3",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "categorical",
+      "batched_answer": "reimbursement_policy",
+      "batched_decision": "insufficient_information",
+      "batched_evidence": [
+        "policy"
+      ],
+      "batched_input_tokens": 988,
+      "batched_latency_ms": 40433,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 593,
+      "batched_status": "ok",
+      "case_id": "finance_028",
+      "independent_answer": "reimbursement_policy",
+      "independent_decision": null,
+      "independent_evidence": [
+        "policy"
+      ],
+      "independent_input_tokens": 626,
+      "independent_latency_ms": 3076,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 24,
+      "independent_status": "ok",
+      "question_id": "Q1",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "boolean",
+      "batched_answer": "true",
+      "batched_decision": "True",
+      "batched_evidence": [
+        "core_record"
+      ],
+      "batched_input_tokens": 984,
+      "batched_latency_ms": 37780,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 587,
+      "batched_status": "ok",
+      "case_id": "finance_028",
+      "independent_answer": null,
+      "independent_decision": "error",
+      "independent_evidence": [],
+      "independent_input_tokens": 0,
+      "independent_latency_ms": 0,
+      "independent_missing": [],
+      "independent_ok": false,
+      "independent_output_tokens": 0,
+      "independent_status": "error",
+      "question_id": "Q4",
+      "relation_bucket": "ab_flip",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "identifier",
+      "batched_answer": "ADV-3301",
+      "batched_decision": "insufficient_information",
+      "batched_evidence": [
+        "nuisance_memo"
+      ],
+      "batched_input_tokens": 988,
+      "batched_latency_ms": 38798,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 593,
+      "batched_status": "ok",
+      "case_id": "finance_028",
+      "independent_answer": "ADV-3301",
+      "independent_decision": null,
+      "independent_evidence": [
+        "doc_id=nuisance_memo"
+      ],
+      "independent_input_tokens": 626,
+      "independent_latency_ms": 2998,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 33,
+      "independent_status": "ok",
+      "question_id": "Q2",
+      "relation_bucket": "ac_nuisance_flip",
+      "variant_id": "C"
+    },
+    {
+      "answer_type": "datetime",
+      "batched_answer": "2026-09-15T08:00:00Z",
+      "batched_decision": "insufficient_information",
+      "batched_evidence": [
+        "nuisance_memo"
+      ],
+      "batched_input_tokens": 988,
+      "batched_latency_ms": 40433,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 593,
+      "batched_status": "ok",
+      "case_id": "finance_028",
+      "independent_answer": "2026-09-15T08:00:00",
+      "independent_decision": null,
+      "independent_evidence": [
+        "[DOCUMENT doc_id=nuisance_memo]"
+      ],
+      "independent_input_tokens": 625,
+      "independent_latency_ms": 3644,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 53,
+      "independent_status": "ok",
+      "question_id": "Q3",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "categorical",
+      "batched_answer": "reimbursement_policy",
+      "batched_decision": "insufficient_information",
+      "batched_evidence": [
+        "policy"
+      ],
+      "batched_input_tokens": 1007,
+      "batched_latency_ms": 38826,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 582,
+      "batched_status": "ok",
+      "case_id": "finset_011",
+      "independent_answer": "reimbursement_policy",
+      "independent_decision": null,
+      "independent_evidence": [
+        "policy"
+      ],
+      "independent_input_tokens": 636,
+      "independent_latency_ms": 2761,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 24,
+      "independent_status": "ok",
+      "question_id": "Q1",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "boolean",
+      "batched_answer": "true",
+      "batched_decision": "True",
+      "batched_evidence": [
+        "core_record"
+      ],
+      "batched_input_tokens": 1003,
+      "batched_latency_ms": 38429,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 577,
+      "batched_status": "ok",
+      "case_id": "finset_011",
+      "independent_answer": null,
+      "independent_decision": "error",
+      "independent_evidence": [],
+      "independent_input_tokens": 0,
+      "independent_latency_ms": 0,
+      "independent_missing": [],
+      "independent_ok": false,
+      "independent_output_tokens": 0,
+      "independent_status": "error",
+      "question_id": "Q4",
+      "relation_bucket": "ab_flip",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "identifier",
+      "batched_answer": "PRE-3301",
+      "batched_decision": "insufficient_information",
+      "batched_evidence": [
+        "nuisance_memo"
+      ],
+      "batched_input_tokens": 1007,
+      "batched_latency_ms": 39015,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 579,
+      "batched_status": "ok",
+      "case_id": "finset_011",
+      "independent_answer": "PRE-3301",
+      "independent_decision": null,
+      "independent_evidence": [
+        "doc_id=nuisance_memo"
+      ],
+      "independent_input_tokens": 636,
+      "independent_latency_ms": 3446,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 33,
+      "independent_status": "ok",
+      "question_id": "Q2",
+      "relation_bucket": "ac_nuisance_flip",
+      "variant_id": "C"
+    },
+    {
+      "answer_type": "datetime",
+      "batched_answer": "2026-06-01T09:00:00Z",
+      "batched_decision": "insufficient_information",
+      "batched_evidence": [
+        "nuisance_memo"
+      ],
+      "batched_input_tokens": 1007,
+      "batched_latency_ms": 38826,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 582,
+      "batched_status": "ok",
+      "case_id": "finset_011",
+      "independent_answer": "2026-06-01T09:00:00",
+      "independent_decision": null,
+      "independent_evidence": [
+        "[DOCUMENT doc_id=nuisance_memo]"
+      ],
+      "independent_input_tokens": 635,
+      "independent_latency_ms": 3911,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 53,
+      "independent_status": "ok",
+      "question_id": "Q3",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "categorical",
+      "batched_answer": "The Currency clause trigger case is governed by the fx_clause",
+      "batched_decision": "insufficient_information",
+      "batched_evidence": [
+        "policy"
+      ],
+      "batched_input_tokens": 991,
+      "batched_latency_ms": 41798,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 590,
+      "batched_status": "ok",
+      "case_id": "finset_012",
+      "independent_answer": "fx_clause",
+      "independent_decision": null,
+      "independent_evidence": [
+        "policy"
+      ],
+      "independent_input_tokens": 628,
+      "independent_latency_ms": 2957,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 22,
+      "independent_status": "ok",
+      "question_id": "Q1",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "boolean",
+      "batched_answer": "true",
+      "batched_decision": "True",
+      "batched_evidence": [
+        "core_record"
+      ],
+      "batched_input_tokens": 988,
+      "batched_latency_ms": 35749,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 582,
+      "batched_status": "ok",
+      "case_id": "finset_012",
+      "independent_answer": null,
+      "independent_decision": "error",
+      "independent_evidence": [],
+      "independent_input_tokens": 0,
+      "independent_latency_ms": 0,
+      "independent_missing": [],
+      "independent_ok": false,
+      "independent_output_tokens": 0,
+      "independent_status": "error",
+      "question_id": "Q4",
+      "relation_bucket": "ab_flip",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "identifier",
+      "batched_answer": "FX-3301",
+      "batched_decision": "insufficient_information",
+      "batched_evidence": [
+        "nuisance_memo"
+      ],
+      "batched_input_tokens": 991,
+      "batched_latency_ms": 38539,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 590,
+      "batched_status": "ok",
+      "case_id": "finset_012",
+      "independent_answer": "FX-3301",
+      "independent_decision": null,
+      "independent_evidence": [
+        "doc_id=nuisance_memo"
+      ],
+      "independent_input_tokens": 629,
+      "independent_latency_ms": 3354,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 33,
+      "independent_status": "ok",
+      "question_id": "Q2",
+      "relation_bucket": "ac_nuisance_flip",
+      "variant_id": "C"
+    },
+    {
+      "answer_type": "datetime",
+      "batched_answer": "2026-07-01T10:00:00Z",
+      "batched_decision": "insufficient_information",
+      "batched_evidence": [
+        "nuisance_memo"
+      ],
+      "batched_input_tokens": 991,
+      "batched_latency_ms": 41798,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 590,
+      "batched_status": "ok",
+      "case_id": "finset_012",
+      "independent_answer": "2026-07-01T10:00:00",
+      "independent_decision": null,
+      "independent_evidence": [
+        "[DOCUMENT doc_id=nuisance_memo]"
+      ],
+      "independent_input_tokens": 628,
+      "independent_latency_ms": 4021,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 53,
+      "independent_status": "ok",
+      "question_id": "Q3",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "date",
+      "batched_answer": "2026-06-11",
+      "batched_decision": "2026-06-11",
+      "batched_evidence": [
+        "01_приказ_о_переводе"
+      ],
+      "batched_input_tokens": 974,
+      "batched_latency_ms": 40770,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 558,
+      "batched_status": "ok",
+      "case_id": "hr_019",
+      "independent_answer": null,
+      "independent_decision": "2026-06-11",
+      "independent_evidence": [
+        "[DOCUMENT doc_id=01_приказ_о_переводе]"
+      ],
+      "independent_input_tokens": 601,
+      "independent_latency_ms": 3758,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 49,
+      "independent_status": "ok",
+      "question_id": "Q1",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "date",
+      "batched_answer": "2026-06-13",
+      "batched_decision": "2026-06-13",
+      "batched_evidence": [
+        "02_заявка_на_доступ"
+      ],
+      "batched_input_tokens": 976,
+      "batched_latency_ms": 40781,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 560,
+      "batched_status": "ok",
+      "case_id": "hr_019",
+      "independent_answer": null,
+      "independent_decision": "2026-06-13",
+      "independent_evidence": [
+        "[DOCUMENT doc_id=02_заявка_на_доступ]",
+        "[DOCUMENT doc_id=04_служебная_записка_hr]"
+      ],
+      "independent_input_tokens": 602,
+      "independent_latency_ms": 4520,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 68,
+      "independent_status": "ok",
+      "question_id": "Q2",
+      "relation_bucket": "ab_flip",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "boolean",
+      "batched_answer": "true",
+      "batched_decision": "True",
+      "batched_evidence": [
+        "02_заявка_на_доступ"
+      ],
+      "batched_input_tokens": 964,
+      "batched_latency_ms": 45133,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 566,
+      "batched_status": "ok",
+      "case_id": "hr_019",
+      "independent_answer": null,
+      "independent_decision": "True",
+      "independent_evidence": [
+        "02_Заявка_на_доступ.txt"
+      ],
+      "independent_input_tokens": 571,
+      "independent_latency_ms": 3007,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 31,
+      "independent_status": "ok",
+      "question_id": "Q8",
+      "relation_bucket": "ac_nuisance_flip",
+      "variant_id": "C"
+    },
+    {
+      "answer_type": "identifier",
+      "batched_answer": "D2",
+      "batched_decision": "not_iam_log",
+      "batched_evidence": [
+        "03_лог_iam"
+      ],
+      "batched_input_tokens": 974,
+      "batched_latency_ms": 40770,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 558,
+      "batched_status": "ok",
+      "case_id": "hr_019",
+      "independent_answer": null,
+      "independent_decision": "not_iam_log",
+      "independent_evidence": [
+        "[\"03_Лог_IAM.txt\"]"
+      ],
+      "independent_input_tokens": 584,
+      "independent_latency_ms": 3299,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 39,
+      "independent_status": "ok",
+      "question_id": "Q10",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "categorical",
+      "batched_answer": "delegation_policy",
+      "batched_decision": "The Delegated authority gap case is governed by the delegation_policy.",
+      "batched_evidence": [
+        "policy"
+      ],
+      "batched_input_tokens": 988,
+      "batched_latency_ms": 48959,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 646,
+      "batched_status": "ok",
+      "case_id": "hr_020",
+      "independent_answer": "delegation_policy",
+      "independent_decision": null,
+      "independent_evidence": [
+        "policy"
+      ],
+      "independent_input_tokens": 624,
+      "independent_latency_ms": 2879,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 23,
+      "independent_status": "ok",
+      "question_id": "Q1",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "boolean",
+      "batched_answer": "true",
+      "batched_decision": "True",
+      "batched_evidence": [
+        "core_record"
+      ],
+      "batched_input_tokens": 988,
+      "batched_latency_ms": 42281,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 590,
+      "batched_status": "ok",
+      "case_id": "hr_020",
+      "independent_answer": null,
+      "independent_decision": "error",
+      "independent_evidence": [],
+      "independent_input_tokens": 0,
+      "independent_latency_ms": 0,
+      "independent_missing": [],
+      "independent_ok": false,
+      "independent_output_tokens": 0,
+      "independent_status": "error",
+      "question_id": "Q4",
+      "relation_bucket": "ab_flip",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "identifier",
+      "batched_answer": "DEL-3301",
+      "batched_decision": "reference_number DEL-3301",
+      "batched_evidence": [
+        "nuisance_memo"
+      ],
+      "batched_input_tokens": 988,
+      "batched_latency_ms": 48178,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 632,
+      "batched_status": "ok",
+      "case_id": "hr_020",
+      "independent_answer": "DEL-3301",
+      "independent_decision": null,
+      "independent_evidence": [
+        "doc_id=nuisance_memo"
+      ],
+      "independent_input_tokens": 625,
+      "independent_latency_ms": 3261,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 33,
+      "independent_status": "ok",
+      "question_id": "Q2",
+      "relation_bucket": "ac_nuisance_flip",
+      "variant_id": "C"
+    },
+    {
+      "answer_type": "datetime",
+      "batched_answer": "2026-10-01T13:00:00Z",
+      "batched_decision": "The timestamp is 2026-10-01T13:00:00.",
+      "batched_evidence": [
+        "nuisance_memo"
+      ],
+      "batched_input_tokens": 988,
+      "batched_latency_ms": 48959,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 646,
+      "batched_status": "ok",
+      "case_id": "hr_020",
+      "independent_answer": "2026-10-01T13:00:00",
+      "independent_decision": null,
+      "independent_evidence": [
+        "[DOCUMENT doc_id=nuisance_memo]"
+      ],
+      "independent_input_tokens": 624,
+      "independent_latency_ms": 3850,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 53,
+      "independent_status": "ok",
+      "question_id": "Q3",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "categorical",
+      "batched_answer": "exit_checklist_rule",
+      "batched_decision": "The exit_checklist_rule is the authoritative source for this package.",
+      "batched_evidence": [
+        "policy"
+      ],
+      "batched_input_tokens": 987,
+      "batched_latency_ms": 51556,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 631,
+      "batched_status": "ok",
+      "case_id": "hr_030",
+      "independent_answer": "exit_checklist_rule",
+      "independent_decision": null,
+      "independent_evidence": [
+        "policy"
+      ],
+      "independent_input_tokens": 625,
+      "independent_latency_ms": 3033,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 24,
+      "independent_status": "ok",
+      "question_id": "Q1",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "boolean",
+      "batched_answer": "false",
+      "batched_decision": "False",
+      "batched_evidence": [],
+      "batched_input_tokens": 987,
+      "batched_latency_ms": 46460,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 564,
+      "batched_status": "ok",
+      "case_id": "hr_030",
+      "independent_answer": null,
+      "independent_decision": "error",
+      "independent_evidence": [],
+      "independent_input_tokens": 0,
+      "independent_latency_ms": 0,
+      "independent_missing": [],
+      "independent_ok": false,
+      "independent_output_tokens": 0,
+      "independent_status": "error",
+      "question_id": "Q4",
+      "relation_bucket": "ab_flip",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "identifier",
+      "batched_answer": "HR-3301",
+      "batched_decision": "reference_number",
+      "batched_evidence": [
+        "nuisance_memo"
+      ],
+      "batched_input_tokens": 987,
+      "batched_latency_ms": 40266,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 564,
+      "batched_status": "ok",
+      "case_id": "hr_030",
+      "independent_answer": "HR-3301",
+      "independent_decision": null,
+      "independent_evidence": [
+        "doc_id=nuisance_memo"
+      ],
+      "independent_input_tokens": 626,
+      "independent_latency_ms": 3621,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 33,
+      "independent_status": "ok",
+      "question_id": "Q2",
+      "relation_bucket": "ac_nuisance_flip",
+      "variant_id": "C"
+    },
+    {
+      "answer_type": "datetime",
+      "batched_answer": "2026-10-20T09:30:00Z",
+      "batched_decision": "The timestamp is 2026-10-20T09:30:00.",
+      "batched_evidence": [
+        "nuisance_memo"
+      ],
+      "batched_input_tokens": 987,
+      "batched_latency_ms": 51556,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 631,
+      "batched_status": "ok",
+      "case_id": "hr_030",
+      "independent_answer": "2026-10-20T09:30:00",
+      "independent_decision": null,
+      "independent_evidence": [
+        "[DOCUMENT doc_id=nuisance_memo]"
+      ],
+      "independent_input_tokens": 625,
+      "independent_latency_ms": 4160,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 53,
+      "independent_status": "ok",
+      "question_id": "Q3",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "categorical",
+      "batched_answer": "privileged_access_policy",
+      "batched_decision": "",
+      "batched_evidence": [
+        "policy"
+      ],
+      "batched_input_tokens": 1016,
+      "batched_latency_ms": 41095,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 572,
+      "batched_status": "ok",
+      "case_id": "infosec_029",
+      "independent_answer": "privileged_access_policy",
+      "independent_decision": null,
+      "independent_evidence": [
+        "policy"
+      ],
+      "independent_input_tokens": 653,
+      "independent_latency_ms": 3241,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 23,
+      "independent_status": "ok",
+      "question_id": "Q1",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "boolean",
+      "batched_answer": "true",
+      "batched_decision": "True",
+      "batched_evidence": [
+        "core_record"
+      ],
+      "batched_input_tokens": 1018,
+      "batched_latency_ms": 43135,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 600,
+      "batched_status": "ok",
+      "case_id": "infosec_029",
+      "independent_answer": null,
+      "independent_decision": "error",
+      "independent_evidence": [],
+      "independent_input_tokens": 0,
+      "independent_latency_ms": 0,
+      "independent_missing": [],
+      "independent_ok": false,
+      "independent_output_tokens": 0,
+      "independent_status": "error",
+      "question_id": "Q4",
+      "relation_bucket": "ab_flip",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "identifier",
+      "batched_answer": "ACC-3301",
+      "batched_decision": "",
+      "batched_evidence": [
+        "nuisance_memo"
+      ],
+      "batched_input_tokens": 1016,
+      "batched_latency_ms": 43925,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 572,
+      "batched_status": "ok",
+      "case_id": "infosec_029",
+      "independent_answer": "ACC-3301",
+      "independent_decision": null,
+      "independent_evidence": [
+        "doc_id=nuisance_memo"
+      ],
+      "independent_input_tokens": 653,
+      "independent_latency_ms": 4132,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 33,
+      "independent_status": "ok",
+      "question_id": "Q2",
+      "relation_bucket": "ac_nuisance_flip",
+      "variant_id": "C"
+    },
+    {
+      "answer_type": "datetime",
+      "batched_answer": "2026-11-20T15:00:00Z",
+      "batched_decision": "",
+      "batched_evidence": [
+        "nuisance_memo"
+      ],
+      "batched_input_tokens": 1016,
+      "batched_latency_ms": 41095,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 572,
+      "batched_status": "ok",
+      "case_id": "infosec_029",
+      "independent_answer": "2026-11-20T15:00:00",
+      "independent_decision": null,
+      "independent_evidence": [
+        "[DOCUMENT doc_id=nuisance_memo]"
+      ],
+      "independent_input_tokens": 652,
+      "independent_latency_ms": 4782,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 53,
+      "independent_status": "ok",
+      "question_id": "Q3",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "categorical",
+      "batched_answer": "license_agreement",
+      "batched_decision": "The controlling source for the territory license scope case is the license_agreement.",
+      "batched_evidence": [
+        "policy"
+      ],
+      "batched_input_tokens": 988,
+      "batched_latency_ms": 50352,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 676,
+      "batched_status": "ok",
+      "case_id": "iplic_015",
+      "independent_answer": "policy",
+      "independent_decision": null,
+      "independent_evidence": [
+        "polic"
+      ],
+      "independent_input_tokens": 624,
+      "independent_latency_ms": 3544,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 22,
+      "independent_status": "ok",
+      "question_id": "Q1",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "boolean",
+      "batched_answer": "true",
+      "batched_decision": "True",
+      "batched_evidence": [
+        "core_record"
+      ],
+      "batched_input_tokens": 987,
+      "batched_latency_ms": 41155,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 571,
+      "batched_status": "ok",
+      "case_id": "iplic_015",
+      "independent_answer": null,
+      "independent_decision": "error",
+      "independent_evidence": [],
+      "independent_input_tokens": 0,
+      "independent_latency_ms": 0,
+      "independent_missing": [],
+      "independent_ok": false,
+      "independent_output_tokens": 0,
+      "independent_status": "error",
+      "question_id": "Q4",
+      "relation_bucket": "ab_flip",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "identifier",
+      "batched_answer": "LIC-3301",
+      "batched_decision": "reference_number",
+      "batched_evidence": [
+        "nuisance_memo"
+      ],
+      "batched_input_tokens": 988,
+      "batched_latency_ms": 40905,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 571,
+      "batched_status": "ok",
+      "case_id": "iplic_015",
+      "independent_answer": "LIC-3301",
+      "independent_decision": null,
+      "independent_evidence": [
+        "doc_id=nuisance_memo"
+      ],
+      "independent_input_tokens": 625,
+      "independent_latency_ms": 3635,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 33,
+      "independent_status": "ok",
+      "question_id": "Q2",
+      "relation_bucket": "ac_nuisance_flip",
+      "variant_id": "C"
+    },
+    {
+      "answer_type": "datetime",
+      "batched_answer": "2026-09-01T12:00:00Z",
+      "batched_decision": "The timestamp shown in the nuisance memo is 2026-09-01T12:00:00.",
+      "batched_evidence": [
+        "nuisance_memo"
+      ],
+      "batched_input_tokens": 988,
+      "batched_latency_ms": 50352,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 676,
+      "batched_status": "ok",
+      "case_id": "iplic_015",
+      "independent_answer": "2026-09-01T12:00:00",
+      "independent_decision": null,
+      "independent_evidence": [
+        "[DOCUMENT doc_id=nuisance_memo]"
+      ],
+      "independent_input_tokens": 624,
+      "independent_latency_ms": 4428,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 53,
+      "independent_status": "ok",
+      "question_id": "Q3",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "boolean",
+      "batched_answer": "true",
+      "batched_decision": "True",
+      "batched_evidence": [
+        "03_уведомление_о_нарушении"
+      ],
+      "batched_input_tokens": 1005,
+      "batched_latency_ms": 43574,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 531,
+      "batched_status": "ok",
+      "case_id": "iplic_016",
+      "independent_answer": null,
+      "independent_decision": "insufficient_information",
+      "independent_evidence": [
+        "[DOCUMENT doc_id=01_соглашение_об_эскроу_исходного_кода]",
+        "[DOCUMENT doc_id=03_уведомление_о_нарушении]"
+      ],
+      "independent_input_tokens": 622,
+      "independent_latency_ms": 5152,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 72,
+      "independent_status": "ok",
+      "question_id": "Q2",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "boolean",
+      "batched_answer": "true",
+      "batched_decision": "True",
+      "batched_evidence": [
+        "01_соглашение_об_эскроу_исходного_кода"
+      ],
+      "batched_input_tokens": 995,
+      "batched_latency_ms": 42488,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 529,
+      "batched_status": "ok",
+      "case_id": "iplic_016",
+      "independent_answer": null,
+      "independent_decision": "True",
+      "independent_evidence": [
+        "01_соглашение_об_эскроу_исходного_кода"
+      ],
+      "independent_input_tokens": 613,
+      "independent_latency_ms": 3562,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 46,
+      "independent_status": "ok",
+      "question_id": "Q1",
+      "relation_bucket": "ab_flip",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "boolean",
+      "batched_answer": "false",
+      "batched_decision": "False",
+      "batched_evidence": [
+        "03_уведомление_о_нарушении"
+      ],
+      "batched_input_tokens": 996,
+      "batched_latency_ms": 41147,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 523,
+      "batched_status": "ok",
+      "case_id": "iplic_016",
+      "independent_answer": null,
+      "independent_decision": "False",
+      "independent_evidence": [
+        "03_Уведомление_о_нарушении.txt"
+      ],
+      "independent_input_tokens": 608,
+      "independent_latency_ms": 3393,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 31,
+      "independent_status": "ok",
+      "question_id": "Q9",
+      "relation_bucket": "ac_nuisance_flip",
+      "variant_id": "C"
+    },
+    {
+      "answer_type": "code_set",
+      "batched_answer": [
+        "build_scripts|source_code_archive"
+      ],
+      "batched_decision": "build_scripts|source_code_archive",
+      "batched_evidence": [
+        "01_соглашение_об_эскроу_исходного_кода"
+      ],
+      "batched_input_tokens": 1005,
+      "batched_latency_ms": 43574,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 531,
+      "batched_status": "ok",
+      "case_id": "iplic_016",
+      "independent_answer": null,
+      "independent_decision": "error",
+      "independent_evidence": [],
+      "independent_input_tokens": 0,
+      "independent_latency_ms": 0,
+      "independent_missing": [],
+      "independent_ok": false,
+      "independent_output_tokens": 0,
+      "independent_status": "error",
+      "question_id": "Q5",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "categorical",
+      "batched_answer": "sla_policy",
+      "batched_decision": "insufficient_information",
+      "batched_evidence": [
+        "policy"
+      ],
+      "batched_input_tokens": 1004,
+      "batched_latency_ms": 47899,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 597,
+      "batched_status": "ok",
+      "case_id": "it_023",
+      "independent_answer": "policy",
+      "independent_decision": null,
+      "independent_evidence": [
+        "doc_id=policy"
+      ],
+      "independent_input_tokens": 640,
+      "independent_latency_ms": 3391,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 24,
+      "independent_status": "ok",
+      "question_id": "Q1",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "boolean",
+      "batched_answer": "true",
+      "batched_decision": "True",
+      "batched_evidence": [
+        "decision_memo"
+      ],
+      "batched_input_tokens": 998,
+      "batched_latency_ms": 46512,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 599,
+      "batched_status": "ok",
+      "case_id": "it_023",
+      "independent_answer": null,
+      "independent_decision": "error",
+      "independent_evidence": [],
+      "independent_input_tokens": 0,
+      "independent_latency_ms": 0,
+      "independent_missing": [],
+      "independent_ok": false,
+      "independent_output_tokens": 0,
+      "independent_status": "error",
+      "question_id": "Q4",
+      "relation_bucket": "ab_flip",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "identifier",
+      "batched_answer": "SLA-3301",
+      "batched_decision": "insufficient_information",
+      "batched_evidence": [
+        "nuisance_memo"
+      ],
+      "batched_input_tokens": 1004,
+      "batched_latency_ms": 49248,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 597,
+      "batched_status": "ok",
+      "case_id": "it_023",
+      "independent_answer": "SLA-3301",
+      "independent_decision": null,
+      "independent_evidence": [
+        "doc_id=nuisance_memo"
+      ],
+      "independent_input_tokens": 641,
+      "independent_latency_ms": 3868,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 34,
+      "independent_status": "ok",
+      "question_id": "Q2",
+      "relation_bucket": "ac_nuisance_flip",
+      "variant_id": "C"
+    },
+    {
+      "answer_type": "datetime",
+      "batched_answer": "2026-11-10T15:00:00Z",
+      "batched_decision": "insufficient_information",
+      "batched_evidence": [
+        "nuisance_memo"
+      ],
+      "batched_input_tokens": 1004,
+      "batched_latency_ms": 47899,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 597,
+      "batched_status": "ok",
+      "case_id": "it_023",
+      "independent_answer": "2026-11-10T15:00:00",
+      "independent_decision": null,
+      "independent_evidence": [
+        "[DOCUMENT doc_id=nuisance_memo]"
+      ],
+      "independent_input_tokens": 640,
+      "independent_latency_ms": 4422,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 53,
+      "independent_status": "ok",
+      "question_id": "Q3",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "categorical",
+      "batched_answer": "escalation_matrix",
+      "batched_decision": "The escalation_matrix is the authoritative source for this package.",
+      "batched_evidence": [
+        "policy"
+      ],
+      "batched_input_tokens": 992,
+      "batched_latency_ms": 45852,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 630,
+      "batched_status": "ok",
+      "case_id": "it_024",
+      "independent_answer": "escalation_matrix",
+      "independent_decision": null,
+      "independent_evidence": [
+        "policy"
+      ],
+      "independent_input_tokens": 628,
+      "independent_latency_ms": 3229,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 23,
+      "independent_status": "ok",
+      "question_id": "Q1",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "boolean",
+      "batched_answer": "true",
+      "batched_decision": "True",
+      "batched_evidence": [
+        "core_record"
+      ],
+      "batched_input_tokens": 990,
+      "batched_latency_ms": 45196,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 589,
+      "batched_status": "ok",
+      "case_id": "it_024",
+      "independent_answer": null,
+      "independent_decision": "error",
+      "independent_evidence": [],
+      "independent_input_tokens": 0,
+      "independent_latency_ms": 0,
+      "independent_missing": [],
+      "independent_ok": false,
+      "independent_output_tokens": 0,
+      "independent_status": "error",
+      "question_id": "Q4",
+      "relation_bucket": "ab_flip",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "identifier",
+      "batched_answer": "TKT-3301",
+      "batched_decision": "insufficient_information",
+      "batched_evidence": [
+        "nuisance_memo"
+      ],
+      "batched_input_tokens": 992,
+      "batched_latency_ms": 54260,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 583,
+      "batched_status": "ok",
+      "case_id": "it_024",
+      "independent_answer": "TKT-3301",
+      "independent_decision": null,
+      "independent_evidence": [
+        "doc_id=nuisance_memo"
+      ],
+      "independent_input_tokens": 629,
+      "independent_latency_ms": 3680,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 34,
+      "independent_status": "ok",
+      "question_id": "Q2",
+      "relation_bucket": "ac_nuisance_flip",
+      "variant_id": "C"
+    },
+    {
+      "answer_type": "datetime",
+      "batched_answer": "2026-12-01T08:30:00Z",
+      "batched_decision": "timestamp 2026-12-01T08:30:00",
+      "batched_evidence": [
+        "nuisance_memo"
+      ],
+      "batched_input_tokens": 992,
+      "batched_latency_ms": 45852,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 630,
+      "batched_status": "ok",
+      "case_id": "it_024",
+      "independent_answer": "2026-12-01T08:30:00",
+      "independent_decision": null,
+      "independent_evidence": [
+        "[DOCUMENT doc_id=nuisance_memo]"
+      ],
+      "independent_input_tokens": 628,
+      "independent_latency_ms": 4195,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 53,
+      "independent_status": "ok",
+      "question_id": "Q3",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "categorical",
+      "batched_answer": "shipping_procedure",
+      "batched_decision": "The Split shipment acceptance case is governed by the shipping_procedure.",
+      "batched_evidence": [
+        "policy"
+      ],
+      "batched_input_tokens": 987,
+      "batched_latency_ms": 51346,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 644,
+      "batched_status": "ok",
+      "case_id": "logistics_013",
+      "independent_answer": "shipping_procedure",
+      "independent_decision": null,
+      "independent_evidence": [
+        "policy"
+      ],
+      "independent_input_tokens": 626,
+      "independent_latency_ms": 3324,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 23,
+      "independent_status": "ok",
+      "question_id": "Q1",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "boolean",
+      "batched_answer": "true",
+      "batched_decision": "True",
+      "batched_evidence": [
+        "core_record"
+      ],
+      "batched_input_tokens": 986,
+      "batched_latency_ms": 47200,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 629,
+      "batched_status": "ok",
+      "case_id": "logistics_013",
+      "independent_answer": null,
+      "independent_decision": "error",
+      "independent_evidence": [],
+      "independent_input_tokens": 0,
+      "independent_latency_ms": 0,
+      "independent_missing": [],
+      "independent_ok": false,
+      "independent_output_tokens": 0,
+      "independent_status": "error",
+      "question_id": "Q4",
+      "relation_bucket": "ab_flip",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "identifier",
+      "batched_answer": "SHIP-3301",
+      "batched_decision": "reference_number SHIP-3301",
+      "batched_evidence": [
+        "nuisance_memo"
+      ],
+      "batched_input_tokens": 987,
+      "batched_latency_ms": 46870,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 634,
+      "batched_status": "ok",
+      "case_id": "logistics_013",
+      "independent_answer": "SHIP-3301",
+      "independent_decision": null,
+      "independent_evidence": [
+        "doc_id=nuisance_memo"
+      ],
+      "independent_input_tokens": 627,
+      "independent_latency_ms": 3517,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 33,
+      "independent_status": "ok",
+      "question_id": "Q2",
+      "relation_bucket": "ac_nuisance_flip",
+      "variant_id": "C"
+    },
+    {
+      "answer_type": "datetime",
+      "batched_answer": "2026-08-01T11:00:00Z",
+      "batched_decision": "The timestamp is 2026-08-01T11:00:00.",
+      "batched_evidence": [
+        "nuisance_memo"
+      ],
+      "batched_input_tokens": 987,
+      "batched_latency_ms": 51346,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 644,
+      "batched_status": "ok",
+      "case_id": "logistics_013",
+      "independent_answer": "2026-08-01T11:00:00",
+      "independent_decision": null,
+      "independent_evidence": [
+        "[DOCUMENT doc_id=nuisance_memo]"
+      ],
+      "independent_input_tokens": 626,
+      "independent_latency_ms": 4131,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 53,
+      "independent_status": "ok",
+      "question_id": "Q3",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "categorical",
+      "batched_answer": "range_2_to_8_celsius",
+      "batched_decision": "range_2_to_8_celsius",
+      "batched_evidence": [
+        "01_транспортный_регламент_холодовой_цепи"
+      ],
+      "batched_input_tokens": 1143,
+      "batched_latency_ms": 40570,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 516,
+      "batched_status": "ok",
+      "case_id": "logistics_014",
+      "independent_answer": null,
+      "independent_decision": "range_2_to_8_celsius",
+      "independent_evidence": [
+        "01_Транспортный_регламент_холодовой_цепи.txt"
+      ],
+      "independent_input_tokens": 706,
+      "independent_latency_ms": 4968,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 52,
+      "independent_status": "ok",
+      "question_id": "Q1",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "boolean",
+      "batched_answer": "true",
+      "batched_decision": "True",
+      "batched_evidence": [
+        "03_лог_температуры"
+      ],
+      "batched_input_tokens": 1135,
+      "batched_latency_ms": 40981,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 521,
+      "batched_status": "ok",
+      "case_id": "logistics_014",
+      "independent_answer": null,
+      "independent_decision": "True",
+      "independent_evidence": [
+        "[DOCUMENT doc_id=03_лог_температуры]",
+        "[DOCUMENT doc_id=01_транспортный_регламент_холодовой_цепи]"
+      ],
+      "independent_input_tokens": 691,
+      "independent_latency_ms": 6434,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 63,
+      "independent_status": "ok",
+      "question_id": "Q2",
+      "relation_bucket": "ab_flip",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "boolean",
+      "batched_answer": "true",
+      "batched_decision": "True",
+      "batched_evidence": [
+        "03_лог_температуры"
+      ],
+      "batched_input_tokens": 1143,
+      "batched_latency_ms": 43184,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 544,
+      "batched_status": "ok",
+      "case_id": "logistics_014",
+      "independent_answer": null,
+      "independent_decision": "insufficient_information",
+      "independent_evidence": [],
+      "independent_input_tokens": 698,
+      "independent_latency_ms": 4161,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 21,
+      "independent_status": "ok",
+      "question_id": "Q9",
+      "relation_bucket": "ac_nuisance_flip",
+      "variant_id": "C"
+    },
+    {
+      "answer_type": "integer",
+      "batched_answer": "0",
+      "batched_decision": "0",
+      "batched_evidence": [
+        "03_лог_температуры"
+      ],
+      "batched_input_tokens": 1143,
+      "batched_latency_ms": 40570,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 516,
+      "batched_status": "ok",
+      "case_id": "logistics_014",
+      "independent_answer": null,
+      "independent_decision": "insufficient_information",
+      "independent_evidence": [],
+      "independent_input_tokens": 696,
+      "independent_latency_ms": 4387,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 21,
+      "independent_status": "ok",
+      "question_id": "Q7",
+      "relation_bucket": "ab_flip",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "categorical",
+      "batched_answer": "contract necessity",
+      "batched_decision": "consent",
+      "batched_evidence": [
+        "03_оценка_передачи"
+      ],
+      "batched_input_tokens": 965,
+      "batched_latency_ms": 46569,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 520,
+      "batched_status": "ok",
+      "case_id": "privacy_017",
+      "independent_answer": null,
+      "independent_decision": "not_consent",
+      "independent_evidence": [
+        "01_политика_передачи_пдн"
+      ],
+      "independent_input_tokens": 577,
+      "independent_latency_ms": 3786,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 33,
+      "independent_status": "ok",
+      "question_id": "Q2",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "categorical",
+      "batched_answer": "contract_necessity",
+      "batched_decision": "consent",
+      "batched_evidence": [
+        "01_политика_передачи_пдн"
+      ],
+      "batched_input_tokens": 965,
+      "batched_latency_ms": 49449,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 498,
+      "batched_status": "ok",
+      "case_id": "privacy_017",
+      "independent_answer": null,
+      "independent_decision": "insufficient_information",
+      "independent_evidence": [],
+      "independent_input_tokens": 578,
+      "independent_latency_ms": 3277,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 21,
+      "independent_status": "ok",
+      "question_id": "Q1",
+      "relation_bucket": "ab_flip",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "boolean",
+      "batched_answer": "true",
+      "batched_decision": "True",
+      "batched_evidence": [
+        "03_оценка_передачи"
+      ],
+      "batched_input_tokens": 968,
+      "batched_latency_ms": 46526,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 514,
+      "batched_status": "ok",
+      "case_id": "privacy_017",
+      "independent_answer": null,
+      "independent_decision": "True",
+      "independent_evidence": [
+        "03_оценка_передачи"
+      ],
+      "independent_input_tokens": 579,
+      "independent_latency_ms": 3664,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 28,
+      "independent_status": "ok",
+      "question_id": "Q8",
+      "relation_bucket": "ac_nuisance_flip",
+      "variant_id": "C"
+    },
+    {
+      "answer_type": "categorical",
+      "batched_answer": "contract necessity",
+      "batched_decision": "consent",
+      "batched_evidence": [
+        "03_оценка_передачи"
+      ],
+      "batched_input_tokens": 965,
+      "batched_latency_ms": 46569,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 520,
+      "batched_status": "ok",
+      "case_id": "privacy_017",
+      "independent_answer": null,
+      "independent_decision": "contract_necessity",
+      "independent_evidence": [
+        "03_оценка_передачи"
+      ],
+      "independent_input_tokens": 578,
+      "independent_latency_ms": 4074,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 31,
+      "independent_status": "ok",
+      "question_id": "Q1",
+      "relation_bucket": "ab_flip",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "categorical",
+      "batched_answer": "incident_response_policy",
+      "batched_decision": "insufficient_information",
+      "batched_evidence": [
+        "policy"
+      ],
+      "batched_input_tokens": 1002,
+      "batched_latency_ms": 51946,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 595,
+      "batched_status": "ok",
+      "case_id": "privacy_018",
+      "independent_answer": "incident_response_policy",
+      "independent_decision": null,
+      "independent_evidence": [
+        "policy"
+      ],
+      "independent_input_tokens": 636,
+      "independent_latency_ms": 4027,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 23,
+      "independent_status": "ok",
+      "question_id": "Q1",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "boolean",
+      "batched_answer": "true",
+      "batched_decision": "True",
+      "batched_evidence": [
+        "core_record",
+        "decision_memo"
+      ],
+      "batched_input_tokens": 1000,
+      "batched_latency_ms": 56487,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 592,
+      "batched_status": "ok",
+      "case_id": "privacy_018",
+      "independent_answer": null,
+      "independent_decision": "error",
+      "independent_evidence": [],
+      "independent_input_tokens": 0,
+      "independent_latency_ms": 0,
+      "independent_missing": [],
+      "independent_ok": false,
+      "independent_output_tokens": 0,
+      "independent_status": "error",
+      "question_id": "Q4",
+      "relation_bucket": "ab_flip",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "identifier",
+      "batched_answer": "INC-3301",
+      "batched_decision": "insufficient_information",
+      "batched_evidence": [
+        "nuisance_memo"
+      ],
+      "batched_input_tokens": 1002,
+      "batched_latency_ms": 56017,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 594,
+      "batched_status": "ok",
+      "case_id": "privacy_018",
+      "independent_answer": "INC-3301",
+      "independent_decision": null,
+      "independent_evidence": [
+        "doc_id=nuisance_memo"
+      ],
+      "independent_input_tokens": 636,
+      "independent_latency_ms": 4118,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 33,
+      "independent_status": "ok",
+      "question_id": "Q2",
+      "relation_bucket": "ac_nuisance_flip",
+      "variant_id": "C"
+    },
+    {
+      "answer_type": "datetime",
+      "batched_answer": "2026-09-12T09:40:00Z",
+      "batched_decision": "insufficient_information",
+      "batched_evidence": [
+        "nuisance_memo"
+      ],
+      "batched_input_tokens": 1002,
+      "batched_latency_ms": 51946,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 595,
+      "batched_status": "ok",
+      "case_id": "privacy_018",
+      "independent_answer": "2026-09-12T09:40:00",
+      "independent_decision": null,
+      "independent_evidence": [
+        "[DOCUMENT doc_id=nuisance_memo]"
+      ],
+      "independent_input_tokens": 635,
+      "independent_latency_ms": 4899,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 53,
+      "independent_status": "ok",
+      "question_id": "Q3",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "categorical",
+      "batched_answer": "sole_source_policy",
+      "batched_decision": "",
+      "batched_evidence": [
+        "policy"
+      ],
+      "batched_input_tokens": 1004,
+      "batched_latency_ms": 49040,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 545,
+      "batched_status": "ok",
+      "case_id": "procure_021",
+      "independent_answer": "The Single-source justification case is governed by the sole_source_policy",
+      "independent_decision": null,
+      "independent_evidence": [
+        "{\"content\": \"[controlling_rule] The Single-source justification case is governed by the sole_source_policy.\", \"doc_id\": \"policy\"}"
+      ],
+      "independent_input_tokens": 639,
+      "independent_latency_ms": 5237,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 71,
+      "independent_status": "ok",
+      "question_id": "Q1",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "boolean",
+      "batched_answer": "false",
+      "batched_decision": "False",
+      "batched_evidence": [
+        "core_record",
+        "support_note"
+      ],
+      "batched_input_tokens": 1004,
+      "batched_latency_ms": 51100,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 577,
+      "batched_status": "ok",
+      "case_id": "procure_021",
+      "independent_answer": null,
+      "independent_decision": "error",
+      "independent_evidence": [],
+      "independent_input_tokens": 0,
+      "independent_latency_ms": 0,
+      "independent_missing": [],
+      "independent_ok": false,
+      "independent_output_tokens": 0,
+      "independent_status": "error",
+      "question_id": "Q4",
+      "relation_bucket": "ab_flip",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "identifier",
+      "batched_answer": "PROC-3301",
+      "batched_decision": "",
+      "batched_evidence": [
+        "nuisance_memo"
+      ],
+      "batched_input_tokens": 1004,
+      "batched_latency_ms": 50219,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 545,
+      "batched_status": "ok",
+      "case_id": "procure_021",
+      "independent_answer": "PROC-3301",
+      "independent_decision": null,
+      "independent_evidence": [
+        "[\"doc_id=nuisance_memo\"]"
+      ],
+      "independent_input_tokens": 640,
+      "independent_latency_ms": 4720,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 41,
+      "independent_status": "ok",
+      "question_id": "Q2",
+      "relation_bucket": "ac_nuisance_flip",
+      "variant_id": "C"
+    },
+    {
+      "answer_type": "datetime",
+      "batched_answer": "2026-11-01T14:00:00Z",
+      "batched_decision": "",
+      "batched_evidence": [
+        "nuisance_memo"
+      ],
+      "batched_input_tokens": 1004,
+      "batched_latency_ms": 49040,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 545,
+      "batched_status": "ok",
+      "case_id": "procure_021",
+      "independent_answer": "2026-11-01T14:00:00",
+      "independent_decision": null,
+      "independent_evidence": [],
+      "independent_input_tokens": 639,
+      "independent_latency_ms": 3762,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 30,
+      "independent_status": "ok",
+      "question_id": "Q3",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "categorical",
+      "batched_answer": "The supplier registry is authoritative",
+      "batched_decision": "registry",
+      "batched_evidence": [
+        "01_реестр_проверки_поставщиков"
+      ],
+      "batched_input_tokens": 941,
+      "batched_latency_ms": 55771,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 551,
+      "batched_status": "ok",
+      "case_id": "procure_022",
+      "independent_answer": null,
+      "independent_decision": "registry",
+      "independent_evidence": [
+        "01_реестр_проверки_поставщиков"
+      ],
+      "independent_input_tokens": 560,
+      "independent_latency_ms": 4310,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 40,
+      "independent_status": "ok",
+      "question_id": "Q1",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "boolean",
+      "batched_answer": "false",
+      "batched_decision": "False",
+      "batched_evidence": [
+        "02_декларация_антикоррупционная"
+      ],
+      "batched_input_tokens": 946,
+      "batched_latency_ms": 58648,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 553,
+      "batched_status": "ok",
+      "case_id": "procure_022",
+      "independent_answer": null,
+      "independent_decision": "insufficient_information",
+      "independent_evidence": [
+        "01_реестр_проверки_поставщиков"
+      ],
+      "independent_input_tokens": 563,
+      "independent_latency_ms": 3968,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 42,
+      "independent_status": "ok",
+      "question_id": "Q3",
+      "relation_bucket": "ab_flip",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "boolean",
+      "batched_answer": "true",
+      "batched_decision": "True",
+      "batched_evidence": [
+        "03_сертификат"
+      ],
+      "batched_input_tokens": 949,
+      "batched_latency_ms": 51454,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 566,
+      "batched_status": "ok",
+      "case_id": "procure_022",
+      "independent_answer": null,
+      "independent_decision": "True",
+      "independent_evidence": [
+        "[doc_id=03_сертификат]"
+      ],
+      "independent_input_tokens": 568,
+      "independent_latency_ms": 3711,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 36,
+      "independent_status": "ok",
+      "question_id": "Q8",
+      "relation_bucket": "ac_nuisance_flip",
+      "variant_id": "C"
+    },
+    {
+      "answer_type": "datetime",
+      "batched_answer": "1231-01-01T00:00:00Z",
+      "batched_decision": "not_2026-06-20T10:00:00",
+      "batched_evidence": [
+        "04_лист_проверки_закупки"
+      ],
+      "batched_input_tokens": 941,
+      "batched_latency_ms": 55771,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 551,
+      "batched_status": "ok",
+      "case_id": "procure_022",
+      "independent_answer": null,
+      "independent_decision": "insufficient_information",
+      "independent_evidence": [
+        "[DOCUMENT doc_id=01_реестр_проверки_поставщиков]",
+        "[DOCUMENT doc_id=04_лист_проверки_закупки]"
+      ],
+      "independent_input_tokens": 596,
+      "independent_latency_ms": 4899,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 66,
+      "independent_status": "ok",
+      "question_id": "Q2",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "categorical",
+      "batched_answer": "lease_notice_rule",
+      "batched_decision": "insufficient_information",
+      "batched_evidence": [
+        "policy"
+      ],
+      "batched_input_tokens": 995,
+      "batched_latency_ms": 47841,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 576,
+      "batched_status": "ok",
+      "case_id": "property_025",
+      "independent_answer": "lease_notice_rule",
+      "independent_decision": null,
+      "independent_evidence": [
+        "policy"
+      ],
+      "independent_input_tokens": 628,
+      "independent_latency_ms": 3547,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 23,
+      "independent_status": "ok",
+      "question_id": "Q1",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "boolean",
+      "batched_answer": "true",
+      "batched_decision": "True",
+      "batched_evidence": [
+        "core_record"
+      ],
+      "batched_input_tokens": 994,
+      "batched_latency_ms": 48425,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 580,
+      "batched_status": "ok",
+      "case_id": "property_025",
+      "independent_answer": null,
+      "independent_decision": "error",
+      "independent_evidence": [],
+      "independent_input_tokens": 0,
+      "independent_latency_ms": 0,
+      "independent_missing": [],
+      "independent_ok": false,
+      "independent_output_tokens": 0,
+      "independent_status": "error",
+      "question_id": "Q4",
+      "relation_bucket": "ab_flip",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "identifier",
+      "batched_answer": "LEASE-3301",
+      "batched_decision": "insufficient_information",
+      "batched_evidence": [
+        "nuisance_memo"
+      ],
+      "batched_input_tokens": 995,
+      "batched_latency_ms": 48450,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 576,
+      "batched_status": "ok",
+      "case_id": "property_025",
+      "independent_answer": "LEASE-3301",
+      "independent_decision": null,
+      "independent_evidence": [
+        "doc_id=nuisance_memo"
+      ],
+      "independent_input_tokens": 628,
+      "independent_latency_ms": 3646,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 33,
+      "independent_status": "ok",
+      "question_id": "Q2",
+      "relation_bucket": "ac_nuisance_flip",
+      "variant_id": "C"
+    },
+    {
+      "answer_type": "datetime",
+      "batched_answer": "2026-12-15T10:00:00Z",
+      "batched_decision": "insufficient_information",
+      "batched_evidence": [
+        "nuisance_memo"
+      ],
+      "batched_input_tokens": 995,
+      "batched_latency_ms": 47841,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 576,
+      "batched_status": "ok",
+      "case_id": "property_025",
+      "independent_answer": "2026-12-15T10:00:00",
+      "independent_decision": null,
+      "independent_evidence": [
+        "[DOCUMENT doc_id=nuisance_memo]"
+      ],
+      "independent_input_tokens": 627,
+      "independent_latency_ms": 4363,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 53,
+      "independent_status": "ok",
+      "question_id": "Q3",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "categorical",
+      "batched_answer": "lease_guarantee_clause",
+      "batched_decision": "insufficient_information",
+      "batched_evidence": [
+        "policy"
+      ],
+      "batched_input_tokens": 997,
+      "batched_latency_ms": 52594,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 585,
+      "batched_status": "ok",
+      "case_id": "property_026",
+      "independent_answer": "lease_guarantee_clause",
+      "independent_decision": null,
+      "independent_evidence": [
+        "policy"
+      ],
+      "independent_input_tokens": 633,
+      "independent_latency_ms": 3663,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 25,
+      "independent_status": "ok",
+      "question_id": "Q1",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "boolean",
+      "batched_answer": "true",
+      "batched_decision": "True",
+      "batched_evidence": [
+        "decision_memo"
+      ],
+      "batched_input_tokens": 992,
+      "batched_latency_ms": 51845,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 577,
+      "batched_status": "ok",
+      "case_id": "property_026",
+      "independent_answer": null,
+      "independent_decision": "error",
+      "independent_evidence": [],
+      "independent_input_tokens": 0,
+      "independent_latency_ms": 0,
+      "independent_missing": [],
+      "independent_ok": false,
+      "independent_output_tokens": 0,
+      "independent_status": "error",
+      "question_id": "Q4",
+      "relation_bucket": "ab_flip",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "identifier",
+      "batched_answer": "LEASE-3301",
+      "batched_decision": "insufficient_information",
+      "batched_evidence": [
+        "nuisance_memo"
+      ],
+      "batched_input_tokens": 997,
+      "batched_latency_ms": 49057,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 585,
+      "batched_status": "ok",
+      "case_id": "property_026",
+      "independent_answer": "LEASE-3301",
+      "independent_decision": null,
+      "independent_evidence": [
+        "doc_id=nuisance_memo"
+      ],
+      "independent_input_tokens": 634,
+      "independent_latency_ms": 4369,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 33,
+      "independent_status": "ok",
+      "question_id": "Q2",
+      "relation_bucket": "ac_nuisance_flip",
+      "variant_id": "C"
+    },
+    {
+      "answer_type": "datetime",
+      "batched_answer": "2026-10-15T09:00:00Z",
+      "batched_decision": "insufficient_information",
+      "batched_evidence": [
+        "nuisance_memo"
+      ],
+      "batched_input_tokens": 997,
+      "batched_latency_ms": 52594,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 585,
+      "batched_status": "ok",
+      "case_id": "property_026",
+      "independent_answer": "2026-10-15T09:00:00",
+      "independent_decision": null,
+      "independent_evidence": [
+        "[DOCUMENT doc_id=nuisance_memo]"
+      ],
+      "independent_input_tokens": 633,
+      "independent_latency_ms": 4835,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 53,
+      "independent_status": "ok",
+      "question_id": "Q3",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "categorical",
+      "batched_answer": "freight_contract",
+      "batched_decision": "insufficient_information",
+      "batched_evidence": [
+        "policy"
+      ],
+      "batched_input_tokens": 990,
+      "batched_latency_ms": 49200,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 587,
+      "batched_status": "ok",
+      "case_id": "shipping_027",
+      "independent_answer": "freight_contract",
+      "independent_decision": null,
+      "independent_evidence": [
+        "policy"
+      ],
+      "independent_input_tokens": 624,
+      "independent_latency_ms": 3726,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 23,
+      "independent_status": "ok",
+      "question_id": "Q1",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "boolean",
+      "batched_answer": "false",
+      "batched_decision": "False",
+      "batched_evidence": [
+        "core_record"
+      ],
+      "batched_input_tokens": 991,
+      "batched_latency_ms": 38797,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 584,
+      "batched_status": "ok",
+      "case_id": "shipping_027",
+      "independent_answer": null,
+      "independent_decision": "error",
+      "independent_evidence": [],
+      "independent_input_tokens": 0,
+      "independent_latency_ms": 0,
+      "independent_missing": [],
+      "independent_ok": false,
+      "independent_output_tokens": 0,
+      "independent_status": "error",
+      "question_id": "Q4",
+      "relation_bucket": "ab_flip",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "identifier",
+      "batched_answer": "FRT-3301",
+      "batched_decision": "insufficient_information",
+      "batched_evidence": [
+        "nuisance_memo"
+      ],
+      "batched_input_tokens": 990,
+      "batched_latency_ms": 36358,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 587,
+      "batched_status": "ok",
+      "case_id": "shipping_027",
+      "independent_answer": "FRT-3301",
+      "independent_decision": null,
+      "independent_evidence": [
+        "doc_id=nuisance_memo"
+      ],
+      "independent_input_tokens": 625,
+      "independent_latency_ms": 3827,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 34,
+      "independent_status": "ok",
+      "question_id": "Q2",
+      "relation_bucket": "ac_nuisance_flip",
+      "variant_id": "C"
+    },
+    {
+      "answer_type": "datetime",
+      "batched_answer": "2026-08-10T17:00:00Z",
+      "batched_decision": "insufficient_information",
+      "batched_evidence": [
+        "nuisance_memo"
+      ],
+      "batched_input_tokens": 990,
+      "batched_latency_ms": 49200,
+      "batched_missing": [],
+      "batched_ok": true,
+      "batched_output_tokens": 587,
+      "batched_status": "ok",
+      "case_id": "shipping_027",
+      "independent_answer": "2026-08-10T17:00:00",
+      "independent_decision": null,
+      "independent_evidence": [
+        "[DOCUMENT doc_id=nuisance_memo]"
+      ],
+      "independent_input_tokens": 624,
+      "independent_latency_ms": 4292,
+      "independent_missing": [],
+      "independent_ok": true,
+      "independent_output_tokens": 53,
+      "independent_status": "ok",
+      "question_id": "Q3",
+      "relation_bucket": "ab_invariant",
+      "variant_id": "A"
+    }
+  ],
+  "selection": [
+    {
+      "answer_type": "status",
+      "case_id": "acceptance_004",
+      "question_id": "Q1",
+      "reason": "legacy_A",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "money",
+      "case_id": "acceptance_004",
+      "question_id": "Q2",
+      "reason": "legacy_B",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "status",
+      "case_id": "amendment_007",
+      "question_id": "Q1",
+      "reason": "legacy_A",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "categorical",
+      "case_id": "amendment_007",
+      "question_id": "Q2",
+      "reason": "legacy_B",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "status",
+      "case_id": "approval_chain_009",
+      "question_id": "Q1",
+      "reason": "legacy_A",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "date",
+      "case_id": "approval_chain_009",
+      "question_id": "Q4",
+      "reason": "legacy_B",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "status",
+      "case_id": "asset_scope_010",
+      "question_id": "Q1",
+      "reason": "legacy_A",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "money",
+      "case_id": "asset_scope_010",
+      "question_id": "Q3",
+      "reason": "legacy_B",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "categorical",
+      "case_id": "authority_003",
+      "question_id": "Q1",
+      "reason": "legacy_A",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "money",
+      "case_id": "authority_003",
+      "question_id": "Q3",
+      "reason": "legacy_B",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "status",
+      "case_id": "notice_005",
+      "question_id": "Q1",
+      "reason": "legacy_A",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "categorical",
+      "case_id": "notice_005",
+      "question_id": "Q2",
+      "reason": "legacy_B",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "money",
+      "case_id": "procurement_002",
+      "question_id": "Q1",
+      "reason": "legacy_A",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "date",
+      "case_id": "procurement_002",
+      "question_id": "Q4",
+      "reason": "legacy_B",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "status",
+      "case_id": "reconciliation_006",
+      "question_id": "Q1",
+      "reason": "legacy_A",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "money",
+      "case_id": "reconciliation_006",
+      "question_id": "Q2",
+      "reason": "legacy_B",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "status",
+      "case_id": "sla_008",
+      "question_id": "Q1",
+      "reason": "legacy_A",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "money",
+      "case_id": "sla_008",
+      "question_id": "Q2",
+      "reason": "legacy_B",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "money",
+      "case_id": "trip_001",
+      "question_id": "Q1",
+      "reason": "legacy_A",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "threshold",
+      "case_id": "trip_001",
+      "question_id": "Q3",
+      "reason": "legacy_B",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "categorical",
+      "case_id": "finance_028",
+      "question_id": "Q1",
+      "reason": "three_variant_A",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "boolean",
+      "case_id": "finance_028",
+      "question_id": "Q4",
+      "reason": "three_variant_B",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "identifier",
+      "case_id": "finance_028",
+      "question_id": "Q2",
+      "reason": "three_variant_C",
+      "variant_id": "C"
+    },
+    {
+      "answer_type": "datetime",
+      "case_id": "finance_028",
+      "question_id": "Q3",
+      "reason": "three_variant_extra",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "categorical",
+      "case_id": "finset_011",
+      "question_id": "Q1",
+      "reason": "three_variant_A",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "boolean",
+      "case_id": "finset_011",
+      "question_id": "Q4",
+      "reason": "three_variant_B",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "identifier",
+      "case_id": "finset_011",
+      "question_id": "Q2",
+      "reason": "three_variant_C",
+      "variant_id": "C"
+    },
+    {
+      "answer_type": "datetime",
+      "case_id": "finset_011",
+      "question_id": "Q3",
+      "reason": "three_variant_extra",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "categorical",
+      "case_id": "finset_012",
+      "question_id": "Q1",
+      "reason": "three_variant_A",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "boolean",
+      "case_id": "finset_012",
+      "question_id": "Q4",
+      "reason": "three_variant_B",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "identifier",
+      "case_id": "finset_012",
+      "question_id": "Q2",
+      "reason": "three_variant_C",
+      "variant_id": "C"
+    },
+    {
+      "answer_type": "datetime",
+      "case_id": "finset_012",
+      "question_id": "Q3",
+      "reason": "three_variant_extra",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "date",
+      "case_id": "hr_019",
+      "question_id": "Q1",
+      "reason": "three_variant_A",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "date",
+      "case_id": "hr_019",
+      "question_id": "Q2",
+      "reason": "three_variant_B",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "boolean",
+      "case_id": "hr_019",
+      "question_id": "Q8",
+      "reason": "three_variant_C",
+      "variant_id": "C"
+    },
+    {
+      "answer_type": "identifier",
+      "case_id": "hr_019",
+      "question_id": "Q10",
+      "reason": "three_variant_extra",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "categorical",
+      "case_id": "hr_020",
+      "question_id": "Q1",
+      "reason": "three_variant_A",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "boolean",
+      "case_id": "hr_020",
+      "question_id": "Q4",
+      "reason": "three_variant_B",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "identifier",
+      "case_id": "hr_020",
+      "question_id": "Q2",
+      "reason": "three_variant_C",
+      "variant_id": "C"
+    },
+    {
+      "answer_type": "datetime",
+      "case_id": "hr_020",
+      "question_id": "Q3",
+      "reason": "three_variant_extra",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "categorical",
+      "case_id": "hr_030",
+      "question_id": "Q1",
+      "reason": "three_variant_A",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "boolean",
+      "case_id": "hr_030",
+      "question_id": "Q4",
+      "reason": "three_variant_B",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "identifier",
+      "case_id": "hr_030",
+      "question_id": "Q2",
+      "reason": "three_variant_C",
+      "variant_id": "C"
+    },
+    {
+      "answer_type": "datetime",
+      "case_id": "hr_030",
+      "question_id": "Q3",
+      "reason": "three_variant_extra",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "categorical",
+      "case_id": "infosec_029",
+      "question_id": "Q1",
+      "reason": "three_variant_A",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "boolean",
+      "case_id": "infosec_029",
+      "question_id": "Q4",
+      "reason": "three_variant_B",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "identifier",
+      "case_id": "infosec_029",
+      "question_id": "Q2",
+      "reason": "three_variant_C",
+      "variant_id": "C"
+    },
+    {
+      "answer_type": "datetime",
+      "case_id": "infosec_029",
+      "question_id": "Q3",
+      "reason": "three_variant_extra",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "categorical",
+      "case_id": "iplic_015",
+      "question_id": "Q1",
+      "reason": "three_variant_A",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "boolean",
+      "case_id": "iplic_015",
+      "question_id": "Q4",
+      "reason": "three_variant_B",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "identifier",
+      "case_id": "iplic_015",
+      "question_id": "Q2",
+      "reason": "three_variant_C",
+      "variant_id": "C"
+    },
+    {
+      "answer_type": "datetime",
+      "case_id": "iplic_015",
+      "question_id": "Q3",
+      "reason": "three_variant_extra",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "boolean",
+      "case_id": "iplic_016",
+      "question_id": "Q2",
+      "reason": "three_variant_A",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "boolean",
+      "case_id": "iplic_016",
+      "question_id": "Q1",
+      "reason": "three_variant_B",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "boolean",
+      "case_id": "iplic_016",
+      "question_id": "Q9",
+      "reason": "three_variant_C",
+      "variant_id": "C"
+    },
+    {
+      "answer_type": "code_set",
+      "case_id": "iplic_016",
+      "question_id": "Q5",
+      "reason": "three_variant_extra",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "categorical",
+      "case_id": "it_023",
+      "question_id": "Q1",
+      "reason": "three_variant_A",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "boolean",
+      "case_id": "it_023",
+      "question_id": "Q4",
+      "reason": "three_variant_B",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "identifier",
+      "case_id": "it_023",
+      "question_id": "Q2",
+      "reason": "three_variant_C",
+      "variant_id": "C"
+    },
+    {
+      "answer_type": "datetime",
+      "case_id": "it_023",
+      "question_id": "Q3",
+      "reason": "three_variant_extra",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "categorical",
+      "case_id": "it_024",
+      "question_id": "Q1",
+      "reason": "three_variant_A",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "boolean",
+      "case_id": "it_024",
+      "question_id": "Q4",
+      "reason": "three_variant_B",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "identifier",
+      "case_id": "it_024",
+      "question_id": "Q2",
+      "reason": "three_variant_C",
+      "variant_id": "C"
+    },
+    {
+      "answer_type": "datetime",
+      "case_id": "it_024",
+      "question_id": "Q3",
+      "reason": "three_variant_extra",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "categorical",
+      "case_id": "logistics_013",
+      "question_id": "Q1",
+      "reason": "three_variant_A",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "boolean",
+      "case_id": "logistics_013",
+      "question_id": "Q4",
+      "reason": "three_variant_B",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "identifier",
+      "case_id": "logistics_013",
+      "question_id": "Q2",
+      "reason": "three_variant_C",
+      "variant_id": "C"
+    },
+    {
+      "answer_type": "datetime",
+      "case_id": "logistics_013",
+      "question_id": "Q3",
+      "reason": "three_variant_extra",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "categorical",
+      "case_id": "logistics_014",
+      "question_id": "Q1",
+      "reason": "three_variant_A",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "boolean",
+      "case_id": "logistics_014",
+      "question_id": "Q2",
+      "reason": "three_variant_B",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "boolean",
+      "case_id": "logistics_014",
+      "question_id": "Q9",
+      "reason": "three_variant_C",
+      "variant_id": "C"
+    },
+    {
+      "answer_type": "integer",
+      "case_id": "logistics_014",
+      "question_id": "Q7",
+      "reason": "three_variant_extra",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "categorical",
+      "case_id": "privacy_017",
+      "question_id": "Q2",
+      "reason": "three_variant_A",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "categorical",
+      "case_id": "privacy_017",
+      "question_id": "Q1",
+      "reason": "three_variant_B",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "boolean",
+      "case_id": "privacy_017",
+      "question_id": "Q8",
+      "reason": "three_variant_C",
+      "variant_id": "C"
+    },
+    {
+      "answer_type": "categorical",
+      "case_id": "privacy_017",
+      "question_id": "Q1",
+      "reason": "three_variant_extra",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "categorical",
+      "case_id": "privacy_018",
+      "question_id": "Q1",
+      "reason": "three_variant_A",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "boolean",
+      "case_id": "privacy_018",
+      "question_id": "Q4",
+      "reason": "three_variant_B",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "identifier",
+      "case_id": "privacy_018",
+      "question_id": "Q2",
+      "reason": "three_variant_C",
+      "variant_id": "C"
+    },
+    {
+      "answer_type": "datetime",
+      "case_id": "privacy_018",
+      "question_id": "Q3",
+      "reason": "three_variant_extra",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "categorical",
+      "case_id": "procure_021",
+      "question_id": "Q1",
+      "reason": "three_variant_A",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "boolean",
+      "case_id": "procure_021",
+      "question_id": "Q4",
+      "reason": "three_variant_B",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "identifier",
+      "case_id": "procure_021",
+      "question_id": "Q2",
+      "reason": "three_variant_C",
+      "variant_id": "C"
+    },
+    {
+      "answer_type": "datetime",
+      "case_id": "procure_021",
+      "question_id": "Q3",
+      "reason": "three_variant_extra",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "categorical",
+      "case_id": "procure_022",
+      "question_id": "Q1",
+      "reason": "three_variant_A",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "boolean",
+      "case_id": "procure_022",
+      "question_id": "Q3",
+      "reason": "three_variant_B",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "boolean",
+      "case_id": "procure_022",
+      "question_id": "Q8",
+      "reason": "three_variant_C",
+      "variant_id": "C"
+    },
+    {
+      "answer_type": "datetime",
+      "case_id": "procure_022",
+      "question_id": "Q2",
+      "reason": "three_variant_extra",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "categorical",
+      "case_id": "property_025",
+      "question_id": "Q1",
+      "reason": "three_variant_A",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "boolean",
+      "case_id": "property_025",
+      "question_id": "Q4",
+      "reason": "three_variant_B",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "identifier",
+      "case_id": "property_025",
+      "question_id": "Q2",
+      "reason": "three_variant_C",
+      "variant_id": "C"
+    },
+    {
+      "answer_type": "datetime",
+      "case_id": "property_025",
+      "question_id": "Q3",
+      "reason": "three_variant_extra",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "categorical",
+      "case_id": "property_026",
+      "question_id": "Q1",
+      "reason": "three_variant_A",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "boolean",
+      "case_id": "property_026",
+      "question_id": "Q4",
+      "reason": "three_variant_B",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "identifier",
+      "case_id": "property_026",
+      "question_id": "Q2",
+      "reason": "three_variant_C",
+      "variant_id": "C"
+    },
+    {
+      "answer_type": "datetime",
+      "case_id": "property_026",
+      "question_id": "Q3",
+      "reason": "three_variant_extra",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "categorical",
+      "case_id": "shipping_027",
+      "question_id": "Q1",
+      "reason": "three_variant_A",
+      "variant_id": "A"
+    },
+    {
+      "answer_type": "boolean",
+      "case_id": "shipping_027",
+      "question_id": "Q4",
+      "reason": "three_variant_B",
+      "variant_id": "B"
+    },
+    {
+      "answer_type": "identifier",
+      "case_id": "shipping_027",
+      "question_id": "Q2",
+      "reason": "three_variant_C",
+      "variant_id": "C"
+    },
+    {
+      "answer_type": "datetime",
+      "case_id": "shipping_027",
+      "question_id": "Q3",
+      "reason": "three_variant_extra",
+      "variant_id": "A"
+    }
+  ],
+  "summary": {
+    "agreement_all_100": {
+      "answer": 0.39,
+      "decision": 0.11,
+      "evidence": 0.17,
+      "missing_information": 1.0
+    },
+    "agreement_successful_only": {
+      "answer": 0.46987951807228917,
+      "decision": 0.13253012048192772,
+      "evidence": 0.1927710843373494,
+      "missing_information": 1.0
+    },
+    "answer_type_counts": {
+      "boolean": 24,
+      "categorical": 20,
+      "code_set": 1,
+      "date": 4,
+      "datetime": 16,
+      "identifier": 16,
+      "integer": 1,
+      "money": 7,
+      "status": 10,
+      "threshold": 1
+    },
+    "batched_report_overall": {
+      "answer_accuracy": 0.66,
+      "count": 100,
+      "decision_accuracy": 0.8,
+      "decision_required_count": 35,
+      "evidence_f1": 0.7233333333333333,
+      "evidence_precision": 0.7183333333333333,
+      "evidence_recall": 0.735,
+      "missing_information_accuracy": 1.0,
+      "unsupported_evidence_rate": 0.27166666666666667
+    },
+    "by_answer_type": {
+      "boolean": {
+        "answer_agreement": 0.0,
+        "count": 24,
+        "decision_agreement": 0.25,
+        "evidence_agreement": 0.125,
+        "independent_failure_rate": 0.625,
+        "missing_information_agreement": 1.0
+      },
+      "categorical": {
+        "answer_agreement": 0.55,
+        "count": 20,
+        "decision_agreement": 0.1,
+        "evidence_agreement": 0.7,
+        "independent_failure_rate": 0.0,
+        "missing_information_agreement": 1.0
+      },
+      "code_set": {
+        "answer_agreement": 0.0,
+        "count": 1,
+        "decision_agreement": 0.0,
+        "evidence_agreement": 0.0,
+        "independent_failure_rate": 1.0,
+        "missing_information_agreement": 1.0
+      },
+      "date": {
+        "answer_agreement": 0.0,
+        "count": 4,
+        "decision_agreement": 0.5,
+        "evidence_agreement": 0.0,
+        "independent_failure_rate": 0.0,
+        "missing_information_agreement": 1.0
+      },
+      "datetime": {
+        "answer_agreement": 0.0,
+        "count": 16,
+        "decision_agreement": 0.0,
+        "evidence_agreement": 0.0,
+        "independent_failure_rate": 0.0,
+        "missing_information_agreement": 1.0
+      },
+      "identifier": {
+        "answer_agreement": 0.9375,
+        "count": 16,
+        "decision_agreement": 0.0625,
+        "evidence_agreement": 0.0,
+        "independent_failure_rate": 0.0,
+        "missing_information_agreement": 1.0
+      },
+      "integer": {
+        "answer_agreement": 0.0,
+        "count": 1,
+        "decision_agreement": 0.0,
+        "evidence_agreement": 0.0,
+        "independent_failure_rate": 0.0,
+        "missing_information_agreement": 1.0
+      },
+      "money": {
+        "answer_agreement": 1.0,
+        "count": 7,
+        "decision_agreement": 0.0,
+        "evidence_agreement": 0.0,
+        "independent_failure_rate": 0.0,
+        "missing_information_agreement": 1.0
+      },
+      "status": {
+        "answer_agreement": 0.6,
+        "count": 10,
+        "decision_agreement": 0.0,
+        "evidence_agreement": 0.0,
+        "independent_failure_rate": 0.0,
+        "missing_information_agreement": 1.0
+      },
+      "threshold": {
+        "answer_agreement": 0.0,
+        "count": 1,
+        "decision_agreement": 0.0,
+        "evidence_agreement": 0.0,
+        "independent_failure_rate": 1.0,
+        "missing_information_agreement": 1.0
+      }
+    },
+    "by_relation": {
+      "ab_flip": {
+        "answer_agreement": 0.0,
+        "count": 22,
+        "decision_agreement": 0.13636363636363635,
+        "evidence_agreement": 0.13636363636363635,
+        "independent_failure_rate": 0.6818181818181818,
+        "missing_information_agreement": 1.0
+      },
+      "ab_invariant": {
+        "answer_agreement": 0.41379310344827586,
+        "count": 58,
+        "decision_agreement": 0.06896551724137931,
+        "evidence_agreement": 0.22413793103448276,
+        "independent_failure_rate": 0.034482758620689655,
+        "missing_information_agreement": 1.0
+      },
+      "ac_nuisance_flip": {
+        "answer_agreement": 0.75,
+        "count": 20,
+        "decision_agreement": 0.2,
+        "evidence_agreement": 0.05,
+        "independent_failure_rate": 0.0,
+        "missing_information_agreement": 1.0
+      }
+    },
+    "independent_failed": 17,
+    "independent_failure_rate": 0.17,
+    "independent_report_overall": {
+      "answer_accuracy": 0.58,
+      "count": 100,
+      "decision_accuracy": 0.2857142857142857,
+      "decision_required_count": 35,
+      "evidence_f1": 0.5833333333333334,
+      "evidence_precision": 0.575,
+      "evidence_recall": 0.6,
+      "missing_information_accuracy": 1.0,
+      "unsupported_evidence_rate": 0.215
+    },
+    "independent_successful": 83,
+    "mean_input_tokens": {
+      "batched": 1511.43,
+      "independent": 799.67
+    },
+    "mean_latency_ms": {
+      "batched": 52395.58,
+      "independent": 4628.72
+    },
+    "mean_output_tokens": {
+      "batched": 617.65,
+      "independent": 39.9
+    },
+    "relation_counts": {
+      "ab_flip": 22,
+      "ab_invariant": 58,
+      "ac_nuisance_flip": 20
+    },
+    "sample_cases": 30,
+    "sample_prompt_sha256": "c9a947a0722d67c34c96225055ca944038a73bbd7a86f6b84b2fe0225bf485f7",
+    "sample_size": 100,
+    "sample_variants": 80,
+    "schema_failure_rate": {
+      "batched": 0.0,
+      "independent": 0.17
+    },
+    "selected_keys_hash": "caea538a0aa31f4ff4eb4d2b06f0b32e49b105b053613e8e59cb8675ebd09964"
+  }
+}

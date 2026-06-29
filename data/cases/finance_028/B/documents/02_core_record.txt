@@ -1,0 +1,5 @@
+[substantive_fact] The receipt is substantiated.
+[amount] 0
+[deadline_date] 2026-09-18
+[identifier] ADV-2801
+[code_set] substantiation | receipts

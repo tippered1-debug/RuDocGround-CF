@@ -1,0 +1,35 @@
+case_id,kind,domain,answer_type,reasoning_skill,evidence_skill,missing_information_skill,perturbation_type,expected_flip,expected_invariance,represents_new_area
+authority_003,existing,corporate authority and contract signing,yes_no;enum,authority_scope,evidence_lookup,no,scope_of_authority_change,authorization validity,dates;parties;document ids,no
+trip_001,existing,travel and expense reconciliation,amount;date;enum,numeric_reconciliation,evidence_lookup,no,trip date change,expense approval,receipt metadata;signers;route,no
+acceptance_004,existing,service acceptance and completion,yes_no;enum,acceptance_reasoning,evidence_lookup,no,acceptance condition,acceptance decision,parties;baseline dates;contract refs,no
+procurement_002,existing,procurement approval,yes_no;enum,approval_chain,evidence_lookup,no,approval sequence,procurement approval,vendor identity;request id;dates,no
+notice_005,existing,contract notice and automatic renewal,yes_no;date;enum,time_window_reasoning,evidence_lookup,no,notice delivery date,renewal or termination,date-neutral metadata;vendor identity,no
+reconciliation_006,existing,financial reconciliation,amount;enum,numeric_reconciliation,evidence_lookup,no,reconciliation amount,settlement outcome,document headers;counterparties,no
+amendment_007,existing,amendment and pricing change,amount;yes_no,clause_interpretation,evidence_lookup,no,amendment effective date or price,contract existence,parties;baseline contract terms,no
+sla_008,existing,IT SLA service reporting,amount;yes_no;enum,timing_and_service_level,evidence_lookup,no,SLA event timing,service credit eligibility,service owner;ticket id;month,no
+approval_chain_009,existing,privileged access approval,yes_no;enum,approval_chain,evidence_lookup,no,access approval path,access validity,employee name;system name;dates,no
+asset_scope_010,existing,asset billing scope and eligibility,yes_no;amount,scope_and_billing,evidence_lookup,no,asset scope,charge eligibility,asset class;counterparty;dates,no
+finset_011,new,finance and calculations,amount;yes_no;enum,numeric_reconciliation,evidence_lookup,no,line-item scope shift,payment amount or reimburseability,contract metadata;invoice metadata;signatures,yes
+finset_012,new,finance and calculations,amount;date;enum,threshold_interpretation,evidence_lookup,no,FX/index threshold trigger,indexation basis,service period;vendor;invoice reference,yes
+logistics_013,new,supply and logistics,date;enum;yes_no,chain_of_custody_reasoning,evidence_lookup,no,split receipt location,acceptance and payment eligibility,carrier;shipment number;delivery date,yes
+logistics_014,new,supply and logistics,yes_no;enum;boolean,evidence_conflict_resolution,conflict_resolution,yes,temperature excursion,acceptance or rejection,product type;route;consignee,yes
+iplic_015,new,licenses and IP,yes_no;enum;date,scope_limitation_reasoning,evidence_lookup,no,territory narrowing,distribution rights or renewal,license term;licensor;document date,yes
+iplic_016,new,licenses and IP,yes_no;enum;text_enum,conditional_contract_logic,evidence_lookup,no,escrow trigger met,source-code release,support timestamp;ownership;project name,yes
+privacy_017,new,privacy and infosec,yes_no;enum;multi_select,compliance_reasoning,evidence_lookup,no,legal basis shift,cross-border transfer decision,data category;processor;onboarding date,yes
+privacy_018,new,privacy and infosec,date;yes_no;enum,time_window_reasoning,evidence_lookup,no,72-hour clock shift,notification timeliness,system affected;drafter;incident type,yes
+hr_019,new,HR access and authority,yes_no;date;enum,authorization_timing,evidence_lookup,no,employment end vs approval,access validity or revocation,employee id;system;manager,yes
+hr_020,new,HR access and authority,yes_no;enum,authority_scope_reasoning,evidence_lookup,no,delegation excludes class,signature validity,delegate name;amount;execution date,yes
+procure_021,new,procurement and compliance,yes_no;enum;missing,missing_information_reasoning,incomplete_record,yes,missing comparator,approval unsupported or blocked,vendor;purchase category;quote date,yes
+procure_022,new,procurement and compliance,yes_no;enum;evidence_link,contradiction_resolution,conflict_resolution,no,certificate vs registry mismatch,vendor eligibility,vendor name;procurement date;category,yes
+it_023,new,IT / SLA,amount;yes_no;enum,timing_plus_clause_precedence,evidence_lookup,no,deadline crossing,service credit or waiver,service;outage duration;reporter,yes
+it_024,new,IT / SLA,yes_no;enum;date,process_compliance,evidence_lookup,no,wrong-tier escalation,SLA breach finding,incident id;system;opened by,yes
+property_025,new,lease property and guarantees,yes_no;date;enum,temporal_option_window,evidence_lookup,no,notice window shift,renewal lapse or continuation,premises;tenant;lease term,yes
+property_026,new,lease property and guarantees,amount;yes_no;enum,conditional_offset,evidence_lookup,no,signed repair act gate,deposit offset right or balance,lease start;tenant;repair amount,yes
+shipping_027,new,supply and logistics,yes_no;date;enum,liability_allocation,evidence_lookup,no,risk-transfer clause,carrier liability,route;shipper;damage date,yes
+finance_028,new,finance and calculations,amount;yes_no;enum,evidence_sufficiency,evidence_lookup,yes,receipt substantiation,approved amount,employee;trip purpose;report date,yes
+infosec_029,new,privacy and infosec,yes_no;enum;date,access_time_condition,evidence_lookup,no,emergency expiry,access validity or incident finding,system;approver;emergency reason,yes
+hr_030,new,HR access and authority,yes_no;enum;missing,completion_missing_info,incomplete_record,yes,missing return item,exit clearance blocked or complete,employee role;last day;signer,yes
+
+summary,existing_overrepresented,travel;authority;procurement;notice;IT SLA,amount;yes_no;enum,time_window_reasoning;authority_scope;numeric_reconciliation,evidence_lookup,no,yes,common patterns,common patterns,no
+summary,existing_missing,privacy;IP;property;logistics_conflict;HR_exit,missing;multi_select;text_enum,conflict_resolution;conditional_logic;liability_allocation,evidence_lookup,yes,new coverage areas,new coverage areas,yes
+

@@ -1,0 +1,7165 @@
+{
+  "overall": {
+    "count": 320,
+    "answer_accuracy": 1.0,
+    "decision_accuracy": 1.0,
+    "decision_required_count": 166,
+    "evidence_precision": 1.0,
+    "evidence_recall": 1.0,
+    "evidence_f1": 1.0,
+    "missing_information_accuracy": 1.0,
+    "unsupported_evidence_rate": 0.0
+  },
+  "by_answer_type": {
+    "boolean": {
+      "count": 160,
+      "answer_accuracy": 1.0,
+      "decision_accuracy": 1.0,
+      "decision_required_count": 136,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "missing_information_accuracy": 1.0,
+      "unsupported_evidence_rate": 0.0
+    },
+    "code_set": {
+      "count": 2,
+      "answer_accuracy": 1.0,
+      "decision_accuracy": 1.0,
+      "decision_required_count": 2,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "missing_information_accuracy": 1.0,
+      "unsupported_evidence_rate": 0.0
+    },
+    "date": {
+      "count": 10,
+      "answer_accuracy": 1.0,
+      "decision_accuracy": 0.0,
+      "decision_required_count": 0,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "missing_information_accuracy": 1.0,
+      "unsupported_evidence_rate": 0.0
+    },
+    "date_range": {
+      "count": 2,
+      "answer_accuracy": 1.0,
+      "decision_accuracy": 0.0,
+      "decision_required_count": 0,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "missing_information_accuracy": 1.0,
+      "unsupported_evidence_rate": 0.0
+    },
+    "datetime": {
+      "count": 8,
+      "answer_accuracy": 1.0,
+      "decision_accuracy": 0.0,
+      "decision_required_count": 0,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "missing_information_accuracy": 1.0,
+      "unsupported_evidence_rate": 0.0
+    },
+    "integer": {
+      "count": 10,
+      "answer_accuracy": 1.0,
+      "decision_accuracy": 1.0,
+      "decision_required_count": 2,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "missing_information_accuracy": 1.0,
+      "unsupported_evidence_rate": 0.0
+    },
+    "money": {
+      "count": 52,
+      "answer_accuracy": 1.0,
+      "decision_accuracy": 1.0,
+      "decision_required_count": 12,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "missing_information_accuracy": 1.0,
+      "unsupported_evidence_rate": 0.0
+    },
+    "status": {
+      "count": 74,
+      "answer_accuracy": 1.0,
+      "decision_accuracy": 1.0,
+      "decision_required_count": 14,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "missing_information_accuracy": 1.0,
+      "unsupported_evidence_rate": 0.0
+    },
+    "threshold": {
+      "count": 2,
+      "answer_accuracy": 1.0,
+      "decision_accuracy": 0.0,
+      "decision_required_count": 0,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "missing_information_accuracy": 1.0,
+      "unsupported_evidence_rate": 0.0
+    }
+  },
+  "counterfactual": {
+    "flip_score": 1.0,
+    "invariance_score": 1.0,
+    "rows": [
+      {
+        "case_id": "trip_001",
+        "question_id": "Q1",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "9000",
+        "right_answer": "9000",
+        "score": 1.0
+      },
+      {
+        "case_id": "trip_001",
+        "question_id": "Q2",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "12000",
+        "right_answer": "12000",
+        "score": 1.0
+      },
+      {
+        "case_id": "trip_001",
+        "question_id": "Q3",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": ">10000",
+        "right_answer": ">10000",
+        "score": 1.0
+      },
+      {
+        "case_id": "trip_001",
+        "question_id": "Q4",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "trip_001",
+        "question_id": "Q5",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "4",
+        "right_answer": "4",
+        "score": 1.0
+      },
+      {
+        "case_id": "trip_001",
+        "question_id": "Q6",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "48000",
+        "right_answer": "45000",
+        "score": 1.0
+      },
+      {
+        "case_id": "trip_001",
+        "question_id": "Q7",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "45600",
+        "right_answer": "43200",
+        "score": 1.0
+      },
+      {
+        "case_id": "trip_001",
+        "question_id": "Q8",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "trip_001",
+        "question_id": "Q9",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "trip_001",
+        "question_id": "Q10",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "2026-09-15/2026-09-18",
+        "right_answer": "2026-09-15/2026-09-18",
+        "score": 1.0
+      },
+      {
+        "case_id": "trip_001",
+        "question_id": "Q11",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "trip_001",
+        "question_id": "Q12",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "trip_001",
+        "question_id": "Q13",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "2026-09-17T12:26:00",
+        "right_answer": "2026-09-17T12:26:00",
+        "score": 1.0
+      },
+      {
+        "case_id": "trip_001",
+        "question_id": "Q14",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "trip_001",
+        "question_id": "Q15",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "trip_001",
+        "question_id": "Q16",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "trip_001",
+        "question_id": "Q17",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "BUSINESS_PURPOSE_EVIDENCE|DESTINATION_ADDRESS",
+        "right_answer": "BUSINESS_PURPOSE_EVIDENCE|DESTINATION_ADDRESS",
+        "score": 1.0
+      },
+      {
+        "case_id": "procurement_002",
+        "question_id": "Q1",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "300000",
+        "right_answer": "300000",
+        "score": 1.0
+      },
+      {
+        "case_id": "procurement_002",
+        "question_id": "Q2",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "500000",
+        "right_answer": "500000",
+        "score": 1.0
+      },
+      {
+        "case_id": "procurement_002",
+        "question_id": "Q3",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "460000",
+        "right_answer": "460000",
+        "score": 1.0
+      },
+      {
+        "case_id": "procurement_002",
+        "question_id": "Q4",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "2026-10-20",
+        "right_answer": "2026-10-20",
+        "score": 1.0
+      },
+      {
+        "case_id": "procurement_002",
+        "question_id": "Q5",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "procurement_002",
+        "question_id": "Q6",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "procurement_002",
+        "question_id": "Q7",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "procurement_002",
+        "question_id": "Q8",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "procurement_002",
+        "question_id": "Q9",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "procurement_002",
+        "question_id": "Q10",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "procurement_002",
+        "question_id": "Q11",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "procurement_002",
+        "question_id": "Q12",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "procurement_002",
+        "question_id": "Q13",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "500000",
+        "right_answer": "300000",
+        "score": 1.0
+      },
+      {
+        "case_id": "procurement_002",
+        "question_id": "Q14",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "160000",
+        "right_answer": "160000",
+        "score": 1.0
+      },
+      {
+        "case_id": "procurement_002",
+        "question_id": "Q15",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "direct_purchase_permitted",
+        "right_answer": "competitive_procedure_required",
+        "score": 1.0
+      },
+      {
+        "case_id": "authority_003",
+        "question_id": "Q1",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "director_ural_branch",
+        "right_answer": "director_ural_branch",
+        "score": 1.0
+      },
+      {
+        "case_id": "authority_003",
+        "question_id": "Q10",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "authority_003",
+        "question_id": "Q11",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "authority_003",
+        "question_id": "Q12",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "authority_003",
+        "question_id": "Q13",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "power_of_attorney",
+        "right_answer": "power_of_attorney",
+        "score": 1.0
+      },
+      {
+        "case_id": "authority_003",
+        "question_id": "Q14",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "signed_within_presented_authority",
+        "right_answer": "signed_outside_presented_authority",
+        "score": 1.0
+      },
+      {
+        "case_id": "authority_003",
+        "question_id": "Q15",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "no_mismatch",
+        "right_answer": "subject_scope",
+        "score": 1.0
+      },
+      {
+        "case_id": "authority_003",
+        "question_id": "Q16",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "authority_003",
+        "question_id": "Q2",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "supply_of_network_equipment_for_ural_branch",
+        "right_answer": "supply_of_network_equipment_for_ural_branch",
+        "score": 1.0
+      },
+      {
+        "case_id": "authority_003",
+        "question_id": "Q3",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "1180000",
+        "right_answer": "1180000",
+        "score": 1.0
+      },
+      {
+        "case_id": "authority_003",
+        "question_id": "Q4",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "authority_003",
+        "question_id": "Q5",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "authority_003",
+        "question_id": "Q6",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "authority_003",
+        "question_id": "Q7",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "authority_003",
+        "question_id": "Q8",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "authority_003",
+        "question_id": "Q9",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "acceptance_004",
+        "question_id": "Q1",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "ООО «ПроектЛаб»",
+        "right_answer": "ООО «ПроектЛаб»",
+        "score": 1.0
+      },
+      {
+        "case_id": "acceptance_004",
+        "question_id": "Q2",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "780000",
+        "right_answer": "780000",
+        "score": 1.0
+      },
+      {
+        "case_id": "acceptance_004",
+        "question_id": "Q3",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "network_infrastructure_assessment_and_technical_report",
+        "right_answer": "network_infrastructure_assessment_and_technical_report",
+        "score": 1.0
+      },
+      {
+        "case_id": "acceptance_004",
+        "question_id": "Q4",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "acceptance_004",
+        "question_id": "Q5",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "acceptance_004",
+        "question_id": "Q6",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "acceptance_004",
+        "question_id": "Q7",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "acceptance_004",
+        "question_id": "Q8",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "acceptance_004",
+        "question_id": "Q9",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "acceptance_004",
+        "question_id": "Q10",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "acceptance_004",
+        "question_id": "Q11",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "acceptance_004",
+        "question_id": "Q12",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "acceptance_004",
+        "question_id": "Q13",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "acceptance_act",
+        "right_answer": "acceptance_act",
+        "score": 1.0
+      },
+      {
+        "case_id": "acceptance_004",
+        "question_id": "Q14",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "result_delivered_and_formally_accepted",
+        "right_answer": "result_delivered_but_acceptance_not_formalized",
+        "score": 1.0
+      },
+      {
+        "case_id": "acceptance_004",
+        "question_id": "Q15",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "acceptance_004",
+        "question_id": "Q16",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "notice_005",
+        "question_id": "Q1",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "ООО «ОблакоСервис»",
+        "right_answer": "ООО «ОблакоСервис»",
+        "score": 1.0
+      },
+      {
+        "case_id": "notice_005",
+        "question_id": "Q2",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "managed_backup_services",
+        "right_answer": "managed_backup_services",
+        "score": 1.0
+      },
+      {
+        "case_id": "notice_005",
+        "question_id": "Q3",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "2026-10-31",
+        "right_answer": "2026-10-31",
+        "score": 1.0
+      },
+      {
+        "case_id": "notice_005",
+        "question_id": "Q4",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "2026-10-18",
+        "right_answer": "2026-10-18",
+        "score": 1.0
+      },
+      {
+        "case_id": "notice_005",
+        "question_id": "Q5",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "notice_005",
+        "question_id": "Q6",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "notice_005",
+        "question_id": "Q7",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "notice_005",
+        "question_id": "Q8",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "notice_005",
+        "question_id": "Q9",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "notice_005",
+        "question_id": "Q10",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "notice_005",
+        "question_id": "Q11",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "notice_005",
+        "question_id": "Q12",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "delivery_confirmation",
+        "right_answer": "delivery_confirmation",
+        "score": 1.0
+      },
+      {
+        "case_id": "notice_005",
+        "question_id": "Q13",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "expired_without_renewal",
+        "right_answer": "automatically_renewed",
+        "score": 1.0
+      },
+      {
+        "case_id": "notice_005",
+        "question_id": "Q14",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "notice_005",
+        "question_id": "Q15",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "notice_005",
+        "question_id": "Q16",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "reconciliation_006",
+        "question_id": "Q1",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "ООО «СеверТех»",
+        "right_answer": "ООО «СеверТех»",
+        "score": 1.0
+      },
+      {
+        "case_id": "reconciliation_006",
+        "question_id": "Q2",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "32000",
+        "right_answer": "32000",
+        "score": 1.0
+      },
+      {
+        "case_id": "reconciliation_006",
+        "question_id": "Q3",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "50",
+        "right_answer": "50",
+        "score": 1.0
+      },
+      {
+        "case_id": "reconciliation_006",
+        "question_id": "Q4",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "1600000",
+        "right_answer": "1600000",
+        "score": 1.0
+      },
+      {
+        "case_id": "reconciliation_006",
+        "question_id": "Q5",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "32000",
+        "right_answer": "32000",
+        "score": 1.0
+      },
+      {
+        "case_id": "reconciliation_006",
+        "question_id": "Q6",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "reconciliation_006",
+        "question_id": "Q7",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "reconciliation_006",
+        "question_id": "Q8",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "reconciliation_006",
+        "question_id": "Q9",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "reconciliation_006",
+        "question_id": "Q10",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "reconciliation_006",
+        "question_id": "Q11",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "reconciliation_006",
+        "question_id": "Q12",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "supplier_invoice",
+        "right_answer": "supplier_invoice",
+        "score": 1.0
+      },
+      {
+        "case_id": "reconciliation_006",
+        "question_id": "Q13",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "1600000",
+        "right_answer": "1600000",
+        "score": 1.0
+      },
+      {
+        "case_id": "reconciliation_006",
+        "question_id": "Q14",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "documents_reconciled_for_payment",
+        "right_answer": "documents_not_reconciled_due_to_invoice_discrepancy",
+        "score": 1.0
+      },
+      {
+        "case_id": "reconciliation_006",
+        "question_id": "Q15",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "reconciliation_006",
+        "question_id": "Q16",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "amendment_007",
+        "question_id": "Q1",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "ООО «ДатаХост»",
+        "right_answer": "ООО «ДатаХост»",
+        "score": 1.0
+      },
+      {
+        "case_id": "amendment_007",
+        "question_id": "Q2",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "аренда_выделенного_серверного_ресурса",
+        "right_answer": "аренда_выделенного_серверного_ресурса",
+        "score": 1.0
+      },
+      {
+        "case_id": "amendment_007",
+        "question_id": "Q3",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "200000",
+        "right_answer": "200000",
+        "score": 1.0
+      },
+      {
+        "case_id": "amendment_007",
+        "question_id": "Q4",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "240000",
+        "right_answer": "240000",
+        "score": 1.0
+      },
+      {
+        "case_id": "amendment_007",
+        "question_id": "Q5",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "июль_2026",
+        "right_answer": "июль_2026",
+        "score": 1.0
+      },
+      {
+        "case_id": "amendment_007",
+        "question_id": "Q6",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "amendment_007",
+        "question_id": "Q7",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "amendment_007",
+        "question_id": "Q8",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "amendment_007",
+        "question_id": "Q9",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "amendment_007",
+        "question_id": "Q10",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "amendment_007",
+        "question_id": "Q11",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "amendment_007",
+        "question_id": "Q12",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "additional_agreement",
+        "right_answer": "additional_agreement",
+        "score": 1.0
+      },
+      {
+        "case_id": "amendment_007",
+        "question_id": "Q13",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "240000",
+        "right_answer": "240000",
+        "score": 1.0
+      },
+      {
+        "case_id": "amendment_007",
+        "question_id": "Q14",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "240000",
+        "right_answer": "200000",
+        "score": 1.0
+      },
+      {
+        "case_id": "amendment_007",
+        "question_id": "Q15",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "0",
+        "right_answer": "40000",
+        "score": 1.0
+      },
+      {
+        "case_id": "amendment_007",
+        "question_id": "Q16",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "sla_008",
+        "question_id": "Q1",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "ООО «ОблакоСервис»",
+        "right_answer": "ООО «ОблакоСервис»",
+        "score": 1.0
+      },
+      {
+        "case_id": "sla_008",
+        "question_id": "Q2",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "500000",
+        "right_answer": "500000",
+        "score": 1.0
+      },
+      {
+        "case_id": "sla_008",
+        "question_id": "Q3",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "4",
+        "right_answer": "4",
+        "score": 1.0
+      },
+      {
+        "case_id": "sla_008",
+        "question_id": "Q4",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "2026-08-12T10:00:00",
+        "right_answer": "2026-08-12T10:00:00",
+        "score": 1.0
+      },
+      {
+        "case_id": "sla_008",
+        "question_id": "Q5",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "2026-08-12T10:15:00",
+        "right_answer": "2026-08-12T10:15:00",
+        "score": 1.0
+      },
+      {
+        "case_id": "sla_008",
+        "question_id": "Q6",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "239",
+        "right_answer": "241",
+        "score": 1.0
+      },
+      {
+        "case_id": "sla_008",
+        "question_id": "Q7",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "sla_008",
+        "question_id": "Q8",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "sla_008",
+        "question_id": "Q9",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "automatic_monitoring_registration",
+        "right_answer": "automatic_monitoring_registration",
+        "score": 1.0
+      },
+      {
+        "case_id": "sla_008",
+        "question_id": "Q10",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "sla_008",
+        "question_id": "Q11",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "500000",
+        "right_answer": "500000",
+        "score": 1.0
+      },
+      {
+        "case_id": "sla_008",
+        "question_id": "Q12",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "technical_report",
+        "right_answer": "technical_report",
+        "score": 1.0
+      },
+      {
+        "case_id": "sla_008",
+        "question_id": "Q13",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "5",
+        "right_answer": "5",
+        "score": 1.0
+      },
+      {
+        "case_id": "sla_008",
+        "question_id": "Q14",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "0",
+        "right_answer": "25000",
+        "score": 1.0
+      },
+      {
+        "case_id": "sla_008",
+        "question_id": "Q15",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "500000",
+        "right_answer": "475000",
+        "score": 1.0
+      },
+      {
+        "case_id": "sla_008",
+        "question_id": "Q16",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "approval_chain_009",
+        "question_id": "Q1",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "Сергей Волков",
+        "right_answer": "Сергей Волков",
+        "score": 1.0
+      },
+      {
+        "case_id": "approval_chain_009",
+        "question_id": "Q2",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "Orion-Prod",
+        "right_answer": "Orion-Prod",
+        "score": 1.0
+      },
+      {
+        "case_id": "approval_chain_009",
+        "question_id": "Q3",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "привилегированный администратор",
+        "right_answer": "привилегированный администратор",
+        "score": 1.0
+      },
+      {
+        "case_id": "approval_chain_009",
+        "question_id": "Q4",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "2026-11-17",
+        "right_answer": "2026-11-17",
+        "score": 1.0
+      },
+      {
+        "case_id": "approval_chain_009",
+        "question_id": "Q5",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "approval_chain_009",
+        "question_id": "Q6",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "approved",
+        "right_answer": "pending",
+        "score": 1.0
+      },
+      {
+        "case_id": "approval_chain_009",
+        "question_id": "Q7",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "approval_chain_009",
+        "question_id": "Q8",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "approval_chain_009",
+        "question_id": "Q9",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "согласование владельца системы и службы информационной безопасности",
+        "right_answer": "согласование владельца системы и службы информационной безопасности",
+        "score": 1.0
+      },
+      {
+        "case_id": "approval_chain_009",
+        "question_id": "Q10",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "approval_chain_009",
+        "question_id": "Q11",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "2026-11-10T09:05:00",
+        "right_answer": "2026-11-10T09:05:00",
+        "score": 1.0
+      },
+      {
+        "case_id": "approval_chain_009",
+        "question_id": "Q12",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "активна",
+        "right_answer": "активна",
+        "score": 1.0
+      },
+      {
+        "case_id": "approval_chain_009",
+        "question_id": "Q13",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "approval_chain_009",
+        "question_id": "Q14",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "approval_chain_009",
+        "question_id": "Q15",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "approval_chain_009",
+        "question_id": "Q16",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "asset_scope_010",
+        "question_id": "Q1",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "ООО «ТехРесурс»",
+        "right_answer": "ООО «ТехРесурс»",
+        "score": 1.0
+      },
+      {
+        "case_id": "asset_scope_010",
+        "question_id": "Q2",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "ООО «Северный контур»",
+        "right_answer": "ООО «Северный контур»",
+        "score": 1.0
+      },
+      {
+        "case_id": "asset_scope_010",
+        "question_id": "Q3",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "300000",
+        "right_answer": "300000",
+        "score": 1.0
+      },
+      {
+        "case_id": "asset_scope_010",
+        "question_id": "Q4",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "NX-7421",
+        "right_answer": "NX-7421",
+        "score": 1.0
+      },
+      {
+        "case_id": "asset_scope_010",
+        "question_id": "Q5",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "DB-1",
+        "right_answer": "DB-1",
+        "score": 1.0
+      },
+      {
+        "case_id": "asset_scope_010",
+        "question_id": "Q6",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "NX-7421",
+        "right_answer": "NX-7427",
+        "score": 1.0
+      },
+      {
+        "case_id": "asset_scope_010",
+        "question_id": "Q7",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "asset_scope_010",
+        "question_id": "Q8",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "false",
+        "score": 1.0
+      },
+      {
+        "case_id": "asset_scope_010",
+        "question_id": "Q9",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "2026-11-21",
+        "right_answer": "2026-11-21",
+        "score": 1.0
+      },
+      {
+        "case_id": "asset_scope_010",
+        "question_id": "Q10",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "true",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "asset_scope_010",
+        "question_id": "Q11",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "180000",
+        "right_answer": "180000",
+        "score": 1.0
+      },
+      {
+        "case_id": "asset_scope_010",
+        "question_id": "Q12",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "inventory_card",
+        "right_answer": "inventory_card",
+        "score": 1.0
+      },
+      {
+        "case_id": "asset_scope_010",
+        "question_id": "Q13",
+        "expected_change": false,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "серийный номер производителя",
+        "right_answer": "серийный номер производителя",
+        "score": 1.0
+      },
+      {
+        "case_id": "asset_scope_010",
+        "question_id": "Q14",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "asset_scope_010",
+        "question_id": "Q15",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "true",
+        "score": 1.0
+      },
+      {
+        "case_id": "asset_scope_010",
+        "question_id": "Q16",
+        "expected_change": true,
+        "left_variant": "A",
+        "right_variant": "B",
+        "left_answer": "false",
+        "right_answer": "true",
+        "score": 1.0
+      }
+    ],
+    "flip_count": 55,
+    "invariance_count": 105
+  },
+  "records": [
+    {
+      "key": {
+        "case_id": "trip_001",
+        "variant_id": "A",
+        "question_id": "Q1"
+      },
+      "answer_type": "money",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "trip_001",
+        "variant_id": "B",
+        "question_id": "Q1"
+      },
+      "answer_type": "money",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "trip_001",
+        "variant_id": "A",
+        "question_id": "Q2"
+      },
+      "answer_type": "money",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "trip_001",
+        "variant_id": "B",
+        "question_id": "Q2"
+      },
+      "answer_type": "money",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "trip_001",
+        "variant_id": "A",
+        "question_id": "Q3"
+      },
+      "answer_type": "threshold",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "trip_001",
+        "variant_id": "B",
+        "question_id": "Q3"
+      },
+      "answer_type": "threshold",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "trip_001",
+        "variant_id": "A",
+        "question_id": "Q4"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "trip_001",
+        "variant_id": "B",
+        "question_id": "Q4"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "trip_001",
+        "variant_id": "A",
+        "question_id": "Q5"
+      },
+      "answer_type": "integer",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "trip_001",
+        "variant_id": "B",
+        "question_id": "Q5"
+      },
+      "answer_type": "integer",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "trip_001",
+        "variant_id": "A",
+        "question_id": "Q6"
+      },
+      "answer_type": "money",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "trip_001",
+        "variant_id": "B",
+        "question_id": "Q6"
+      },
+      "answer_type": "money",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "trip_001",
+        "variant_id": "A",
+        "question_id": "Q7"
+      },
+      "answer_type": "money",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "trip_001",
+        "variant_id": "B",
+        "question_id": "Q7"
+      },
+      "answer_type": "money",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "trip_001",
+        "variant_id": "A",
+        "question_id": "Q8"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "trip_001",
+        "variant_id": "B",
+        "question_id": "Q8"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "trip_001",
+        "variant_id": "A",
+        "question_id": "Q9"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "trip_001",
+        "variant_id": "B",
+        "question_id": "Q9"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "trip_001",
+        "variant_id": "A",
+        "question_id": "Q10"
+      },
+      "answer_type": "date_range",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "trip_001",
+        "variant_id": "B",
+        "question_id": "Q10"
+      },
+      "answer_type": "date_range",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "trip_001",
+        "variant_id": "A",
+        "question_id": "Q11"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "trip_001",
+        "variant_id": "B",
+        "question_id": "Q11"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "trip_001",
+        "variant_id": "A",
+        "question_id": "Q12"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "trip_001",
+        "variant_id": "B",
+        "question_id": "Q12"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "trip_001",
+        "variant_id": "A",
+        "question_id": "Q13"
+      },
+      "answer_type": "datetime",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "trip_001",
+        "variant_id": "B",
+        "question_id": "Q13"
+      },
+      "answer_type": "datetime",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "trip_001",
+        "variant_id": "A",
+        "question_id": "Q14"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "trip_001",
+        "variant_id": "B",
+        "question_id": "Q14"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "trip_001",
+        "variant_id": "A",
+        "question_id": "Q15"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "trip_001",
+        "variant_id": "B",
+        "question_id": "Q15"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "trip_001",
+        "variant_id": "A",
+        "question_id": "Q16"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "trip_001",
+        "variant_id": "B",
+        "question_id": "Q16"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "trip_001",
+        "variant_id": "A",
+        "question_id": "Q17"
+      },
+      "answer_type": "code_set",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "trip_001",
+        "variant_id": "B",
+        "question_id": "Q17"
+      },
+      "answer_type": "code_set",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "procurement_002",
+        "variant_id": "A",
+        "question_id": "Q1"
+      },
+      "answer_type": "money",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "procurement_002",
+        "variant_id": "A",
+        "question_id": "Q2"
+      },
+      "answer_type": "money",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "procurement_002",
+        "variant_id": "A",
+        "question_id": "Q3"
+      },
+      "answer_type": "money",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "procurement_002",
+        "variant_id": "A",
+        "question_id": "Q4"
+      },
+      "answer_type": "date",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "procurement_002",
+        "variant_id": "A",
+        "question_id": "Q5"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "procurement_002",
+        "variant_id": "A",
+        "question_id": "Q6"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "procurement_002",
+        "variant_id": "A",
+        "question_id": "Q7"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "procurement_002",
+        "variant_id": "A",
+        "question_id": "Q8"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "procurement_002",
+        "variant_id": "A",
+        "question_id": "Q9"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "procurement_002",
+        "variant_id": "A",
+        "question_id": "Q10"
+      },
+      "answer_type": "boolean",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "procurement_002",
+        "variant_id": "A",
+        "question_id": "Q11"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "procurement_002",
+        "variant_id": "A",
+        "question_id": "Q12"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "procurement_002",
+        "variant_id": "A",
+        "question_id": "Q13"
+      },
+      "answer_type": "money",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "procurement_002",
+        "variant_id": "A",
+        "question_id": "Q14"
+      },
+      "answer_type": "money",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "procurement_002",
+        "variant_id": "A",
+        "question_id": "Q15"
+      },
+      "answer_type": "status",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "procurement_002",
+        "variant_id": "B",
+        "question_id": "Q1"
+      },
+      "answer_type": "money",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "procurement_002",
+        "variant_id": "B",
+        "question_id": "Q2"
+      },
+      "answer_type": "money",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "procurement_002",
+        "variant_id": "B",
+        "question_id": "Q3"
+      },
+      "answer_type": "money",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "procurement_002",
+        "variant_id": "B",
+        "question_id": "Q4"
+      },
+      "answer_type": "date",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "procurement_002",
+        "variant_id": "B",
+        "question_id": "Q5"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "procurement_002",
+        "variant_id": "B",
+        "question_id": "Q6"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "procurement_002",
+        "variant_id": "B",
+        "question_id": "Q7"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "procurement_002",
+        "variant_id": "B",
+        "question_id": "Q8"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "procurement_002",
+        "variant_id": "B",
+        "question_id": "Q9"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "procurement_002",
+        "variant_id": "B",
+        "question_id": "Q10"
+      },
+      "answer_type": "boolean",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "procurement_002",
+        "variant_id": "B",
+        "question_id": "Q11"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "procurement_002",
+        "variant_id": "B",
+        "question_id": "Q12"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "procurement_002",
+        "variant_id": "B",
+        "question_id": "Q13"
+      },
+      "answer_type": "money",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "procurement_002",
+        "variant_id": "B",
+        "question_id": "Q14"
+      },
+      "answer_type": "money",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "procurement_002",
+        "variant_id": "B",
+        "question_id": "Q15"
+      },
+      "answer_type": "status",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "authority_003",
+        "variant_id": "A",
+        "question_id": "Q1"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "authority_003",
+        "variant_id": "B",
+        "question_id": "Q1"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "authority_003",
+        "variant_id": "A",
+        "question_id": "Q10"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "authority_003",
+        "variant_id": "B",
+        "question_id": "Q10"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "authority_003",
+        "variant_id": "A",
+        "question_id": "Q11"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "authority_003",
+        "variant_id": "B",
+        "question_id": "Q11"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "authority_003",
+        "variant_id": "A",
+        "question_id": "Q12"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "authority_003",
+        "variant_id": "B",
+        "question_id": "Q12"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "authority_003",
+        "variant_id": "A",
+        "question_id": "Q13"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "authority_003",
+        "variant_id": "B",
+        "question_id": "Q13"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "authority_003",
+        "variant_id": "A",
+        "question_id": "Q14"
+      },
+      "answer_type": "status",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "authority_003",
+        "variant_id": "B",
+        "question_id": "Q14"
+      },
+      "answer_type": "status",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "authority_003",
+        "variant_id": "A",
+        "question_id": "Q15"
+      },
+      "answer_type": "status",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "authority_003",
+        "variant_id": "B",
+        "question_id": "Q15"
+      },
+      "answer_type": "status",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "authority_003",
+        "variant_id": "A",
+        "question_id": "Q16"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "authority_003",
+        "variant_id": "B",
+        "question_id": "Q16"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "authority_003",
+        "variant_id": "A",
+        "question_id": "Q2"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "authority_003",
+        "variant_id": "B",
+        "question_id": "Q2"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "authority_003",
+        "variant_id": "A",
+        "question_id": "Q3"
+      },
+      "answer_type": "money",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "authority_003",
+        "variant_id": "B",
+        "question_id": "Q3"
+      },
+      "answer_type": "money",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "authority_003",
+        "variant_id": "A",
+        "question_id": "Q4"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "authority_003",
+        "variant_id": "B",
+        "question_id": "Q4"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "authority_003",
+        "variant_id": "A",
+        "question_id": "Q5"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "authority_003",
+        "variant_id": "B",
+        "question_id": "Q5"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "authority_003",
+        "variant_id": "A",
+        "question_id": "Q6"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "authority_003",
+        "variant_id": "B",
+        "question_id": "Q6"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "authority_003",
+        "variant_id": "A",
+        "question_id": "Q7"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "authority_003",
+        "variant_id": "B",
+        "question_id": "Q7"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "authority_003",
+        "variant_id": "A",
+        "question_id": "Q8"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "authority_003",
+        "variant_id": "B",
+        "question_id": "Q8"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "authority_003",
+        "variant_id": "A",
+        "question_id": "Q9"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "authority_003",
+        "variant_id": "B",
+        "question_id": "Q9"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "acceptance_004",
+        "variant_id": "A",
+        "question_id": "Q1"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "acceptance_004",
+        "variant_id": "B",
+        "question_id": "Q1"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "acceptance_004",
+        "variant_id": "A",
+        "question_id": "Q2"
+      },
+      "answer_type": "money",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "acceptance_004",
+        "variant_id": "B",
+        "question_id": "Q2"
+      },
+      "answer_type": "money",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "acceptance_004",
+        "variant_id": "A",
+        "question_id": "Q3"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "acceptance_004",
+        "variant_id": "B",
+        "question_id": "Q3"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "acceptance_004",
+        "variant_id": "A",
+        "question_id": "Q4"
+      },
+      "answer_type": "boolean",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "acceptance_004",
+        "variant_id": "B",
+        "question_id": "Q4"
+      },
+      "answer_type": "boolean",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "acceptance_004",
+        "variant_id": "A",
+        "question_id": "Q5"
+      },
+      "answer_type": "boolean",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "acceptance_004",
+        "variant_id": "B",
+        "question_id": "Q5"
+      },
+      "answer_type": "boolean",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "acceptance_004",
+        "variant_id": "A",
+        "question_id": "Q6"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "acceptance_004",
+        "variant_id": "B",
+        "question_id": "Q6"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "acceptance_004",
+        "variant_id": "A",
+        "question_id": "Q7"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "acceptance_004",
+        "variant_id": "B",
+        "question_id": "Q7"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "acceptance_004",
+        "variant_id": "A",
+        "question_id": "Q8"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "acceptance_004",
+        "variant_id": "B",
+        "question_id": "Q8"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "acceptance_004",
+        "variant_id": "A",
+        "question_id": "Q9"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "acceptance_004",
+        "variant_id": "B",
+        "question_id": "Q9"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "acceptance_004",
+        "variant_id": "A",
+        "question_id": "Q10"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "acceptance_004",
+        "variant_id": "B",
+        "question_id": "Q10"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "acceptance_004",
+        "variant_id": "A",
+        "question_id": "Q11"
+      },
+      "answer_type": "boolean",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "acceptance_004",
+        "variant_id": "B",
+        "question_id": "Q11"
+      },
+      "answer_type": "boolean",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "acceptance_004",
+        "variant_id": "A",
+        "question_id": "Q12"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "acceptance_004",
+        "variant_id": "B",
+        "question_id": "Q12"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "acceptance_004",
+        "variant_id": "A",
+        "question_id": "Q13"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "acceptance_004",
+        "variant_id": "B",
+        "question_id": "Q13"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "acceptance_004",
+        "variant_id": "A",
+        "question_id": "Q14"
+      },
+      "answer_type": "status",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "acceptance_004",
+        "variant_id": "B",
+        "question_id": "Q14"
+      },
+      "answer_type": "status",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "acceptance_004",
+        "variant_id": "A",
+        "question_id": "Q15"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "acceptance_004",
+        "variant_id": "B",
+        "question_id": "Q15"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "acceptance_004",
+        "variant_id": "A",
+        "question_id": "Q16"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "acceptance_004",
+        "variant_id": "B",
+        "question_id": "Q16"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "notice_005",
+        "variant_id": "A",
+        "question_id": "Q1"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "notice_005",
+        "variant_id": "B",
+        "question_id": "Q1"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "notice_005",
+        "variant_id": "A",
+        "question_id": "Q2"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "notice_005",
+        "variant_id": "B",
+        "question_id": "Q2"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "notice_005",
+        "variant_id": "A",
+        "question_id": "Q3"
+      },
+      "answer_type": "date",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "notice_005",
+        "variant_id": "B",
+        "question_id": "Q3"
+      },
+      "answer_type": "date",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "notice_005",
+        "variant_id": "A",
+        "question_id": "Q4"
+      },
+      "answer_type": "date",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "notice_005",
+        "variant_id": "B",
+        "question_id": "Q4"
+      },
+      "answer_type": "date",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "notice_005",
+        "variant_id": "A",
+        "question_id": "Q5"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "notice_005",
+        "variant_id": "B",
+        "question_id": "Q5"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "notice_005",
+        "variant_id": "A",
+        "question_id": "Q6"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "notice_005",
+        "variant_id": "B",
+        "question_id": "Q6"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "notice_005",
+        "variant_id": "A",
+        "question_id": "Q7"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "notice_005",
+        "variant_id": "B",
+        "question_id": "Q7"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "notice_005",
+        "variant_id": "A",
+        "question_id": "Q8"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "notice_005",
+        "variant_id": "B",
+        "question_id": "Q8"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "notice_005",
+        "variant_id": "A",
+        "question_id": "Q9"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "notice_005",
+        "variant_id": "B",
+        "question_id": "Q9"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "notice_005",
+        "variant_id": "A",
+        "question_id": "Q10"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "notice_005",
+        "variant_id": "B",
+        "question_id": "Q10"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "notice_005",
+        "variant_id": "A",
+        "question_id": "Q11"
+      },
+      "answer_type": "boolean",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "notice_005",
+        "variant_id": "B",
+        "question_id": "Q11"
+      },
+      "answer_type": "boolean",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "notice_005",
+        "variant_id": "A",
+        "question_id": "Q12"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "notice_005",
+        "variant_id": "B",
+        "question_id": "Q12"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "notice_005",
+        "variant_id": "A",
+        "question_id": "Q13"
+      },
+      "answer_type": "status",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "notice_005",
+        "variant_id": "B",
+        "question_id": "Q13"
+      },
+      "answer_type": "status",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "notice_005",
+        "variant_id": "A",
+        "question_id": "Q14"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "notice_005",
+        "variant_id": "B",
+        "question_id": "Q14"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "notice_005",
+        "variant_id": "A",
+        "question_id": "Q15"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "notice_005",
+        "variant_id": "B",
+        "question_id": "Q15"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "notice_005",
+        "variant_id": "A",
+        "question_id": "Q16"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "notice_005",
+        "variant_id": "B",
+        "question_id": "Q16"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "reconciliation_006",
+        "variant_id": "A",
+        "question_id": "Q1"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "reconciliation_006",
+        "variant_id": "B",
+        "question_id": "Q1"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "reconciliation_006",
+        "variant_id": "A",
+        "question_id": "Q2"
+      },
+      "answer_type": "money",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "reconciliation_006",
+        "variant_id": "B",
+        "question_id": "Q2"
+      },
+      "answer_type": "money",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "reconciliation_006",
+        "variant_id": "A",
+        "question_id": "Q3"
+      },
+      "answer_type": "integer",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "reconciliation_006",
+        "variant_id": "B",
+        "question_id": "Q3"
+      },
+      "answer_type": "integer",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "reconciliation_006",
+        "variant_id": "A",
+        "question_id": "Q4"
+      },
+      "answer_type": "money",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "reconciliation_006",
+        "variant_id": "B",
+        "question_id": "Q4"
+      },
+      "answer_type": "money",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "reconciliation_006",
+        "variant_id": "A",
+        "question_id": "Q5"
+      },
+      "answer_type": "money",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "reconciliation_006",
+        "variant_id": "B",
+        "question_id": "Q5"
+      },
+      "answer_type": "money",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "reconciliation_006",
+        "variant_id": "A",
+        "question_id": "Q6"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "reconciliation_006",
+        "variant_id": "B",
+        "question_id": "Q6"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "reconciliation_006",
+        "variant_id": "A",
+        "question_id": "Q7"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "reconciliation_006",
+        "variant_id": "B",
+        "question_id": "Q7"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "reconciliation_006",
+        "variant_id": "A",
+        "question_id": "Q8"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "reconciliation_006",
+        "variant_id": "B",
+        "question_id": "Q8"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "reconciliation_006",
+        "variant_id": "A",
+        "question_id": "Q9"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "reconciliation_006",
+        "variant_id": "B",
+        "question_id": "Q9"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "reconciliation_006",
+        "variant_id": "A",
+        "question_id": "Q10"
+      },
+      "answer_type": "boolean",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "reconciliation_006",
+        "variant_id": "B",
+        "question_id": "Q10"
+      },
+      "answer_type": "boolean",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "reconciliation_006",
+        "variant_id": "A",
+        "question_id": "Q11"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "reconciliation_006",
+        "variant_id": "B",
+        "question_id": "Q11"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "reconciliation_006",
+        "variant_id": "A",
+        "question_id": "Q12"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "reconciliation_006",
+        "variant_id": "B",
+        "question_id": "Q12"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "reconciliation_006",
+        "variant_id": "A",
+        "question_id": "Q13"
+      },
+      "answer_type": "money",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "reconciliation_006",
+        "variant_id": "B",
+        "question_id": "Q13"
+      },
+      "answer_type": "money",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "reconciliation_006",
+        "variant_id": "A",
+        "question_id": "Q14"
+      },
+      "answer_type": "status",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "reconciliation_006",
+        "variant_id": "B",
+        "question_id": "Q14"
+      },
+      "answer_type": "status",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "reconciliation_006",
+        "variant_id": "A",
+        "question_id": "Q15"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "reconciliation_006",
+        "variant_id": "B",
+        "question_id": "Q15"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "reconciliation_006",
+        "variant_id": "A",
+        "question_id": "Q16"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "reconciliation_006",
+        "variant_id": "B",
+        "question_id": "Q16"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "amendment_007",
+        "variant_id": "A",
+        "question_id": "Q1"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "amendment_007",
+        "variant_id": "B",
+        "question_id": "Q1"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "amendment_007",
+        "variant_id": "A",
+        "question_id": "Q2"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "amendment_007",
+        "variant_id": "B",
+        "question_id": "Q2"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "amendment_007",
+        "variant_id": "A",
+        "question_id": "Q3"
+      },
+      "answer_type": "money",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "amendment_007",
+        "variant_id": "B",
+        "question_id": "Q3"
+      },
+      "answer_type": "money",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "amendment_007",
+        "variant_id": "A",
+        "question_id": "Q4"
+      },
+      "answer_type": "money",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "amendment_007",
+        "variant_id": "B",
+        "question_id": "Q4"
+      },
+      "answer_type": "money",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "amendment_007",
+        "variant_id": "A",
+        "question_id": "Q5"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "amendment_007",
+        "variant_id": "B",
+        "question_id": "Q5"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "amendment_007",
+        "variant_id": "A",
+        "question_id": "Q6"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "amendment_007",
+        "variant_id": "B",
+        "question_id": "Q6"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "amendment_007",
+        "variant_id": "A",
+        "question_id": "Q7"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "amendment_007",
+        "variant_id": "B",
+        "question_id": "Q7"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "amendment_007",
+        "variant_id": "A",
+        "question_id": "Q8"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "amendment_007",
+        "variant_id": "B",
+        "question_id": "Q8"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "amendment_007",
+        "variant_id": "A",
+        "question_id": "Q9"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "amendment_007",
+        "variant_id": "B",
+        "question_id": "Q9"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "amendment_007",
+        "variant_id": "A",
+        "question_id": "Q10"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "amendment_007",
+        "variant_id": "B",
+        "question_id": "Q10"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "amendment_007",
+        "variant_id": "A",
+        "question_id": "Q11"
+      },
+      "answer_type": "boolean",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "amendment_007",
+        "variant_id": "B",
+        "question_id": "Q11"
+      },
+      "answer_type": "boolean",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "amendment_007",
+        "variant_id": "A",
+        "question_id": "Q12"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "amendment_007",
+        "variant_id": "B",
+        "question_id": "Q12"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "amendment_007",
+        "variant_id": "A",
+        "question_id": "Q13"
+      },
+      "answer_type": "money",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "amendment_007",
+        "variant_id": "B",
+        "question_id": "Q13"
+      },
+      "answer_type": "money",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "amendment_007",
+        "variant_id": "A",
+        "question_id": "Q14"
+      },
+      "answer_type": "money",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "amendment_007",
+        "variant_id": "B",
+        "question_id": "Q14"
+      },
+      "answer_type": "money",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "amendment_007",
+        "variant_id": "A",
+        "question_id": "Q15"
+      },
+      "answer_type": "money",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "amendment_007",
+        "variant_id": "B",
+        "question_id": "Q15"
+      },
+      "answer_type": "money",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "amendment_007",
+        "variant_id": "A",
+        "question_id": "Q16"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "amendment_007",
+        "variant_id": "B",
+        "question_id": "Q16"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "sla_008",
+        "variant_id": "A",
+        "question_id": "Q1"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "sla_008",
+        "variant_id": "B",
+        "question_id": "Q1"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "sla_008",
+        "variant_id": "A",
+        "question_id": "Q2"
+      },
+      "answer_type": "money",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "sla_008",
+        "variant_id": "B",
+        "question_id": "Q2"
+      },
+      "answer_type": "money",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "sla_008",
+        "variant_id": "A",
+        "question_id": "Q3"
+      },
+      "answer_type": "integer",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "sla_008",
+        "variant_id": "B",
+        "question_id": "Q3"
+      },
+      "answer_type": "integer",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "sla_008",
+        "variant_id": "A",
+        "question_id": "Q4"
+      },
+      "answer_type": "datetime",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "sla_008",
+        "variant_id": "B",
+        "question_id": "Q4"
+      },
+      "answer_type": "datetime",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "sla_008",
+        "variant_id": "A",
+        "question_id": "Q5"
+      },
+      "answer_type": "datetime",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "sla_008",
+        "variant_id": "B",
+        "question_id": "Q5"
+      },
+      "answer_type": "datetime",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "sla_008",
+        "variant_id": "A",
+        "question_id": "Q6"
+      },
+      "answer_type": "integer",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "sla_008",
+        "variant_id": "B",
+        "question_id": "Q6"
+      },
+      "answer_type": "integer",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "sla_008",
+        "variant_id": "A",
+        "question_id": "Q7"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "sla_008",
+        "variant_id": "B",
+        "question_id": "Q7"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "sla_008",
+        "variant_id": "A",
+        "question_id": "Q8"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "sla_008",
+        "variant_id": "B",
+        "question_id": "Q8"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "sla_008",
+        "variant_id": "A",
+        "question_id": "Q9"
+      },
+      "answer_type": "status",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "sla_008",
+        "variant_id": "B",
+        "question_id": "Q9"
+      },
+      "answer_type": "status",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "sla_008",
+        "variant_id": "A",
+        "question_id": "Q10"
+      },
+      "answer_type": "boolean",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "sla_008",
+        "variant_id": "B",
+        "question_id": "Q10"
+      },
+      "answer_type": "boolean",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "sla_008",
+        "variant_id": "A",
+        "question_id": "Q11"
+      },
+      "answer_type": "money",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "sla_008",
+        "variant_id": "B",
+        "question_id": "Q11"
+      },
+      "answer_type": "money",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "sla_008",
+        "variant_id": "A",
+        "question_id": "Q12"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "sla_008",
+        "variant_id": "B",
+        "question_id": "Q12"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "sla_008",
+        "variant_id": "A",
+        "question_id": "Q13"
+      },
+      "answer_type": "integer",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "sla_008",
+        "variant_id": "B",
+        "question_id": "Q13"
+      },
+      "answer_type": "integer",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "sla_008",
+        "variant_id": "A",
+        "question_id": "Q14"
+      },
+      "answer_type": "money",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "sla_008",
+        "variant_id": "B",
+        "question_id": "Q14"
+      },
+      "answer_type": "money",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "sla_008",
+        "variant_id": "A",
+        "question_id": "Q15"
+      },
+      "answer_type": "money",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "sla_008",
+        "variant_id": "B",
+        "question_id": "Q15"
+      },
+      "answer_type": "money",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "sla_008",
+        "variant_id": "A",
+        "question_id": "Q16"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "sla_008",
+        "variant_id": "B",
+        "question_id": "Q16"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "approval_chain_009",
+        "variant_id": "A",
+        "question_id": "Q1"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "approval_chain_009",
+        "variant_id": "B",
+        "question_id": "Q1"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "approval_chain_009",
+        "variant_id": "A",
+        "question_id": "Q2"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "approval_chain_009",
+        "variant_id": "B",
+        "question_id": "Q2"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "approval_chain_009",
+        "variant_id": "A",
+        "question_id": "Q3"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "approval_chain_009",
+        "variant_id": "B",
+        "question_id": "Q3"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "approval_chain_009",
+        "variant_id": "A",
+        "question_id": "Q4"
+      },
+      "answer_type": "date",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "approval_chain_009",
+        "variant_id": "B",
+        "question_id": "Q4"
+      },
+      "answer_type": "date",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "approval_chain_009",
+        "variant_id": "A",
+        "question_id": "Q5"
+      },
+      "answer_type": "boolean",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "approval_chain_009",
+        "variant_id": "B",
+        "question_id": "Q5"
+      },
+      "answer_type": "boolean",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "approval_chain_009",
+        "variant_id": "A",
+        "question_id": "Q6"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "approval_chain_009",
+        "variant_id": "B",
+        "question_id": "Q6"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "approval_chain_009",
+        "variant_id": "A",
+        "question_id": "Q7"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "approval_chain_009",
+        "variant_id": "B",
+        "question_id": "Q7"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "approval_chain_009",
+        "variant_id": "A",
+        "question_id": "Q8"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "approval_chain_009",
+        "variant_id": "B",
+        "question_id": "Q8"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "approval_chain_009",
+        "variant_id": "A",
+        "question_id": "Q9"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "approval_chain_009",
+        "variant_id": "B",
+        "question_id": "Q9"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "approval_chain_009",
+        "variant_id": "A",
+        "question_id": "Q10"
+      },
+      "answer_type": "boolean",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "approval_chain_009",
+        "variant_id": "B",
+        "question_id": "Q10"
+      },
+      "answer_type": "boolean",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "approval_chain_009",
+        "variant_id": "A",
+        "question_id": "Q11"
+      },
+      "answer_type": "datetime",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "approval_chain_009",
+        "variant_id": "B",
+        "question_id": "Q11"
+      },
+      "answer_type": "datetime",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "approval_chain_009",
+        "variant_id": "A",
+        "question_id": "Q12"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "approval_chain_009",
+        "variant_id": "B",
+        "question_id": "Q12"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "approval_chain_009",
+        "variant_id": "A",
+        "question_id": "Q13"
+      },
+      "answer_type": "boolean",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "approval_chain_009",
+        "variant_id": "B",
+        "question_id": "Q13"
+      },
+      "answer_type": "boolean",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "approval_chain_009",
+        "variant_id": "A",
+        "question_id": "Q14"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "approval_chain_009",
+        "variant_id": "B",
+        "question_id": "Q14"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "approval_chain_009",
+        "variant_id": "A",
+        "question_id": "Q15"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "approval_chain_009",
+        "variant_id": "B",
+        "question_id": "Q15"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "approval_chain_009",
+        "variant_id": "A",
+        "question_id": "Q16"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "approval_chain_009",
+        "variant_id": "B",
+        "question_id": "Q16"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "asset_scope_010",
+        "variant_id": "A",
+        "question_id": "Q1"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "asset_scope_010",
+        "variant_id": "A",
+        "question_id": "Q2"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "asset_scope_010",
+        "variant_id": "A",
+        "question_id": "Q3"
+      },
+      "answer_type": "money",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "asset_scope_010",
+        "variant_id": "A",
+        "question_id": "Q4"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "asset_scope_010",
+        "variant_id": "A",
+        "question_id": "Q5"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "asset_scope_010",
+        "variant_id": "A",
+        "question_id": "Q6"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "asset_scope_010",
+        "variant_id": "A",
+        "question_id": "Q7"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "asset_scope_010",
+        "variant_id": "A",
+        "question_id": "Q8"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "asset_scope_010",
+        "variant_id": "A",
+        "question_id": "Q9"
+      },
+      "answer_type": "date",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "asset_scope_010",
+        "variant_id": "A",
+        "question_id": "Q10"
+      },
+      "answer_type": "boolean",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "asset_scope_010",
+        "variant_id": "A",
+        "question_id": "Q11"
+      },
+      "answer_type": "money",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "asset_scope_010",
+        "variant_id": "A",
+        "question_id": "Q12"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "asset_scope_010",
+        "variant_id": "A",
+        "question_id": "Q13"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "asset_scope_010",
+        "variant_id": "A",
+        "question_id": "Q14"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "asset_scope_010",
+        "variant_id": "A",
+        "question_id": "Q15"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "asset_scope_010",
+        "variant_id": "A",
+        "question_id": "Q16"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "asset_scope_010",
+        "variant_id": "B",
+        "question_id": "Q1"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "asset_scope_010",
+        "variant_id": "B",
+        "question_id": "Q2"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "asset_scope_010",
+        "variant_id": "B",
+        "question_id": "Q3"
+      },
+      "answer_type": "money",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "asset_scope_010",
+        "variant_id": "B",
+        "question_id": "Q4"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "asset_scope_010",
+        "variant_id": "B",
+        "question_id": "Q5"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "asset_scope_010",
+        "variant_id": "B",
+        "question_id": "Q6"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "asset_scope_010",
+        "variant_id": "B",
+        "question_id": "Q7"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "asset_scope_010",
+        "variant_id": "B",
+        "question_id": "Q8"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "asset_scope_010",
+        "variant_id": "B",
+        "question_id": "Q9"
+      },
+      "answer_type": "date",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "asset_scope_010",
+        "variant_id": "B",
+        "question_id": "Q10"
+      },
+      "answer_type": "boolean",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "asset_scope_010",
+        "variant_id": "B",
+        "question_id": "Q11"
+      },
+      "answer_type": "money",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "asset_scope_010",
+        "variant_id": "B",
+        "question_id": "Q12"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "asset_scope_010",
+        "variant_id": "B",
+        "question_id": "Q13"
+      },
+      "answer_type": "status",
+      "decision_required": false,
+      "answer_correct": true,
+      "decision_correct": null,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "asset_scope_010",
+        "variant_id": "B",
+        "question_id": "Q14"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "asset_scope_010",
+        "variant_id": "B",
+        "question_id": "Q15"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    },
+    {
+      "key": {
+        "case_id": "asset_scope_010",
+        "variant_id": "B",
+        "question_id": "Q16"
+      },
+      "answer_type": "boolean",
+      "decision_required": true,
+      "answer_correct": true,
+      "decision_correct": true,
+      "missing_information_correct": true,
+      "evidence_precision": 1.0,
+      "evidence_recall": 1.0,
+      "evidence_f1": 1.0,
+      "unsupported_evidence_rate": 0.0,
+      "answer_error": null
+    }
+  ],
+  "issues": []
+}

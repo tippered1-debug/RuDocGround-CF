@@ -1,0 +1,102 @@
+{
+  "case_id": "acceptance_004",
+  "files": [
+    {
+      "file_name": "01_Договор_оказания_услуг.docx",
+      "docx_path": "/Users/stefanbidzamov/goldlink/exports/acceptance_004/docx/01_Договор_оказания_услуг.docx",
+      "pdf_path": "/Users/stefanbidzamov/goldlink/exports/acceptance_004/pdf/01_Договор_оказания_услуг.pdf",
+      "png_path": "/Users/stefanbidzamov/goldlink/exports/acceptance_004/png/01_Договор_оказания_услуг.pdf.png",
+      "source_txt": "/Users/stefanbidzamov/goldlink/data/source_documents/acceptance_004/01_Договор_оказания_услуг.txt",
+      "pages": 1,
+      "text_compare_ok": true,
+      "differences": [],
+      "visual_check_ok": true,
+      "visual_check_notes": "PDF thumbnail rendered successfully from the DOCX-aligned source text"
+    },
+    {
+      "file_name": "02_Техническое_задание.docx",
+      "docx_path": "/Users/stefanbidzamov/goldlink/exports/acceptance_004/docx/02_Техническое_задание.docx",
+      "pdf_path": "/Users/stefanbidzamov/goldlink/exports/acceptance_004/pdf/02_Техническое_задание.pdf",
+      "png_path": "/Users/stefanbidzamov/goldlink/exports/acceptance_004/png/02_Техническое_задание.pdf.png",
+      "source_txt": "/Users/stefanbidzamov/goldlink/data/source_documents/acceptance_004/02_Техническое_задание.txt",
+      "pages": 1,
+      "text_compare_ok": true,
+      "differences": [],
+      "visual_check_ok": true,
+      "visual_check_notes": "PDF thumbnail rendered successfully from the DOCX-aligned source text"
+    },
+    {
+      "file_name": "03_Технический_отчёт.docx",
+      "docx_path": "/Users/stefanbidzamov/goldlink/exports/acceptance_004/docx/03_Технический_отчёт.docx",
+      "pdf_path": "/Users/stefanbidzamov/goldlink/exports/acceptance_004/pdf/03_Технический_отчёт.pdf",
+      "png_path": "/Users/stefanbidzamov/goldlink/exports/acceptance_004/png/03_Технический_отчёт.pdf.png",
+      "source_txt": "/Users/stefanbidzamov/goldlink/data/source_documents/acceptance_004/03_Технический_отчёт.txt",
+      "pages": 1,
+      "text_compare_ok": true,
+      "differences": [],
+      "visual_check_ok": true,
+      "visual_check_notes": "PDF thumbnail rendered successfully from the DOCX-aligned source text"
+    },
+    {
+      "file_name": "04_Служебная_переписка.docx",
+      "docx_path": "/Users/stefanbidzamov/goldlink/exports/acceptance_004/docx/04_Служебная_переписка.docx",
+      "pdf_path": "/Users/stefanbidzamov/goldlink/exports/acceptance_004/pdf/04_Служебная_переписка.pdf",
+      "png_path": "/Users/stefanbidzamov/goldlink/exports/acceptance_004/png/04_Служебная_переписка.pdf.png",
+      "source_txt": "/Users/stefanbidzamov/goldlink/data/source_documents/acceptance_004/04_Служебная_переписка.txt",
+      "pages": 1,
+      "text_compare_ok": true,
+      "differences": [],
+      "visual_check_ok": true,
+      "visual_check_notes": "PDF thumbnail rendered successfully from the DOCX-aligned source text"
+    },
+    {
+      "file_name": "05_Акт_сдачи-приёмки_A.docx",
+      "docx_path": "/Users/stefanbidzamov/goldlink/exports/acceptance_004/docx/05_Акт_сдачи-приёмки_A.docx",
+      "pdf_path": "/Users/stefanbidzamov/goldlink/exports/acceptance_004/pdf/05_Акт_сдачи-приёмки_A.pdf",
+      "png_path": "/Users/stefanbidzamov/goldlink/exports/acceptance_004/png/05_Акт_сдачи-приёмки_A.pdf.png",
+      "source_txt": "/Users/stefanbidzamov/goldlink/data/source_documents/acceptance_004/05_Акт_сдачи-приёмки_A.txt",
+      "pages": 1,
+      "text_compare_ok": true,
+      "differences": [],
+      "visual_check_ok": true,
+      "visual_check_notes": "PDF thumbnail rendered successfully from the DOCX-aligned source text"
+    },
+    {
+      "file_name": "05_Акт_сдачи-приёмки_B.docx",
+      "docx_path": "/Users/stefanbidzamov/goldlink/exports/acceptance_004/docx/05_Акт_сдачи-приёмки_B.docx",
+      "pdf_path": "/Users/stefanbidzamov/goldlink/exports/acceptance_004/pdf/05_Акт_сдачи-приёмки_B.pdf",
+      "png_path": "/Users/stefanbidzamov/goldlink/exports/acceptance_004/png/05_Акт_сдачи-приёмки_B.pdf.png",
+      "source_txt": "/Users/stefanbidzamov/goldlink/data/source_documents/acceptance_004/05_Акт_сдачи-приёмки_B.txt",
+      "pages": 1,
+      "text_compare_ok": true,
+      "differences": [],
+      "visual_check_ok": true,
+      "visual_check_notes": "PDF thumbnail rendered successfully from the DOCX-aligned source text"
+    },
+    {
+      "file_name": "06_Счёт_на_оплату.docx",
+      "docx_path": "/Users/stefanbidzamov/goldlink/exports/acceptance_004/docx/06_Счёт_на_оплату.docx",
+      "pdf_path": "/Users/stefanbidzamov/goldlink/exports/acceptance_004/pdf/06_Счёт_на_оплату.pdf",
+      "png_path": "/Users/stefanbidzamov/goldlink/exports/acceptance_004/png/06_Счёт_на_оплату.pdf.png",
+      "source_txt": "/Users/stefanbidzamov/goldlink/data/source_documents/acceptance_004/06_Счёт_на_оплату.txt",
+      "pages": 1,
+      "text_compare_ok": true,
+      "differences": [],
+      "visual_check_ok": true,
+      "visual_check_notes": "PDF thumbnail rendered successfully from the DOCX-aligned source text"
+    },
+    {
+      "file_name": "07_Заявка_на_оплату.docx",
+      "docx_path": "/Users/stefanbidzamov/goldlink/exports/acceptance_004/docx/07_Заявка_на_оплату.docx",
+      "pdf_path": "/Users/stefanbidzamov/goldlink/exports/acceptance_004/pdf/07_Заявка_на_оплату.pdf",
+      "png_path": "/Users/stefanbidzamov/goldlink/exports/acceptance_004/png/07_Заявка_на_оплату.pdf.png",
+      "source_txt": "/Users/stefanbidzamov/goldlink/data/source_documents/acceptance_004/07_Заявка_на_оплату.txt",
+      "pages": 1,
+      "text_compare_ok": true,
+      "differences": [],
+      "visual_check_ok": true,
+      "visual_check_notes": "PDF thumbnail rendered successfully from the DOCX-aligned source text"
+    }
+  ],
+  "contact_sheet_path": "/Users/stefanbidzamov/goldlink/exports/acceptance_004/contact_sheet.png"
+}

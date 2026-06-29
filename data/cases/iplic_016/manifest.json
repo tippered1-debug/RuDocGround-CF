@@ -1,0 +1,83 @@
+{
+  "case_id": "iplic_016",
+  "documents": [
+    {
+      "doc_id": "01_соглашение_об_эскроу_исходного_кода",
+      "neutral_file_name": "01_Соглашение_об_эскроу_исходного_кода.txt",
+      "source_file_name": "01_Соглашение_об_эскроу_исходного_кода.txt",
+      "source_sha256": "6cf6b3a93d2e2983c8198784cc269d24703dde82822e6d6bc1aa525fbb77bd2a",
+      "variant_a_sha256": "6cf6b3a93d2e2983c8198784cc269d24703dde82822e6d6bc1aa525fbb77bd2a",
+      "variant_b_sha256": "6cf6b3a93d2e2983c8198784cc269d24703dde82822e6d6bc1aa525fbb77bd2a",
+      "variant_c_sha256": "6cf6b3a93d2e2983c8198784cc269d24703dde82822e6d6bc1aa525fbb77bd2a",
+      "order": 1,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "02_лицензионный_договор_на_по",
+      "neutral_file_name": "02_Лицензионный_договор_на_ПО.txt",
+      "source_file_name": "02_Лицензионный_договор_на_ПО.txt",
+      "source_sha256": "fba28761e83c54e3c3ada5fb9a3b6660c4a3ac78213ef6974497250bd0fe2dd3",
+      "variant_a_sha256": "fba28761e83c54e3c3ada5fb9a3b6660c4a3ac78213ef6974497250bd0fe2dd3",
+      "variant_b_sha256": "fba28761e83c54e3c3ada5fb9a3b6660c4a3ac78213ef6974497250bd0fe2dd3",
+      "variant_c_sha256": "fba28761e83c54e3c3ada5fb9a3b6660c4a3ac78213ef6974497250bd0fe2dd3",
+      "order": 2,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "03_уведомление_о_нарушении",
+      "neutral_file_name": "03_Уведомление_о_нарушении.txt",
+      "source_file_name": "03_Уведомление_о_нарушении_A.txt",
+      "source_sha256": "84c0f4d354bdba49338ede9cadcbe128d5423073bb16f6d062309c8a3e1b1fad",
+      "variant_a_sha256": "84c0f4d354bdba49338ede9cadcbe128d5423073bb16f6d062309c8a3e1b1fad",
+      "variant_b_sha256": "193dc558c7607f7d83a12ce29baf9beff4a1a6ef82f2dff2c9906e3307283c57",
+      "variant_c_sha256": "53643991a74335414c52275de66c6a0d23d0da7d8aa4af034479109a846f1b89",
+      "order": 3,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "04_журнал_поддержки",
+      "neutral_file_name": "04_Журнал_поддержки.txt",
+      "source_file_name": "04_Журнал_поддержки.txt",
+      "source_sha256": "3f6c5eacb752cc41f1ebe4facf9000dc9faea6891f98a499e40db0673f7b5fc3",
+      "variant_a_sha256": "3f6c5eacb752cc41f1ebe4facf9000dc9faea6891f98a499e40db0673f7b5fc3",
+      "variant_b_sha256": "3f6c5eacb752cc41f1ebe4facf9000dc9faea6891f98a499e40db0673f7b5fc3",
+      "variant_c_sha256": "3f6c5eacb752cc41f1ebe4facf9000dc9faea6891f98a499e40db0673f7b5fc3",
+      "order": 6,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "05_мемо_юриста",
+      "neutral_file_name": "05_Мемо_юриста.txt",
+      "source_file_name": "05_Мемо_юриста.txt",
+      "source_sha256": "7bfcbc65e7e00e5b0025d9c24cc669ba7344a8f24f75ee90dff6380822ec37d8",
+      "variant_a_sha256": "7bfcbc65e7e00e5b0025d9c24cc669ba7344a8f24f75ee90dff6380822ec37d8",
+      "variant_b_sha256": "7bfcbc65e7e00e5b0025d9c24cc669ba7344a8f24f75ee90dff6380822ec37d8",
+      "variant_c_sha256": "7bfcbc65e7e00e5b0025d9c24cc669ba7344a8f24f75ee90dff6380822ec37d8",
+      "order": 7,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    }
+  ],
+  "changed_fragment_A_to_B": "Vendor fails the cure deadline and no working build is delivered.",
+  "changed_fragment_A_to_C": "Support email formatting and page numbering change only.",
+  "document_grounded_only": true
+}

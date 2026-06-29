@@ -1,0 +1,16 @@
+{
+  "case_id": "property_025",
+  "domain": "lease property and guarantees",
+  "counterfactual_change_type": "The renewal notice is late.",
+  "controlling_document": "policy",
+  "document_ids": [
+    "policy",
+    "core_record",
+    "nuisance_memo",
+    "decision_memo",
+    "support_note"
+  ],
+  "expected_questions": 14,
+  "gold_rows": 42,
+  "group": "batch2"
+}

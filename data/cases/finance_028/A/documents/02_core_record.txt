@@ -1,0 +1,5 @@
+[substantive_fact] The receipt lacks substantiation.
+[amount] 850
+[deadline_date] 2026-09-15
+[identifier] ADV-2801
+[code_set] substantiation | receipts

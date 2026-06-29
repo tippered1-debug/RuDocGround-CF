@@ -1,0 +1,15 @@
+{
+  "case_id": "iplic_016",
+  "domain": "licenses and IP",
+  "counterfactual_change_type": "conditional trigger",
+  "controlling_document": "01_соглашение_об_эскроу_исходного_кода",
+  "document_ids": [
+    "01_соглашение_об_эскроу_исходного_кода",
+    "02_лицензионный_договор_на_по",
+    "03_уведомление_о_нарушении",
+    "04_журнал_поддержки",
+    "05_мемо_юриста"
+  ],
+  "expected_questions": 14,
+  "gold_rows": 42
+}

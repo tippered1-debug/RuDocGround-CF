@@ -1,0 +1,83 @@
+{
+  "case_id": "iplic_015",
+  "documents": [
+    {
+      "doc_id": "policy",
+      "neutral_file_name": "01_policy.txt",
+      "source_file_name": "01_policy.txt",
+      "source_sha256": "737bb28a9c813579d63ebb0e2464de522f658c94c7732e8c24e4a6e7aadb87be",
+      "variant_a_sha256": "737bb28a9c813579d63ebb0e2464de522f658c94c7732e8c24e4a6e7aadb87be",
+      "variant_b_sha256": "737bb28a9c813579d63ebb0e2464de522f658c94c7732e8c24e4a6e7aadb87be",
+      "variant_c_sha256": "737bb28a9c813579d63ebb0e2464de522f658c94c7732e8c24e4a6e7aadb87be",
+      "order": 1,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "core_record",
+      "neutral_file_name": "02_core_record.txt",
+      "source_file_name": "02_core_record.txt",
+      "source_sha256": "20f7ba38b2490e0a50dc51669332c81ace9128589cc6891e9fc1e752048844f7",
+      "variant_a_sha256": "20f7ba38b2490e0a50dc51669332c81ace9128589cc6891e9fc1e752048844f7",
+      "variant_b_sha256": "c2ad3ac462bf7a0f920a63c6e580aa016e6ad3dde33a322ace52d4b81e3a1fa6",
+      "variant_c_sha256": "20f7ba38b2490e0a50dc51669332c81ace9128589cc6891e9fc1e752048844f7",
+      "order": 2,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "nuisance_memo",
+      "neutral_file_name": "03_nuisance_memo.txt",
+      "source_file_name": "03_nuisance_memo.txt",
+      "source_sha256": "92cbdc5b797e4d6338a1a7f2952f2c861416cfc37bf868a3ea37c0fa12353e88",
+      "variant_a_sha256": "92cbdc5b797e4d6338a1a7f2952f2c861416cfc37bf868a3ea37c0fa12353e88",
+      "variant_b_sha256": "92cbdc5b797e4d6338a1a7f2952f2c861416cfc37bf868a3ea37c0fa12353e88",
+      "variant_c_sha256": "c55ce8709ca859767bbf21487a36fb710d7b24adf62511dba7e41810a197077f",
+      "order": 3,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "decision_memo",
+      "neutral_file_name": "04_decision_memo.txt",
+      "source_file_name": "04_decision_memo.txt",
+      "source_sha256": "63d26b2b597714fe93b2f8c20b465a4751210dd1c329a30c0324d12ec213c838",
+      "variant_a_sha256": "63d26b2b597714fe93b2f8c20b465a4751210dd1c329a30c0324d12ec213c838",
+      "variant_b_sha256": "7dc5fec81046baedddc24b5022c214cce22a057c6db51247e311dbdc3c4003cc",
+      "variant_c_sha256": "63d26b2b597714fe93b2f8c20b465a4751210dd1c329a30c0324d12ec213c838",
+      "order": 4,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "support_note",
+      "neutral_file_name": "05_support_note.txt",
+      "source_file_name": "05_support_note.txt",
+      "source_sha256": "85ae30dc76fb4173cd6fcdf9de0182679fdb48a430e3b2712709290f162e4d2f",
+      "variant_a_sha256": "85ae30dc76fb4173cd6fcdf9de0182679fdb48a430e3b2712709290f162e4d2f",
+      "variant_b_sha256": "85ae30dc76fb4173cd6fcdf9de0182679fdb48a430e3b2712709290f162e4d2f",
+      "variant_c_sha256": "85ae30dc76fb4173cd6fcdf9de0182679fdb48a430e3b2712709290f162e4d2f",
+      "order": 5,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    }
+  ],
+  "changed_fragment_A_to_B": "The license covers two regions.",
+  "changed_fragment_A_to_C": "Nuisance memo reference LIC-3301 and timestamp 2026-09-01T12:18:00.",
+  "document_grounded_only": true
+}

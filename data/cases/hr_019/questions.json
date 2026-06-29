@@ -1,0 +1,75 @@
+{
+  "case_id": "hr_019",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "What is the old role end date?",
+      "answer_type": "date"
+    },
+    {
+      "question_id": "Q2",
+      "question": "What is the approval date in A?",
+      "answer_type": "date"
+    },
+    {
+      "question_id": "Q3",
+      "question": "What is the approval date in B?",
+      "answer_type": "date"
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is access valid when granted in A?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is access valid when granted in B?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is there an unauthorized gap in B?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q7",
+      "question": "Does manager approval alone override timing?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q8",
+      "question": "Did C change the employee badge number only?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q9",
+      "question": "Should access be revoked on role end?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q10",
+      "question": "What document proves the revocation event?",
+      "answer_type": "identifier"
+    },
+    {
+      "question_id": "Q11",
+      "question": "Is the new role already active in B?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q12",
+      "question": "Does the access request depend on employment status?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q13",
+      "question": "Does C alter the access conclusion?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q14",
+      "question": "Is the time interval between end and approval decisive?",
+      "answer_type": "boolean"
+    }
+  ]
+}

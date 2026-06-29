@@ -1,0 +1,1 @@
+IAM log records when the account became active and when it was revoked.

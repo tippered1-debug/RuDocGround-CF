@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "checks": [
+    "single_local_fragment_changed_A_B",
+    "document_structure_preserved",
+    "C_changed_fragment_nuisance_only"
+  ],
+  "notes": "Each variant retains the same document graph and only one content fragment changes for A->B; C changes a nuisance field only."
+}

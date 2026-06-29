@@ -1,0 +1,22 @@
+{
+  "report_json": "results/qwen3.5-4b_v1.3.1_independent_full_report_corrected.json",
+  "report_csv": "results/qwen3.5-4b_v1.3.1_independent_full_report_corrected.csv",
+  "counterfactual_json": "results/qwen3.5-4b_v1.3.1_independent_full_counterfactual_corrected.json",
+  "boolean_confusion_audit": "results/qwen3.5-4b_v1.3.1_independent_full_boolean_confusion_audit.json",
+  "format_failure_audit": "results/qwen3.5-4b_v1.3.1_independent_full_format_failure_audit.json",
+  "source_hashes": {
+    "gold": "463298d46e1fc7b0d1fd1a7a8c3d36d044db1592c74108ee8351fbad5b5b934a",
+    "predictions": "08567e35fa0bcc595bd70076494c10e7341ada75d4e76bbbaee256f3ce3f5759",
+    "prompts": "a7e48d2138516a480a2190bc7ad96e4835b7981ac2912f50d30d98612568b4c6"
+  },
+  "previous_hashes": {
+    "report_json": "70d65dfc9991cfcdcffdc59f2f3edfda9a7a2f65f19ff6181ddb2e25fc711ed9"
+  },
+  "hashes": {
+    "report_json": "9fd3a4558c757f412dcef1c356ab1278ec9cdf625ef8239b0ffb805cda61eff6",
+    "report_csv": "84ffde696cdd90da33142da6df9958ac8c10c8034ebae7b6fc76d705600e1c2a",
+    "counterfactual_json": "d692938edf5b67a0bf0bbebbd27a9a410e94b525f6c33832a4efc5f411f1345c",
+    "boolean_confusion_audit": "829417adf2ec1e5e3dd5251427dc87a8a2d2828b9c6e97f1d1be28865a1823d7",
+    "format_failure_audit": "14c20e988e36a4764c885bbd2d5ae65657928e72f421921a59fbb69aa4f61a43"
+  }
+}

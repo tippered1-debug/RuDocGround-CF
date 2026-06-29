@@ -1,0 +1,83 @@
+{
+  "case_id": "finset_011",
+  "documents": [
+    {
+      "doc_id": "policy",
+      "neutral_file_name": "01_policy.txt",
+      "source_file_name": "01_policy.txt",
+      "source_sha256": "46ef14fd257651e8d331e78d273b1d00f0527454e739e6a0b4b503cb2e193eef",
+      "variant_a_sha256": "46ef14fd257651e8d331e78d273b1d00f0527454e739e6a0b4b503cb2e193eef",
+      "variant_b_sha256": "46ef14fd257651e8d331e78d273b1d00f0527454e739e6a0b4b503cb2e193eef",
+      "variant_c_sha256": "46ef14fd257651e8d331e78d273b1d00f0527454e739e6a0b4b503cb2e193eef",
+      "order": 1,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "core_record",
+      "neutral_file_name": "02_core_record.txt",
+      "source_file_name": "02_core_record.txt",
+      "source_sha256": "52a987eebc1ba0bd890a4a8a2e13b972880051411b025e3b1a6d9276c5503144",
+      "variant_a_sha256": "52a987eebc1ba0bd890a4a8a2e13b972880051411b025e3b1a6d9276c5503144",
+      "variant_b_sha256": "2043819f10a9847af30c947a27741aa2501e93d94129dd621906fb62cf3f9b96",
+      "variant_c_sha256": "52a987eebc1ba0bd890a4a8a2e13b972880051411b025e3b1a6d9276c5503144",
+      "order": 2,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "nuisance_memo",
+      "neutral_file_name": "03_nuisance_memo.txt",
+      "source_file_name": "03_nuisance_memo.txt",
+      "source_sha256": "cf0e2c3f460c6d8bd55a3b58bb651c41d2afb7025eb1d04614d859d92edf85c0",
+      "variant_a_sha256": "cf0e2c3f460c6d8bd55a3b58bb651c41d2afb7025eb1d04614d859d92edf85c0",
+      "variant_b_sha256": "cf0e2c3f460c6d8bd55a3b58bb651c41d2afb7025eb1d04614d859d92edf85c0",
+      "variant_c_sha256": "1cc605d975be4226ccc6f80be8c5976077fe991b4152aae73033cca029b6a75f",
+      "order": 3,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "decision_memo",
+      "neutral_file_name": "04_decision_memo.txt",
+      "source_file_name": "04_decision_memo.txt",
+      "source_sha256": "b9b6dcb83bf33163f2d3c8808dd086026e5679069018c542919bcda08eb8123d",
+      "variant_a_sha256": "b9b6dcb83bf33163f2d3c8808dd086026e5679069018c542919bcda08eb8123d",
+      "variant_b_sha256": "4a56ea2cf452a0528025c545e90ca46bf3aeee52b8b89031c185b1b6e7891524",
+      "variant_c_sha256": "b9b6dcb83bf33163f2d3c8808dd086026e5679069018c542919bcda08eb8123d",
+      "order": 4,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "support_note",
+      "neutral_file_name": "05_support_note.txt",
+      "source_file_name": "05_support_note.txt",
+      "source_sha256": "85ae30dc76fb4173cd6fcdf9de0182679fdb48a430e3b2712709290f162e4d2f",
+      "variant_a_sha256": "85ae30dc76fb4173cd6fcdf9de0182679fdb48a430e3b2712709290f162e4d2f",
+      "variant_b_sha256": "85ae30dc76fb4173cd6fcdf9de0182679fdb48a430e3b2712709290f162e4d2f",
+      "variant_c_sha256": "85ae30dc76fb4173cd6fcdf9de0182679fdb48a430e3b2712709290f162e4d2f",
+      "order": 5,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    }
+  ],
+  "changed_fragment_A_to_B": "Line 2 is reimbursable under the partial prepayment rule.",
+  "changed_fragment_A_to_C": "Nuisance memo reference PRE-3301 and timestamp 2026-06-01T09:15:00.",
+  "document_grounded_only": true
+}

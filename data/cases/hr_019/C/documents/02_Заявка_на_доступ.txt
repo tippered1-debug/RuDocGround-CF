@@ -1,0 +1,1 @@
+Variant C: only the employee badge number and office location change; the timing of role end and approval is unchanged.

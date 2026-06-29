@@ -1,0 +1,101 @@
+case_id,variant_id,question_id,answer_type,batched_answer,independent_answer,batched_decision,independent_decision,batched_evidence,independent_evidence,batched_missing,independent_missing,independent_ok
+acceptance_004,A,Q1,status,ООО «ПроектЛаб»,ООО «ПроектЛаб»,confirmed,,service_contract,doc_id=service_contract,,,True
+acceptance_004,B,Q2,money,780000,780000,confirmed,,service_contract,"{""content"": ""2.1. Стоимость услуг составляет 780 000 (семьсот восемьдесят тысяч) руб. 00 коп."", ""doc_id"": ""service_contract""}|{""content"": ""3. Стоимость услуг по договору составляет 780 000 руб."", ""doc_id"": ""acceptance_act_B""}",,,True
+amendment_007,A,Q1,status,ООО «ДатаХост»,ООО «ДатаХост»,confirmed,,base_contract,[DOCUMENT doc_id=base_contract],,,True
+amendment_007,B,Q2,status,Исполнитель предоставляет заказчику выделенный серверный ресурс для размещения и сопровождения прикладных сервисов,Предметом договора является предоставление заказчику выделенного серверного ресурса для размещения и сопровождения прикладных сервисов,confirmed,,base_contract,[DOCUMENT doc_id=base_contract],,,True
+approval_chain_009,A,Q1,status,Сергею Волкову,Сергей Волков,approved,,access_request,"{""content"": ""Пользователь: Сергей Волков."", ""doc_id"": ""access_request""}",,,True
+approval_chain_009,B,Q4,date,1711-11-20,2026-11-17,approved,,access_request|activation_log|access_registry,[DOCUMENT doc_id=access_request]|[DOCUMENT doc_id=system_owner_approval],,,True
+asset_scope_010,A,Q1,status,ООО «ТехРесурс»,ООО «ТехРесурс»,insufficient_information,,maintenance_contract,[DOCUMENT doc_id=maintenance_contract],,,True
+asset_scope_010,B,Q3,money,300000,300000,approved,,maintenance_contract,"{""content"": ""1.4. Ежемесячная абонентская плата составляет 300 000 руб."", ""doc_id"": ""maintenance_contract""}",,,True
+authority_003,A,Q1,status,директор Уральского филиала Смирнов Игорь Петрович,Смирнов Игорь Петрович,approved,,authority_contract,[DOCUMENT doc_id=power_of_attorney_A]|[DOCUMENT doc_id=authority_contract],,,True
+authority_003,B,Q3,money,1180000,1180000,approved,,transfer_act,"{""content"": ""Просим приобрести сетевое оборудование для Уральского филиала на сумму 1 180 000 руб."", ""doc_id"": ""service_memo""}|{""content"": ""Сумма договора: 1 180 000 руб."", ""doc_id"": ""authority_contract""}",,,True
+notice_005,A,Q1,status,ООО «ОблакоСервис»,ООО «ОблакоСервис»,confirmed,,service_contract,[DOCUMENT doc_id=service_contract],,,True
+notice_005,B,Q2,status,"управляемое резервное копирование корпоративных данных заказчика и сопровождение работ, связанных с восстановлением копий по запросу","Предметом договора является оказание услуг по управляемому резервному копированию корпоративных данных заказчика и сопровождению работ, связанных с восстановлением копий по запросу",confirmed,,service_contract,[DOCUMENT doc_id=service_contract],,,True
+procurement_002,A,Q1,money,300000,300000,sufficient_information,,procurement_policy,"{""content"": ""\""1.2. Прямая закупка допустима при цене договора до 300 000 руб. включительно.\""; \""1.4. Прямая закупка свыше 300 000 руб. возможна только на основании отдельного письменного решения генерального директора, прямо разрешающего закупку без конкурентной процедуры.\"""", ""doc_id"": ""procurement_policy""}",,,True
+procurement_002,B,Q4,date,2010-10-20,2026-10-20,sufficient_information,,temporary_order|payment_request,"{""content"": ""[PARAGRAPH] 2.1. На период действия настоящего приказа предел прямой закупки по договорам на серверное оборудование для регионального офиса увеличивается до 500 000 руб.[PARAGRAPH] 2.2. Приказ применяется по дате заключения договора: если договор заключён в период действия приказа, повышенный предел применяется к такому договору."", ""doc_id"": ""temporary_order""}|{""content"": ""[PARAGRAPH] Дата заключения: 20 октября 2026 г.[PARAGRAPH]"", ""doc_id"": ""supply_contract""}",,,True
+reconciliation_006,A,Q1,status,ООО «СеверТех»,ООО «СеверТех»,insufficient_information,,purchase_order|delivery_note|supplier_invoice_A,[DOCUMENT doc_id=purchase_order]|[DOCUMENT doc_id=delivery_note]|[DOCUMENT doc_id=supplier_invoice_A],,,True
+reconciliation_006,B,Q2,money,32000,32000,insufficient_information,,purchase_order|delivery_note,"{""content"": ""\""Цена за единицу: 32 000 руб.\""."", ""doc_id"": ""purchase_order""}|{""content"": ""\""Цена за единицу: 32 000 руб.\"""", ""doc_id"": ""supplier_invoice_B""}",,,True
+sla_008,A,Q1,status,ООО «ОблакоСервис»,ООО «ОблакоСервис»,insufficient_information,,sla_contract,[DOCUMENT doc_id=sla_contract],,,True
+sla_008,B,Q2,money,500000,500000,insufficient_information,,sla_contract,[DOCUMENT doc_id=sla_contract]|[DOCUMENT doc_id=monthly_report],,,True
+trip_001,A,Q1,money,9000,9000,canonical_answer,,policy_01,"{""content"": ""[TABLE ROW] Категория работников | Москва и Санкт-Петербург | Города-миллионники | Прочие населённые пункты [TABLE ROW] Иные работники | 10 000 руб./ночь | 8 000 руб./ночь | 7 000 руб./ночь"", ""doc_id"": ""policy_01""}|{""content"": ""[TABLE ROW] Категория работников | Москва и Санкт-Петербург | Города-миллионники | Прочие населённые пункты [TABLE ROW] Директора подразделений, руководители проектов | 12 000 руб./ночь | 9 000 руб./ночь | 8 000 руб./ночь"", ""doc_id"": ""policy_01""}",,,True
+trip_001,B,Q3,threshold,"Дополнительная проверка требуется при стоимости одной ночи проживания, превышающей 10 000 руб.",,canonical_answer,error,finance_memo,,,,False
+finance_028,A,Q1,categorical,reimbursement_policy,reimbursement_policy,insufficient_information,,policy,policy,,,True
+finance_028,B,Q4,boolean,true,,True,error,core_record,,,,False
+finance_028,C,Q2,identifier,ADV-3301,ADV-3301,insufficient_information,,nuisance_memo,doc_id=nuisance_memo,,,True
+finance_028,A,Q3,datetime,2026-09-15T08:00:00Z,2026-09-15T08:00:00,insufficient_information,,nuisance_memo,[DOCUMENT doc_id=nuisance_memo],,,True
+finset_011,A,Q1,categorical,reimbursement_policy,reimbursement_policy,insufficient_information,,policy,policy,,,True
+finset_011,B,Q4,boolean,true,,True,error,core_record,,,,False
+finset_011,C,Q2,identifier,PRE-3301,PRE-3301,insufficient_information,,nuisance_memo,doc_id=nuisance_memo,,,True
+finset_011,A,Q3,datetime,2026-06-01T09:00:00Z,2026-06-01T09:00:00,insufficient_information,,nuisance_memo,[DOCUMENT doc_id=nuisance_memo],,,True
+finset_012,A,Q1,categorical,The Currency clause trigger case is governed by the fx_clause,fx_clause,insufficient_information,,policy,policy,,,True
+finset_012,B,Q4,boolean,true,,True,error,core_record,,,,False
+finset_012,C,Q2,identifier,FX-3301,FX-3301,insufficient_information,,nuisance_memo,doc_id=nuisance_memo,,,True
+finset_012,A,Q3,datetime,2026-07-01T10:00:00Z,2026-07-01T10:00:00,insufficient_information,,nuisance_memo,[DOCUMENT doc_id=nuisance_memo],,,True
+hr_019,A,Q1,date,2026-06-11,,2026-06-11,2026-06-11,01_приказ_о_переводе,[DOCUMENT doc_id=01_приказ_о_переводе],,,True
+hr_019,B,Q2,date,2026-06-13,,2026-06-13,2026-06-13,02_заявка_на_доступ,[DOCUMENT doc_id=02_заявка_на_доступ]|[DOCUMENT doc_id=04_служебная_записка_hr],,,True
+hr_019,C,Q8,boolean,true,,True,True,02_заявка_на_доступ,02_Заявка_на_доступ.txt,,,True
+hr_019,A,Q10,identifier,D2,,not_iam_log,not_iam_log,03_лог_iam,"[""03_Лог_IAM.txt""]",,,True
+hr_020,A,Q1,categorical,delegation_policy,delegation_policy,The Delegated authority gap case is governed by the delegation_policy.,,policy,policy,,,True
+hr_020,B,Q4,boolean,true,,True,error,core_record,,,,False
+hr_020,C,Q2,identifier,DEL-3301,DEL-3301,reference_number DEL-3301,,nuisance_memo,doc_id=nuisance_memo,,,True
+hr_020,A,Q3,datetime,2026-10-01T13:00:00Z,2026-10-01T13:00:00,The timestamp is 2026-10-01T13:00:00.,,nuisance_memo,[DOCUMENT doc_id=nuisance_memo],,,True
+hr_030,A,Q1,categorical,exit_checklist_rule,exit_checklist_rule,The exit_checklist_rule is the authoritative source for this package.,,policy,policy,,,True
+hr_030,B,Q4,boolean,false,,False,error,,,,,False
+hr_030,C,Q2,identifier,HR-3301,HR-3301,reference_number,,nuisance_memo,doc_id=nuisance_memo,,,True
+hr_030,A,Q3,datetime,2026-10-20T09:30:00Z,2026-10-20T09:30:00,The timestamp is 2026-10-20T09:30:00.,,nuisance_memo,[DOCUMENT doc_id=nuisance_memo],,,True
+infosec_029,A,Q1,categorical,privileged_access_policy,privileged_access_policy,,,policy,policy,,,True
+infosec_029,B,Q4,boolean,true,,True,error,core_record,,,,False
+infosec_029,C,Q2,identifier,ACC-3301,ACC-3301,,,nuisance_memo,doc_id=nuisance_memo,,,True
+infosec_029,A,Q3,datetime,2026-11-20T15:00:00Z,2026-11-20T15:00:00,,,nuisance_memo,[DOCUMENT doc_id=nuisance_memo],,,True
+iplic_015,A,Q1,categorical,license_agreement,policy,The controlling source for the territory license scope case is the license_agreement.,,policy,polic,,,True
+iplic_015,B,Q4,boolean,true,,True,error,core_record,,,,False
+iplic_015,C,Q2,identifier,LIC-3301,LIC-3301,reference_number,,nuisance_memo,doc_id=nuisance_memo,,,True
+iplic_015,A,Q3,datetime,2026-09-01T12:00:00Z,2026-09-01T12:00:00,The timestamp shown in the nuisance memo is 2026-09-01T12:00:00.,,nuisance_memo,[DOCUMENT doc_id=nuisance_memo],,,True
+iplic_016,A,Q2,boolean,true,,True,insufficient_information,03_уведомление_о_нарушении,[DOCUMENT doc_id=01_соглашение_об_эскроу_исходного_кода]|[DOCUMENT doc_id=03_уведомление_о_нарушении],,,True
+iplic_016,B,Q1,boolean,true,,True,True,01_соглашение_об_эскроу_исходного_кода,01_соглашение_об_эскроу_исходного_кода,,,True
+iplic_016,C,Q9,boolean,false,,False,False,03_уведомление_о_нарушении,03_Уведомление_о_нарушении.txt,,,True
+iplic_016,A,Q5,code_set,['build_scripts|source_code_archive'],,build_scripts|source_code_archive,error,01_соглашение_об_эскроу_исходного_кода,,,,False
+it_023,A,Q1,categorical,sla_policy,policy,insufficient_information,,policy,doc_id=policy,,,True
+it_023,B,Q4,boolean,true,,True,error,decision_memo,,,,False
+it_023,C,Q2,identifier,SLA-3301,SLA-3301,insufficient_information,,nuisance_memo,doc_id=nuisance_memo,,,True
+it_023,A,Q3,datetime,2026-11-10T15:00:00Z,2026-11-10T15:00:00,insufficient_information,,nuisance_memo,[DOCUMENT doc_id=nuisance_memo],,,True
+it_024,A,Q1,categorical,escalation_matrix,escalation_matrix,The escalation_matrix is the authoritative source for this package.,,policy,policy,,,True
+it_024,B,Q4,boolean,true,,True,error,core_record,,,,False
+it_024,C,Q2,identifier,TKT-3301,TKT-3301,insufficient_information,,nuisance_memo,doc_id=nuisance_memo,,,True
+it_024,A,Q3,datetime,2026-12-01T08:30:00Z,2026-12-01T08:30:00,timestamp 2026-12-01T08:30:00,,nuisance_memo,[DOCUMENT doc_id=nuisance_memo],,,True
+logistics_013,A,Q1,categorical,shipping_procedure,shipping_procedure,The Split shipment acceptance case is governed by the shipping_procedure.,,policy,policy,,,True
+logistics_013,B,Q4,boolean,true,,True,error,core_record,,,,False
+logistics_013,C,Q2,identifier,SHIP-3301,SHIP-3301,reference_number SHIP-3301,,nuisance_memo,doc_id=nuisance_memo,,,True
+logistics_013,A,Q3,datetime,2026-08-01T11:00:00Z,2026-08-01T11:00:00,The timestamp is 2026-08-01T11:00:00.,,nuisance_memo,[DOCUMENT doc_id=nuisance_memo],,,True
+logistics_014,A,Q1,categorical,range_2_to_8_celsius,,range_2_to_8_celsius,range_2_to_8_celsius,01_транспортный_регламент_холодовой_цепи,01_Транспортный_регламент_холодовой_цепи.txt,,,True
+logistics_014,B,Q2,boolean,true,,True,True,03_лог_температуры,[DOCUMENT doc_id=03_лог_температуры]|[DOCUMENT doc_id=01_транспортный_регламент_холодовой_цепи],,,True
+logistics_014,C,Q9,boolean,true,,True,insufficient_information,03_лог_температуры,,,,True
+logistics_014,A,Q7,integer,0,,0,insufficient_information,03_лог_температуры,,,,True
+privacy_017,A,Q2,categorical,contract necessity,,consent,not_consent,03_оценка_передачи,01_политика_передачи_пдн,,,True
+privacy_017,B,Q1,categorical,contract_necessity,,consent,insufficient_information,01_политика_передачи_пдн,,,,True
+privacy_017,C,Q8,boolean,true,,True,True,03_оценка_передачи,03_оценка_передачи,,,True
+privacy_017,A,Q1,categorical,contract necessity,,consent,contract_necessity,03_оценка_передачи,03_оценка_передачи,,,True
+privacy_018,A,Q1,categorical,incident_response_policy,incident_response_policy,insufficient_information,,policy,policy,,,True
+privacy_018,B,Q4,boolean,true,,True,error,core_record|decision_memo,,,,False
+privacy_018,C,Q2,identifier,INC-3301,INC-3301,insufficient_information,,nuisance_memo,doc_id=nuisance_memo,,,True
+privacy_018,A,Q3,datetime,2026-09-12T09:40:00Z,2026-09-12T09:40:00,insufficient_information,,nuisance_memo,[DOCUMENT doc_id=nuisance_memo],,,True
+procure_021,A,Q1,categorical,sole_source_policy,The Single-source justification case is governed by the sole_source_policy,,,policy,"{""content"": ""[controlling_rule] The Single-source justification case is governed by the sole_source_policy."", ""doc_id"": ""policy""}",,,True
+procure_021,B,Q4,boolean,false,,False,error,core_record|support_note,,,,False
+procure_021,C,Q2,identifier,PROC-3301,PROC-3301,,,nuisance_memo,"[""doc_id=nuisance_memo""]",,,True
+procure_021,A,Q3,datetime,2026-11-01T14:00:00Z,2026-11-01T14:00:00,,,nuisance_memo,,,,True
+procure_022,A,Q1,categorical,The supplier registry is authoritative,,registry,registry,01_реестр_проверки_поставщиков,01_реестр_проверки_поставщиков,,,True
+procure_022,B,Q3,boolean,false,,False,insufficient_information,02_декларация_антикоррупционная,01_реестр_проверки_поставщиков,,,True
+procure_022,C,Q8,boolean,true,,True,True,03_сертификат,[doc_id=03_сертификат],,,True
+procure_022,A,Q2,datetime,1231-01-01T00:00:00Z,,not_2026-06-20T10:00:00,insufficient_information,04_лист_проверки_закупки,[DOCUMENT doc_id=01_реестр_проверки_поставщиков]|[DOCUMENT doc_id=04_лист_проверки_закупки],,,True
+property_025,A,Q1,categorical,lease_notice_rule,lease_notice_rule,insufficient_information,,policy,policy,,,True
+property_025,B,Q4,boolean,true,,True,error,core_record,,,,False
+property_025,C,Q2,identifier,LEASE-3301,LEASE-3301,insufficient_information,,nuisance_memo,doc_id=nuisance_memo,,,True
+property_025,A,Q3,datetime,2026-12-15T10:00:00Z,2026-12-15T10:00:00,insufficient_information,,nuisance_memo,[DOCUMENT doc_id=nuisance_memo],,,True
+property_026,A,Q1,categorical,lease_guarantee_clause,lease_guarantee_clause,insufficient_information,,policy,policy,,,True
+property_026,B,Q4,boolean,true,,True,error,decision_memo,,,,False
+property_026,C,Q2,identifier,LEASE-3301,LEASE-3301,insufficient_information,,nuisance_memo,doc_id=nuisance_memo,,,True
+property_026,A,Q3,datetime,2026-10-15T09:00:00Z,2026-10-15T09:00:00,insufficient_information,,nuisance_memo,[DOCUMENT doc_id=nuisance_memo],,,True
+shipping_027,A,Q1,categorical,freight_contract,freight_contract,insufficient_information,,policy,policy,,,True
+shipping_027,B,Q4,boolean,false,,False,error,core_record,,,,False
+shipping_027,C,Q2,identifier,FRT-3301,FRT-3301,insufficient_information,,nuisance_memo,doc_id=nuisance_memo,,,True
+shipping_027,A,Q3,datetime,2026-08-10T17:00:00Z,2026-08-10T17:00:00,insufficient_information,,nuisance_memo,[DOCUMENT doc_id=nuisance_memo],,,True

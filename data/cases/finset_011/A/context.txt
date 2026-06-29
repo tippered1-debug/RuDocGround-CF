@@ -1,0 +1,35 @@
+[DOCUMENT doc_id=policy]
+=== DOCUMENT 1 | 01_policy.txt ===
+[PARAGRAPH] [controlling_rule] The Partial prepayment threshold case is governed by the reimbursement_policy.
+[PARAGRAPH] [authoritative_source] reimbursement_policy is the authoritative source for this package.
+[PARAGRAPH] [domain] finance and calculations
+[/DOCUMENT]
+
+[DOCUMENT doc_id=core_record]
+=== DOCUMENT 2 | 02_core_record.txt ===
+[PARAGRAPH] [substantive_fact] Line 2 is not reimbursable under the partial prepayment rule.
+[PARAGRAPH] [amount] 1200
+[PARAGRAPH] [deadline_date] 2026-06-01
+[PARAGRAPH] [identifier] INV-1101
+[PARAGRAPH] [code_set] taxable_scope | non_taxable_scope
+[/DOCUMENT]
+
+[DOCUMENT doc_id=nuisance_memo]
+=== DOCUMENT 3 | 03_nuisance_memo.txt ===
+[PARAGRAPH] [reference_number] PRE-1101
+[PARAGRAPH] [timestamp] 2026-06-01T09:00:00
+[PARAGRAPH] [case_tag] finset_011
+[/DOCUMENT]
+
+[DOCUMENT doc_id=decision_memo]
+=== DOCUMENT 4 | 04_decision_memo.txt ===
+[PARAGRAPH] [final_status] rejected
+[PARAGRAPH] [decision_reason] The decision follows the substantive fact and the controlling source.
+[/DOCUMENT]
+
+[DOCUMENT doc_id=support_note]
+=== DOCUMENT 5 | 05_support_note.txt ===
+[PARAGRAPH] [support_note_sufficient] true
+[PARAGRAPH] [missing_information] No mandatory supporting document is missing.
+[PARAGRAPH] [support_note] The supporting note is sufficient.
+[/DOCUMENT]

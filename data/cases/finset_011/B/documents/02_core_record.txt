@@ -1,0 +1,5 @@
+[substantive_fact] Line 2 is reimbursable under the partial prepayment rule.
+[amount] 0
+[deadline_date] 2026-06-03
+[identifier] INV-1101
+[code_set] taxable_scope | non_taxable_scope

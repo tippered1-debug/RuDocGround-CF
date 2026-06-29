@@ -1,0 +1,39 @@
+{
+  "case_id": "procurement_002",
+  "status": "ok",
+  "documents": 7,
+  "variants": [
+    "A",
+    "B"
+  ],
+  "gold_records": 30,
+  "questions": 15,
+  "flip_questions": [
+    "Q5",
+    "Q6",
+    "Q10",
+    "Q13",
+    "Q15"
+  ],
+  "invariant_questions": [
+    "Q1",
+    "Q2",
+    "Q3",
+    "Q4",
+    "Q7",
+    "Q8",
+    "Q9",
+    "Q11",
+    "Q12",
+    "Q14"
+  ],
+  "prompt_counts": {
+    "A": 15,
+    "B": 15,
+    "all": 30
+  },
+  "notes": [
+    "A and B differ only by the final date of the temporary order.",
+    "All other documents are identical across variants."
+  ]
+}

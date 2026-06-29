@@ -1,0 +1,142 @@
+{
+  "case_id": "procure_021",
+  "package": "B",
+  "documents": [
+    {
+      "doc_id": "policy",
+      "filename": "01_policy.txt",
+      "source_file_name": "01_policy.txt",
+      "source_sha256": "119f519067ce0a1e232783c72cca714a5b5e6dda8a09110d6213fdd5443d7ec5",
+      "order": 1,
+      "text": "[PARAGRAPH] [controlling_rule] The Single-source justification case is governed by the sole_source_policy.\n[PARAGRAPH] [authoritative_source] sole_source_policy is the authoritative source for this package.\n[PARAGRAPH] [domain] procurement and compliance",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[controlling_rule] The Single-source justification case is governed by the sole_source_policy."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[authoritative_source] sole_source_policy is the authoritative source for this package."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[domain] procurement and compliance"
+        }
+      ]
+    },
+    {
+      "doc_id": "core_record",
+      "filename": "02_core_record.txt",
+      "source_file_name": "02_core_record.txt",
+      "source_sha256": "c4d4faf05d31a3c8a44d6a700e41ba097ddbf1da5a3e52241684f34199456292",
+      "order": 2,
+      "text": "[PARAGRAPH] [substantive_fact] The mandatory comparator is missing.\n[PARAGRAPH] [amount] 1\n[PARAGRAPH] [deadline_date] 2026-11-03\n[PARAGRAPH] [identifier] PROC-2101\n[PARAGRAPH] [code_set] sole_source | comparator_check",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[substantive_fact] The mandatory comparator is missing."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[amount] 1"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[deadline_date] 2026-11-03"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[identifier] PROC-2101"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[code_set] sole_source | comparator_check"
+        }
+      ]
+    },
+    {
+      "doc_id": "nuisance_memo",
+      "filename": "03_nuisance_memo.txt",
+      "source_file_name": "03_nuisance_memo.txt",
+      "source_sha256": "4d248a68ef341a1fae49d20debc97ac0d60ef9e013271aa1e9b8c8f0f206509d",
+      "order": 3,
+      "text": "[PARAGRAPH] [reference_number] PROC-2101\n[PARAGRAPH] [timestamp] 2026-11-01T14:00:00\n[PARAGRAPH] [case_tag] procure_021",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[reference_number] PROC-2101"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[timestamp] 2026-11-01T14:00:00"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[case_tag] procure_021"
+        }
+      ]
+    },
+    {
+      "doc_id": "decision_memo",
+      "filename": "04_decision_memo.txt",
+      "source_file_name": "04_decision_memo.txt",
+      "source_sha256": "29c38e417774a8003a0bcd82c38bdc5c081b1bdfd2f40283b1a9d49492e092f5",
+      "order": 4,
+      "text": "[PARAGRAPH] [final_status] approved\n[PARAGRAPH] [decision_reason] The decision follows the substantive fact and the controlling source.",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[final_status] approved"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[decision_reason] The decision follows the substantive fact and the controlling source."
+        }
+      ]
+    },
+    {
+      "doc_id": "support_note",
+      "filename": "05_support_note.txt",
+      "source_file_name": "05_support_note.txt",
+      "source_sha256": "9105a3a5c911d4a7b28be854437952c93b4a6a1ef8aae0a1d32b5c81702fc8d1",
+      "order": 5,
+      "text": "[PARAGRAPH] [support_note_sufficient] false\n[PARAGRAPH] [missing_information] A mandatory comparator is missing.\n[PARAGRAPH] [support_note] The supporting note is not sufficient.\n[PARAGRAPH] [mandatory_comparator] comparator evidence is required for the file.",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[support_note_sufficient] false"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[missing_information] A mandatory comparator is missing."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[support_note] The supporting note is not sufficient."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[mandatory_comparator] comparator evidence is required for the file."
+        }
+      ]
+    }
+  ],
+  "text": "[DOCUMENT doc_id=policy]\n=== DOCUMENT 1 | 01_policy.txt ===\n[PARAGRAPH] [controlling_rule] The Single-source justification case is governed by the sole_source_policy.\n[PARAGRAPH] [authoritative_source] sole_source_policy is the authoritative source for this package.\n[PARAGRAPH] [domain] procurement and compliance\n[/DOCUMENT]\n\n[DOCUMENT doc_id=core_record]\n=== DOCUMENT 2 | 02_core_record.txt ===\n[PARAGRAPH] [substantive_fact] The mandatory comparator is missing.\n[PARAGRAPH] [amount] 1\n[PARAGRAPH] [deadline_date] 2026-11-03\n[PARAGRAPH] [identifier] PROC-2101\n[PARAGRAPH] [code_set] sole_source | comparator_check\n[/DOCUMENT]\n\n[DOCUMENT doc_id=nuisance_memo]\n=== DOCUMENT 3 | 03_nuisance_memo.txt ===\n[PARAGRAPH] [reference_number] PROC-2101\n[PARAGRAPH] [timestamp] 2026-11-01T14:00:00\n[PARAGRAPH] [case_tag] procure_021\n[/DOCUMENT]\n\n[DOCUMENT doc_id=decision_memo]\n=== DOCUMENT 4 | 04_decision_memo.txt ===\n[PARAGRAPH] [final_status] approved\n[PARAGRAPH] [decision_reason] The decision follows the substantive fact and the controlling source.\n[/DOCUMENT]\n\n[DOCUMENT doc_id=support_note]\n=== DOCUMENT 5 | 05_support_note.txt ===\n[PARAGRAPH] [support_note_sufficient] false\n[PARAGRAPH] [missing_information] A mandatory comparator is missing.\n[PARAGRAPH] [support_note] The supporting note is not sufficient.\n[PARAGRAPH] [mandatory_comparator] comparator evidence is required for the file.\n[/DOCUMENT]"
+}

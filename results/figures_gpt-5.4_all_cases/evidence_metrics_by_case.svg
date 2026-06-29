@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="540" viewBox="0 0 1100 540">
+  <rect width="100%" height="100%" fill="white"/>
+  <text x="24" y="38" font-size="26" font-family="Arial, sans-serif" fill="black">Benchmark Evidence Metrics by Case</text>
+  <text x="128.0" y="460" font-size="14" font-family="Arial, sans-serif" text-anchor="middle">acceptance&#10;004</text>
+  <rect x="90.0" y="214" width="19" height="206" fill="#1f77b4" />
+  <text x="90.0" y="210" font-size="14" font-family="Arial, sans-serif">0.61</text>
+  <rect x="115.0" y="116" width="19" height="304" fill="#ff7f0e" />
+  <text x="115.0" y="112" font-size="14" font-family="Arial, sans-serif">0.89</text>
+  <rect x="140.0" y="192" width="19" height="228" fill="#2ca02c" />
+  <text x="140.0" y="188" font-size="14" font-family="Arial, sans-serif">0.67</text>
+  <text x="224.0" y="460" font-size="14" font-family="Arial, sans-serif" text-anchor="middle">amendment&#10;007</text>
+  <rect x="186.0" y="190" width="19" height="230" fill="#1f77b4" />
+  <text x="186.0" y="186" font-size="14" font-family="Arial, sans-serif">0.68</text>
+  <rect x="211.0" y="119" width="19" height="301" fill="#ff7f0e" />
+  <text x="211.0" y="115" font-size="14" font-family="Arial, sans-serif">0.88</text>
+  <rect x="236.0" y="170" width="19" height="250" fill="#2ca02c" />
+  <text x="236.0" y="166" font-size="14" font-family="Arial, sans-serif">0.74</text>
+  <text x="320.0" y="460" font-size="14" font-family="Arial, sans-serif" text-anchor="middle">approval&#10;chain 009</text>
+  <rect x="282.0" y="199" width="19" height="221" fill="#1f77b4" />
+  <text x="282.0" y="195" font-size="14" font-family="Arial, sans-serif">0.65</text>
+  <rect x="307.0" y="92" width="19" height="328" fill="#ff7f0e" />
+  <text x="307.0" y="88" font-size="14" font-family="Arial, sans-serif">0.97</text>
+  <rect x="332.0" y="170" width="19" height="250" fill="#2ca02c" />
+  <text x="332.0" y="166" font-size="14" font-family="Arial, sans-serif">0.73</text>
+  <text x="416.0" y="460" font-size="14" font-family="Arial, sans-serif" text-anchor="middle">asset scope&#10;010</text>
+  <rect x="378.0" y="168" width="19" height="252" fill="#1f77b4" />
+  <text x="378.0" y="164" font-size="14" font-family="Arial, sans-serif">0.74</text>
+  <rect x="403.0" y="96" width="19" height="324" fill="#ff7f0e" />
+  <text x="403.0" y="92" font-size="14" font-family="Arial, sans-serif">0.95</text>
+  <rect x="428.0" y="146" width="19" height="274" fill="#2ca02c" />
+  <text x="428.0" y="142" font-size="14" font-family="Arial, sans-serif">0.81</text>
+  <text x="512.0" y="460" font-size="14" font-family="Arial, sans-serif" text-anchor="middle">authority&#10;003</text>
+  <rect x="474.0" y="206" width="19" height="214" fill="#1f77b4" />
+  <text x="474.0" y="202" font-size="14" font-family="Arial, sans-serif">0.63</text>
+  <rect x="499.0" y="90" width="19" height="330" fill="#ff7f0e" />
+  <text x="499.0" y="86" font-size="14" font-family="Arial, sans-serif">0.97</text>
+  <rect x="524.0" y="171" width="19" height="249" fill="#2ca02c" />
+  <text x="524.0" y="167" font-size="14" font-family="Arial, sans-serif">0.73</text>
+  <text x="608.0" y="460" font-size="14" font-family="Arial, sans-serif" text-anchor="middle">notice_005</text>
+  <rect x="570.0" y="190" width="19" height="230" fill="#1f77b4" />
+  <text x="570.0" y="186" font-size="14" font-family="Arial, sans-serif">0.68</text>
+  <rect x="595.0" y="90" width="19" height="330" fill="#ff7f0e" />
+  <text x="595.0" y="86" font-size="14" font-family="Arial, sans-serif">0.97</text>
+  <rect x="620.0" y="162" width="19" height="258" fill="#2ca02c" />
+  <text x="620.0" y="158" font-size="14" font-family="Arial, sans-serif">0.76</text>
+  <text x="704.0" y="460" font-size="14" font-family="Arial, sans-serif" text-anchor="middle">procurement&#10;002</text>
+  <rect x="666.0" y="182" width="19" height="238" fill="#1f77b4" />
+  <text x="666.0" y="178" font-size="14" font-family="Arial, sans-serif">0.70</text>
+  <rect x="691.0" y="116" width="19" height="304" fill="#ff7f0e" />
+  <text x="691.0" y="112" font-size="14" font-family="Arial, sans-serif">0.89</text>
+  <rect x="716.0" y="165" width="19" height="255" fill="#2ca02c" />
+  <text x="716.0" y="161" font-size="14" font-family="Arial, sans-serif">0.75</text>
+  <text x="800.0" y="460" font-size="14" font-family="Arial, sans-serif" text-anchor="middle">reconciliation&#10;006</text>
+  <rect x="762.0" y="282" width="19" height="138" fill="#1f77b4" />
+  <text x="762.0" y="278" font-size="14" font-family="Arial, sans-serif">0.41</text>
+  <rect x="787.0" y="191" width="19" height="229" fill="#ff7f0e" />
+  <text x="787.0" y="187" font-size="14" font-family="Arial, sans-serif">0.67</text>
+  <rect x="812.0" y="260" width="19" height="160" fill="#2ca02c" />
+  <text x="812.0" y="256" font-size="14" font-family="Arial, sans-serif">0.47</text>
+  <text x="896.0" y="460" font-size="14" font-family="Arial, sans-serif" text-anchor="middle">sla_008</text>
+  <rect x="858.0" y="128" width="19" height="292" fill="#1f77b4" />
+  <text x="858.0" y="124" font-size="14" font-family="Arial, sans-serif">0.86</text>
+  <rect x="883.0" y="90" width="19" height="330" fill="#ff7f0e" />
+  <text x="883.0" y="86" font-size="14" font-family="Arial, sans-serif">0.97</text>
+  <rect x="908.0" y="115" width="19" height="305" fill="#2ca02c" />
+  <text x="908.0" y="111" font-size="14" font-family="Arial, sans-serif">0.90</text>
+  <text x="992.0" y="460" font-size="14" font-family="Arial, sans-serif" text-anchor="middle">trip_001</text>
+  <rect x="954.0" y="192" width="19" height="228" fill="#1f77b4" />
+  <text x="954.0" y="188" font-size="14" font-family="Arial, sans-serif">0.67</text>
+  <rect x="979.0" y="96" width="19" height="324" fill="#ff7f0e" />
+  <text x="979.0" y="92" font-size="14" font-family="Arial, sans-serif">0.95</text>
+  <rect x="1004.0" y="164" width="19" height="256" fill="#2ca02c" />
+  <text x="1004.0" y="160" font-size="14" font-family="Arial, sans-serif">0.75</text>
+  <rect x="850" y="60" width="14" height="14" fill="#1f77b4" />
+  <text x="872" y="72" font-size="14" font-family="Arial, sans-serif">Precision</text>
+  <rect x="850" y="82" width="14" height="14" fill="#ff7f0e" />
+  <text x="872" y="94" font-size="14" font-family="Arial, sans-serif">Recall</text>
+  <rect x="850" y="104" width="14" height="14" fill="#2ca02c" />
+  <text x="872" y="116" font-size="14" font-family="Arial, sans-serif">F1</text>
+</svg>

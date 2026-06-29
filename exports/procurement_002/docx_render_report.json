@@ -1,0 +1,93 @@
+{
+  "case_id": "procurement_002",
+  "files": [
+    {
+      "file_name": "01_Положение_о_закупках.docx",
+      "docx_path": "/Users/stefanbidzamov/goldlink/exports/procurement_002/docx/01_Положение_о_закупках.docx",
+      "pdf_path": "/Users/stefanbidzamov/goldlink/exports/procurement_002/pdf/01_Положение_о_закупках.pdf",
+      "source_txt": "/Users/stefanbidzamov/goldlink/data/source_documents/procurement_002/01_Положение_о_закупках.txt",
+      "pages": 1,
+      "text_compare_ok": true,
+      "differences": [],
+      "visual_check_ok": true,
+      "visual_check_notes": "PDF rendered successfully with readable extracted text"
+    },
+    {
+      "file_name": "02_Временный_приказ_версия_A.docx",
+      "docx_path": "/Users/stefanbidzamov/goldlink/exports/procurement_002/docx/02_Временный_приказ_версия_A.docx",
+      "pdf_path": "/Users/stefanbidzamov/goldlink/exports/procurement_002/pdf/02_Временный_приказ_версия_A.pdf",
+      "source_txt": "/Users/stefanbidzamov/goldlink/data/cases/procurement_002/A/documents/02_Временный_приказ.txt",
+      "pages": 1,
+      "text_compare_ok": true,
+      "differences": [],
+      "visual_check_ok": true,
+      "visual_check_notes": "PDF rendered successfully with readable extracted text"
+    },
+    {
+      "file_name": "03_Временный_приказ_версия_B.docx",
+      "docx_path": "/Users/stefanbidzamov/goldlink/exports/procurement_002/docx/03_Временный_приказ_версия_B.docx",
+      "pdf_path": "/Users/stefanbidzamov/goldlink/exports/procurement_002/pdf/03_Временный_приказ_версия_B.pdf",
+      "source_txt": "/Users/stefanbidzamov/goldlink/data/cases/procurement_002/B/documents/02_Временный_приказ.txt",
+      "pages": 1,
+      "text_compare_ok": true,
+      "differences": [],
+      "visual_check_ok": true,
+      "visual_check_notes": "PDF rendered successfully with readable extracted text"
+    },
+    {
+      "file_name": "04_Заявка_на_закупку.docx",
+      "docx_path": "/Users/stefanbidzamov/goldlink/exports/procurement_002/docx/04_Заявка_на_закупку.docx",
+      "pdf_path": "/Users/stefanbidzamov/goldlink/exports/procurement_002/pdf/04_Заявка_на_закупку.pdf",
+      "source_txt": "/Users/stefanbidzamov/goldlink/data/source_documents/procurement_002/03_Заявка_на_закупку.txt",
+      "pages": 1,
+      "text_compare_ok": true,
+      "differences": [],
+      "visual_check_ok": true,
+      "visual_check_notes": "PDF rendered successfully with readable extracted text"
+    },
+    {
+      "file_name": "05_Коммерческое_предложение.docx",
+      "docx_path": "/Users/stefanbidzamov/goldlink/exports/procurement_002/docx/05_Коммерческое_предложение.docx",
+      "pdf_path": "/Users/stefanbidzamov/goldlink/exports/procurement_002/pdf/05_Коммерческое_предложение.pdf",
+      "source_txt": "/Users/stefanbidzamov/goldlink/data/source_documents/procurement_002/04_Коммерческое_предложение.txt",
+      "pages": 1,
+      "text_compare_ok": true,
+      "differences": [],
+      "visual_check_ok": true,
+      "visual_check_notes": "PDF rendered successfully with readable extracted text"
+    },
+    {
+      "file_name": "06_Лист_согласования.docx",
+      "docx_path": "/Users/stefanbidzamov/goldlink/exports/procurement_002/docx/06_Лист_согласования.docx",
+      "pdf_path": "/Users/stefanbidzamov/goldlink/exports/procurement_002/pdf/06_Лист_согласования.pdf",
+      "source_txt": "/Users/stefanbidzamov/goldlink/data/source_documents/procurement_002/05_Лист_согласования.txt",
+      "pages": 1,
+      "text_compare_ok": true,
+      "differences": [],
+      "visual_check_ok": true,
+      "visual_check_notes": "PDF rendered successfully with readable extracted text"
+    },
+    {
+      "file_name": "07_Договор_поставки.docx",
+      "docx_path": "/Users/stefanbidzamov/goldlink/exports/procurement_002/docx/07_Договор_поставки.docx",
+      "pdf_path": "/Users/stefanbidzamov/goldlink/exports/procurement_002/pdf/07_Договор_поставки.pdf",
+      "source_txt": "/Users/stefanbidzamov/goldlink/data/source_documents/procurement_002/06_Договор_поставки.txt",
+      "pages": 1,
+      "text_compare_ok": true,
+      "differences": [],
+      "visual_check_ok": true,
+      "visual_check_notes": "PDF rendered successfully with readable extracted text"
+    },
+    {
+      "file_name": "08_Заявка_на_оплату.docx",
+      "docx_path": "/Users/stefanbidzamov/goldlink/exports/procurement_002/docx/08_Заявка_на_оплату.docx",
+      "pdf_path": "/Users/stefanbidzamov/goldlink/exports/procurement_002/pdf/08_Заявка_на_оплату.pdf",
+      "source_txt": "/Users/stefanbidzamov/goldlink/data/source_documents/procurement_002/07_Заявка_на_оплату.txt",
+      "pages": 1,
+      "text_compare_ok": true,
+      "differences": [],
+      "visual_check_ok": true,
+      "visual_check_notes": "PDF rendered successfully with readable extracted text"
+    }
+  ]
+}

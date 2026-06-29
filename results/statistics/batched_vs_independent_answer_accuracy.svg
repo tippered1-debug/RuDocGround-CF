@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1220" viewBox="0 0 1500 1220">
+<rect width="100%" height="100%" fill="#fcfbf8"/>
+<text x="250" y="34" font-size="26" font-family="Arial, sans-serif" font-weight="700">Batched vs independent answer accuracy</text>
+<text x="250" y="58" font-size="15" font-family="Arial, sans-serif" fill="#555">Cases sorted by batched-minus-independent gap</text>
+<line x1="250" y1="90" x2="250" y2="1160" stroke="#222" stroke-width="1.5"/>
+<line x1="250" y1="1160" x2="1460" y2="1160" stroke="#222" stroke-width="1.5"/>
+<line x1="250.00" y1="1160" x2="250.00" y2="1165" stroke="#222"/>
+<text x="250.00" y="1182" font-size="12" font-family="Arial, sans-serif" text-anchor="middle" fill="#444">0.00</text>
+<line x1="250.00" y1="90" x2="250.00" y2="1160" stroke="#eee" stroke-width="1"/>
+<line x1="492.00" y1="1160" x2="492.00" y2="1165" stroke="#222"/>
+<text x="492.00" y="1182" font-size="12" font-family="Arial, sans-serif" text-anchor="middle" fill="#444">0.20</text>
+<line x1="492.00" y1="90" x2="492.00" y2="1160" stroke="#eee" stroke-width="1"/>
+<line x1="734.00" y1="1160" x2="734.00" y2="1165" stroke="#222"/>
+<text x="734.00" y="1182" font-size="12" font-family="Arial, sans-serif" text-anchor="middle" fill="#444">0.40</text>
+<line x1="734.00" y1="90" x2="734.00" y2="1160" stroke="#eee" stroke-width="1"/>
+<line x1="976.00" y1="1160" x2="976.00" y2="1165" stroke="#222"/>
+<text x="976.00" y="1182" font-size="12" font-family="Arial, sans-serif" text-anchor="middle" fill="#444">0.60</text>
+<line x1="976.00" y1="90" x2="976.00" y2="1160" stroke="#eee" stroke-width="1"/>
+<line x1="1218.00" y1="1160" x2="1218.00" y2="1165" stroke="#222"/>
+<text x="1218.00" y="1182" font-size="12" font-family="Arial, sans-serif" text-anchor="middle" fill="#444">0.80</text>
+<line x1="1218.00" y1="90" x2="1218.00" y2="1160" stroke="#eee" stroke-width="1"/>
+<line x1="1460.00" y1="1160" x2="1460.00" y2="1165" stroke="#222"/>
+<text x="1460.00" y="1182" font-size="12" font-family="Arial, sans-serif" text-anchor="middle" fill="#444">1.00</text>
+<line x1="1460.00" y1="90" x2="1460.00" y2="1160" stroke="#eee" stroke-width="1"/>
+<text x="238" y="111.83" font-size="13" font-family="Arial, sans-serif" text-anchor="end" fill="#222">privacy_017</text>
+<line x1="246" y1="107.83" x2="1460" y2="107.83" stroke="#f1ece4" stroke-width="1"/>
+<line x1="1171.90" y1="107.83" x2="250.00" y2="107.83" stroke="#9a9488" stroke-width="2" opacity="0.65"/>
+<circle cx="1171.90" cy="107.83" r="6.5" fill="#2a9d8f" stroke="#1f1f1f" stroke-width="0.8"/>
+<circle cx="250.00" cy="107.83" r="6.5" fill="#e76f51" stroke="#1f1f1f" stroke-width="0.8"/>
+<text x="238" y="147.50" font-size="13" font-family="Arial, sans-serif" text-anchor="end" fill="#222">logistics_014</text>
+<line x1="246" y1="143.50" x2="1460" y2="143.50" stroke="#f1ece4" stroke-width="1"/>
+<line x1="1085.48" y1="143.50" x2="250.00" y2="143.50" stroke="#9a9488" stroke-width="2" opacity="0.65"/>
+<circle cx="1085.48" cy="143.50" r="6.5" fill="#2a9d8f" stroke="#1f1f1f" stroke-width="0.8"/>
+<circle cx="250.00" cy="143.50" r="6.5" fill="#e76f51" stroke="#1f1f1f" stroke-width="0.8"/>
+<text x="238" y="183.17" font-size="13" font-family="Arial, sans-serif" text-anchor="end" fill="#222">hr_019</text>
+<line x1="246" y1="179.17" x2="1460" y2="179.17" stroke="#f1ece4" stroke-width="1"/>
+<line x1="1056.67" y1="179.17" x2="278.81" y2="179.17" stroke="#9a9488" stroke-width="2" opacity="0.65"/>
+<circle cx="1056.67" cy="179.17" r="6.5" fill="#2a9d8f" stroke="#1f1f1f" stroke-width="0.8"/>
+<circle cx="278.81" cy="179.17" r="6.5" fill="#e76f51" stroke="#1f1f1f" stroke-width="0.8"/>
+<text x="238" y="218.83" font-size="13" font-family="Arial, sans-serif" text-anchor="end" fill="#222">procure_022</text>
+<line x1="246" y1="214.83" x2="1460" y2="214.83" stroke="#f1ece4" stroke-width="1"/>
+<line x1="970.24" y1="214.83" x2="250.00" y2="214.83" stroke="#9a9488" stroke-width="2" opacity="0.65"/>
+<circle cx="970.24" cy="214.83" r="6.5" fill="#2a9d8f" stroke="#1f1f1f" stroke-width="0.8"/>
+<circle cx="250.00" cy="214.83" r="6.5" fill="#e76f51" stroke="#1f1f1f" stroke-width="0.8"/>
+<text x="238" y="254.50" font-size="13" font-family="Arial, sans-serif" text-anchor="end" fill="#222">trip_001</text>
+<line x1="246" y1="250.50" x2="1460" y2="250.50" stroke="#f1ece4" stroke-width="1"/>
+<line x1="1104.12" y1="250.50" x2="392.35" y2="250.50" stroke="#9a9488" stroke-width="2" opacity="0.65"/>
+<circle cx="1104.12" cy="250.50" r="6.5" fill="#2a9d8f" stroke="#1f1f1f" stroke-width="0.8"/>
+<circle cx="392.35" cy="250.50" r="6.5" fill="#e76f51" stroke="#1f1f1f" stroke-width="0.8"/>
+<text x="238" y="290.17" font-size="13" font-family="Arial, sans-serif" text-anchor="end" fill="#222">acceptance_004</text>
+<line x1="246" y1="286.17" x2="1460" y2="286.17" stroke="#f1ece4" stroke-width="1"/>
+<line x1="1081.88" y1="286.17" x2="401.25" y2="286.17" stroke="#9a9488" stroke-width="2" opacity="0.65"/>
+<circle cx="1081.88" cy="286.17" r="6.5" fill="#2a9d8f" stroke="#1f1f1f" stroke-width="0.8"/>
+<circle cx="401.25" cy="286.17" r="6.5" fill="#e76f51" stroke="#1f1f1f" stroke-width="0.8"/>
+<text x="238" y="325.83" font-size="13" font-family="Arial, sans-serif" text-anchor="end" fill="#222">property_025</text>
+<line x1="246" y1="321.83" x2="1460" y2="321.83" stroke="#f1ece4" stroke-width="1"/>
+<line x1="1344.76" y1="321.83" x2="682.14" y2="321.83" stroke="#9a9488" stroke-width="2" opacity="0.65"/>
+<circle cx="1344.76" cy="321.83" r="6.5" fill="#2a9d8f" stroke="#1f1f1f" stroke-width="0.8"/>
+<circle cx="682.14" cy="321.83" r="6.5" fill="#e76f51" stroke="#1f1f1f" stroke-width="0.8"/>
+<text x="238" y="361.50" font-size="13" font-family="Arial, sans-serif" text-anchor="end" fill="#222">reconciliation_006</text>
+<line x1="246" y1="357.50" x2="1460" y2="357.50" stroke="#f1ece4" stroke-width="1"/>
+<line x1="1270.94" y1="357.50" x2="628.12" y2="357.50" stroke="#9a9488" stroke-width="2" opacity="0.65"/>
+<circle cx="1270.94" cy="357.50" r="6.5" fill="#2a9d8f" stroke="#1f1f1f" stroke-width="0.8"/>
+<circle cx="628.12" cy="357.50" r="6.5" fill="#e76f51" stroke="#1f1f1f" stroke-width="0.8"/>
+<text x="238" y="397.17" font-size="13" font-family="Arial, sans-serif" text-anchor="end" fill="#222">finance_028</text>
+<line x1="246" y1="393.17" x2="1460" y2="393.17" stroke="#f1ece4" stroke-width="1"/>
+<line x1="1344.76" y1="393.17" x2="710.95" y2="393.17" stroke="#9a9488" stroke-width="2" opacity="0.65"/>
+<circle cx="1344.76" cy="393.17" r="6.5" fill="#2a9d8f" stroke="#1f1f1f" stroke-width="0.8"/>
+<circle cx="710.95" cy="393.17" r="6.5" fill="#e76f51" stroke="#1f1f1f" stroke-width="0.8"/>
+<text x="238" y="432.83" font-size="13" font-family="Arial, sans-serif" text-anchor="end" fill="#222">it_024</text>
+<line x1="246" y1="428.83" x2="1460" y2="428.83" stroke="#f1ece4" stroke-width="1"/>
+<line x1="1344.76" y1="428.83" x2="710.95" y2="428.83" stroke="#9a9488" stroke-width="2" opacity="0.65"/>
+<circle cx="1344.76" cy="428.83" r="6.5" fill="#2a9d8f" stroke="#1f1f1f" stroke-width="0.8"/>
+<circle cx="710.95" cy="428.83" r="6.5" fill="#e76f51" stroke="#1f1f1f" stroke-width="0.8"/>
+<text x="238" y="468.50" font-size="13" font-family="Arial, sans-serif" text-anchor="end" fill="#222">hr_030</text>
+<line x1="246" y1="464.50" x2="1460" y2="464.50" stroke="#f1ece4" stroke-width="1"/>
+<line x1="1258.33" y1="464.50" x2="653.33" y2="464.50" stroke="#9a9488" stroke-width="2" opacity="0.65"/>
+<circle cx="1258.33" cy="464.50" r="6.5" fill="#2a9d8f" stroke="#1f1f1f" stroke-width="0.8"/>
+<circle cx="653.33" cy="464.50" r="6.5" fill="#e76f51" stroke="#1f1f1f" stroke-width="0.8"/>
+<text x="238" y="504.17" font-size="13" font-family="Arial, sans-serif" text-anchor="end" fill="#222">iplic_016</text>
+<line x1="246" y1="500.17" x2="1460" y2="500.17" stroke="#f1ece4" stroke-width="1"/>
+<line x1="855.00" y1="500.17" x2="250.00" y2="500.17" stroke="#9a9488" stroke-width="2" opacity="0.65"/>
+<circle cx="855.00" cy="500.17" r="6.5" fill="#2a9d8f" stroke="#1f1f1f" stroke-width="0.8"/>
+<circle cx="250.00" cy="500.17" r="6.5" fill="#e76f51" stroke="#1f1f1f" stroke-width="0.8"/>
+<text x="238" y="539.83" font-size="13" font-family="Arial, sans-serif" text-anchor="end" fill="#222">iplic_015</text>
+<line x1="246" y1="535.83" x2="1460" y2="535.83" stroke="#f1ece4" stroke-width="1"/>
+<line x1="1344.76" y1="535.83" x2="768.57" y2="535.83" stroke="#9a9488" stroke-width="2" opacity="0.65"/>
+<circle cx="1344.76" cy="535.83" r="6.5" fill="#2a9d8f" stroke="#1f1f1f" stroke-width="0.8"/>
+<circle cx="768.57" cy="535.83" r="6.5" fill="#e76f51" stroke="#1f1f1f" stroke-width="0.8"/>
+<text x="238" y="575.50" font-size="13" font-family="Arial, sans-serif" text-anchor="end" fill="#222">it_023</text>
+<line x1="246" y1="571.50" x2="1460" y2="571.50" stroke="#f1ece4" stroke-width="1"/>
+<line x1="1258.33" y1="571.50" x2="682.14" y2="571.50" stroke="#9a9488" stroke-width="2" opacity="0.65"/>
+<circle cx="1258.33" cy="571.50" r="6.5" fill="#2a9d8f" stroke="#1f1f1f" stroke-width="0.8"/>
+<circle cx="682.14" cy="571.50" r="6.5" fill="#e76f51" stroke="#1f1f1f" stroke-width="0.8"/>
+<text x="238" y="611.17" font-size="13" font-family="Arial, sans-serif" text-anchor="end" fill="#222">finset_011</text>
+<line x1="246" y1="607.17" x2="1460" y2="607.17" stroke="#f1ece4" stroke-width="1"/>
+<line x1="1344.76" y1="607.17" x2="797.38" y2="607.17" stroke="#9a9488" stroke-width="2" opacity="0.65"/>
+<circle cx="1344.76" cy="607.17" r="6.5" fill="#2a9d8f" stroke="#1f1f1f" stroke-width="0.8"/>
+<circle cx="797.38" cy="607.17" r="6.5" fill="#e76f51" stroke="#1f1f1f" stroke-width="0.8"/>
+<text x="238" y="646.83" font-size="13" font-family="Arial, sans-serif" text-anchor="end" fill="#222">hr_020</text>
+<line x1="246" y1="642.83" x2="1460" y2="642.83" stroke="#f1ece4" stroke-width="1"/>
+<line x1="1315.95" y1="642.83" x2="768.57" y2="642.83" stroke="#9a9488" stroke-width="2" opacity="0.65"/>
+<circle cx="1315.95" cy="642.83" r="6.5" fill="#2a9d8f" stroke="#1f1f1f" stroke-width="0.8"/>
+<circle cx="768.57" cy="642.83" r="6.5" fill="#e76f51" stroke="#1f1f1f" stroke-width="0.8"/>
+<text x="238" y="682.50" font-size="13" font-family="Arial, sans-serif" text-anchor="end" fill="#222">property_026</text>
+<line x1="246" y1="678.50" x2="1460" y2="678.50" stroke="#f1ece4" stroke-width="1"/>
+<line x1="1344.76" y1="678.50" x2="797.38" y2="678.50" stroke="#9a9488" stroke-width="2" opacity="0.65"/>
+<circle cx="1344.76" cy="678.50" r="6.5" fill="#2a9d8f" stroke="#1f1f1f" stroke-width="0.8"/>
+<circle cx="797.38" cy="678.50" r="6.5" fill="#e76f51" stroke="#1f1f1f" stroke-width="0.8"/>
+<text x="238" y="718.17" font-size="13" font-family="Arial, sans-serif" text-anchor="end" fill="#222">approval_chain_009</text>
+<line x1="246" y1="714.17" x2="1460" y2="714.17" stroke="#f1ece4" stroke-width="1"/>
+<line x1="1006.25" y1="714.17" x2="476.88" y2="714.17" stroke="#9a9488" stroke-width="2" opacity="0.65"/>
+<circle cx="1006.25" cy="714.17" r="6.5" fill="#2a9d8f" stroke="#1f1f1f" stroke-width="0.8"/>
+<circle cx="476.88" cy="714.17" r="6.5" fill="#e76f51" stroke="#1f1f1f" stroke-width="0.8"/>
+<text x="238" y="753.83" font-size="13" font-family="Arial, sans-serif" text-anchor="end" fill="#222">authority_003</text>
+<line x1="246" y1="749.83" x2="1460" y2="749.83" stroke="#f1ece4" stroke-width="1"/>
+<line x1="855.00" y1="749.83" x2="325.62" y2="749.83" stroke="#9a9488" stroke-width="2" opacity="0.65"/>
+<circle cx="855.00" cy="749.83" r="6.5" fill="#2a9d8f" stroke="#1f1f1f" stroke-width="0.8"/>
+<circle cx="325.62" cy="749.83" r="6.5" fill="#e76f51" stroke="#1f1f1f" stroke-width="0.8"/>
+<text x="238" y="789.50" font-size="13" font-family="Arial, sans-serif" text-anchor="end" fill="#222">logistics_013</text>
+<line x1="246" y1="785.50" x2="1460" y2="785.50" stroke="#f1ece4" stroke-width="1"/>
+<line x1="1287.14" y1="785.50" x2="768.57" y2="785.50" stroke="#9a9488" stroke-width="2" opacity="0.65"/>
+<circle cx="1287.14" cy="785.50" r="6.5" fill="#2a9d8f" stroke="#1f1f1f" stroke-width="0.8"/>
+<circle cx="768.57" cy="785.50" r="6.5" fill="#e76f51" stroke="#1f1f1f" stroke-width="0.8"/>
+<text x="238" y="825.17" font-size="13" font-family="Arial, sans-serif" text-anchor="end" fill="#222">procure_021</text>
+<line x1="246" y1="821.17" x2="1460" y2="821.17" stroke="#f1ece4" stroke-width="1"/>
+<line x1="1200.71" y1="821.17" x2="682.14" y2="821.17" stroke="#9a9488" stroke-width="2" opacity="0.65"/>
+<circle cx="1200.71" cy="821.17" r="6.5" fill="#2a9d8f" stroke="#1f1f1f" stroke-width="0.8"/>
+<circle cx="682.14" cy="821.17" r="6.5" fill="#e76f51" stroke="#1f1f1f" stroke-width="0.8"/>
+<text x="238" y="860.83" font-size="13" font-family="Arial, sans-serif" text-anchor="end" fill="#222">finset_012</text>
+<line x1="246" y1="856.83" x2="1460" y2="856.83" stroke="#f1ece4" stroke-width="1"/>
+<line x1="1258.33" y1="856.83" x2="768.57" y2="856.83" stroke="#9a9488" stroke-width="2" opacity="0.65"/>
+<circle cx="1258.33" cy="856.83" r="6.5" fill="#2a9d8f" stroke="#1f1f1f" stroke-width="0.8"/>
+<circle cx="768.57" cy="856.83" r="6.5" fill="#e76f51" stroke="#1f1f1f" stroke-width="0.8"/>
+<text x="238" y="896.50" font-size="13" font-family="Arial, sans-serif" text-anchor="end" fill="#222">shipping_027</text>
+<line x1="246" y1="892.50" x2="1460" y2="892.50" stroke="#f1ece4" stroke-width="1"/>
+<line x1="1258.33" y1="892.50" x2="768.57" y2="892.50" stroke="#9a9488" stroke-width="2" opacity="0.65"/>
+<circle cx="1258.33" cy="892.50" r="6.5" fill="#2a9d8f" stroke="#1f1f1f" stroke-width="0.8"/>
+<circle cx="768.57" cy="892.50" r="6.5" fill="#e76f51" stroke="#1f1f1f" stroke-width="0.8"/>
+<text x="238" y="932.17" font-size="13" font-family="Arial, sans-serif" text-anchor="end" fill="#222">infosec_029</text>
+<line x1="246" y1="928.17" x2="1460" y2="928.17" stroke="#f1ece4" stroke-width="1"/>
+<line x1="1171.90" y1="928.17" x2="682.14" y2="928.17" stroke="#9a9488" stroke-width="2" opacity="0.65"/>
+<circle cx="1171.90" cy="928.17" r="6.5" fill="#2a9d8f" stroke="#1f1f1f" stroke-width="0.8"/>
+<circle cx="682.14" cy="928.17" r="6.5" fill="#e76f51" stroke="#1f1f1f" stroke-width="0.8"/>
+<text x="238" y="967.83" font-size="13" font-family="Arial, sans-serif" text-anchor="end" fill="#222">amendment_007</text>
+<line x1="246" y1="963.83" x2="1460" y2="963.83" stroke="#f1ece4" stroke-width="1"/>
+<line x1="1081.88" y1="963.83" x2="628.12" y2="963.83" stroke="#9a9488" stroke-width="2" opacity="0.65"/>
+<circle cx="1081.88" cy="963.83" r="6.5" fill="#2a9d8f" stroke="#1f1f1f" stroke-width="0.8"/>
+<circle cx="628.12" cy="963.83" r="6.5" fill="#e76f51" stroke="#1f1f1f" stroke-width="0.8"/>
+<text x="238" y="1003.50" font-size="13" font-family="Arial, sans-serif" text-anchor="end" fill="#222">procurement_002</text>
+<line x1="246" y1="999.50" x2="1460" y2="999.50" stroke="#f1ece4" stroke-width="1"/>
+<line x1="1137.33" y1="999.50" x2="693.67" y2="999.50" stroke="#9a9488" stroke-width="2" opacity="0.65"/>
+<circle cx="1137.33" cy="999.50" r="6.5" fill="#2a9d8f" stroke="#1f1f1f" stroke-width="0.8"/>
+<circle cx="693.67" cy="999.50" r="6.5" fill="#e76f51" stroke="#1f1f1f" stroke-width="0.8"/>
+<text x="238" y="1039.17" font-size="13" font-family="Arial, sans-serif" text-anchor="end" fill="#222">privacy_018</text>
+<line x1="246" y1="1035.17" x2="1460" y2="1035.17" stroke="#f1ece4" stroke-width="1"/>
+<line x1="1171.90" y1="1035.17" x2="768.57" y2="1035.17" stroke="#9a9488" stroke-width="2" opacity="0.65"/>
+<circle cx="1171.90" cy="1035.17" r="6.5" fill="#2a9d8f" stroke="#1f1f1f" stroke-width="0.8"/>
+<circle cx="768.57" cy="1035.17" r="6.5" fill="#e76f51" stroke="#1f1f1f" stroke-width="0.8"/>
+<text x="238" y="1074.83" font-size="13" font-family="Arial, sans-serif" text-anchor="end" fill="#222">sla_008</text>
+<line x1="246" y1="1070.83" x2="1460" y2="1070.83" stroke="#f1ece4" stroke-width="1"/>
+<line x1="930.62" y1="1070.83" x2="552.50" y2="1070.83" stroke="#9a9488" stroke-width="2" opacity="0.65"/>
+<circle cx="930.62" cy="1070.83" r="6.5" fill="#2a9d8f" stroke="#1f1f1f" stroke-width="0.8"/>
+<circle cx="552.50" cy="1070.83" r="6.5" fill="#e76f51" stroke="#1f1f1f" stroke-width="0.8"/>
+<text x="238" y="1110.50" font-size="13" font-family="Arial, sans-serif" text-anchor="end" fill="#222">notice_005</text>
+<line x1="246" y1="1106.50" x2="1460" y2="1106.50" stroke="#f1ece4" stroke-width="1"/>
+<line x1="817.19" y1="1106.50" x2="476.88" y2="1106.50" stroke="#9a9488" stroke-width="2" opacity="0.65"/>
+<circle cx="817.19" cy="1106.50" r="6.5" fill="#2a9d8f" stroke="#1f1f1f" stroke-width="0.8"/>
+<circle cx="476.88" cy="1106.50" r="6.5" fill="#e76f51" stroke="#1f1f1f" stroke-width="0.8"/>
+<text x="238" y="1146.17" font-size="13" font-family="Arial, sans-serif" text-anchor="end" fill="#222">asset_scope_010</text>
+<line x1="246" y1="1142.17" x2="1460" y2="1142.17" stroke="#f1ece4" stroke-width="1"/>
+<line x1="1044.06" y1="1142.17" x2="855.00" y2="1142.17" stroke="#9a9488" stroke-width="2" opacity="0.65"/>
+<circle cx="1044.06" cy="1142.17" r="6.5" fill="#2a9d8f" stroke="#1f1f1f" stroke-width="0.8"/>
+<circle cx="855.00" cy="1142.17" r="6.5" fill="#e76f51" stroke="#1f1f1f" stroke-width="0.8"/>
+<circle cx="270" cy="69" r="5.5" fill="#2a9d8f" stroke="#1f1f1f" stroke-width="0.8"/>
+<text x="284" y="72" font-size="12" font-family="Arial, sans-serif" fill="#222">batched</text>
+<circle cx="270" cy="87" r="5.5" fill="#e76f51" stroke="#1f1f1f" stroke-width="0.8"/>
+<text x="284" y="90" font-size="12" font-family="Arial, sans-serif" fill="#222">independent</text>
+</svg>

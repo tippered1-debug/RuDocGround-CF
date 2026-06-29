@@ -1,0 +1,2 @@
+case_id,variant_id,question_id,skill,answer_type,gold_answer,pred_answer,gold_decision,pred_decision,answer_correct,decision_correct,evidence_precision,evidence_recall,evidence_f1,missing_information_correct,unsupported_evidence_rate
+trip_001,A,Q6,temporal_calculation,money,48000,45600,max_allowable_hotel_cost,approved_amount_determined,False,False,0.6666666666666666,0.6666666666666666,0.6666666666666666,True,0.3333333333333333

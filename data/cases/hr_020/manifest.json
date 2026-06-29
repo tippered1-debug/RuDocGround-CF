@@ -1,0 +1,83 @@
+{
+  "case_id": "hr_020",
+  "documents": [
+    {
+      "doc_id": "policy",
+      "neutral_file_name": "01_policy.txt",
+      "source_file_name": "01_policy.txt",
+      "source_sha256": "643ebb71379eb8dcaeec1ee82e817aff6226d363a1ed2e15759e26361b0ec71c",
+      "variant_a_sha256": "643ebb71379eb8dcaeec1ee82e817aff6226d363a1ed2e15759e26361b0ec71c",
+      "variant_b_sha256": "643ebb71379eb8dcaeec1ee82e817aff6226d363a1ed2e15759e26361b0ec71c",
+      "variant_c_sha256": "643ebb71379eb8dcaeec1ee82e817aff6226d363a1ed2e15759e26361b0ec71c",
+      "order": 1,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "core_record",
+      "neutral_file_name": "02_core_record.txt",
+      "source_file_name": "02_core_record.txt",
+      "source_sha256": "f84ab73948d46e96a40bf26078f53586f94d8616bf9e1a5e62d7763288dcae78",
+      "variant_a_sha256": "f84ab73948d46e96a40bf26078f53586f94d8616bf9e1a5e62d7763288dcae78",
+      "variant_b_sha256": "04a94c99a86f026135514d8b0932da9b6891ac51edd949a24ccf574106d7730f",
+      "variant_c_sha256": "f84ab73948d46e96a40bf26078f53586f94d8616bf9e1a5e62d7763288dcae78",
+      "order": 2,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "nuisance_memo",
+      "neutral_file_name": "03_nuisance_memo.txt",
+      "source_file_name": "03_nuisance_memo.txt",
+      "source_sha256": "49daadad8decd5c4205da3a981aee9844f24190cd18ed291aaae9b43495ea615",
+      "variant_a_sha256": "49daadad8decd5c4205da3a981aee9844f24190cd18ed291aaae9b43495ea615",
+      "variant_b_sha256": "49daadad8decd5c4205da3a981aee9844f24190cd18ed291aaae9b43495ea615",
+      "variant_c_sha256": "199d25c9f925402af651d8488c2bf686bd730e314f4fc6dca06d8bff94a68f65",
+      "order": 3,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "decision_memo",
+      "neutral_file_name": "04_decision_memo.txt",
+      "source_file_name": "04_decision_memo.txt",
+      "source_sha256": "398c671b3716c4d4e3063c4e05a795209df4e7ec967755e47b7d8a2f6ff7ef3c",
+      "variant_a_sha256": "398c671b3716c4d4e3063c4e05a795209df4e7ec967755e47b7d8a2f6ff7ef3c",
+      "variant_b_sha256": "2b97e48c5bf5a9108ea89c7e2bdf0bb166d76afafb10aaf7d8fb4f1a8389ea8a",
+      "variant_c_sha256": "398c671b3716c4d4e3063c4e05a795209df4e7ec967755e47b7d8a2f6ff7ef3c",
+      "order": 4,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "support_note",
+      "neutral_file_name": "05_support_note.txt",
+      "source_file_name": "05_support_note.txt",
+      "source_sha256": "85ae30dc76fb4173cd6fcdf9de0182679fdb48a430e3b2712709290f162e4d2f",
+      "variant_a_sha256": "85ae30dc76fb4173cd6fcdf9de0182679fdb48a430e3b2712709290f162e4d2f",
+      "variant_b_sha256": "85ae30dc76fb4173cd6fcdf9de0182679fdb48a430e3b2712709290f162e4d2f",
+      "variant_c_sha256": "85ae30dc76fb4173cd6fcdf9de0182679fdb48a430e3b2712709290f162e4d2f",
+      "order": 5,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    }
+  ],
+  "changed_fragment_A_to_B": "The signer is inside delegated authority.",
+  "changed_fragment_A_to_C": "Nuisance memo reference DEL-3301 and timestamp 2026-10-01T13:25:00.",
+  "document_grounded_only": true
+}

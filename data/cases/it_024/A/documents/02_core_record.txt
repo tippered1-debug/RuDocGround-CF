@@ -1,0 +1,5 @@
+[substantive_fact] The escalation went to the wrong tier.
+[amount] 2
+[deadline_date] 2026-12-01
+[identifier] TKT-2401
+[code_set] tier_check | sla_clock

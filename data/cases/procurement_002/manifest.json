@@ -1,0 +1,103 @@
+{
+  "case_id": "procurement_002",
+  "documents": [
+    {
+      "doc_id": "procurement_policy",
+      "neutral_file_name": "01_Положение_о_закупках.txt",
+      "source_file_name": "01_Положение_о_закупках.txt",
+      "source_sha256": "9b66351d55ffda17731d8aa29a520252a731cc791a3d5e99070a4b0a9715966b",
+      "variant_a_sha256": "9b66351d55ffda17731d8aa29a520252a731cc791a3d5e99070a4b0a9715966b",
+      "variant_b_sha256": "9b66351d55ffda17731d8aa29a520252a731cc791a3d5e99070a4b0a9715966b",
+      "source_drive_id": null,
+      "order": 1,
+      "included_in_variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "doc_id": "temporary_order",
+      "neutral_file_name": "02_Временный_приказ.txt",
+      "source_file_name": "02_Временный_приказ.txt",
+      "source_sha256": "59bed182d4582673d6a0a8e14c60d110cae39fbd69d2a2e9da7d4df340e9684a",
+      "variant_a_sha256": "59bed182d4582673d6a0a8e14c60d110cae39fbd69d2a2e9da7d4df340e9684a",
+      "variant_b_sha256": "64922130f106149ba50361ae40528f7edbecf4bf5e27a86b8e53d84bce899e4b",
+      "source_drive_id": null,
+      "order": 2,
+      "included_in_variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "doc_id": "purchase_request",
+      "neutral_file_name": "03_Заявка_на_закупку.txt",
+      "source_file_name": "03_Заявка_на_закупку.txt",
+      "source_sha256": "46bd0f33080056128613c06fcedbfb6dc74102e84ccdcbd1f3539147a3a520cb",
+      "variant_a_sha256": "46bd0f33080056128613c06fcedbfb6dc74102e84ccdcbd1f3539147a3a520cb",
+      "variant_b_sha256": "46bd0f33080056128613c06fcedbfb6dc74102e84ccdcbd1f3539147a3a520cb",
+      "source_drive_id": null,
+      "order": 3,
+      "included_in_variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "doc_id": "commercial_offer",
+      "neutral_file_name": "04_Коммерческое_предложение.txt",
+      "source_file_name": "04_Коммерческое_предложение.txt",
+      "source_sha256": "5641ecae02511d7743e61ec16f7eb815c127c49ee9a3b78197fc3b69ea9ee04f",
+      "variant_a_sha256": "5641ecae02511d7743e61ec16f7eb815c127c49ee9a3b78197fc3b69ea9ee04f",
+      "variant_b_sha256": "5641ecae02511d7743e61ec16f7eb815c127c49ee9a3b78197fc3b69ea9ee04f",
+      "source_drive_id": null,
+      "order": 4,
+      "included_in_variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "doc_id": "approval_sheet",
+      "neutral_file_name": "05_Лист_согласования.txt",
+      "source_file_name": "05_Лист_согласования.txt",
+      "source_sha256": "82dc961679ef39fba6d2c9bd96b3525b2f440204003bddd54f68aea66b637bd9",
+      "variant_a_sha256": "82dc961679ef39fba6d2c9bd96b3525b2f440204003bddd54f68aea66b637bd9",
+      "variant_b_sha256": "82dc961679ef39fba6d2c9bd96b3525b2f440204003bddd54f68aea66b637bd9",
+      "source_drive_id": null,
+      "order": 5,
+      "included_in_variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "doc_id": "supply_contract",
+      "neutral_file_name": "06_Договор_поставки.txt",
+      "source_file_name": "06_Договор_поставки.txt",
+      "source_sha256": "e7b10b01737759988104d96219d8bb9d7596cbea2afdb19204fd7f89e1ba7ed1",
+      "variant_a_sha256": "e7b10b01737759988104d96219d8bb9d7596cbea2afdb19204fd7f89e1ba7ed1",
+      "variant_b_sha256": "e7b10b01737759988104d96219d8bb9d7596cbea2afdb19204fd7f89e1ba7ed1",
+      "source_drive_id": null,
+      "order": 6,
+      "included_in_variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "doc_id": "payment_request",
+      "neutral_file_name": "07_Заявка_на_оплату.txt",
+      "source_file_name": "07_Заявка_на_оплату.txt",
+      "source_sha256": "a1069ffab68a5e6b5783874d7895810d742cb1408138eab84dd3a26fa6680eba",
+      "variant_a_sha256": "a1069ffab68a5e6b5783874d7895810d742cb1408138eab84dd3a26fa6680eba",
+      "variant_b_sha256": "a1069ffab68a5e6b5783874d7895810d742cb1408138eab84dd3a26fa6680eba",
+      "source_drive_id": null,
+      "order": 7,
+      "included_in_variants": [
+        "A",
+        "B"
+      ]
+    }
+  ]
+}

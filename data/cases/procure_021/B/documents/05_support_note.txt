@@ -1,0 +1,4 @@
+[support_note_sufficient] false
+[missing_information] A mandatory comparator is missing.
+[support_note] The supporting note is not sufficient.
+[mandatory_comparator] comparator evidence is required for the file.

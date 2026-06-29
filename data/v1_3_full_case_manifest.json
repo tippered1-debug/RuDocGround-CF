@@ -1,0 +1,421 @@
+{
+  "benchmark": "RuDocGround-CF",
+  "version": "v1.3",
+  "case_count": 30,
+  "variant_count": 80,
+  "task_row_count": 1160,
+  "groups": {
+    "legacy": {
+      "case_ids": [
+        "trip_001",
+        "procurement_002",
+        "authority_003",
+        "acceptance_004",
+        "notice_005",
+        "reconciliation_006",
+        "amendment_007",
+        "sla_008",
+        "approval_chain_009",
+        "asset_scope_010"
+      ],
+      "case_count": 10
+    },
+    "pilot": {
+      "case_ids": [
+        "logistics_014",
+        "iplic_016",
+        "privacy_017",
+        "hr_019",
+        "procure_022"
+      ],
+      "case_count": 5
+    },
+    "batch1": {
+      "case_ids": [
+        "finset_011",
+        "finset_012",
+        "logistics_013",
+        "iplic_015",
+        "privacy_018"
+      ],
+      "case_count": 5
+    },
+    "batch2": {
+      "case_ids": [
+        "hr_020",
+        "procure_021",
+        "it_023",
+        "it_024",
+        "property_025"
+      ],
+      "case_count": 5
+    },
+    "batch3": {
+      "case_ids": [
+        "property_026",
+        "shipping_027",
+        "finance_028",
+        "infosec_029",
+        "hr_030"
+      ],
+      "case_count": 5
+    }
+  },
+  "cases": [
+    {
+      "case_id": "trip_001",
+      "group": "legacy",
+      "variants": [
+        "A",
+        "B"
+      ],
+      "row_count": 34,
+      "manifest_path": "data/cases/trip_001/manifest.json"
+    },
+    {
+      "case_id": "procurement_002",
+      "group": "legacy",
+      "variants": [
+        "A",
+        "B"
+      ],
+      "row_count": 30,
+      "manifest_path": "data/cases/procurement_002/manifest.json"
+    },
+    {
+      "case_id": "authority_003",
+      "group": "legacy",
+      "variants": [
+        "A",
+        "B"
+      ],
+      "row_count": 32,
+      "manifest_path": "data/cases/authority_003/manifest.json"
+    },
+    {
+      "case_id": "acceptance_004",
+      "group": "legacy",
+      "variants": [
+        "A",
+        "B"
+      ],
+      "row_count": 32,
+      "manifest_path": "data/cases/acceptance_004/manifest.json"
+    },
+    {
+      "case_id": "notice_005",
+      "group": "legacy",
+      "variants": [
+        "A",
+        "B"
+      ],
+      "row_count": 32,
+      "manifest_path": "data/cases/notice_005/manifest.json"
+    },
+    {
+      "case_id": "reconciliation_006",
+      "group": "legacy",
+      "variants": [
+        "A",
+        "B"
+      ],
+      "row_count": 32,
+      "manifest_path": "data/cases/reconciliation_006/manifest.json"
+    },
+    {
+      "case_id": "amendment_007",
+      "group": "legacy",
+      "variants": [
+        "A",
+        "B"
+      ],
+      "row_count": 32,
+      "manifest_path": "data/cases/amendment_007/manifest.json"
+    },
+    {
+      "case_id": "sla_008",
+      "group": "legacy",
+      "variants": [
+        "A",
+        "B"
+      ],
+      "row_count": 32,
+      "manifest_path": "data/cases/sla_008/manifest.json"
+    },
+    {
+      "case_id": "approval_chain_009",
+      "group": "legacy",
+      "variants": [
+        "A",
+        "B"
+      ],
+      "row_count": 32,
+      "manifest_path": "data/cases/approval_chain_009/manifest.json"
+    },
+    {
+      "case_id": "asset_scope_010",
+      "group": "legacy",
+      "variants": [
+        "A",
+        "B"
+      ],
+      "row_count": 32,
+      "manifest_path": "data/cases/asset_scope_010/manifest.json"
+    },
+    {
+      "case_id": "logistics_014",
+      "group": "pilot",
+      "variants": [
+        "A",
+        "B",
+        "C"
+      ],
+      "row_count": 42,
+      "manifest_path": "data/cases/logistics_014/manifest.json"
+    },
+    {
+      "case_id": "iplic_016",
+      "group": "pilot",
+      "variants": [
+        "A",
+        "B",
+        "C"
+      ],
+      "row_count": 42,
+      "manifest_path": "data/cases/iplic_016/manifest.json"
+    },
+    {
+      "case_id": "privacy_017",
+      "group": "pilot",
+      "variants": [
+        "A",
+        "B",
+        "C"
+      ],
+      "row_count": 42,
+      "manifest_path": "data/cases/privacy_017/manifest.json"
+    },
+    {
+      "case_id": "hr_019",
+      "group": "pilot",
+      "variants": [
+        "A",
+        "B",
+        "C"
+      ],
+      "row_count": 42,
+      "manifest_path": "data/cases/hr_019/manifest.json"
+    },
+    {
+      "case_id": "procure_022",
+      "group": "pilot",
+      "variants": [
+        "A",
+        "B",
+        "C"
+      ],
+      "row_count": 42,
+      "manifest_path": "data/cases/procure_022/manifest.json"
+    },
+    {
+      "case_id": "finset_011",
+      "group": "batch1",
+      "variants": [
+        "A",
+        "B",
+        "C"
+      ],
+      "row_count": 42,
+      "manifest_path": "data/cases/finset_011/manifest.json"
+    },
+    {
+      "case_id": "finset_012",
+      "group": "batch1",
+      "variants": [
+        "A",
+        "B",
+        "C"
+      ],
+      "row_count": 42,
+      "manifest_path": "data/cases/finset_012/manifest.json"
+    },
+    {
+      "case_id": "logistics_013",
+      "group": "batch1",
+      "variants": [
+        "A",
+        "B",
+        "C"
+      ],
+      "row_count": 42,
+      "manifest_path": "data/cases/logistics_013/manifest.json"
+    },
+    {
+      "case_id": "iplic_015",
+      "group": "batch1",
+      "variants": [
+        "A",
+        "B",
+        "C"
+      ],
+      "row_count": 42,
+      "manifest_path": "data/cases/iplic_015/manifest.json"
+    },
+    {
+      "case_id": "privacy_018",
+      "group": "batch1",
+      "variants": [
+        "A",
+        "B",
+        "C"
+      ],
+      "row_count": 42,
+      "manifest_path": "data/cases/privacy_018/manifest.json"
+    },
+    {
+      "case_id": "hr_020",
+      "group": "batch2",
+      "variants": [
+        "A",
+        "B",
+        "C"
+      ],
+      "row_count": 42,
+      "manifest_path": "data/cases/hr_020/manifest.json"
+    },
+    {
+      "case_id": "procure_021",
+      "group": "batch2",
+      "variants": [
+        "A",
+        "B",
+        "C"
+      ],
+      "row_count": 42,
+      "manifest_path": "data/cases/procure_021/manifest.json"
+    },
+    {
+      "case_id": "it_023",
+      "group": "batch2",
+      "variants": [
+        "A",
+        "B",
+        "C"
+      ],
+      "row_count": 42,
+      "manifest_path": "data/cases/it_023/manifest.json"
+    },
+    {
+      "case_id": "it_024",
+      "group": "batch2",
+      "variants": [
+        "A",
+        "B",
+        "C"
+      ],
+      "row_count": 42,
+      "manifest_path": "data/cases/it_024/manifest.json"
+    },
+    {
+      "case_id": "property_025",
+      "group": "batch2",
+      "variants": [
+        "A",
+        "B",
+        "C"
+      ],
+      "row_count": 42,
+      "manifest_path": "data/cases/property_025/manifest.json"
+    },
+    {
+      "case_id": "property_026",
+      "group": "batch3",
+      "variants": [
+        "A",
+        "B",
+        "C"
+      ],
+      "row_count": 42,
+      "manifest_path": "data/cases/property_026/manifest.json"
+    },
+    {
+      "case_id": "shipping_027",
+      "group": "batch3",
+      "variants": [
+        "A",
+        "B",
+        "C"
+      ],
+      "row_count": 42,
+      "manifest_path": "data/cases/shipping_027/manifest.json"
+    },
+    {
+      "case_id": "finance_028",
+      "group": "batch3",
+      "variants": [
+        "A",
+        "B",
+        "C"
+      ],
+      "row_count": 42,
+      "manifest_path": "data/cases/finance_028/manifest.json"
+    },
+    {
+      "case_id": "infosec_029",
+      "group": "batch3",
+      "variants": [
+        "A",
+        "B",
+        "C"
+      ],
+      "row_count": 42,
+      "manifest_path": "data/cases/infosec_029/manifest.json"
+    },
+    {
+      "case_id": "hr_030",
+      "group": "batch3",
+      "variants": [
+        "A",
+        "B",
+        "C"
+      ],
+      "row_count": 42,
+      "manifest_path": "data/cases/hr_030/manifest.json"
+    }
+  ],
+  "prompt_counts": {
+    "trip_001": 34,
+    "procurement_002": 30,
+    "authority_003": 32,
+    "acceptance_004": 32,
+    "notice_005": 32,
+    "reconciliation_006": 32,
+    "amendment_007": 32,
+    "sla_008": 32,
+    "approval_chain_009": 32,
+    "asset_scope_010": 32,
+    "logistics_014": 42,
+    "iplic_016": 42,
+    "privacy_017": 42,
+    "hr_019": 42,
+    "procure_022": 42,
+    "finset_011": 42,
+    "finset_012": 42,
+    "logistics_013": 42,
+    "iplic_015": 42,
+    "privacy_018": 42,
+    "hr_020": 42,
+    "procure_021": 42,
+    "it_023": 42,
+    "it_024": 42,
+    "property_025": 42,
+    "property_026": 42,
+    "shipping_027": 42,
+    "finance_028": 42,
+    "infosec_029": 42,
+    "hr_030": 42
+  },
+  "gold_hash": "463298d46e1fc7b0d1fd1a7a8c3d36d044db1592c74108ee8351fbad5b5b934a",
+  "prompt_hash": "a7e48d2138516a480a2190bc7ad96e4835b7981ac2912f50d30d98612568b4c6",
+  "prediction_fixture_hash": "a4d2da1c003eefb71ee9945ff733c72c561efdabace16962429ec4694799129f"
+}

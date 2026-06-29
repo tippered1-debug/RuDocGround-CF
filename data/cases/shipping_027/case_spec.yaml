@@ -1,0 +1,16 @@
+{
+  "case_id": "shipping_027",
+  "domain": "supply and logistics",
+  "counterfactual_change_type": "Risk transfers at loading.",
+  "controlling_document": "policy",
+  "document_ids": [
+    "policy",
+    "core_record",
+    "nuisance_memo",
+    "decision_memo",
+    "support_note"
+  ],
+  "expected_questions": 14,
+  "gold_rows": 42,
+  "group": "batch3"
+}

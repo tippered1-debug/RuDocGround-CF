@@ -1,0 +1,75 @@
+{
+  "case_id": "procure_022",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Which source is authoritative for vendor status?",
+      "answer_type": "categorical"
+    },
+    {
+      "question_id": "Q2",
+      "question": "What is the check date?",
+      "answer_type": "datetime"
+    },
+    {
+      "question_id": "Q3",
+      "question": "Is the vendor compliant in A?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q4",
+      "question": "Is the vendor compliant in B?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q5",
+      "question": "Does the certificate alone determine eligibility?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q6",
+      "question": "Does the conflict require escalation?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q7",
+      "question": "Is the certificate current in A?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q8",
+      "question": "Does C only change contact email/footer text?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q9",
+      "question": "Would the registry status override the certificate?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q10",
+      "question": "Is one document sufficient if the registry is blocked?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q11",
+      "question": "What is the effect of a blocked registry on eligibility?",
+      "answer_type": "categorical"
+    },
+    {
+      "question_id": "Q12",
+      "question": "Does the approval sheet record the controlling source?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q13",
+      "question": "Could the case be solved from the certificate alone?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q14",
+      "question": "Is the C variant a pure numeric/name reskin?",
+      "answer_type": "boolean"
+    }
+  ]
+}

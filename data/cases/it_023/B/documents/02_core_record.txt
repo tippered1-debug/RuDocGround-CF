@@ -1,0 +1,5 @@
+[substantive_fact] The outage report was filed on time.
+[amount] 0
+[deadline_date] 2026-11-10T18:00:00
+[identifier] SLA-2301
+[code_set] waiver_clause | service_credit

@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="900" viewBox="0 0 1800 900">
+<rect width="100%" height="100%" fill="#fbfaf7"/>
+<text x="80" y="30" font-size="24" font-family="Arial, sans-serif" font-weight="700">Independent format failure rate by case</text>
+<text x="80" y="52" font-size="14" font-family="Arial, sans-serif" fill="#555">Strict end-to-end format failures / total rows</text>
+<line x1="80" y1="80" x2="80" y2="780" stroke="#222" stroke-width="1.5"/>
+<line x1="80" y1="780" x2="1780" y2="780" stroke="#222" stroke-width="1.5"/>
+<line x1="76" y1="780.00" x2="84" y2="780.00" stroke="#222" stroke-width="1"/>
+<text x="72" y="784.00" font-size="11" font-family="Arial, sans-serif" text-anchor="end" fill="#444">0.00</text>
+<line x1="80" y1="780.00" x2="1780" y2="780.00" stroke="#e7e1d7" stroke-width="1"/>
+<line x1="76" y1="640.00" x2="84" y2="640.00" stroke="#222" stroke-width="1"/>
+<text x="72" y="644.00" font-size="11" font-family="Arial, sans-serif" text-anchor="end" fill="#444">0.20</text>
+<line x1="80" y1="640.00" x2="1780" y2="640.00" stroke="#e7e1d7" stroke-width="1"/>
+<line x1="76" y1="500.00" x2="84" y2="500.00" stroke="#222" stroke-width="1"/>
+<text x="72" y="504.00" font-size="11" font-family="Arial, sans-serif" text-anchor="end" fill="#444">0.40</text>
+<line x1="80" y1="500.00" x2="1780" y2="500.00" stroke="#e7e1d7" stroke-width="1"/>
+<line x1="76" y1="360.00" x2="84" y2="360.00" stroke="#222" stroke-width="1"/>
+<text x="72" y="364.00" font-size="11" font-family="Arial, sans-serif" text-anchor="end" fill="#444">0.60</text>
+<line x1="80" y1="360.00" x2="1780" y2="360.00" stroke="#e7e1d7" stroke-width="1"/>
+<line x1="76" y1="220.00" x2="84" y2="220.00" stroke="#222" stroke-width="1"/>
+<text x="72" y="224.00" font-size="11" font-family="Arial, sans-serif" text-anchor="end" fill="#444">0.80</text>
+<line x1="80" y1="220.00" x2="1780" y2="220.00" stroke="#e7e1d7" stroke-width="1"/>
+<line x1="76" y1="80.00" x2="84" y2="80.00" stroke="#222" stroke-width="1"/>
+<text x="72" y="84.00" font-size="11" font-family="Arial, sans-serif" text-anchor="end" fill="#444">1.00</text>
+<line x1="80" y1="80.00" x2="1780" y2="80.00" stroke="#e7e1d7" stroke-width="1"/>
+<line x1="108.33" y1="780" x2="108.33" y2="784" stroke="#222"/>
+<text x="108.33" y="800" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" transform="rotate(45 108.33,800)">acceptance_004</text>
+<rect x="83.40" y="648.75" width="45.88" height="131.25" fill="#8d99ae" rx="2" ry="2"/>
+<text x="108.33" y="835" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#555">acceptance_004</text>
+<line x1="165.00" y1="780" x2="165.00" y2="784" stroke="#222"/>
+<text x="165.00" y="800" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" transform="rotate(45 165.00,800)">amendment_007</text>
+<rect x="140.07" y="736.25" width="45.88" height="43.75" fill="#8d99ae" rx="2" ry="2"/>
+<text x="165.00" y="835" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#555">amendment_007</text>
+<line x1="221.67" y1="780" x2="221.67" y2="784" stroke="#222"/>
+<text x="221.67" y="800" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" transform="rotate(45 221.67,800)">approval_chain_009</text>
+<rect x="196.73" y="605.00" width="45.88" height="175.00" fill="#8d99ae" rx="2" ry="2"/>
+<text x="221.67" y="835" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#555">approval_chain_009</text>
+<line x1="278.33" y1="780" x2="278.33" y2="784" stroke="#222"/>
+<text x="278.33" y="800" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" transform="rotate(45 278.33,800)">asset_scope_010</text>
+<rect x="253.40" y="736.25" width="45.88" height="43.75" fill="#8d99ae" rx="2" ry="2"/>
+<text x="278.33" y="835" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#555">asset_scope_010</text>
+<line x1="335.00" y1="780" x2="335.00" y2="784" stroke="#222"/>
+<text x="335.00" y="800" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" transform="rotate(45 335.00,800)">authority_003</text>
+<rect x="310.07" y="780.00" width="45.88" height="0.00" fill="#8d99ae" rx="2" ry="2"/>
+<text x="335.00" y="835" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#555">authority_003</text>
+<line x1="391.67" y1="780" x2="391.67" y2="784" stroke="#222"/>
+<text x="391.67" y="800" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" transform="rotate(45 391.67,800)">finance_028</text>
+<rect x="366.73" y="580.00" width="45.88" height="200.00" fill="#8d99ae" rx="2" ry="2"/>
+<text x="391.67" y="835" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#555">finance_028</text>
+<line x1="448.33" y1="780" x2="448.33" y2="784" stroke="#222"/>
+<text x="448.33" y="800" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" transform="rotate(45 448.33,800)">finset_011</text>
+<rect x="423.40" y="580.00" width="45.88" height="200.00" fill="#8d99ae" rx="2" ry="2"/>
+<text x="448.33" y="835" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#555">finset_011</text>
+<line x1="505.00" y1="780" x2="505.00" y2="784" stroke="#222"/>
+<text x="505.00" y="800" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" transform="rotate(45 505.00,800)">finset_012</text>
+<rect x="480.07" y="580.00" width="45.88" height="200.00" fill="#8d99ae" rx="2" ry="2"/>
+<text x="505.00" y="835" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#555">finset_012</text>
+<line x1="561.67" y1="780" x2="561.67" y2="784" stroke="#222"/>
+<text x="561.67" y="800" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" transform="rotate(45 561.67,800)">hr_019</text>
+<rect x="536.73" y="763.33" width="45.88" height="16.67" fill="#8d99ae" rx="2" ry="2"/>
+<text x="561.67" y="835" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#555">hr_019</text>
+<line x1="618.33" y1="780" x2="618.33" y2="784" stroke="#222"/>
+<text x="618.33" y="800" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" transform="rotate(45 618.33,800)">hr_020</text>
+<rect x="593.40" y="580.00" width="45.88" height="200.00" fill="#8d99ae" rx="2" ry="2"/>
+<text x="618.33" y="835" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#555">hr_020</text>
+<line x1="675.00" y1="780" x2="675.00" y2="784" stroke="#222"/>
+<text x="675.00" y="800" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" transform="rotate(45 675.00,800)">hr_030</text>
+<rect x="650.07" y="580.00" width="45.88" height="200.00" fill="#8d99ae" rx="2" ry="2"/>
+<text x="675.00" y="835" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#555">hr_030</text>
+<line x1="731.67" y1="780" x2="731.67" y2="784" stroke="#222"/>
+<text x="731.67" y="800" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" transform="rotate(45 731.67,800)">infosec_029</text>
+<rect x="706.73" y="580.00" width="45.88" height="200.00" fill="#8d99ae" rx="2" ry="2"/>
+<text x="731.67" y="835" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#555">infosec_029</text>
+<line x1="788.33" y1="780" x2="788.33" y2="784" stroke="#222"/>
+<text x="788.33" y="800" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" transform="rotate(45 788.33,800)">iplic_015</text>
+<rect x="763.40" y="596.67" width="45.88" height="183.33" fill="#8d99ae" rx="2" ry="2"/>
+<text x="788.33" y="835" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#555">iplic_015</text>
+<line x1="845.00" y1="780" x2="845.00" y2="784" stroke="#222"/>
+<text x="845.00" y="800" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" transform="rotate(45 845.00,800)">iplic_016</text>
+<rect x="820.07" y="680.00" width="45.88" height="100.00" fill="#8d99ae" rx="2" ry="2"/>
+<text x="845.00" y="835" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#555">iplic_016</text>
+<line x1="901.67" y1="780" x2="901.67" y2="784" stroke="#222"/>
+<text x="901.67" y="800" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" transform="rotate(45 901.67,800)">it_023</text>
+<rect x="876.73" y="580.00" width="45.88" height="200.00" fill="#8d99ae" rx="2" ry="2"/>
+<text x="901.67" y="835" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#555">it_023</text>
+<line x1="958.33" y1="780" x2="958.33" y2="784" stroke="#222"/>
+<text x="958.33" y="800" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" transform="rotate(45 958.33,800)">it_024</text>
+<rect x="933.40" y="546.67" width="45.88" height="233.33" fill="#8d99ae" rx="2" ry="2"/>
+<text x="958.33" y="835" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#555">it_024</text>
+<line x1="1015.00" y1="780" x2="1015.00" y2="784" stroke="#222"/>
+<text x="1015.00" y="800" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" transform="rotate(45 1015.00,800)">logistics_013</text>
+<rect x="990.07" y="580.00" width="45.88" height="200.00" fill="#8d99ae" rx="2" ry="2"/>
+<text x="1015.00" y="835" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#555">logistics_013</text>
+<line x1="1071.67" y1="780" x2="1071.67" y2="784" stroke="#222"/>
+<text x="1071.67" y="800" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" transform="rotate(45 1071.67,800)">logistics_014</text>
+<rect x="1046.73" y="730.00" width="45.88" height="50.00" fill="#8d99ae" rx="2" ry="2"/>
+<text x="1071.67" y="835" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#555">logistics_014</text>
+<line x1="1128.33" y1="780" x2="1128.33" y2="784" stroke="#222"/>
+<text x="1128.33" y="800" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" transform="rotate(45 1128.33,800)">notice_005</text>
+<rect x="1103.40" y="736.25" width="45.88" height="43.75" fill="#8d99ae" rx="2" ry="2"/>
+<text x="1128.33" y="835" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#555">notice_005</text>
+<line x1="1185.00" y1="780" x2="1185.00" y2="784" stroke="#222"/>
+<text x="1185.00" y="800" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" transform="rotate(45 1185.00,800)">privacy_017</text>
+<rect x="1160.07" y="730.00" width="45.88" height="50.00" fill="#8d99ae" rx="2" ry="2"/>
+<text x="1185.00" y="835" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#555">privacy_017</text>
+<line x1="1241.67" y1="780" x2="1241.67" y2="784" stroke="#222"/>
+<text x="1241.67" y="800" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" transform="rotate(45 1241.67,800)">privacy_018</text>
+<rect x="1216.73" y="546.67" width="45.88" height="233.33" fill="#8d99ae" rx="2" ry="2"/>
+<text x="1241.67" y="835" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#555">privacy_018</text>
+<line x1="1298.33" y1="780" x2="1298.33" y2="784" stroke="#222"/>
+<text x="1298.33" y="800" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" transform="rotate(45 1298.33,800)">procure_021</text>
+<rect x="1273.40" y="630.00" width="45.88" height="150.00" fill="#8d99ae" rx="2" ry="2"/>
+<text x="1298.33" y="835" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#555">procure_021</text>
+<line x1="1355.00" y1="780" x2="1355.00" y2="784" stroke="#222"/>
+<text x="1355.00" y="800" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" transform="rotate(45 1355.00,800)">procure_022</text>
+<rect x="1330.07" y="730.00" width="45.88" height="50.00" fill="#8d99ae" rx="2" ry="2"/>
+<text x="1355.00" y="835" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#555">procure_022</text>
+<line x1="1411.67" y1="780" x2="1411.67" y2="784" stroke="#222"/>
+<text x="1411.67" y="800" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" transform="rotate(45 1411.67,800)">procurement_002</text>
+<rect x="1386.73" y="733.33" width="45.88" height="46.67" fill="#8d99ae" rx="2" ry="2"/>
+<text x="1411.67" y="835" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#555">procurement_002</text>
+<line x1="1468.33" y1="780" x2="1468.33" y2="784" stroke="#222"/>
+<text x="1468.33" y="800" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" transform="rotate(45 1468.33,800)">property_025</text>
+<rect x="1443.40" y="530.00" width="45.88" height="250.00" fill="#8d99ae" rx="2" ry="2"/>
+<text x="1468.33" y="835" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#555">property_025</text>
+<line x1="1525.00" y1="780" x2="1525.00" y2="784" stroke="#222"/>
+<text x="1525.00" y="800" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" transform="rotate(45 1525.00,800)">property_026</text>
+<rect x="1500.07" y="613.33" width="45.88" height="166.67" fill="#8d99ae" rx="2" ry="2"/>
+<text x="1525.00" y="835" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#555">property_026</text>
+<line x1="1581.67" y1="780" x2="1581.67" y2="784" stroke="#222"/>
+<text x="1581.67" y="800" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" transform="rotate(45 1581.67,800)">reconciliation_006</text>
+<rect x="1556.73" y="736.25" width="45.88" height="43.75" fill="#8d99ae" rx="2" ry="2"/>
+<text x="1581.67" y="835" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#555">reconciliation_006</text>
+<line x1="1638.33" y1="780" x2="1638.33" y2="784" stroke="#222"/>
+<text x="1638.33" y="800" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" transform="rotate(45 1638.33,800)">shipping_027</text>
+<rect x="1613.40" y="613.33" width="45.88" height="166.67" fill="#8d99ae" rx="2" ry="2"/>
+<text x="1638.33" y="835" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#555">shipping_027</text>
+<line x1="1695.00" y1="780" x2="1695.00" y2="784" stroke="#222"/>
+<text x="1695.00" y="800" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" transform="rotate(45 1695.00,800)">sla_008</text>
+<rect x="1670.07" y="605.00" width="45.88" height="175.00" fill="#8d99ae" rx="2" ry="2"/>
+<text x="1695.00" y="835" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#555">sla_008</text>
+<line x1="1751.67" y1="780" x2="1751.67" y2="784" stroke="#222"/>
+<text x="1751.67" y="800" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" transform="rotate(45 1751.67,800)">trip_001</text>
+<rect x="1726.73" y="532.94" width="45.88" height="247.06" fill="#8d99ae" rx="2" ry="2"/>
+<text x="1751.67" y="835" font-size="11" font-family="Arial, sans-serif" text-anchor="middle" fill="#555">trip_001</text>
+<rect x="1560" y="50" width="12" height="12" fill="#8d99ae"/>
+<text x="1578" y="60" font-size="12" font-family="Arial, sans-serif" fill="#222">format failure rate</text>
+</svg>

@@ -1,0 +1,317 @@
+{
+  "case_id": "amendment_007",
+  "package": "B",
+  "documents": [
+    {
+      "doc_id": "base_contract",
+      "filename": "01_Договор_аренды_серверного_ресурса.txt",
+      "source_file_name": "01_Договор_аренды_серверного_ресурса.txt",
+      "source_sha256": "d1b22f0c2d41455672a7da2404dd502ea8d26d497b7288a9b1a4e5f281ed3a2e",
+      "order": 1,
+      "text": "[PARAGRAPH] [PARAGRAPH] ООО «Северный контур»\n[PARAGRAPH] [PARAGRAPH] ДОГОВОР АРЕНДЫ ВЫДЕЛЕННОГО СЕРВЕРНОГО РЕСУРСА № СР-01/26\n[PARAGRAPH] [PARAGRAPH] 1 января 2026 г.\n[PARAGRAPH] [PARAGRAPH] 1. Предмет договора\n[PARAGRAPH] [PARAGRAPH] 1.1. Исполнитель: ООО «ДатаХост».\n[PARAGRAPH] [PARAGRAPH] 1.2. Заказчик: ООО «Северный контур».\n[PARAGRAPH] [PARAGRAPH] 1.3. Исполнитель предоставляет заказчику выделенный серверный ресурс для размещения и сопровождения прикладных сервисов.\n[PARAGRAPH] [PARAGRAPH] 2. Стоимость и срок\n[PARAGRAPH] [PARAGRAPH] 2.1. Стоимость аренды составляет 200 000 руб. в месяц.\n[PARAGRAPH] [PARAGRAPH] 2.2. Договор действует с 1 января 2026 г. по 31 декабря 2026 г. включительно.\n[PARAGRAPH] [PARAGRAPH] 3. Изменение условий\n[PARAGRAPH] [PARAGRAPH] 3.1. Изменение цены допускается только на основании подписанного сторонами письменного дополнительного соглашения.\n[PARAGRAPH] [PARAGRAPH] 3.2. Новая редакция цены применяется с даты, прямо указанной в дополнительном соглашении.\n[PARAGRAPH] [PARAGRAPH] 3.3. Остальные условия договора сохраняют силу, если стороны не согласовали иное.",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] ООО «Северный контур»"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] ДОГОВОР АРЕНДЫ ВЫДЕЛЕННОГО СЕРВЕРНОГО РЕСУРСА № СР-01/26"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] 1 января 2026 г."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] 1. Предмет договора"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] 1.1. Исполнитель: ООО «ДатаХост»."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] 1.2. Заказчик: ООО «Северный контур»."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] 1.3. Исполнитель предоставляет заказчику выделенный серверный ресурс для размещения и сопровождения прикладных сервисов."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] 2. Стоимость и срок"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] 2.1. Стоимость аренды составляет 200 000 руб. в месяц."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] 2.2. Договор действует с 1 января 2026 г. по 31 декабря 2026 г. включительно."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] 3. Изменение условий"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] 3.1. Изменение цены допускается только на основании подписанного сторонами письменного дополнительного соглашения."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] 3.2. Новая редакция цены применяется с даты, прямо указанной в дополнительном соглашении."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] 3.3. Остальные условия договора сохраняют силу, если стороны не согласовали иное."
+        }
+      ]
+    },
+    {
+      "doc_id": "amendment_B",
+      "filename": "02_Дополнительное_соглашение.txt",
+      "source_file_name": "02_Дополнительное_соглашение_B.txt",
+      "source_sha256": "0a9bc6367220435843d5232368af54924a938c06579b51ad8d029ec1434f35d7",
+      "order": 3,
+      "text": "[PARAGRAPH] [PARAGRAPH] ООО «Северный контур»\n[PARAGRAPH] [PARAGRAPH] ДОПОЛНИТЕЛЬНОЕ СОГЛАШЕНИЕ № 1\n[PARAGRAPH] [PARAGRAPH] к договору № СР-01/26\n[PARAGRAPH] [PARAGRAPH] 20 июня 2026 г.\n[PARAGRAPH] [PARAGRAPH] 1. Стороны договорились изменить только пункт 2.1 договора.\n[PARAGRAPH] [PARAGRAPH] 2. С 1 августа 2026 г. стоимость аренды составляет 240 000 руб. в месяц.\n[PARAGRAPH] [PARAGRAPH] 3. Остальные условия договора № СР-01/26 остаются без изменений.",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] ООО «Северный контур»"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] ДОПОЛНИТЕЛЬНОЕ СОГЛАШЕНИЕ № 1"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] к договору № СР-01/26"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] 20 июня 2026 г."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] 1. Стороны договорились изменить только пункт 2.1 договора."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] 2. С 1 августа 2026 г. стоимость аренды составляет 240 000 руб. в месяц."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] 3. Остальные условия договора № СР-01/26 остаются без изменений."
+        }
+      ]
+    },
+    {
+      "doc_id": "internal_memo",
+      "filename": "03_Служебная_записка_о_планируемом_повышении.txt",
+      "source_file_name": "03_Служебная_записка_о_планируемом_повышении.txt",
+      "source_sha256": "35c0f7213056687b6fddbc4523c8ac63d80b5ea284820cc9db28bcee573b4105",
+      "order": 4,
+      "text": "[PARAGRAPH] [PARAGRAPH] ООО «Северный контур»\n[PARAGRAPH] [PARAGRAPH] СЛУЖЕБНАЯ ЗАПИСКА № 06/10-26\n[PARAGRAPH] [PARAGRAPH] 10 июня 2026 г.\n[PARAGRAPH] [PARAGRAPH] Подготовлено предложение о планируемом повышении стоимости аренды серверного ресурса до 240 000 руб. в месяц.\n[PARAGRAPH] [PARAGRAPH] Ориентировочная дата начала изменения: 1 июля 2026 г.\n[PARAGRAPH] [PARAGRAPH] Записка носит предварительный внутренний характер и не изменяет договор без подписанного дополнительного соглашения.",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] ООО «Северный контур»"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] СЛУЖЕБНАЯ ЗАПИСКА № 06/10-26"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] 10 июня 2026 г."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] Подготовлено предложение о планируемом повышении стоимости аренды серверного ресурса до 240 000 руб. в месяц."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] Ориентировочная дата начала изменения: 1 июля 2026 г."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] Записка носит предварительный внутренний характер и не изменяет договор без подписанного дополнительного соглашения."
+        }
+      ]
+    },
+    {
+      "doc_id": "july_service_report",
+      "filename": "04_Отчёт_об_оказании_услуг_за_июль.txt",
+      "source_file_name": "04_Отчёт_об_оказании_услуг_за_июль.txt",
+      "source_sha256": "b1faaaf6c29e5d22d52e0d6691337350dba143e75ff8e83700579bd2a6ab1230",
+      "order": 5,
+      "text": "[PARAGRAPH] [PARAGRAPH] ООО «Северный контур»\n[PARAGRAPH] [PARAGRAPH] ОТЧЁТ ОБ ОКАЗАНИИ УСЛУГ ЗА ИЮЛЬ 2026 Г.\n[PARAGRAPH] [PARAGRAPH] Исполнитель подтвердил, что в июле 2026 г. выделенный серверный ресурс был доступен и услуги оказывались в согласованном объёме.\n[PARAGRAPH] [PARAGRAPH] Отчёт фиксирует период и факт оказания услуг, но не определяет цену, подлежащую применению по договору.",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] ООО «Северный контур»"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] ОТЧЁТ ОБ ОКАЗАНИИ УСЛУГ ЗА ИЮЛЬ 2026 Г."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] Исполнитель подтвердил, что в июле 2026 г. выделенный серверный ресурс был доступен и услуги оказывались в согласованном объёме."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] Отчёт фиксирует период и факт оказания услуг, но не определяет цену, подлежащую применению по договору."
+        }
+      ]
+    },
+    {
+      "doc_id": "invoice",
+      "filename": "05_Счёт_за_июль_2026.txt",
+      "source_file_name": "05_Счёт_за_июль_2026.txt",
+      "source_sha256": "3442201fb9880699be94878ee24165983373e02cfca0d2ac6fbce0e8e693705a",
+      "order": 6,
+      "text": "[PARAGRAPH] [PARAGRAPH] ООО «ДатаХост»\n[PARAGRAPH] [PARAGRAPH] СЧЁТ № 07/2026-01\n[PARAGRAPH] [PARAGRAPH] Период: июль 2026 г.\n[PARAGRAPH] [PARAGRAPH] Плательщик: ООО «Северный контур».\n[PARAGRAPH] [PARAGRAPH] Исполнитель: ООО «ДатаХост».\n[PARAGRAPH] [PARAGRAPH] Основание: договор № СР-01/26 и дополнительное соглашение.\n[PARAGRAPH] [PARAGRAPH] Сумма к оплате: 240 000 руб.\n[PARAGRAPH] [PARAGRAPH] Счёт фиксирует сумму к оплате, но не подтверждает сам по себе правильность применённой редакции цены.",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] ООО «ДатаХост»"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] СЧЁТ № 07/2026-01"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] Период: июль 2026 г."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] Плательщик: ООО «Северный контур»."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] Исполнитель: ООО «ДатаХост»."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] Основание: договор № СР-01/26 и дополнительное соглашение."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] Сумма к оплате: 240 000 руб."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] Счёт фиксирует сумму к оплате, но не подтверждает сам по себе правильность применённой редакции цены."
+        }
+      ]
+    },
+    {
+      "doc_id": "approval_sheet",
+      "filename": "06_Лист_согласования_счёта.txt",
+      "source_file_name": "06_Лист_согласования_счёта.txt",
+      "source_sha256": "d7993ddbbd5735c31459b5354ae1056d74895bb5c62016c46c8e947b3e329e64",
+      "order": 7,
+      "text": "[PARAGRAPH] [PARAGRAPH] ЛИСТ СОГЛАСОВАНИЯ СЧЁТА\n[PARAGRAPH] [PARAGRAPH] Техническое подразделение: оказание услуг за июль 2026 г. подтверждено.\n[PARAGRAPH] [PARAGRAPH] Финансовая служба: счёт направлен на договорную проверку.\n[PARAGRAPH] [PARAGRAPH] Лист согласования не подтверждает правильность цены без сверки договора и дополнительного соглашения.",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] ЛИСТ СОГЛАСОВАНИЯ СЧЁТА"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] Техническое подразделение: оказание услуг за июль 2026 г. подтверждено."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] Финансовая служба: счёт направлен на договорную проверку."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] Лист согласования не подтверждает правильность цены без сверки договора и дополнительного соглашения."
+        }
+      ]
+    },
+    {
+      "doc_id": "payment_request",
+      "filename": "07_Заявка_на_оплату_счёта.txt",
+      "source_file_name": "07_Заявка_на_оплату_счёта.txt",
+      "source_sha256": "674611de7c4e2aa266e24efdb25749f8ae6b3414c219ae92425bd7d4436b0403",
+      "order": 8,
+      "text": "[PARAGRAPH] [PARAGRAPH] ЗАЯВКА НА ОПЛАТУ № 07/2026/П\n[PARAGRAPH] [PARAGRAPH] Просим рассмотреть к оплате счёт за июль 2026 г. на сумму 240 000 руб.\n[PARAGRAPH] [PARAGRAPH] Основание: договор № СР-01/26, дополнительное соглашение, отчёт и счёт.\n[PARAGRAPH] [PARAGRAPH] Перед оплатой требуется проверить применимую редакцию цены.\n[PARAGRAPH] [PARAGRAPH] Заявка не означает, что платёж уже разрешён или проведён.",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] ЗАЯВКА НА ОПЛАТУ № 07/2026/П"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] Просим рассмотреть к оплате счёт за июль 2026 г. на сумму 240 000 руб."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] Основание: договор № СР-01/26, дополнительное соглашение, отчёт и счёт."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] Перед оплатой требуется проверить применимую редакцию цены."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[PARAGRAPH] Заявка не означает, что платёж уже разрешён или проведён."
+        }
+      ]
+    }
+  ],
+  "text": "[DOCUMENT doc_id=base_contract]\n=== DOCUMENT 1 | 01_Договор_аренды_серверного_ресурса.txt ===\n[PARAGRAPH] [PARAGRAPH] ООО «Северный контур»\n[PARAGRAPH] [PARAGRAPH] ДОГОВОР АРЕНДЫ ВЫДЕЛЕННОГО СЕРВЕРНОГО РЕСУРСА № СР-01/26\n[PARAGRAPH] [PARAGRAPH] 1 января 2026 г.\n[PARAGRAPH] [PARAGRAPH] 1. Предмет договора\n[PARAGRAPH] [PARAGRAPH] 1.1. Исполнитель: ООО «ДатаХост».\n[PARAGRAPH] [PARAGRAPH] 1.2. Заказчик: ООО «Северный контур».\n[PARAGRAPH] [PARAGRAPH] 1.3. Исполнитель предоставляет заказчику выделенный серверный ресурс для размещения и сопровождения прикладных сервисов.\n[PARAGRAPH] [PARAGRAPH] 2. Стоимость и срок\n[PARAGRAPH] [PARAGRAPH] 2.1. Стоимость аренды составляет 200 000 руб. в месяц.\n[PARAGRAPH] [PARAGRAPH] 2.2. Договор действует с 1 января 2026 г. по 31 декабря 2026 г. включительно.\n[PARAGRAPH] [PARAGRAPH] 3. Изменение условий\n[PARAGRAPH] [PARAGRAPH] 3.1. Изменение цены допускается только на основании подписанного сторонами письменного дополнительного соглашения.\n[PARAGRAPH] [PARAGRAPH] 3.2. Новая редакция цены применяется с даты, прямо указанной в дополнительном соглашении.\n[PARAGRAPH] [PARAGRAPH] 3.3. Остальные условия договора сохраняют силу, если стороны не согласовали иное.\n[/DOCUMENT]\n\n[DOCUMENT doc_id=amendment_B]\n=== DOCUMENT 3 | 02_Дополнительное_соглашение.txt ===\n[PARAGRAPH] [PARAGRAPH] ООО «Северный контур»\n[PARAGRAPH] [PARAGRAPH] ДОПОЛНИТЕЛЬНОЕ СОГЛАШЕНИЕ № 1\n[PARAGRAPH] [PARAGRAPH] к договору № СР-01/26\n[PARAGRAPH] [PARAGRAPH] 20 июня 2026 г.\n[PARAGRAPH] [PARAGRAPH] 1. Стороны договорились изменить только пункт 2.1 договора.\n[PARAGRAPH] [PARAGRAPH] 2. С 1 августа 2026 г. стоимость аренды составляет 240 000 руб. в месяц.\n[PARAGRAPH] [PARAGRAPH] 3. Остальные условия договора № СР-01/26 остаются без изменений.\n[/DOCUMENT]\n\n[DOCUMENT doc_id=internal_memo]\n=== DOCUMENT 4 | 03_Служебная_записка_о_планируемом_повышении.txt ===\n[PARAGRAPH] [PARAGRAPH] ООО «Северный контур»\n[PARAGRAPH] [PARAGRAPH] СЛУЖЕБНАЯ ЗАПИСКА № 06/10-26\n[PARAGRAPH] [PARAGRAPH] 10 июня 2026 г.\n[PARAGRAPH] [PARAGRAPH] Подготовлено предложение о планируемом повышении стоимости аренды серверного ресурса до 240 000 руб. в месяц.\n[PARAGRAPH] [PARAGRAPH] Ориентировочная дата начала изменения: 1 июля 2026 г.\n[PARAGRAPH] [PARAGRAPH] Записка носит предварительный внутренний характер и не изменяет договор без подписанного дополнительного соглашения.\n[/DOCUMENT]\n\n[DOCUMENT doc_id=july_service_report]\n=== DOCUMENT 5 | 04_Отчёт_об_оказании_услуг_за_июль.txt ===\n[PARAGRAPH] [PARAGRAPH] ООО «Северный контур»\n[PARAGRAPH] [PARAGRAPH] ОТЧЁТ ОБ ОКАЗАНИИ УСЛУГ ЗА ИЮЛЬ 2026 Г.\n[PARAGRAPH] [PARAGRAPH] Исполнитель подтвердил, что в июле 2026 г. выделенный серверный ресурс был доступен и услуги оказывались в согласованном объёме.\n[PARAGRAPH] [PARAGRAPH] Отчёт фиксирует период и факт оказания услуг, но не определяет цену, подлежащую применению по договору.\n[/DOCUMENT]\n\n[DOCUMENT doc_id=invoice]\n=== DOCUMENT 6 | 05_Счёт_за_июль_2026.txt ===\n[PARAGRAPH] [PARAGRAPH] ООО «ДатаХост»\n[PARAGRAPH] [PARAGRAPH] СЧЁТ № 07/2026-01\n[PARAGRAPH] [PARAGRAPH] Период: июль 2026 г.\n[PARAGRAPH] [PARAGRAPH] Плательщик: ООО «Северный контур».\n[PARAGRAPH] [PARAGRAPH] Исполнитель: ООО «ДатаХост».\n[PARAGRAPH] [PARAGRAPH] Основание: договор № СР-01/26 и дополнительное соглашение.\n[PARAGRAPH] [PARAGRAPH] Сумма к оплате: 240 000 руб.\n[PARAGRAPH] [PARAGRAPH] Счёт фиксирует сумму к оплате, но не подтверждает сам по себе правильность применённой редакции цены.\n[/DOCUMENT]\n\n[DOCUMENT doc_id=approval_sheet]\n=== DOCUMENT 7 | 06_Лист_согласования_счёта.txt ===\n[PARAGRAPH] [PARAGRAPH] ЛИСТ СОГЛАСОВАНИЯ СЧЁТА\n[PARAGRAPH] [PARAGRAPH] Техническое подразделение: оказание услуг за июль 2026 г. подтверждено.\n[PARAGRAPH] [PARAGRAPH] Финансовая служба: счёт направлен на договорную проверку.\n[PARAGRAPH] [PARAGRAPH] Лист согласования не подтверждает правильность цены без сверки договора и дополнительного соглашения.\n[/DOCUMENT]\n\n[DOCUMENT doc_id=payment_request]\n=== DOCUMENT 8 | 07_Заявка_на_оплату_счёта.txt ===\n[PARAGRAPH] [PARAGRAPH] ЗАЯВКА НА ОПЛАТУ № 07/2026/П\n[PARAGRAPH] [PARAGRAPH] Просим рассмотреть к оплате счёт за июль 2026 г. на сумму 240 000 руб.\n[PARAGRAPH] [PARAGRAPH] Основание: договор № СР-01/26, дополнительное соглашение, отчёт и счёт.\n[PARAGRAPH] [PARAGRAPH] Перед оплатой требуется проверить применимую редакцию цены.\n[PARAGRAPH] [PARAGRAPH] Заявка не означает, что платёж уже разрешён или проведён.\n[/DOCUMENT]"
+}

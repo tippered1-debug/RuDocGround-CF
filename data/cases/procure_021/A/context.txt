@@ -1,0 +1,36 @@
+[DOCUMENT doc_id=policy]
+=== DOCUMENT 1 | 01_policy.txt ===
+[PARAGRAPH] [controlling_rule] The Single-source justification case is governed by the sole_source_policy.
+[PARAGRAPH] [authoritative_source] sole_source_policy is the authoritative source for this package.
+[PARAGRAPH] [domain] procurement and compliance
+[/DOCUMENT]
+
+[DOCUMENT doc_id=core_record]
+=== DOCUMENT 2 | 02_core_record.txt ===
+[PARAGRAPH] [substantive_fact] The mandatory comparator is present.
+[PARAGRAPH] [amount] 2
+[PARAGRAPH] [deadline_date] 2026-11-01
+[PARAGRAPH] [identifier] PROC-2101
+[PARAGRAPH] [code_set] sole_source | comparator_check
+[/DOCUMENT]
+
+[DOCUMENT doc_id=nuisance_memo]
+=== DOCUMENT 3 | 03_nuisance_memo.txt ===
+[PARAGRAPH] [reference_number] PROC-2101
+[PARAGRAPH] [timestamp] 2026-11-01T14:00:00
+[PARAGRAPH] [case_tag] procure_021
+[/DOCUMENT]
+
+[DOCUMENT doc_id=decision_memo]
+=== DOCUMENT 4 | 04_decision_memo.txt ===
+[PARAGRAPH] [final_status] blocked
+[PARAGRAPH] [decision_reason] The decision follows the substantive fact and the controlling source.
+[/DOCUMENT]
+
+[DOCUMENT doc_id=support_note]
+=== DOCUMENT 5 | 05_support_note.txt ===
+[PARAGRAPH] [support_note_sufficient] false
+[PARAGRAPH] [missing_information] A mandatory comparator is missing.
+[PARAGRAPH] [support_note] The supporting note is not sufficient.
+[PARAGRAPH] [mandatory_comparator] comparator evidence is required for the file.
+[/DOCUMENT]

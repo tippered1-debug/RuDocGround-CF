@@ -1,0 +1,15 @@
+{
+  "case_id": "procure_022",
+  "domain": "procurement and compliance",
+  "counterfactual_change_type": "authoritative source conflict",
+  "controlling_document": "01_реестр_проверки_поставщиков",
+  "document_ids": [
+    "01_реестр_проверки_поставщиков",
+    "02_декларация_антикоррупционная",
+    "03_сертификат",
+    "04_лист_проверки_закупки",
+    "05_мемо_комплаенс"
+  ],
+  "expected_questions": 14,
+  "gold_rows": 42
+}

@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "checks": [
+    "question_id_alignment",
+    "same_question_set_A_B_C",
+    "one_local_causal_change_A_B",
+    "C_is_nuisance_change"
+  ],
+  "task_rows": 210
+}

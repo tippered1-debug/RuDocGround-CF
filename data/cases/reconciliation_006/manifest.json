@@ -1,0 +1,115 @@
+{
+  "case_id": "reconciliation_006",
+  "documents": [
+    {
+      "doc_id": "payment_control_policy",
+      "neutral_file_name": "01_Регламент_сверки_документов_перед_оплатой.txt",
+      "source_file_name": "01_Регламент_сверки_документов_перед_оплатой.txt",
+      "source_sha256": "3d0862839631eb1e7c86d6fe42cf47d63c3c489339aaefa73e1b5003444e2cc9",
+      "variant_a_sha256": "3d0862839631eb1e7c86d6fe42cf47d63c3c489339aaefa73e1b5003444e2cc9",
+      "variant_b_sha256": "3d0862839631eb1e7c86d6fe42cf47d63c3c489339aaefa73e1b5003444e2cc9",
+      "source_drive_id": null,
+      "order": 1,
+      "included_in_variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "doc_id": "purchase_request",
+      "neutral_file_name": "02_Заявка_на_приобретение_мониторов.txt",
+      "source_file_name": "02_Заявка_на_приобретение_мониторов.txt",
+      "source_sha256": "0a8124107eaa0c1d02df69783883b7fadbc2ab0b13065246494c2c9287294126",
+      "variant_a_sha256": "0a8124107eaa0c1d02df69783883b7fadbc2ab0b13065246494c2c9287294126",
+      "variant_b_sha256": "0a8124107eaa0c1d02df69783883b7fadbc2ab0b13065246494c2c9287294126",
+      "source_drive_id": null,
+      "order": 2,
+      "included_in_variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "doc_id": "purchase_order",
+      "neutral_file_name": "03_Заказ_поставщику.txt",
+      "source_file_name": "03_Заказ_поставщику.txt",
+      "source_sha256": "66563287a208eeb0d1601f80f18af79025faea2f04fbda20cafa48e3ea39071a",
+      "variant_a_sha256": "66563287a208eeb0d1601f80f18af79025faea2f04fbda20cafa48e3ea39071a",
+      "variant_b_sha256": "66563287a208eeb0d1601f80f18af79025faea2f04fbda20cafa48e3ea39071a",
+      "source_drive_id": null,
+      "order": 3,
+      "included_in_variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "doc_id": "delivery_note",
+      "neutral_file_name": "04_Товарная_накладная.txt",
+      "source_file_name": "04_Товарная_накладная.txt",
+      "source_sha256": "0eaea8b9462242036a11bb08d3697661f2a51e651a8b6eac0c277af6033e8e7b",
+      "variant_a_sha256": "0eaea8b9462242036a11bb08d3697661f2a51e651a8b6eac0c277af6033e8e7b",
+      "variant_b_sha256": "0eaea8b9462242036a11bb08d3697661f2a51e651a8b6eac0c277af6033e8e7b",
+      "source_drive_id": null,
+      "order": 4,
+      "included_in_variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "doc_id": "warehouse_receipt",
+      "neutral_file_name": "05_Приходный_ордер_склада.txt",
+      "source_file_name": "05_Приходный_ордер_склада.txt",
+      "source_sha256": "c4262236a6e23022b169cae9766946fac0e476f009f290522eec90c24f94557f",
+      "variant_a_sha256": "c4262236a6e23022b169cae9766946fac0e476f009f290522eec90c24f94557f",
+      "variant_b_sha256": "c4262236a6e23022b169cae9766946fac0e476f009f290522eec90c24f94557f",
+      "source_drive_id": null,
+      "order": 5,
+      "included_in_variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "doc_id": "supplier_invoice_A",
+      "neutral_file_name": "06_Счёт_поставщика.txt",
+      "source_file_name": "06_Счёт_поставщика_A.txt",
+      "source_sha256": "44e49ac5fa74055d07db842a3155376fc2f890c76de4596e2a4f91177c478958",
+      "variant_a_sha256": "44e49ac5fa74055d07db842a3155376fc2f890c76de4596e2a4f91177c478958",
+      "variant_b_sha256": null,
+      "source_drive_id": null,
+      "order": 6,
+      "included_in_variants": [
+        "A"
+      ]
+    },
+    {
+      "doc_id": "supplier_invoice_B",
+      "neutral_file_name": "06_Счёт_поставщика.txt",
+      "source_file_name": "06_Счёт_поставщика_B.txt",
+      "source_sha256": "ff61d687c801475b4e2a79113691c3f5a29b5e2ae82ab555bd7f39921aa0e140",
+      "variant_a_sha256": null,
+      "variant_b_sha256": "ff61d687c801475b4e2a79113691c3f5a29b5e2ae82ab555bd7f39921aa0e140",
+      "source_drive_id": null,
+      "order": 6,
+      "included_in_variants": [
+        "B"
+      ]
+    },
+    {
+      "doc_id": "payment_request_006",
+      "neutral_file_name": "07_Заявка_на_оплату_счёта.txt",
+      "source_file_name": "07_Заявка_на_оплату_счёта.txt",
+      "source_sha256": "2c1cf77dc3ab7bdef31e5594b1a05dc051d857557fa9e38e06167dfe78f2e04b",
+      "variant_a_sha256": "2c1cf77dc3ab7bdef31e5594b1a05dc051d857557fa9e38e06167dfe78f2e04b",
+      "variant_b_sha256": "2c1cf77dc3ab7bdef31e5594b1a05dc051d857557fa9e38e06167dfe78f2e04b",
+      "source_drive_id": null,
+      "order": 7,
+      "included_in_variants": [
+        "A",
+        "B"
+      ]
+    }
+  ]
+}

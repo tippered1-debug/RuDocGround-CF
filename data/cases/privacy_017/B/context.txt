@@ -1,0 +1,24 @@
+[DOCUMENT doc_id=01_политика_передачи_пдн]
+=== DOCUMENT 1 | 01_Политика_передачи_ПДн.txt ===
+[PARAGRAPH] Internal policy allows transfer of personal data only on one of three documented bases: contract necessity, explicit consent, or intra-group processor instruction. The policy fully determines admissibility and has priority over the onboarding note.
+[/DOCUMENT]
+
+[DOCUMENT doc_id=02_договор_обработки_пдн]
+=== DOCUMENT 2 | 02_Договор_обработки_ПДн.txt ===
+[PARAGRAPH] The processor agreement states the vendor may receive employee contact details only if the policy basis is documented in the transfer assessment.
+[/DOCUMENT]
+
+[DOCUMENT doc_id=03_оценка_передачи]
+=== DOCUMENT 3 | 03_Оценка_передачи.txt ===
+[PARAGRAPH] Variant B: basis changes to explicit consent, but no consent record exists for one recipient.
+[/DOCUMENT]
+
+[DOCUMENT doc_id=04_список_реквизитов]
+=== DOCUMENT 6 | 04_Список_реквизитов.txt ===
+[PARAGRAPH] Lists the data categories, recipients, and transmission method.
+[/DOCUMENT]
+
+[DOCUMENT doc_id=05_служебная_записка_иб]
+=== DOCUMENT 7 | 05_Служебная_записка_ИБ.txt ===
+[PARAGRAPH] Security memo confirms the transfer path and encrypted channel.
+[/DOCUMENT]

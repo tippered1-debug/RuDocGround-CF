@@ -1,0 +1,3 @@
+[reference_number] SHIP-1301
+[timestamp] 2026-08-01T11:00:00
+[case_tag] logistics_013

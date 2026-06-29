@@ -1,0 +1,5 @@
+[substantive_fact] The renewal notice is timely.
+[amount] 29
+[deadline_date] 2027-01-01
+[identifier] LEASE-2501
+[code_set] option_window | delivery_proof

@@ -1,0 +1,83 @@
+{
+  "case_id": "infosec_029",
+  "documents": [
+    {
+      "doc_id": "policy",
+      "neutral_file_name": "01_policy.txt",
+      "source_file_name": "01_policy.txt",
+      "source_sha256": "3da0abb747db4ec7877d9b786cc224df40b70f2276359aacc3f0ebc13c5af0e0",
+      "variant_a_sha256": "3da0abb747db4ec7877d9b786cc224df40b70f2276359aacc3f0ebc13c5af0e0",
+      "variant_b_sha256": "3da0abb747db4ec7877d9b786cc224df40b70f2276359aacc3f0ebc13c5af0e0",
+      "variant_c_sha256": "3da0abb747db4ec7877d9b786cc224df40b70f2276359aacc3f0ebc13c5af0e0",
+      "order": 1,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "core_record",
+      "neutral_file_name": "02_core_record.txt",
+      "source_file_name": "02_core_record.txt",
+      "source_sha256": "5837ca3f2254e3ff48122f9a389a2d8523856f625e4fe9b4fbfd2d73b848ae36",
+      "variant_a_sha256": "5837ca3f2254e3ff48122f9a389a2d8523856f625e4fe9b4fbfd2d73b848ae36",
+      "variant_b_sha256": "f7f7f90700e80a4487e8a66240406337e4105e705c987f7f2d4a7bd0de3f5d85",
+      "variant_c_sha256": "5837ca3f2254e3ff48122f9a389a2d8523856f625e4fe9b4fbfd2d73b848ae36",
+      "order": 2,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "nuisance_memo",
+      "neutral_file_name": "03_nuisance_memo.txt",
+      "source_file_name": "03_nuisance_memo.txt",
+      "source_sha256": "5e361af3501677d8c02fccb89d2b9d58d891325499b6f3906fa102c1c81d5126",
+      "variant_a_sha256": "5e361af3501677d8c02fccb89d2b9d58d891325499b6f3906fa102c1c81d5126",
+      "variant_b_sha256": "5e361af3501677d8c02fccb89d2b9d58d891325499b6f3906fa102c1c81d5126",
+      "variant_c_sha256": "b4e09e95e22da1a4a562fd9505ad35ffd518029cd4438e62956a20d94feb5e17",
+      "order": 3,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "decision_memo",
+      "neutral_file_name": "04_decision_memo.txt",
+      "source_file_name": "04_decision_memo.txt",
+      "source_sha256": "003308a04c7218856826bed2e72288ab786944cb80c2913cdd04c5532d6821e6",
+      "variant_a_sha256": "003308a04c7218856826bed2e72288ab786944cb80c2913cdd04c5532d6821e6",
+      "variant_b_sha256": "1855a8a4ff44d848fbc8c1372fced56e5228a3aa4046508c673f9b4bb9663b6f",
+      "variant_c_sha256": "003308a04c7218856826bed2e72288ab786944cb80c2913cdd04c5532d6821e6",
+      "order": 4,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "support_note",
+      "neutral_file_name": "05_support_note.txt",
+      "source_file_name": "05_support_note.txt",
+      "source_sha256": "85ae30dc76fb4173cd6fcdf9de0182679fdb48a430e3b2712709290f162e4d2f",
+      "variant_a_sha256": "85ae30dc76fb4173cd6fcdf9de0182679fdb48a430e3b2712709290f162e4d2f",
+      "variant_b_sha256": "85ae30dc76fb4173cd6fcdf9de0182679fdb48a430e3b2712709290f162e4d2f",
+      "variant_c_sha256": "85ae30dc76fb4173cd6fcdf9de0182679fdb48a430e3b2712709290f162e4d2f",
+      "order": 5,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    }
+  ],
+  "changed_fragment_A_to_B": "The emergency access session is still valid.",
+  "changed_fragment_A_to_C": "Nuisance memo reference ACC-3301 and timestamp 2026-11-20T15:25:00.",
+  "document_grounded_only": true
+}

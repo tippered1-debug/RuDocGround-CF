@@ -1,0 +1,5 @@
+[substantive_fact] The FX threshold is triggered.
+[amount] 12000
+[deadline_date] 2026-07-15
+[identifier] FX-1201
+[code_set] threshold_check | fx_indexation

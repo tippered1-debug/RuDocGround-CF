@@ -1,0 +1,1 @@
+Variant C: only the department code and the signature block order change; the basis and recipients remain identical.

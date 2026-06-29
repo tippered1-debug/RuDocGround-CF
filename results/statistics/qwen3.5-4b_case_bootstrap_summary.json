@@ -1,0 +1,139 @@
+{
+  "seed": 42,
+  "replicates": 10000,
+  "case_clusters": 30,
+  "point_estimates": {
+    "answer_accuracy": 0.28448275862068967,
+    "decision_accuracy": 0.4834054834054834,
+    "missing_information_accuracy": 0.7836206896551724,
+    "evidence_precision": 0.41793103448275865,
+    "evidence_recall": 0.4650143678160919,
+    "evidence_f1": 0.4253585112205802,
+    "format_success_rate": 0.7939655172413793,
+    "counterfactual": {
+      "ab_flip": {
+        "strict_score": 0.1717171717171717,
+        "strict_denominator": 99.0
+      },
+      "ab_invariant": {
+        "strict_score": 0.40331491712707185,
+        "strict_denominator": 181.0
+      },
+      "ac_nuisance_flip": {
+        "strict_score": 0.5454545454545454,
+        "strict_denominator": 55.0
+      },
+      "ac_causal_invariant": {
+        "strict_score": 0.27601809954751133,
+        "strict_denominator": 221.0
+      }
+    }
+  },
+  "bootstrap": {
+    "answer_accuracy": {
+      "point_estimate": 0.28448275862068967,
+      "median": 0.2851644790147464,
+      "ci_low": 0.22342057117740408,
+      "ci_high": 0.3427374784110535,
+      "p_gt_0": 1.0
+    },
+    "decision_accuracy": {
+      "point_estimate": 0.4834054834054834,
+      "median": 0.4839590838237159,
+      "ci_low": 0.429546283629731,
+      "ci_high": 0.5417257084477146,
+      "p_gt_0": 1.0
+    },
+    "missing_information_accuracy": {
+      "point_estimate": 0.7836206896551724,
+      "median": 0.7833333333333333,
+      "ci_low": 0.7462806833600591,
+      "ci_high": 0.8224645640712157,
+      "p_gt_0": 1.0
+    },
+    "evidence_precision": {
+      "point_estimate": 0.41793103448275865,
+      "median": 0.41912699900049977,
+      "ci_low": 0.3382204420488733,
+      "ci_high": 0.4960371446538974,
+      "p_gt_0": 1.0
+    },
+    "evidence_recall": {
+      "point_estimate": 0.4650143678160919,
+      "median": 0.4666098984920495,
+      "ci_low": 0.3788603328544061,
+      "ci_high": 0.5473952923449414,
+      "p_gt_0": 1.0
+    },
+    "evidence_f1": {
+      "point_estimate": 0.4253585112205802,
+      "median": 0.42663329513922066,
+      "ci_low": 0.34570535986208095,
+      "ci_high": 0.5018815301929708,
+      "p_gt_0": 1.0
+    },
+    "format_success_rate": {
+      "point_estimate": 0.7939655172413793,
+      "median": 0.793859649122807,
+      "ci_low": 0.7563446426584262,
+      "ci_high": 0.8333333333333334,
+      "p_gt_0": 1.0
+    },
+    "ab_flip_strict_score": {
+      "point_estimate": 0.1717171717171717,
+      "median": 0.17117117117117117,
+      "ci_low": 0.10869565217391304,
+      "ci_high": 0.2358490566037736,
+      "p_gt_0": 1.0
+    },
+    "ab_invariant_strict_score": {
+      "point_estimate": 0.40331491712707185,
+      "median": 0.4057971014492754,
+      "ci_low": 0.2960862539770023,
+      "ci_high": 0.5052645576707727,
+      "p_gt_0": 1.0
+    },
+    "ac_nuisance_flip_strict_score": {
+      "point_estimate": 0.5454545454545454,
+      "median": 0.5454545454545454,
+      "ci_low": 0.43478260869565216,
+      "ci_high": 0.6382978723404256,
+      "p_gt_0": 1.0
+    },
+    "ac_causal_invariant_strict_score": {
+      "point_estimate": 0.27601809954751133,
+      "median": 0.2767857142857143,
+      "ci_low": 0.2,
+      "ci_high": 0.3484214786832163,
+      "p_gt_0": 1.0
+    },
+    "ab_flip_strict_missed_update_rate": {
+      "point_estimate": 0.8282828282828283,
+      "median": 0.8288288288288288,
+      "ci_low": 0.7641509433962265,
+      "ci_high": 0.8913043478260869,
+      "p_gt_0": 1.0
+    },
+    "ab_invariant_strict_over_update_rate": {
+      "point_estimate": 0.5966850828729282,
+      "median": 0.5942028985507246,
+      "ci_low": 0.49473544232922734,
+      "ci_high": 0.7039137460229977,
+      "p_gt_0": 1.0
+    },
+    "ac_nuisance_flip_strict_missed_update_rate": {
+      "point_estimate": 0.45454545454545453,
+      "median": 0.45454545454545453,
+      "ci_low": 0.3617021276595745,
+      "ci_high": 0.5652173913043478,
+      "p_gt_0": 1.0
+    },
+    "ac_causal_invariant_strict_over_update_rate": {
+      "point_estimate": 0.7239819004524887,
+      "median": 0.7232142857142857,
+      "ci_low": 0.6515785213167836,
+      "ci_high": 0.8,
+      "p_gt_0": 1.0
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "case_id": "finset_012",
+  "domain": "finance and calculations",
+  "counterfactual_change_type": "The FX threshold is not triggered.",
+  "controlling_document": "policy",
+  "document_ids": [
+    "policy",
+    "core_record",
+    "nuisance_memo",
+    "decision_memo",
+    "support_note"
+  ],
+  "expected_questions": 14,
+  "gold_rows": 42,
+  "group": "batch1"
+}

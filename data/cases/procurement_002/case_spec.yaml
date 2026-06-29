@@ -1,0 +1,35 @@
+case_id: procurement_002
+domain: corporate procurement
+counterfactual_change_type: temporary order expiry date
+controlling_document: temporary_order
+changed_field: validity_end_date
+values:
+  A: 2026-10-31
+  B: 2026-10-15
+document_ids:
+  - procurement_policy
+  - temporary_order
+  - purchase_request
+  - commercial_offer
+  - approval_sheet
+  - supply_contract
+  - payment_request
+flip_questions:
+  - Q5
+  - Q6
+  - Q10
+  - Q13
+  - Q15
+invariant_questions:
+  - Q1
+  - Q2
+  - Q3
+  - Q4
+  - Q7
+  - Q8
+  - Q9
+  - Q11
+  - Q12
+  - Q14
+expected_documents: 7
+expected_gold_records: 30

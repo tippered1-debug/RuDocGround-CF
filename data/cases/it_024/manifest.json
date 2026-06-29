@@ -1,0 +1,83 @@
+{
+  "case_id": "it_024",
+  "documents": [
+    {
+      "doc_id": "policy",
+      "neutral_file_name": "01_policy.txt",
+      "source_file_name": "01_policy.txt",
+      "source_sha256": "a865749213a762e27787e19c856125771d454c0465798fff17413b8fc45abcb2",
+      "variant_a_sha256": "a865749213a762e27787e19c856125771d454c0465798fff17413b8fc45abcb2",
+      "variant_b_sha256": "a865749213a762e27787e19c856125771d454c0465798fff17413b8fc45abcb2",
+      "variant_c_sha256": "a865749213a762e27787e19c856125771d454c0465798fff17413b8fc45abcb2",
+      "order": 1,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "core_record",
+      "neutral_file_name": "02_core_record.txt",
+      "source_file_name": "02_core_record.txt",
+      "source_sha256": "0332c655f2595232bddc9702ce368d236c3c1b766dbd5a858516c256dfffd9e0",
+      "variant_a_sha256": "0332c655f2595232bddc9702ce368d236c3c1b766dbd5a858516c256dfffd9e0",
+      "variant_b_sha256": "519cf9509738434e815501cbc8171d7f5374c2936d0d105b69e242fb176678f8",
+      "variant_c_sha256": "0332c655f2595232bddc9702ce368d236c3c1b766dbd5a858516c256dfffd9e0",
+      "order": 2,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "nuisance_memo",
+      "neutral_file_name": "03_nuisance_memo.txt",
+      "source_file_name": "03_nuisance_memo.txt",
+      "source_sha256": "eabca70126a4187494692dc4f00996294123fa6193d926e3f9fca50cd5aaaedb",
+      "variant_a_sha256": "eabca70126a4187494692dc4f00996294123fa6193d926e3f9fca50cd5aaaedb",
+      "variant_b_sha256": "eabca70126a4187494692dc4f00996294123fa6193d926e3f9fca50cd5aaaedb",
+      "variant_c_sha256": "67f4161e58b9335c65876389aec768deb55d76aaa517736c8e3889750ae7ed37",
+      "order": 3,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "decision_memo",
+      "neutral_file_name": "04_decision_memo.txt",
+      "source_file_name": "04_decision_memo.txt",
+      "source_sha256": "50d418e2c8f985875b3e2d040dddf00c316965229a7307a1f6426eda72f390af",
+      "variant_a_sha256": "50d418e2c8f985875b3e2d040dddf00c316965229a7307a1f6426eda72f390af",
+      "variant_b_sha256": "d6b1963bcfea9f469d2a03f95e39b35c947509c5f84fe193f821748b120ecbd5",
+      "variant_c_sha256": "50d418e2c8f985875b3e2d040dddf00c316965229a7307a1f6426eda72f390af",
+      "order": 4,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "support_note",
+      "neutral_file_name": "05_support_note.txt",
+      "source_file_name": "05_support_note.txt",
+      "source_sha256": "85ae30dc76fb4173cd6fcdf9de0182679fdb48a430e3b2712709290f162e4d2f",
+      "variant_a_sha256": "85ae30dc76fb4173cd6fcdf9de0182679fdb48a430e3b2712709290f162e4d2f",
+      "variant_b_sha256": "85ae30dc76fb4173cd6fcdf9de0182679fdb48a430e3b2712709290f162e4d2f",
+      "variant_c_sha256": "85ae30dc76fb4173cd6fcdf9de0182679fdb48a430e3b2712709290f162e4d2f",
+      "order": 5,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    }
+  ],
+  "changed_fragment_A_to_B": "The escalation went to the required tier.",
+  "changed_fragment_A_to_C": "Nuisance memo reference TKT-3301 and timestamp 2026-12-01T08:44:00.",
+  "document_grounded_only": true
+}

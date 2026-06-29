@@ -1,0 +1,5 @@
+[substantive_fact] The mandatory comparator is present.
+[amount] 2
+[deadline_date] 2026-11-01
+[identifier] PROC-2101
+[code_set] sole_source | comparator_check

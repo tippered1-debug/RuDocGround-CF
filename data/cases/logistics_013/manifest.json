@@ -1,0 +1,83 @@
+{
+  "case_id": "logistics_013",
+  "documents": [
+    {
+      "doc_id": "policy",
+      "neutral_file_name": "01_policy.txt",
+      "source_file_name": "01_policy.txt",
+      "source_sha256": "e997cc4ad1d2d8472d71d88ca3f76aa9fb58744d04e368b2d4365a18a411d066",
+      "variant_a_sha256": "e997cc4ad1d2d8472d71d88ca3f76aa9fb58744d04e368b2d4365a18a411d066",
+      "variant_b_sha256": "e997cc4ad1d2d8472d71d88ca3f76aa9fb58744d04e368b2d4365a18a411d066",
+      "variant_c_sha256": "e997cc4ad1d2d8472d71d88ca3f76aa9fb58744d04e368b2d4365a18a411d066",
+      "order": 1,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "core_record",
+      "neutral_file_name": "02_core_record.txt",
+      "source_file_name": "02_core_record.txt",
+      "source_sha256": "901be227913205a924985f43caa33705c2ab6b120960e81425f54d213dd59e29",
+      "variant_a_sha256": "901be227913205a924985f43caa33705c2ab6b120960e81425f54d213dd59e29",
+      "variant_b_sha256": "20cd55b3aec0a34584cccd2f85e6c32de3f6ae020e0f9f1c59f2f0e2dd92f98b",
+      "variant_c_sha256": "901be227913205a924985f43caa33705c2ab6b120960e81425f54d213dd59e29",
+      "order": 2,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "nuisance_memo",
+      "neutral_file_name": "03_nuisance_memo.txt",
+      "source_file_name": "03_nuisance_memo.txt",
+      "source_sha256": "a30fc89ffb1fb81c4332be5822d72d189d251645850eed660c51d6072d1ac252",
+      "variant_a_sha256": "a30fc89ffb1fb81c4332be5822d72d189d251645850eed660c51d6072d1ac252",
+      "variant_b_sha256": "a30fc89ffb1fb81c4332be5822d72d189d251645850eed660c51d6072d1ac252",
+      "variant_c_sha256": "20fa167d90817cc59b078d6dcd65a61a69ceb26fc82926c4ee0abfe3aa8e9565",
+      "order": 3,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "decision_memo",
+      "neutral_file_name": "04_decision_memo.txt",
+      "source_file_name": "04_decision_memo.txt",
+      "source_sha256": "deb9ecbd11f41abf77cc722255629abf426e5e0dca7115840bbf1d94e843405b",
+      "variant_a_sha256": "deb9ecbd11f41abf77cc722255629abf426e5e0dca7115840bbf1d94e843405b",
+      "variant_b_sha256": "3a19358d535a15037a076bb42d54b97e85f10e7f806f9b88def9dd1d776a4dab",
+      "variant_c_sha256": "deb9ecbd11f41abf77cc722255629abf426e5e0dca7115840bbf1d94e843405b",
+      "order": 4,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "support_note",
+      "neutral_file_name": "05_support_note.txt",
+      "source_file_name": "05_support_note.txt",
+      "source_sha256": "85ae30dc76fb4173cd6fcdf9de0182679fdb48a430e3b2712709290f162e4d2f",
+      "variant_a_sha256": "85ae30dc76fb4173cd6fcdf9de0182679fdb48a430e3b2712709290f162e4d2f",
+      "variant_b_sha256": "85ae30dc76fb4173cd6fcdf9de0182679fdb48a430e3b2712709290f162e4d2f",
+      "variant_c_sha256": "85ae30dc76fb4173cd6fcdf9de0182679fdb48a430e3b2712709290f162e4d2f",
+      "order": 5,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    }
+  ],
+  "changed_fragment_A_to_B": "Both custody chains are complete.",
+  "changed_fragment_A_to_C": "Nuisance memo reference SHIP-3301 and timestamp 2026-08-01T11:20:00.",
+  "document_grounded_only": true
+}

@@ -1,0 +1,702 @@
+[
+  {
+    "case_id": "acceptance_004",
+    "variant_id": "A",
+    "question_id": "Q1",
+    "answer_type": "status",
+    "reason": "legacy_A"
+  },
+  {
+    "case_id": "acceptance_004",
+    "variant_id": "B",
+    "question_id": "Q2",
+    "answer_type": "money",
+    "reason": "legacy_B"
+  },
+  {
+    "case_id": "amendment_007",
+    "variant_id": "A",
+    "question_id": "Q1",
+    "answer_type": "status",
+    "reason": "legacy_A"
+  },
+  {
+    "case_id": "amendment_007",
+    "variant_id": "B",
+    "question_id": "Q2",
+    "answer_type": "categorical",
+    "reason": "legacy_B"
+  },
+  {
+    "case_id": "approval_chain_009",
+    "variant_id": "A",
+    "question_id": "Q1",
+    "answer_type": "status",
+    "reason": "legacy_A"
+  },
+  {
+    "case_id": "approval_chain_009",
+    "variant_id": "B",
+    "question_id": "Q4",
+    "answer_type": "date",
+    "reason": "legacy_B"
+  },
+  {
+    "case_id": "asset_scope_010",
+    "variant_id": "A",
+    "question_id": "Q1",
+    "answer_type": "status",
+    "reason": "legacy_A"
+  },
+  {
+    "case_id": "asset_scope_010",
+    "variant_id": "B",
+    "question_id": "Q3",
+    "answer_type": "money",
+    "reason": "legacy_B"
+  },
+  {
+    "case_id": "authority_003",
+    "variant_id": "A",
+    "question_id": "Q1",
+    "answer_type": "categorical",
+    "reason": "legacy_A"
+  },
+  {
+    "case_id": "authority_003",
+    "variant_id": "B",
+    "question_id": "Q3",
+    "answer_type": "money",
+    "reason": "legacy_B"
+  },
+  {
+    "case_id": "notice_005",
+    "variant_id": "A",
+    "question_id": "Q1",
+    "answer_type": "status",
+    "reason": "legacy_A"
+  },
+  {
+    "case_id": "notice_005",
+    "variant_id": "B",
+    "question_id": "Q2",
+    "answer_type": "categorical",
+    "reason": "legacy_B"
+  },
+  {
+    "case_id": "procurement_002",
+    "variant_id": "A",
+    "question_id": "Q1",
+    "answer_type": "money",
+    "reason": "legacy_A"
+  },
+  {
+    "case_id": "procurement_002",
+    "variant_id": "B",
+    "question_id": "Q4",
+    "answer_type": "date",
+    "reason": "legacy_B"
+  },
+  {
+    "case_id": "reconciliation_006",
+    "variant_id": "A",
+    "question_id": "Q1",
+    "answer_type": "status",
+    "reason": "legacy_A"
+  },
+  {
+    "case_id": "reconciliation_006",
+    "variant_id": "B",
+    "question_id": "Q2",
+    "answer_type": "money",
+    "reason": "legacy_B"
+  },
+  {
+    "case_id": "sla_008",
+    "variant_id": "A",
+    "question_id": "Q1",
+    "answer_type": "status",
+    "reason": "legacy_A"
+  },
+  {
+    "case_id": "sla_008",
+    "variant_id": "B",
+    "question_id": "Q2",
+    "answer_type": "money",
+    "reason": "legacy_B"
+  },
+  {
+    "case_id": "trip_001",
+    "variant_id": "A",
+    "question_id": "Q1",
+    "answer_type": "money",
+    "reason": "legacy_A"
+  },
+  {
+    "case_id": "trip_001",
+    "variant_id": "B",
+    "question_id": "Q3",
+    "answer_type": "threshold",
+    "reason": "legacy_B"
+  },
+  {
+    "case_id": "finance_028",
+    "variant_id": "A",
+    "question_id": "Q1",
+    "answer_type": "categorical",
+    "reason": "three_variant_A"
+  },
+  {
+    "case_id": "finance_028",
+    "variant_id": "B",
+    "question_id": "Q4",
+    "answer_type": "boolean",
+    "reason": "three_variant_B"
+  },
+  {
+    "case_id": "finance_028",
+    "variant_id": "C",
+    "question_id": "Q2",
+    "answer_type": "identifier",
+    "reason": "three_variant_C"
+  },
+  {
+    "case_id": "finance_028",
+    "variant_id": "A",
+    "question_id": "Q3",
+    "answer_type": "datetime",
+    "reason": "three_variant_extra"
+  },
+  {
+    "case_id": "finset_011",
+    "variant_id": "A",
+    "question_id": "Q1",
+    "answer_type": "categorical",
+    "reason": "three_variant_A"
+  },
+  {
+    "case_id": "finset_011",
+    "variant_id": "B",
+    "question_id": "Q4",
+    "answer_type": "boolean",
+    "reason": "three_variant_B"
+  },
+  {
+    "case_id": "finset_011",
+    "variant_id": "C",
+    "question_id": "Q2",
+    "answer_type": "identifier",
+    "reason": "three_variant_C"
+  },
+  {
+    "case_id": "finset_011",
+    "variant_id": "A",
+    "question_id": "Q3",
+    "answer_type": "datetime",
+    "reason": "three_variant_extra"
+  },
+  {
+    "case_id": "finset_012",
+    "variant_id": "A",
+    "question_id": "Q1",
+    "answer_type": "categorical",
+    "reason": "three_variant_A"
+  },
+  {
+    "case_id": "finset_012",
+    "variant_id": "B",
+    "question_id": "Q4",
+    "answer_type": "boolean",
+    "reason": "three_variant_B"
+  },
+  {
+    "case_id": "finset_012",
+    "variant_id": "C",
+    "question_id": "Q2",
+    "answer_type": "identifier",
+    "reason": "three_variant_C"
+  },
+  {
+    "case_id": "finset_012",
+    "variant_id": "A",
+    "question_id": "Q3",
+    "answer_type": "datetime",
+    "reason": "three_variant_extra"
+  },
+  {
+    "case_id": "hr_019",
+    "variant_id": "A",
+    "question_id": "Q1",
+    "answer_type": "date",
+    "reason": "three_variant_A"
+  },
+  {
+    "case_id": "hr_019",
+    "variant_id": "B",
+    "question_id": "Q2",
+    "answer_type": "date",
+    "reason": "three_variant_B"
+  },
+  {
+    "case_id": "hr_019",
+    "variant_id": "C",
+    "question_id": "Q8",
+    "answer_type": "boolean",
+    "reason": "three_variant_C"
+  },
+  {
+    "case_id": "hr_019",
+    "variant_id": "A",
+    "question_id": "Q10",
+    "answer_type": "identifier",
+    "reason": "three_variant_extra"
+  },
+  {
+    "case_id": "hr_020",
+    "variant_id": "A",
+    "question_id": "Q1",
+    "answer_type": "categorical",
+    "reason": "three_variant_A"
+  },
+  {
+    "case_id": "hr_020",
+    "variant_id": "B",
+    "question_id": "Q4",
+    "answer_type": "boolean",
+    "reason": "three_variant_B"
+  },
+  {
+    "case_id": "hr_020",
+    "variant_id": "C",
+    "question_id": "Q2",
+    "answer_type": "identifier",
+    "reason": "three_variant_C"
+  },
+  {
+    "case_id": "hr_020",
+    "variant_id": "A",
+    "question_id": "Q3",
+    "answer_type": "datetime",
+    "reason": "three_variant_extra"
+  },
+  {
+    "case_id": "hr_030",
+    "variant_id": "A",
+    "question_id": "Q1",
+    "answer_type": "categorical",
+    "reason": "three_variant_A"
+  },
+  {
+    "case_id": "hr_030",
+    "variant_id": "B",
+    "question_id": "Q4",
+    "answer_type": "boolean",
+    "reason": "three_variant_B"
+  },
+  {
+    "case_id": "hr_030",
+    "variant_id": "C",
+    "question_id": "Q2",
+    "answer_type": "identifier",
+    "reason": "three_variant_C"
+  },
+  {
+    "case_id": "hr_030",
+    "variant_id": "A",
+    "question_id": "Q3",
+    "answer_type": "datetime",
+    "reason": "three_variant_extra"
+  },
+  {
+    "case_id": "infosec_029",
+    "variant_id": "A",
+    "question_id": "Q1",
+    "answer_type": "categorical",
+    "reason": "three_variant_A"
+  },
+  {
+    "case_id": "infosec_029",
+    "variant_id": "B",
+    "question_id": "Q4",
+    "answer_type": "boolean",
+    "reason": "three_variant_B"
+  },
+  {
+    "case_id": "infosec_029",
+    "variant_id": "C",
+    "question_id": "Q2",
+    "answer_type": "identifier",
+    "reason": "three_variant_C"
+  },
+  {
+    "case_id": "infosec_029",
+    "variant_id": "A",
+    "question_id": "Q3",
+    "answer_type": "datetime",
+    "reason": "three_variant_extra"
+  },
+  {
+    "case_id": "iplic_015",
+    "variant_id": "A",
+    "question_id": "Q1",
+    "answer_type": "categorical",
+    "reason": "three_variant_A"
+  },
+  {
+    "case_id": "iplic_015",
+    "variant_id": "B",
+    "question_id": "Q4",
+    "answer_type": "boolean",
+    "reason": "three_variant_B"
+  },
+  {
+    "case_id": "iplic_015",
+    "variant_id": "C",
+    "question_id": "Q2",
+    "answer_type": "identifier",
+    "reason": "three_variant_C"
+  },
+  {
+    "case_id": "iplic_015",
+    "variant_id": "A",
+    "question_id": "Q3",
+    "answer_type": "datetime",
+    "reason": "three_variant_extra"
+  },
+  {
+    "case_id": "iplic_016",
+    "variant_id": "A",
+    "question_id": "Q2",
+    "answer_type": "boolean",
+    "reason": "three_variant_A"
+  },
+  {
+    "case_id": "iplic_016",
+    "variant_id": "B",
+    "question_id": "Q1",
+    "answer_type": "boolean",
+    "reason": "three_variant_B"
+  },
+  {
+    "case_id": "iplic_016",
+    "variant_id": "C",
+    "question_id": "Q9",
+    "answer_type": "boolean",
+    "reason": "three_variant_C"
+  },
+  {
+    "case_id": "iplic_016",
+    "variant_id": "A",
+    "question_id": "Q5",
+    "answer_type": "code_set",
+    "reason": "three_variant_extra"
+  },
+  {
+    "case_id": "it_023",
+    "variant_id": "A",
+    "question_id": "Q1",
+    "answer_type": "categorical",
+    "reason": "three_variant_A"
+  },
+  {
+    "case_id": "it_023",
+    "variant_id": "B",
+    "question_id": "Q4",
+    "answer_type": "boolean",
+    "reason": "three_variant_B"
+  },
+  {
+    "case_id": "it_023",
+    "variant_id": "C",
+    "question_id": "Q2",
+    "answer_type": "identifier",
+    "reason": "three_variant_C"
+  },
+  {
+    "case_id": "it_023",
+    "variant_id": "A",
+    "question_id": "Q3",
+    "answer_type": "datetime",
+    "reason": "three_variant_extra"
+  },
+  {
+    "case_id": "it_024",
+    "variant_id": "A",
+    "question_id": "Q1",
+    "answer_type": "categorical",
+    "reason": "three_variant_A"
+  },
+  {
+    "case_id": "it_024",
+    "variant_id": "B",
+    "question_id": "Q4",
+    "answer_type": "boolean",
+    "reason": "three_variant_B"
+  },
+  {
+    "case_id": "it_024",
+    "variant_id": "C",
+    "question_id": "Q2",
+    "answer_type": "identifier",
+    "reason": "three_variant_C"
+  },
+  {
+    "case_id": "it_024",
+    "variant_id": "A",
+    "question_id": "Q3",
+    "answer_type": "datetime",
+    "reason": "three_variant_extra"
+  },
+  {
+    "case_id": "logistics_013",
+    "variant_id": "A",
+    "question_id": "Q1",
+    "answer_type": "categorical",
+    "reason": "three_variant_A"
+  },
+  {
+    "case_id": "logistics_013",
+    "variant_id": "B",
+    "question_id": "Q4",
+    "answer_type": "boolean",
+    "reason": "three_variant_B"
+  },
+  {
+    "case_id": "logistics_013",
+    "variant_id": "C",
+    "question_id": "Q2",
+    "answer_type": "identifier",
+    "reason": "three_variant_C"
+  },
+  {
+    "case_id": "logistics_013",
+    "variant_id": "A",
+    "question_id": "Q3",
+    "answer_type": "datetime",
+    "reason": "three_variant_extra"
+  },
+  {
+    "case_id": "logistics_014",
+    "variant_id": "A",
+    "question_id": "Q1",
+    "answer_type": "categorical",
+    "reason": "three_variant_A"
+  },
+  {
+    "case_id": "logistics_014",
+    "variant_id": "B",
+    "question_id": "Q2",
+    "answer_type": "boolean",
+    "reason": "three_variant_B"
+  },
+  {
+    "case_id": "logistics_014",
+    "variant_id": "C",
+    "question_id": "Q9",
+    "answer_type": "boolean",
+    "reason": "three_variant_C"
+  },
+  {
+    "case_id": "logistics_014",
+    "variant_id": "A",
+    "question_id": "Q7",
+    "answer_type": "integer",
+    "reason": "three_variant_extra"
+  },
+  {
+    "case_id": "privacy_017",
+    "variant_id": "A",
+    "question_id": "Q2",
+    "answer_type": "categorical",
+    "reason": "three_variant_A"
+  },
+  {
+    "case_id": "privacy_017",
+    "variant_id": "B",
+    "question_id": "Q1",
+    "answer_type": "categorical",
+    "reason": "three_variant_B"
+  },
+  {
+    "case_id": "privacy_017",
+    "variant_id": "C",
+    "question_id": "Q8",
+    "answer_type": "boolean",
+    "reason": "three_variant_C"
+  },
+  {
+    "case_id": "privacy_017",
+    "variant_id": "A",
+    "question_id": "Q1",
+    "answer_type": "categorical",
+    "reason": "three_variant_extra"
+  },
+  {
+    "case_id": "privacy_018",
+    "variant_id": "A",
+    "question_id": "Q1",
+    "answer_type": "categorical",
+    "reason": "three_variant_A"
+  },
+  {
+    "case_id": "privacy_018",
+    "variant_id": "B",
+    "question_id": "Q4",
+    "answer_type": "boolean",
+    "reason": "three_variant_B"
+  },
+  {
+    "case_id": "privacy_018",
+    "variant_id": "C",
+    "question_id": "Q2",
+    "answer_type": "identifier",
+    "reason": "three_variant_C"
+  },
+  {
+    "case_id": "privacy_018",
+    "variant_id": "A",
+    "question_id": "Q3",
+    "answer_type": "datetime",
+    "reason": "three_variant_extra"
+  },
+  {
+    "case_id": "procure_021",
+    "variant_id": "A",
+    "question_id": "Q1",
+    "answer_type": "categorical",
+    "reason": "three_variant_A"
+  },
+  {
+    "case_id": "procure_021",
+    "variant_id": "B",
+    "question_id": "Q4",
+    "answer_type": "boolean",
+    "reason": "three_variant_B"
+  },
+  {
+    "case_id": "procure_021",
+    "variant_id": "C",
+    "question_id": "Q2",
+    "answer_type": "identifier",
+    "reason": "three_variant_C"
+  },
+  {
+    "case_id": "procure_021",
+    "variant_id": "A",
+    "question_id": "Q3",
+    "answer_type": "datetime",
+    "reason": "three_variant_extra"
+  },
+  {
+    "case_id": "procure_022",
+    "variant_id": "A",
+    "question_id": "Q1",
+    "answer_type": "categorical",
+    "reason": "three_variant_A"
+  },
+  {
+    "case_id": "procure_022",
+    "variant_id": "B",
+    "question_id": "Q3",
+    "answer_type": "boolean",
+    "reason": "three_variant_B"
+  },
+  {
+    "case_id": "procure_022",
+    "variant_id": "C",
+    "question_id": "Q8",
+    "answer_type": "boolean",
+    "reason": "three_variant_C"
+  },
+  {
+    "case_id": "procure_022",
+    "variant_id": "A",
+    "question_id": "Q2",
+    "answer_type": "datetime",
+    "reason": "three_variant_extra"
+  },
+  {
+    "case_id": "property_025",
+    "variant_id": "A",
+    "question_id": "Q1",
+    "answer_type": "categorical",
+    "reason": "three_variant_A"
+  },
+  {
+    "case_id": "property_025",
+    "variant_id": "B",
+    "question_id": "Q4",
+    "answer_type": "boolean",
+    "reason": "three_variant_B"
+  },
+  {
+    "case_id": "property_025",
+    "variant_id": "C",
+    "question_id": "Q2",
+    "answer_type": "identifier",
+    "reason": "three_variant_C"
+  },
+  {
+    "case_id": "property_025",
+    "variant_id": "A",
+    "question_id": "Q3",
+    "answer_type": "datetime",
+    "reason": "three_variant_extra"
+  },
+  {
+    "case_id": "property_026",
+    "variant_id": "A",
+    "question_id": "Q1",
+    "answer_type": "categorical",
+    "reason": "three_variant_A"
+  },
+  {
+    "case_id": "property_026",
+    "variant_id": "B",
+    "question_id": "Q4",
+    "answer_type": "boolean",
+    "reason": "three_variant_B"
+  },
+  {
+    "case_id": "property_026",
+    "variant_id": "C",
+    "question_id": "Q2",
+    "answer_type": "identifier",
+    "reason": "three_variant_C"
+  },
+  {
+    "case_id": "property_026",
+    "variant_id": "A",
+    "question_id": "Q3",
+    "answer_type": "datetime",
+    "reason": "three_variant_extra"
+  },
+  {
+    "case_id": "shipping_027",
+    "variant_id": "A",
+    "question_id": "Q1",
+    "answer_type": "categorical",
+    "reason": "three_variant_A"
+  },
+  {
+    "case_id": "shipping_027",
+    "variant_id": "B",
+    "question_id": "Q4",
+    "answer_type": "boolean",
+    "reason": "three_variant_B"
+  },
+  {
+    "case_id": "shipping_027",
+    "variant_id": "C",
+    "question_id": "Q2",
+    "answer_type": "identifier",
+    "reason": "three_variant_C"
+  },
+  {
+    "case_id": "shipping_027",
+    "variant_id": "A",
+    "question_id": "Q3",
+    "answer_type": "datetime",
+    "reason": "three_variant_extra"
+  }
+]

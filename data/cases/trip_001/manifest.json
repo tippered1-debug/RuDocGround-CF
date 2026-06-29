@@ -1,0 +1,185 @@
+{
+  "case_id": "trip_001",
+  "documents": [
+    {
+      "doc_id": "policy_01",
+      "neutral_file_name": "01_Положение.docx",
+      "source_file_name": "01_Положение.docx",
+      "source_sha256": "6e2e93ac083bbcb1f0a79982e89e999fdd1d0dde60c06833948d8b48e02d00bc",
+      "variant_a_sha256": "6e2e93ac083bbcb1f0a79982e89e999fdd1d0dde60c06833948d8b48e02d00bc",
+      "variant_b_sha256": "6e2e93ac083bbcb1f0a79982e89e999fdd1d0dde60c06833948d8b48e02d00bc",
+      "source_drive_id": null,
+      "order": 1,
+      "included_in_variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "doc_id": "order_86_A",
+      "neutral_file_name": "02_Приказ_86-ОД.docx",
+      "source_file_name": "02_Приказ_86-ОД_1.docx",
+      "source_sha256": "92ca336716e5d55989916dd2a2f5f62e2858709c155474a96208b068b206d321",
+      "variant_a_sha256": "92ca336716e5d55989916dd2a2f5f62e2858709c155474a96208b068b206d321",
+      "variant_b_sha256": null,
+      "source_drive_id": null,
+      "order": 2,
+      "included_in_variants": [
+        "A"
+      ]
+    },
+    {
+      "doc_id": "order_86_B",
+      "neutral_file_name": "02_Приказ_86-ОД.docx",
+      "source_file_name": "02_Приказ_86-ОД_2.docx",
+      "source_sha256": "63be76cfb6760bb3fcc1fe8bd54a85f932102b13ac99a879f510d1a33165d9a4",
+      "variant_a_sha256": null,
+      "variant_b_sha256": "63be76cfb6760bb3fcc1fe8bd54a85f932102b13ac99a879f510d1a33165d9a4",
+      "source_drive_id": null,
+      "order": 2,
+      "included_in_variants": [
+        "B"
+      ]
+    },
+    {
+      "doc_id": "finance_memo",
+      "neutral_file_name": "03_Служебная_записка.docx",
+      "source_file_name": "03_Служебная_записка.docx",
+      "source_sha256": "a88ad99d7a4a737513492038d616b170e669aac9b3322ce9ae56fb3bbc81de4f",
+      "variant_a_sha256": "a88ad99d7a4a737513492038d616b170e669aac9b3322ce9ae56fb3bbc81de4f",
+      "variant_b_sha256": "a88ad99d7a4a737513492038d616b170e669aac9b3322ce9ae56fb3bbc81de4f",
+      "source_drive_id": null,
+      "order": 3,
+      "included_in_variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "doc_id": "trip_request",
+      "neutral_file_name": "04_Заявка.docx",
+      "source_file_name": "04_Заявка.docx",
+      "source_sha256": "04b1aa613bf43174af0c9810dec6751b6fe0273551cff2b781687a9d36a266e9",
+      "variant_a_sha256": "04b1aa613bf43174af0c9810dec6751b6fe0273551cff2b781687a9d36a266e9",
+      "variant_b_sha256": "04b1aa613bf43174af0c9810dec6751b6fe0273551cff2b781687a9d36a266e9",
+      "source_drive_id": null,
+      "order": 4,
+      "included_in_variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "doc_id": "trip_order_241",
+      "neutral_file_name": "05_Приказ_241-К.docx",
+      "source_file_name": "05_Приказ_241-К.docx",
+      "source_sha256": "7b22864a2c8ca9655da080a739a02742da6de1abfbb8ae70abc60c908f165a17",
+      "variant_a_sha256": "7b22864a2c8ca9655da080a739a02742da6de1abfbb8ae70abc60c908f165a17",
+      "variant_b_sha256": "7b22864a2c8ca9655da080a739a02742da6de1abfbb8ae70abc60c908f165a17",
+      "source_drive_id": null,
+      "order": 5,
+      "included_in_variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "doc_id": "sed_extension",
+      "neutral_file_name": "06_Выгрузка_СЭД.docx",
+      "source_file_name": "06_Выгрузка_СЭД.docx",
+      "source_sha256": "948b2858ee91ce9b4234118113375887f1e2a9edb96e5425294dc6b9a75529b9",
+      "variant_a_sha256": "948b2858ee91ce9b4234118113375887f1e2a9edb96e5425294dc6b9a75529b9",
+      "variant_b_sha256": "948b2858ee91ce9b4234118113375887f1e2a9edb96e5425294dc6b9a75529b9",
+      "source_drive_id": null,
+      "order": 6,
+      "included_in_variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "doc_id": "trip_order_249",
+      "neutral_file_name": "07_Приказ_249-К.docx",
+      "source_file_name": "07_Приказ_249-К.docx",
+      "source_sha256": "80b7f686e01059be0ba7f1eed20df53ef2f8f7be0287026695911adc5d2bccb5",
+      "variant_a_sha256": "80b7f686e01059be0ba7f1eed20df53ef2f8f7be0287026695911adc5d2bccb5",
+      "variant_b_sha256": "80b7f686e01059be0ba7f1eed20df53ef2f8f7be0287026695911adc5d2bccb5",
+      "source_drive_id": null,
+      "order": 7,
+      "included_in_variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "doc_id": "hotel_invoice",
+      "neutral_file_name": "08_Счёт_гостиницы.docx",
+      "source_file_name": "08_Счёт_гостиницы.docx",
+      "source_sha256": "e2da948cacb3ef7fad9b9711c870f493ad674b17bde550d13fa2441045a45eb4",
+      "variant_a_sha256": "e2da948cacb3ef7fad9b9711c870f493ad674b17bde550d13fa2441045a45eb4",
+      "variant_b_sha256": "e2da948cacb3ef7fad9b9711c870f493ad674b17bde550d13fa2441045a45eb4",
+      "source_drive_id": null,
+      "order": 8,
+      "included_in_variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "doc_id": "hotel_payment",
+      "neutral_file_name": "09_Подтверждение_оплаты.docx",
+      "source_file_name": "09_Подтверждение_оплаты.docx",
+      "source_sha256": "7c5973d9022e0c96ada32dd85de5be5b753bae8399ed77fd06de50760fb85466",
+      "variant_a_sha256": "7c5973d9022e0c96ada32dd85de5be5b753bae8399ed77fd06de50760fb85466",
+      "variant_b_sha256": "7c5973d9022e0c96ada32dd85de5be5b753bae8399ed77fd06de50760fb85466",
+      "source_drive_id": null,
+      "order": 9,
+      "included_in_variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "doc_id": "transport_pack",
+      "neutral_file_name": "10_Транспортные_документы.docx",
+      "source_file_name": "10_Транспортные_документы.docx",
+      "source_sha256": "843e89e7779b2d1e0d3c01ad0e2683c1d91ac564f8e4674c813f073e1e82020e",
+      "variant_a_sha256": "843e89e7779b2d1e0d3c01ad0e2683c1d91ac564f8e4674c813f073e1e82020e",
+      "variant_b_sha256": "843e89e7779b2d1e0d3c01ad0e2683c1d91ac564f8e4674c813f073e1e82020e",
+      "source_drive_id": null,
+      "order": 10,
+      "included_in_variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "doc_id": "meeting_protocol",
+      "neutral_file_name": "11_Протокол_встречи.docx",
+      "source_file_name": "11_Протокол_встречи.docx",
+      "source_sha256": "30ad617fb634f8f6f4ed39c544478c8a61fed2033cdd55728e30dcaa7ca440f9",
+      "variant_a_sha256": "30ad617fb634f8f6f4ed39c544478c8a61fed2033cdd55728e30dcaa7ca440f9",
+      "variant_b_sha256": "30ad617fb634f8f6f4ed39c544478c8a61fed2033cdd55728e30dcaa7ca440f9",
+      "source_drive_id": null,
+      "order": 11,
+      "included_in_variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "doc_id": "expense_report",
+      "neutral_file_name": "12_Авансовый_отчёт.docx",
+      "source_file_name": "12_Авансовый_отчёт.docx",
+      "source_sha256": "c1c339c7432f838d27aea45fe758627605a7acf23e118b68addd2b9a7e3b0f15",
+      "variant_a_sha256": "c1c339c7432f838d27aea45fe758627605a7acf23e118b68addd2b9a7e3b0f15",
+      "variant_b_sha256": "c1c339c7432f838d27aea45fe758627605a7acf23e118b68addd2b9a7e3b0f15",
+      "source_drive_id": null,
+      "order": 12,
+      "included_in_variants": [
+        "A",
+        "B"
+      ]
+    }
+  ]
+}

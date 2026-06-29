@@ -1,0 +1,71 @@
+{
+  "benchmark": "RuDocGround-CF v1.3.1",
+  "protocols": [
+    "variant_batched_compact",
+    "independent_single_question"
+  ],
+  "primary_protocol": "independent_single_question",
+  "model": "qwen3.5:4b",
+  "provider": "ollama",
+  "execution_commit": "645f6632620293998c3857a1c1b3dc800064d4aa",
+  "evaluation_commit": "7733fb73a7b88e70f5edc8d1e2dbf4a628832c80",
+  "runtime": {
+    "temperature": 0,
+    "seed": 42,
+    "think": false,
+    "keep_alive": "30m",
+    "num_ctx": 16384,
+    "num_predict": 1024,
+    "rows_total": 1160,
+    "rows_written": 1160,
+    "successful": 921,
+    "failed": 239,
+    "started_at": 1782578634.106167,
+    "finished_at": 1782593039.342703
+  },
+  "primary_metrics": {
+    "strict_end_to_end": {
+      "answer_accuracy": 0.28448275862068967,
+      "decision_accuracy": 0.4834054834054834,
+      "missing_information_accuracy": 0.7836206896551724,
+      "evidence_f1": 0.42535851122058016,
+      "format_failure_rate": "239/1160"
+    },
+    "conditional_diagnostics": {
+      "valid_output_answer_accuracy": 0.3583061889250814,
+      "valid_output_decision_accuracy": 0.6686626746506986,
+      "valid_output_evidence_f1": 0.5357392758044224,
+      "valid_pair_metrics": {
+        "ab_flip": 0.9444444444444444,
+        "ab_invariant": 0.9733333333333334,
+        "ac_nuisance_flip": 1.0,
+        "ac_causal_invariant": 0.9682539682539683
+      }
+    },
+    "boolean_canonical_success": "1/291",
+    "protocol_effect": {
+      "batched_compact_answer_accuracy": 0.7586206896551724,
+      "independent_strict_answer_accuracy": 0.28448275862068967,
+      "difference": 0.47413793103448276
+    }
+  },
+  "artifacts": {
+    "corrected_report_json": "results/qwen3.5-4b_v1.3.1_independent_full_report_corrected.json",
+    "corrected_report_csv": "results/qwen3.5-4b_v1.3.1_independent_full_report_corrected.csv",
+    "corrected_counterfactual_json": "results/qwen3.5-4b_v1.3.1_independent_full_counterfactual_corrected.json",
+    "boolean_confusion_audit": "results/qwen3.5-4b_v1.3.1_independent_full_boolean_confusion_audit.json",
+    "format_failure_audit": "results/qwen3.5-4b_v1.3.1_independent_full_format_failure_audit.json",
+    "audit_manifest": "results/qwen3.5-4b_v1.3.1_independent_full_audit_manifest.json",
+    "predictions": "results/qwen3.5-4b_v1.3.1_independent_full_predictions.jsonl"
+  },
+  "hashes": {
+    "predictions": "08567e35fa0bcc595bd70076494c10e7341ada75d4e76bbbaee256f3ce3f5759",
+    "corrected_report_json": "9fd3a4558c757f412dcef1c356ab1278ec9cdf625ef8239b0ffb805cda61eff6",
+    "corrected_report_csv": "84ffde696cdd90da33142da6df9958ac8c10c8034ebae7b6fc76d705600e1c2a",
+    "corrected_counterfactual_json": "d692938edf5b67a0bf0bbebbd27a9a410e94b525f6c33832a4efc5f411f1345c",
+    "boolean_confusion_audit": "829417adf2ec1e5e3dd5251427dc87a8a2d2828b9c6e97f1d1be28865a1823d7",
+    "format_failure_audit": "14c20e988e36a4764c885bbd2d5ae65657928e72f421921a59fbb69aa4f61a43",
+    "audit_manifest": "76718af880864ee788b772b5fef15b8db3419835f38609e329a798b7244ef44b",
+    "previous_report_json": "70d65dfc9991cfcdcffdc59f2f3edfda9a7a2f65f19ff6181ddb2e25fc711ed9"
+  }
+}

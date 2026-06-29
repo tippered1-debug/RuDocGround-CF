@@ -1,0 +1,43 @@
+{
+  "status": "completed",
+  "benchmark": "RuDocGround-CF",
+  "model_id": "gpt-5.4",
+  "policy": "evidence_required",
+  "branch": "case/acceptance-004",
+  "git_commit": "2202c8a21b987d8fd29c40d9a8d5d6494fd1ef1f",
+  "freeze_commit": "2202c8a21b987d8fd29c40d9a8d5d6494fd1ef1f",
+  "previous_freeze_commit": "78a9b7712e6ec2b865101573b1bfe347d4060e8e",
+  "adapter_commit": "2202c8a21b987d8fd29c40d9a8d5d6494fd1ef1f",
+  "codex_cli_version": "codex-cli 0.142.0-alpha.6",
+  "prepared_at": "2026-06-22T17:46:13+03:00",
+  "model_run_started_at": "unknown",
+  "model_run_finished_at": "2026-06-22T23:47:52+03:00",
+  "retry_1_started_at": "unknown",
+  "retry_1_finished_at": "unknown",
+  "retry_2_started_at": "unknown",
+  "retry_2_finished_at": "unknown",
+  "report_generated_at": "2026-06-22T23:48:05+03:00",
+  "counts": {
+    "gold_rows": 320,
+    "prompt_rows": 320,
+    "unique_prompt_keys": 320,
+    "prediction_rows": 320,
+    "initial_successful": 312,
+    "initial_failed": 8,
+    "successful": 320,
+    "failed": 0,
+    "retry_count": 2
+  },
+  "sha256": {
+    "data/gold.jsonl": "f489c5dc89a60b8c1dda9560af332b9639ab2bf8cf821dcc2f4321dc7407b999",
+    "prompts/all_cases_gpt-5.4.jsonl": "5afea8304dd2a76f4fe2a4613610ddb4a8204348f5ed631caec28b50b44f4bdd",
+    "results/preflight_schema_audit.json": "1b91f1fa2329902accd4b6cb4cfba3ce21fb40f94c7fb387612e16717d84db96",
+    "results/gpt-5.4_all_cases_before_retry.jsonl": "8e95eaa25db2e0768b007f8b33d5fcfc2704ce59112b5e205d5a240ceef534c1",
+    "results/gpt-5.4_all_cases_report_before_retry.json": "0fdf659b2d8c9c2b4beebaddd7f6d15426821dadd0aeb43c0d856ef0e4d7296b",
+    "results/gpt-5.4_all_cases.jsonl": "ad3a0416ea869177379bfb8ec347ff4876267e1dcd15af795f3b5183f96d716b",
+    "results/gpt-5.4_all_cases_report.json": "70a9dd03f552750eb3d082b71240069512f545b81fa19f30c27e3153bf85fa12",
+    "results/gpt-5.4_all_cases_report.csv": "42d064e6d9a70e4603387cdf8762dd1e8ad4156e983f42561df6113d7bce4ba1",
+    "results/benchmark_gpt-5.4_all_cases/benchmark_report.json": "ce804a55ff00fd2aae32c85284071cd12b07896e94205108c75a387f101cb14b",
+    "results/benchmark_gpt-5.4_all_cases/benchmark_report.csv": "24c25c9630cf2af35870e4ee9756fcaded09defacf058d0fd2641512370e60a9"
+  }
+}

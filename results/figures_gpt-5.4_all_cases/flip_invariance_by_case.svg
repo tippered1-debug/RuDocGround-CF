@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="540" viewBox="0 0 1100 540">
+  <rect width="100%" height="100%" fill="white"/>
+  <text x="24" y="38" font-size="26" font-family="Arial, sans-serif" fill="black">Benchmark Flip / Invariance by Case</text>
+  <text x="128.0" y="460" font-size="14" font-family="Arial, sans-serif" text-anchor="middle">acceptance&#10;004</text>
+  <rect x="90.0" y="90" width="32" height="330" fill="#1f77b4" />
+  <text x="90.0" y="86" font-size="14" font-family="Arial, sans-serif">1.00</text>
+  <rect x="128.0" y="123" width="32" height="297" fill="#ff7f0e" />
+  <text x="128.0" y="119" font-size="14" font-family="Arial, sans-serif">0.90</text>
+  <text x="224.0" y="460" font-size="14" font-family="Arial, sans-serif" text-anchor="middle">amendment&#10;007</text>
+  <rect x="186.0" y="90" width="32" height="330" fill="#1f77b4" />
+  <text x="186.0" y="86" font-size="14" font-family="Arial, sans-serif">1.00</text>
+  <rect x="224.0" y="190" width="32" height="230" fill="#ff7f0e" />
+  <text x="224.0" y="186" font-size="14" font-family="Arial, sans-serif">0.70</text>
+  <text x="320.0" y="460" font-size="14" font-family="Arial, sans-serif" text-anchor="middle">approval&#10;chain 009</text>
+  <rect x="282.0" y="90" width="32" height="330" fill="#1f77b4" />
+  <text x="282.0" y="86" font-size="14" font-family="Arial, sans-serif">1.00</text>
+  <rect x="320.0" y="123" width="32" height="297" fill="#ff7f0e" />
+  <text x="320.0" y="119" font-size="14" font-family="Arial, sans-serif">0.90</text>
+  <text x="416.0" y="460" font-size="14" font-family="Arial, sans-serif" text-anchor="middle">asset scope&#10;010</text>
+  <rect x="378.0" y="90" width="32" height="330" fill="#1f77b4" />
+  <text x="378.0" y="86" font-size="14" font-family="Arial, sans-serif">1.00</text>
+  <rect x="416.0" y="156" width="32" height="264" fill="#ff7f0e" />
+  <text x="416.0" y="152" font-size="14" font-family="Arial, sans-serif">0.80</text>
+  <text x="512.0" y="460" font-size="14" font-family="Arial, sans-serif" text-anchor="middle">authority&#10;003</text>
+  <rect x="474.0" y="90" width="32" height="330" fill="#1f77b4" />
+  <text x="474.0" y="86" font-size="14" font-family="Arial, sans-serif">1.00</text>
+  <rect x="512.0" y="123" width="32" height="297" fill="#ff7f0e" />
+  <text x="512.0" y="119" font-size="14" font-family="Arial, sans-serif">0.90</text>
+  <text x="608.0" y="460" font-size="14" font-family="Arial, sans-serif" text-anchor="middle">notice_005</text>
+  <rect x="570.0" y="90" width="32" height="330" fill="#1f77b4" />
+  <text x="570.0" y="86" font-size="14" font-family="Arial, sans-serif">1.00</text>
+  <rect x="608.0" y="123" width="32" height="297" fill="#ff7f0e" />
+  <text x="608.0" y="119" font-size="14" font-family="Arial, sans-serif">0.90</text>
+  <text x="704.0" y="460" font-size="14" font-family="Arial, sans-serif" text-anchor="middle">procurement&#10;002</text>
+  <rect x="666.0" y="90" width="32" height="330" fill="#1f77b4" />
+  <text x="666.0" y="86" font-size="14" font-family="Arial, sans-serif">1.00</text>
+  <rect x="704.0" y="90" width="32" height="330" fill="#ff7f0e" />
+  <text x="704.0" y="86" font-size="14" font-family="Arial, sans-serif">1.00</text>
+  <text x="800.0" y="460" font-size="14" font-family="Arial, sans-serif" text-anchor="middle">reconciliation&#10;006</text>
+  <rect x="762.0" y="90" width="32" height="330" fill="#1f77b4" />
+  <text x="762.0" y="86" font-size="14" font-family="Arial, sans-serif">1.00</text>
+  <rect x="800.0" y="123" width="32" height="297" fill="#ff7f0e" />
+  <text x="800.0" y="119" font-size="14" font-family="Arial, sans-serif">0.90</text>
+  <text x="896.0" y="460" font-size="14" font-family="Arial, sans-serif" text-anchor="middle">sla_008</text>
+  <rect x="858.0" y="90" width="32" height="330" fill="#1f77b4" />
+  <text x="858.0" y="86" font-size="14" font-family="Arial, sans-serif">1.00</text>
+  <rect x="896.0" y="123" width="32" height="297" fill="#ff7f0e" />
+  <text x="896.0" y="119" font-size="14" font-family="Arial, sans-serif">0.90</text>
+  <text x="992.0" y="460" font-size="14" font-family="Arial, sans-serif" text-anchor="middle">trip_001</text>
+  <rect x="954.0" y="90" width="32" height="330" fill="#1f77b4" />
+  <text x="954.0" y="86" font-size="14" font-family="Arial, sans-serif">1.00</text>
+  <rect x="992.0" y="112" width="32" height="308" fill="#ff7f0e" />
+  <text x="992.0" y="108" font-size="14" font-family="Arial, sans-serif">0.93</text>
+  <rect x="850" y="60" width="14" height="14" fill="#1f77b4" />
+  <text x="872" y="72" font-size="14" font-family="Arial, sans-serif">Flip score</text>
+  <rect x="850" y="82" width="14" height="14" fill="#ff7f0e" />
+  <text x="872" y="94" font-size="14" font-family="Arial, sans-serif">Invariance score</text>
+</svg>

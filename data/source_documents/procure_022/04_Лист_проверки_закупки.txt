@@ -1,0 +1,1 @@
+Approval sheet records the check date and the controlling source for vendor status.

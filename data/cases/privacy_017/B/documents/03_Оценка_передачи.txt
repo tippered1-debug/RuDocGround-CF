@@ -1,0 +1,1 @@
+Variant B: basis changes to explicit consent, but no consent record exists for one recipient.

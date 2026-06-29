@@ -1,0 +1,2 @@
+[final_status] expired
+[decision_reason] The decision follows the substantive fact and the controlling source.

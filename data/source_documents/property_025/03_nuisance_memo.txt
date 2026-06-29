@@ -1,0 +1,3 @@
+[reference_number] LEASE-2501
+[timestamp] 2026-12-15T10:00:00
+[case_tag] property_025

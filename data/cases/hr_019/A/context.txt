@@ -1,0 +1,24 @@
+[DOCUMENT doc_id=01_приказ_о_переводе]
+=== DOCUMENT 1 | 01_Приказ_о_переводе.txt ===
+[PARAGRAPH] The employee is moved to a new role starting 2026-06-12 and the prior role ends on 2026-06-11 at 18:00.
+[/DOCUMENT]
+
+[DOCUMENT doc_id=02_заявка_на_доступ]
+=== DOCUMENT 2 | 02_Заявка_на_доступ.txt ===
+[PARAGRAPH] Variant A: access request is approved on 2026-06-10 for a system needed in the new role, while employment remains active.
+[/DOCUMENT]
+
+[DOCUMENT doc_id=03_лог_iam]
+=== DOCUMENT 5 | 03_Лог_IAM.txt ===
+[PARAGRAPH] IAM log records when the account became active and when it was revoked.
+[/DOCUMENT]
+
+[DOCUMENT doc_id=04_служебная_записка_hr]
+=== DOCUMENT 6 | 04_Служебная_записка_HR.txt ===
+[PARAGRAPH] HR memo states that access is valid only during the employment period and must be revoked the same day the role ends.
+[/DOCUMENT]
+
+[DOCUMENT doc_id=05_согласование_руководителя]
+=== DOCUMENT 7 | 05_Согласование_руководителя.txt ===
+[PARAGRAPH] Manager approval confirms the access need but does not override employment timing.
+[/DOCUMENT]

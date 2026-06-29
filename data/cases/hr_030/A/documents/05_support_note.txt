@@ -1,0 +1,3 @@
+[support_note_sufficient] true
+[missing_information] No mandatory supporting document is missing.
+[support_note] The supporting note is sufficient.

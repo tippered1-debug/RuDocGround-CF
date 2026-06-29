@@ -1,0 +1,5 @@
+[substantive_fact] The notice deadline is met.
+[amount] 48
+[deadline_date] 2026-09-12T06:00:00
+[identifier] INC-1801
+[code_set] deadline_clock | regulator_notice

@@ -1,0 +1,114 @@
+{
+  "case_id": "notice_005",
+  "files": [
+    {
+      "file_name": "01_Договор_облачного_резервного_копирования.docx",
+      "docx_path": "/Users/stefanbidzamov/goldlink/exports/notice_005/docx/01_Договор_облачного_резервного_копирования.docx",
+      "pdf_path": "/Users/stefanbidzamov/goldlink/exports/notice_005/pdf/01_Договор_облачного_резервного_копирования.pdf",
+      "png_path": "/Users/stefanbidzamov/goldlink/exports/notice_005/png/01_Договор_облачного_резервного_копирования.pdf.png",
+      "source_txt": "/Users/stefanbidzamov/goldlink/data/source_documents/notice_005/01_Договор_облачного_резервного_копирования.txt",
+      "pages": 1,
+      "text_compare_ok": true,
+      "differences": [],
+      "visual_check_ok": true,
+      "visual_check_notes": "PDF and PNG rendered from the DOCX-aligned layout"
+    },
+    {
+      "file_name": "02_Уведомление_об_отказе_от_продления.docx",
+      "docx_path": "/Users/stefanbidzamov/goldlink/exports/notice_005/docx/02_Уведомление_об_отказе_от_продления.docx",
+      "pdf_path": "/Users/stefanbidzamov/goldlink/exports/notice_005/pdf/02_Уведомление_об_отказе_от_продления.pdf",
+      "png_path": "/Users/stefanbidzamov/goldlink/exports/notice_005/png/02_Уведомление_об_отказе_от_продления.pdf.png",
+      "source_txt": "/Users/stefanbidzamov/goldlink/data/source_documents/notice_005/02_Уведомление_об_отказе_от_продления.txt",
+      "pages": 1,
+      "text_compare_ok": true,
+      "differences": [],
+      "visual_check_ok": true,
+      "visual_check_notes": "PDF and PNG rendered from the DOCX-aligned layout"
+    },
+    {
+      "file_name": "03_Подтверждение_доставки_A.docx",
+      "docx_path": "/Users/stefanbidzamov/goldlink/exports/notice_005/docx/03_Подтверждение_доставки_A.docx",
+      "pdf_path": "/Users/stefanbidzamov/goldlink/exports/notice_005/pdf/03_Подтверждение_доставки_A.pdf",
+      "png_path": "/Users/stefanbidzamov/goldlink/exports/notice_005/png/03_Подтверждение_доставки_A.pdf.png",
+      "source_txt": "/Users/stefanbidzamov/goldlink/data/source_documents/notice_005/03_Подтверждение_доставки_A.txt",
+      "pages": 1,
+      "text_compare_ok": true,
+      "differences": [],
+      "visual_check_ok": true,
+      "visual_check_notes": "PDF and PNG rendered from the DOCX-aligned layout"
+    },
+    {
+      "file_name": "03_Подтверждение_доставки_B.docx",
+      "docx_path": "/Users/stefanbidzamov/goldlink/exports/notice_005/docx/03_Подтверждение_доставки_B.docx",
+      "pdf_path": "/Users/stefanbidzamov/goldlink/exports/notice_005/pdf/03_Подтверждение_доставки_B.pdf",
+      "png_path": "/Users/stefanbidzamov/goldlink/exports/notice_005/png/03_Подтверждение_доставки_B.pdf.png",
+      "source_txt": "/Users/stefanbidzamov/goldlink/data/source_documents/notice_005/03_Подтверждение_доставки_B.txt",
+      "pages": 1,
+      "text_compare_ok": true,
+      "differences": [],
+      "visual_check_ok": true,
+      "visual_check_notes": "PDF and PNG rendered from the DOCX-aligned layout"
+    },
+    {
+      "file_name": "04_Служебная_записка_о_прекращении_услуг.docx",
+      "docx_path": "/Users/stefanbidzamov/goldlink/exports/notice_005/docx/04_Служебная_записка_о_прекращении_услуг.docx",
+      "pdf_path": "/Users/stefanbidzamov/goldlink/exports/notice_005/pdf/04_Служебная_записка_о_прекращении_услуг.pdf",
+      "png_path": "/Users/stefanbidzamov/goldlink/exports/notice_005/png/04_Служебная_записка_о_прекращении_услуг.pdf.png",
+      "source_txt": "/Users/stefanbidzamov/goldlink/data/source_documents/notice_005/04_Служебная_записка_о_прекращении_услуг.txt",
+      "pages": 1,
+      "text_compare_ok": true,
+      "differences": [],
+      "visual_check_ok": true,
+      "visual_check_notes": "PDF and PNG rendered from the DOCX-aligned layout"
+    },
+    {
+      "file_name": "05_Письмо_об_отправке_уведомления.docx",
+      "docx_path": "/Users/stefanbidzamov/goldlink/exports/notice_005/docx/05_Письмо_об_отправке_уведомления.docx",
+      "pdf_path": "/Users/stefanbidzamov/goldlink/exports/notice_005/pdf/05_Письмо_об_отправке_уведомления.pdf",
+      "png_path": "/Users/stefanbidzamov/goldlink/exports/notice_005/png/05_Письмо_об_отправке_уведомления.pdf.png",
+      "source_txt": "/Users/stefanbidzamov/goldlink/data/source_documents/notice_005/05_Письмо_об_отправке_уведомления.txt",
+      "pages": 1,
+      "text_compare_ok": true,
+      "differences": [],
+      "visual_check_ok": true,
+      "visual_check_notes": "PDF and PNG rendered from the DOCX-aligned layout"
+    },
+    {
+      "file_name": "06_Счёт_за_ноябрь_2026.docx",
+      "docx_path": "/Users/stefanbidzamov/goldlink/exports/notice_005/docx/06_Счёт_за_ноябрь_2026.docx",
+      "pdf_path": "/Users/stefanbidzamov/goldlink/exports/notice_005/pdf/06_Счёт_за_ноябрь_2026.pdf",
+      "png_path": "/Users/stefanbidzamov/goldlink/exports/notice_005/png/06_Счёт_за_ноябрь_2026.pdf.png",
+      "source_txt": "/Users/stefanbidzamov/goldlink/data/source_documents/notice_005/06_Счёт_за_ноябрь_2026.txt",
+      "pages": 1,
+      "text_compare_ok": true,
+      "differences": [],
+      "visual_check_ok": true,
+      "visual_check_notes": "PDF and PNG rendered from the DOCX-aligned layout"
+    },
+    {
+      "file_name": "07_Заявка_на_оплату_счёта.docx",
+      "docx_path": "/Users/stefanbidzamov/goldlink/exports/notice_005/docx/07_Заявка_на_оплату_счёта.docx",
+      "pdf_path": "/Users/stefanbidzamov/goldlink/exports/notice_005/pdf/07_Заявка_на_оплату_счёта.pdf",
+      "png_path": "/Users/stefanbidzamov/goldlink/exports/notice_005/png/07_Заявка_на_оплату_счёта.pdf.png",
+      "source_txt": "/Users/stefanbidzamov/goldlink/data/source_documents/notice_005/07_Заявка_на_оплату_счёта.txt",
+      "pages": 1,
+      "text_compare_ok": true,
+      "differences": [],
+      "visual_check_ok": true,
+      "visual_check_notes": "PDF and PNG rendered from the DOCX-aligned layout"
+    }
+  ],
+  "pair_checks": [
+    {
+      "pair_name": "03_Подтверждение_доставки",
+      "left_file_name": "03_Подтверждение_доставки_A.docx",
+      "right_file_name": "03_Подтверждение_доставки_B.docx",
+      "same_template": true,
+      "same_except_delivery_date": true,
+      "differences": [
+        "Дата вручения: 19 октября 2026 г. vs 22 октября 2026 г."
+      ]
+    }
+  ],
+  "contact_sheet_path": "/Users/stefanbidzamov/goldlink/exports/notice_005/contact_sheet.png"
+}

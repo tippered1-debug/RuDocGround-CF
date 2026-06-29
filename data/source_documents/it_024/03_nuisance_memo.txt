@@ -1,0 +1,3 @@
+[reference_number] TKT-2401
+[timestamp] 2026-12-01T08:30:00
+[case_tag] it_024

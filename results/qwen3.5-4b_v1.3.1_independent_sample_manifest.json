@@ -1,0 +1,398 @@
+{
+  "attempts": {
+    "('acceptance_004', 'A', 'Q1')": 1,
+    "('acceptance_004', 'B', 'Q2')": 1,
+    "('amendment_007', 'A', 'Q1')": 1,
+    "('amendment_007', 'B', 'Q2')": 1,
+    "('approval_chain_009', 'A', 'Q1')": 1,
+    "('approval_chain_009', 'B', 'Q4')": 1,
+    "('asset_scope_010', 'A', 'Q1')": 1,
+    "('asset_scope_010', 'B', 'Q3')": 1,
+    "('authority_003', 'A', 'Q1')": 1,
+    "('authority_003', 'B', 'Q3')": 1,
+    "('finance_028', 'A', 'Q1')": 1,
+    "('finance_028', 'A', 'Q3')": 1,
+    "('finance_028', 'B', 'Q4')": 1,
+    "('finance_028', 'C', 'Q2')": 1,
+    "('finset_011', 'A', 'Q1')": 1,
+    "('finset_011', 'A', 'Q3')": 1,
+    "('finset_011', 'B', 'Q4')": 1,
+    "('finset_011', 'C', 'Q2')": 1,
+    "('finset_012', 'A', 'Q1')": 1,
+    "('finset_012', 'A', 'Q3')": 1,
+    "('finset_012', 'B', 'Q4')": 1,
+    "('finset_012', 'C', 'Q2')": 1,
+    "('hr_019', 'A', 'Q1')": 1,
+    "('hr_019', 'A', 'Q10')": 1,
+    "('hr_019', 'B', 'Q2')": 1,
+    "('hr_019', 'C', 'Q8')": 1,
+    "('hr_020', 'A', 'Q1')": 1,
+    "('hr_020', 'A', 'Q3')": 1,
+    "('hr_020', 'B', 'Q4')": 1,
+    "('hr_020', 'C', 'Q2')": 1,
+    "('hr_030', 'A', 'Q1')": 1,
+    "('hr_030', 'A', 'Q3')": 1,
+    "('hr_030', 'B', 'Q4')": 1,
+    "('hr_030', 'C', 'Q2')": 1,
+    "('infosec_029', 'A', 'Q1')": 1,
+    "('infosec_029', 'A', 'Q3')": 1,
+    "('infosec_029', 'B', 'Q4')": 1,
+    "('infosec_029', 'C', 'Q2')": 1,
+    "('iplic_015', 'A', 'Q1')": 1,
+    "('iplic_015', 'A', 'Q3')": 1,
+    "('iplic_015', 'B', 'Q4')": 1,
+    "('iplic_015', 'C', 'Q2')": 1,
+    "('iplic_016', 'A', 'Q2')": 1,
+    "('iplic_016', 'A', 'Q5')": 1,
+    "('iplic_016', 'B', 'Q1')": 1,
+    "('iplic_016', 'C', 'Q9')": 1,
+    "('it_023', 'A', 'Q1')": 1,
+    "('it_023', 'A', 'Q3')": 1,
+    "('it_023', 'B', 'Q4')": 1,
+    "('it_023', 'C', 'Q2')": 1,
+    "('it_024', 'A', 'Q1')": 1,
+    "('it_024', 'A', 'Q3')": 1,
+    "('it_024', 'B', 'Q4')": 1,
+    "('it_024', 'C', 'Q2')": 1,
+    "('logistics_013', 'A', 'Q1')": 1,
+    "('logistics_013', 'A', 'Q3')": 1,
+    "('logistics_013', 'B', 'Q4')": 1,
+    "('logistics_013', 'C', 'Q2')": 1,
+    "('logistics_014', 'A', 'Q1')": 1,
+    "('logistics_014', 'A', 'Q7')": 1,
+    "('logistics_014', 'B', 'Q2')": 1,
+    "('logistics_014', 'C', 'Q9')": 1,
+    "('notice_005', 'A', 'Q1')": 1,
+    "('notice_005', 'B', 'Q2')": 1,
+    "('privacy_017', 'A', 'Q1')": 1,
+    "('privacy_017', 'A', 'Q2')": 1,
+    "('privacy_017', 'B', 'Q1')": 1,
+    "('privacy_017', 'C', 'Q8')": 1,
+    "('privacy_018', 'A', 'Q1')": 1,
+    "('privacy_018', 'A', 'Q3')": 1,
+    "('privacy_018', 'B', 'Q4')": 1,
+    "('privacy_018', 'C', 'Q2')": 1,
+    "('procure_021', 'A', 'Q1')": 1,
+    "('procure_021', 'A', 'Q3')": 1,
+    "('procure_021', 'B', 'Q4')": 1,
+    "('procure_021', 'C', 'Q2')": 1,
+    "('procure_022', 'A', 'Q1')": 1,
+    "('procure_022', 'A', 'Q2')": 1,
+    "('procure_022', 'B', 'Q3')": 1,
+    "('procure_022', 'C', 'Q8')": 1,
+    "('procurement_002', 'A', 'Q1')": 1,
+    "('procurement_002', 'B', 'Q4')": 1,
+    "('property_025', 'A', 'Q1')": 1,
+    "('property_025', 'A', 'Q3')": 1,
+    "('property_025', 'B', 'Q4')": 1,
+    "('property_025', 'C', 'Q2')": 1,
+    "('property_026', 'A', 'Q1')": 1,
+    "('property_026', 'A', 'Q3')": 1,
+    "('property_026', 'B', 'Q4')": 1,
+    "('property_026', 'C', 'Q2')": 1,
+    "('reconciliation_006', 'A', 'Q1')": 1,
+    "('reconciliation_006', 'B', 'Q2')": 1,
+    "('shipping_027', 'A', 'Q1')": 1,
+    "('shipping_027', 'A', 'Q3')": 1,
+    "('shipping_027', 'B', 'Q4')": 1,
+    "('shipping_027', 'C', 'Q2')": 1,
+    "('sla_008', 'A', 'Q1')": 1,
+    "('sla_008', 'B', 'Q2')": 1,
+    "('trip_001', 'A', 'Q1')": 1,
+    "('trip_001', 'B', 'Q3')": 1
+  },
+  "comparison": {
+    "agreement_all_100": {
+      "answer": 0.39,
+      "decision": 0.11,
+      "evidence": 0.17,
+      "missing_information": 1.0
+    },
+    "agreement_successful_only": {
+      "answer": 0.46987951807228917,
+      "decision": 0.13253012048192772,
+      "evidence": 0.1927710843373494,
+      "missing_information": 1.0
+    },
+    "answer_type_counts": {
+      "boolean": 24,
+      "categorical": 20,
+      "code_set": 1,
+      "date": 4,
+      "datetime": 16,
+      "identifier": 16,
+      "integer": 1,
+      "money": 7,
+      "status": 10,
+      "threshold": 1
+    },
+    "batched_report_overall": {
+      "answer_accuracy": 0.66,
+      "count": 100,
+      "decision_accuracy": 0.8,
+      "decision_required_count": 35,
+      "evidence_f1": 0.7233333333333333,
+      "evidence_precision": 0.7183333333333333,
+      "evidence_recall": 0.735,
+      "missing_information_accuracy": 1.0,
+      "unsupported_evidence_rate": 0.27166666666666667
+    },
+    "by_answer_type": {
+      "boolean": {
+        "answer_agreement": 0.0,
+        "count": 24,
+        "decision_agreement": 0.25,
+        "evidence_agreement": 0.125,
+        "independent_failure_rate": 0.625,
+        "missing_information_agreement": 1.0
+      },
+      "categorical": {
+        "answer_agreement": 0.55,
+        "count": 20,
+        "decision_agreement": 0.1,
+        "evidence_agreement": 0.7,
+        "independent_failure_rate": 0.0,
+        "missing_information_agreement": 1.0
+      },
+      "code_set": {
+        "answer_agreement": 0.0,
+        "count": 1,
+        "decision_agreement": 0.0,
+        "evidence_agreement": 0.0,
+        "independent_failure_rate": 1.0,
+        "missing_information_agreement": 1.0
+      },
+      "date": {
+        "answer_agreement": 0.0,
+        "count": 4,
+        "decision_agreement": 0.5,
+        "evidence_agreement": 0.0,
+        "independent_failure_rate": 0.0,
+        "missing_information_agreement": 1.0
+      },
+      "datetime": {
+        "answer_agreement": 0.0,
+        "count": 16,
+        "decision_agreement": 0.0,
+        "evidence_agreement": 0.0,
+        "independent_failure_rate": 0.0,
+        "missing_information_agreement": 1.0
+      },
+      "identifier": {
+        "answer_agreement": 0.9375,
+        "count": 16,
+        "decision_agreement": 0.0625,
+        "evidence_agreement": 0.0,
+        "independent_failure_rate": 0.0,
+        "missing_information_agreement": 1.0
+      },
+      "integer": {
+        "answer_agreement": 0.0,
+        "count": 1,
+        "decision_agreement": 0.0,
+        "evidence_agreement": 0.0,
+        "independent_failure_rate": 0.0,
+        "missing_information_agreement": 1.0
+      },
+      "money": {
+        "answer_agreement": 1.0,
+        "count": 7,
+        "decision_agreement": 0.0,
+        "evidence_agreement": 0.0,
+        "independent_failure_rate": 0.0,
+        "missing_information_agreement": 1.0
+      },
+      "status": {
+        "answer_agreement": 0.6,
+        "count": 10,
+        "decision_agreement": 0.0,
+        "evidence_agreement": 0.0,
+        "independent_failure_rate": 0.0,
+        "missing_information_agreement": 1.0
+      },
+      "threshold": {
+        "answer_agreement": 0.0,
+        "count": 1,
+        "decision_agreement": 0.0,
+        "evidence_agreement": 0.0,
+        "independent_failure_rate": 1.0,
+        "missing_information_agreement": 1.0
+      }
+    },
+    "by_relation": {
+      "ab_flip": {
+        "answer_agreement": 0.0,
+        "count": 22,
+        "decision_agreement": 0.13636363636363635,
+        "evidence_agreement": 0.13636363636363635,
+        "independent_failure_rate": 0.6818181818181818,
+        "missing_information_agreement": 1.0
+      },
+      "ab_invariant": {
+        "answer_agreement": 0.41379310344827586,
+        "count": 58,
+        "decision_agreement": 0.06896551724137931,
+        "evidence_agreement": 0.22413793103448276,
+        "independent_failure_rate": 0.034482758620689655,
+        "missing_information_agreement": 1.0
+      },
+      "ac_nuisance_flip": {
+        "answer_agreement": 0.75,
+        "count": 20,
+        "decision_agreement": 0.2,
+        "evidence_agreement": 0.05,
+        "independent_failure_rate": 0.0,
+        "missing_information_agreement": 1.0
+      }
+    },
+    "independent_failed": 17,
+    "independent_failure_rate": 0.17,
+    "independent_report_overall": {
+      "answer_accuracy": 0.58,
+      "count": 100,
+      "decision_accuracy": 0.2857142857142857,
+      "decision_required_count": 35,
+      "evidence_f1": 0.5833333333333334,
+      "evidence_precision": 0.575,
+      "evidence_recall": 0.6,
+      "missing_information_accuracy": 1.0,
+      "unsupported_evidence_rate": 0.215
+    },
+    "independent_successful": 83,
+    "mean_input_tokens": {
+      "batched": 1511.43,
+      "independent": 799.67
+    },
+    "mean_latency_ms": {
+      "batched": 52395.58,
+      "independent": 4628.72
+    },
+    "mean_output_tokens": {
+      "batched": 617.65,
+      "independent": 39.9
+    },
+    "relation_counts": {
+      "ab_flip": 22,
+      "ab_invariant": 58,
+      "ac_nuisance_flip": 20
+    },
+    "sample_cases": 30,
+    "sample_prompt_sha256": "c9a947a0722d67c34c96225055ca944038a73bbd7a86f6b84b2fe0225bf485f7",
+    "sample_size": 100,
+    "sample_variants": 80,
+    "schema_failure_rate": {
+      "batched": 0.0,
+      "independent": 0.17
+    },
+    "selected_keys_hash": "caea538a0aa31f4ff4eb4d2b06f0b32e49b105b053613e8e59cb8675ebd09964"
+  },
+  "comparison_sha256": "dfbdfbfcddc3d7d185dc0d8532e89b93a63ba357e0c4d11032ff81591f57ad03",
+  "completed": 83,
+  "failed": 17,
+  "keep_alive": "30m",
+  "last_key": {
+    "case_id": "trip_001",
+    "question_id": "Q3",
+    "variant_id": "B"
+  },
+  "model": "qwen3.5:4b",
+  "num_ctx": 16384,
+  "num_predict": 1024,
+  "ollama_model_id": "2a654d98e6fb",
+  "protocol": "independent_request",
+  "provider": "ollama",
+  "report_sha256": "af5a59443f56c4050e00ca0a79f863fa548faf8977de8d0b99c686f14f768da9",
+  "rows_written": 100,
+  "sample_failed_keys": [
+    {
+      "case_id": "trip_001",
+      "question_id": "Q3",
+      "variant_id": "B"
+    },
+    {
+      "case_id": "finance_028",
+      "question_id": "Q4",
+      "variant_id": "B"
+    },
+    {
+      "case_id": "finset_011",
+      "question_id": "Q4",
+      "variant_id": "B"
+    },
+    {
+      "case_id": "finset_012",
+      "question_id": "Q4",
+      "variant_id": "B"
+    },
+    {
+      "case_id": "hr_020",
+      "question_id": "Q4",
+      "variant_id": "B"
+    },
+    {
+      "case_id": "hr_030",
+      "question_id": "Q4",
+      "variant_id": "B"
+    },
+    {
+      "case_id": "infosec_029",
+      "question_id": "Q4",
+      "variant_id": "B"
+    },
+    {
+      "case_id": "iplic_015",
+      "question_id": "Q4",
+      "variant_id": "B"
+    },
+    {
+      "case_id": "iplic_016",
+      "question_id": "Q5",
+      "variant_id": "A"
+    },
+    {
+      "case_id": "it_023",
+      "question_id": "Q4",
+      "variant_id": "B"
+    },
+    {
+      "case_id": "it_024",
+      "question_id": "Q4",
+      "variant_id": "B"
+    },
+    {
+      "case_id": "logistics_013",
+      "question_id": "Q4",
+      "variant_id": "B"
+    },
+    {
+      "case_id": "privacy_018",
+      "question_id": "Q4",
+      "variant_id": "B"
+    },
+    {
+      "case_id": "procure_021",
+      "question_id": "Q4",
+      "variant_id": "B"
+    },
+    {
+      "case_id": "property_025",
+      "question_id": "Q4",
+      "variant_id": "B"
+    },
+    {
+      "case_id": "property_026",
+      "question_id": "Q4",
+      "variant_id": "B"
+    },
+    {
+      "case_id": "shipping_027",
+      "question_id": "Q4",
+      "variant_id": "B"
+    }
+  ],
+  "seed": 42,
+  "skipped": 0,
+  "status": "complete",
+  "temperature": 0.0,
+  "think": false
+}

@@ -1,0 +1,321 @@
+case_id,variant_id,question_id,skill,answer_type,gold_answer,pred_answer,gold_decision,pred_decision,answer_correct,decision_correct,evidence_precision,evidence_recall,evidence_f1,missing_information_correct,unsupported_evidence_rate
+trip_001,A,Q1,rule_retrieval,money,9000,9000,9000_per_night,answered,True,,1.0,1.0,1.0,True,0.0
+trip_001,B,Q1,rule_retrieval,money,9000,9000,9000_per_night,answered,True,,1.0,1.0,1.0,True,0.0
+trip_001,A,Q2,authority_temporal,money,12000,12000,12000_per_night,answerable,True,,1.0,1.0,1.0,True,0.0
+trip_001,B,Q2,authority_temporal,money,12000,12000,12000_per_night,answered,True,,1.0,1.0,1.0,True,0.0
+trip_001,A,Q3,control_threshold,threshold,>10000,>10000,additional_review,supported,True,,1.0,1.0,1.0,True,0.0
+trip_001,B,Q3,control_threshold,threshold,>10000,>10000,additional_review,supported,True,,1.0,1.0,1.0,True,0.0
+trip_001,A,Q4,authority_hierarchy,boolean,false,false,not_a_reimbursement_cap,not_a_reimbursement_cap,True,True,0.2857142857142857,1.0,0.4444444444444445,True,0.7142857142857143
+trip_001,B,Q4,authority_hierarchy,boolean,false,false,not_a_reimbursement_cap,not_a_reimbursement_cap,True,True,0.2222222222222222,1.0,0.3636363636363636,True,0.7777777777777778
+trip_001,A,Q5,fact_extraction,integer,4,4,four_nights,supported,True,,0.5,1.0,0.6666666666666666,True,0.5
+trip_001,B,Q5,fact_extraction,integer,4,4,four_nights,answered,True,,0.5,1.0,0.6666666666666666,True,0.5
+trip_001,A,Q6,temporal_calculation,money,48000,48000412000,max_allowable_hotel_cost,max_allowable_hotel_cost,False,True,1.0,1.0,1.0,True,0.0
+trip_001,B,Q6,temporal_calculation,money,45000,45000,max_allowable_hotel_cost,max_allowable_hotel_cost,True,True,0.2857142857142857,0.6666666666666666,0.4,True,0.7142857142857143
+trip_001,A,Q7,capped_reimbursement,money,45600,45600,reimburse,reimburse,True,True,0.3333333333333333,0.5,0.4,True,0.6666666666666666
+trip_001,B,Q7,capped_reimbursement,money,43200,43200,partially_reimburse,partially_reimburse,True,True,0.6,0.75,0.6666666666666665,True,0.4
+trip_001,A,Q8,preapproval,boolean,true,true,preapproved,preapproved,True,True,1.0,1.0,1.0,True,0.0
+trip_001,B,Q8,preapproval,boolean,true,true,preapproved,preapproved,True,True,1.0,1.0,1.0,True,0.0
+trip_001,A,Q9,permission_vs_payment,boolean,false,false,preapproval_not_final_reimbursement,preapproval_not_final_reimbursement,True,True,0.25,1.0,0.4,True,0.75
+trip_001,B,Q9,permission_vs_payment,boolean,false,false,preapproval_not_final_reimbursement,preapproval_not_final_reimbursement,True,True,1.0,1.0,1.0,True,0.0
+trip_001,A,Q10,cross_document_consistency,date_range,2026-09-15/2026-09-18,2026-09-15/2026-09-18,original_trip_period,answered,True,,0.6666666666666666,1.0,0.8,True,0.3333333333333333
+trip_001,B,Q10,cross_document_consistency,date_range,2026-09-15/2026-09-18,2026-09-15/2026-09-18,original_trip_period,,True,,0.5,1.0,0.6666666666666666,True,0.5
+trip_001,A,Q11,decision_timing,boolean,true,true,approved_in_time,approved_in_time,True,True,0.25,0.5,0.3333333333333333,True,0.75
+trip_001,B,Q11,decision_timing,boolean,true,true,approved_in_time,approved_in_time,True,True,0.5,1.0,0.6666666666666666,True,0.5
+trip_001,A,Q12,presence_evidence,boolean,true,true,presence_and_business_activity_confirmed,presence_and_business_activity_confirmed,True,True,0.5,1.0,0.6666666666666666,True,0.5
+trip_001,B,Q12,presence_evidence,boolean,true,true,presence_and_business_activity_confirmed,presence_and_business_activity_confirmed,True,True,0.25,1.0,0.4,True,0.75
+trip_001,A,Q13,decision_vs_formalization,datetime,2026-09-17T12:26:00,2026-09-17T12:26:00,sed_final_decision_time,answered,True,,0.6666666666666666,1.0,0.8,True,0.3333333333333333
+trip_001,B,Q13,decision_vs_formalization,datetime,2026-09-17T12:26:00,2026-09-17T12:26:00,sed_final_decision_time,answered,True,,1.0,1.0,1.0,True,0.0
+trip_001,A,Q14,evidence_completeness,boolean,true,true,taxi_expense_supported,taxi_expense_supported,True,True,0.3333333333333333,1.0,0.5,True,0.6666666666666666
+trip_001,B,Q14,evidence_completeness,boolean,true,true,taxi_expense_supported,taxi_expense_supported,True,True,0.3333333333333333,1.0,0.5,True,0.6666666666666666
+trip_001,A,Q15,abstention,boolean,false,false,insufficient_information,sufficient_information,True,False,0.6666666666666666,1.0,0.8,False,0.3333333333333333
+trip_001,B,Q15,abstention,boolean,false,false,insufficient_information,sufficient_information,True,False,0.6666666666666666,1.0,0.8,False,0.3333333333333333
+trip_001,A,Q16,business_day_calculation,boolean,true,true,submitted_on_time,submitted_on_time,True,True,1.0,1.0,1.0,True,0.0
+trip_001,B,Q16,business_day_calculation,boolean,true,,submitted_on_time,submitted_on_time,False,True,0.5,1.0,0.6666666666666666,True,0.5
+trip_001,A,Q17,missing_information,code_set,BUSINESS_PURPOSE_EVIDENCE|DESTINATION_ADDRESS,BUSINESS_PURPOSE_EVIDENCE|DESTINATION_ADDRESS,request_additional_documents,request_additional_documents,True,True,1.0,1.0,1.0,False,0.0
+trip_001,B,Q17,missing_information,code_set,BUSINESS_PURPOSE_EVIDENCE|DESTINATION_ADDRESS,BUSINESS_PURPOSE_EVIDENCE|DESTINATION_ADDRESS,request_additional_documents,request_additional_documents,True,True,1.0,1.0,1.0,False,0.0
+procurement_002,A,Q1,fact_extraction,money,300000,300000,threshold_300000,answerable,True,,1.0,1.0,1.0,True,0.0
+procurement_002,A,Q2,fact_extraction,money,500000,500000,threshold_500000,answered,True,,1.0,1.0,1.0,True,0.0
+procurement_002,A,Q3,fact_extraction,money,460000,460000,amount_460000,answered,True,,1.0,1.0,1.0,True,0.0
+procurement_002,A,Q4,temporal_extraction,date,2026-10-20,2026-10-20,contract_date,answered,True,,1.0,1.0,1.0,True,0.0
+procurement_002,A,Q5,decision,boolean,true,true,direct_purchase_allowed,direct_purchase_allowed,True,True,1.0,1.0,1.0,True,0.0
+procurement_002,A,Q6,decision,boolean,false,false,competitive_procedure_not_required,competitive_procedure_not_required,True,True,0.5,1.0,0.6666666666666666,True,0.5
+procurement_002,A,Q7,hierarchy,boolean,false,false,approval_sheet_not_ceo_decision,approval_sheet_not_ceo_decision,True,True,0.3333333333333333,0.5,0.4,True,0.6666666666666666
+procurement_002,A,Q8,hierarchy,boolean,false,false,signed_contract_not_legalization,signed_contract_not_legalization,True,True,0.6666666666666666,1.0,0.8,True,0.3333333333333333
+procurement_002,A,Q9,hierarchy,boolean,false,false,payment_request_not_legalization,payment_request_not_legalization,True,True,1.0,0.5,0.6666666666666666,True,0.0
+procurement_002,A,Q10,authority_temporal,boolean,true,true,temporary_order_in_force,,True,,1.0,1.0,1.0,True,0.0
+procurement_002,A,Q11,insufficient_information,boolean,false,false,insufficient_information,insufficient_information,True,True,0.5,0.3333333333333333,0.4,False,0.5
+procurement_002,A,Q12,insufficient_information,boolean,false,false,insufficient_information,sufficient_information,True,False,0.5,1.0,0.6666666666666666,False,0.5
+procurement_002,A,Q13,threshold_calculation,money,500000,500000,direct_purchase_limit_applies,answered,True,,1.0,1.0,1.0,True,0.0
+procurement_002,A,Q14,threshold_calculation,money,160000,160000,excess_amount,answered,True,,0.5,0.5,0.5,True,0.5
+procurement_002,A,Q15,final_status,status,direct_purchase_permitted,Итоговый процедурный статус: прямая закупка допустима.,direct_purchase_permitted,direct_purchase_permitted,False,True,0.3333333333333333,1.0,0.5,True,0.6666666666666666
+procurement_002,B,Q1,fact_extraction,money,300000,300000,threshold_300000,answered,True,,0.5,1.0,0.6666666666666666,True,0.5
+procurement_002,B,Q2,fact_extraction,money,500000,500000,threshold_500000,answerable,True,,1.0,1.0,1.0,True,0.0
+procurement_002,B,Q3,fact_extraction,money,460000,460000,amount_460000,,True,,1.0,1.0,1.0,True,0.0
+procurement_002,B,Q4,temporal_extraction,date,2026-10-20,2026-10-20,contract_date,answerable,True,,1.0,1.0,1.0,True,0.0
+procurement_002,B,Q5,decision,boolean,false,false,direct_purchase_not_allowed,direct_purchase_not_allowed,True,True,1.0,1.0,1.0,True,0.0
+procurement_002,B,Q6,decision,boolean,true,true,competitive_procedure_required,competitive_procedure_required,True,True,0.42857142857142855,1.0,0.6,True,0.5714285714285714
+procurement_002,B,Q7,hierarchy,boolean,false,false,approval_sheet_not_ceo_decision,approval_sheet_not_ceo_decision,True,True,0.25,0.5,0.3333333333333333,True,0.75
+procurement_002,B,Q8,hierarchy,boolean,false,false,signed_contract_not_legalization,signed_contract_not_legalization,True,True,0.2857142857142857,1.0,0.4444444444444445,True,0.7142857142857143
+procurement_002,B,Q9,hierarchy,boolean,false,false,payment_request_not_legalization,payment_request_not_legalization,True,True,0.4,1.0,0.5714285714285715,True,0.6
+procurement_002,B,Q10,authority_temporal,boolean,false,false,temporary_order_not_in_force,answered,True,,1.0,1.0,1.0,True,0.0
+procurement_002,B,Q11,insufficient_information,boolean,false,false,insufficient_information,insufficient_information,True,True,0.375,1.0,0.5454545454545454,False,0.625
+procurement_002,B,Q12,insufficient_information,boolean,false,false,insufficient_information,insufficient_information,True,True,1.0,1.0,1.0,False,0.0
+procurement_002,B,Q13,threshold_calculation,money,300000,30000,direct_purchase_limit_applies,supported,False,,0.6666666666666666,1.0,0.8,True,0.3333333333333333
+procurement_002,B,Q14,threshold_calculation,money,160000,160000,excess_amount,supported,True,,0.5,0.5,0.5,True,0.5
+procurement_002,B,Q15,final_status,status,competitive_procedure_required,Итоговый процедурный статус закупки: требовалась конкурентная процедура.,competitive_procedure_required,competitive_procedure_required,False,True,0.2857142857142857,1.0,0.4444444444444445,True,0.7142857142857143
+authority_003,A,Q1,signatory_extraction,status,director_ural_branch,Директор Уральского филиала Смирнов Игорь Петрович.,signed_by_branch_director,answered,False,,1.0,1.0,1.0,True,0.0
+authority_003,B,Q1,signatory_extraction,status,director_ural_branch,Директор Уральского филиала Смирнов Игорь Петрович.,signed_by_branch_director,answered,False,,1.0,1.0,1.0,True,0.0
+authority_003,A,Q10,execution_confirmation,boolean,true,true,act_confirms_transfer,act_confirms_transfer,True,True,0.3333333333333333,1.0,0.5,True,0.6666666666666666
+authority_003,B,Q10,execution_confirmation,boolean,true,true,act_confirms_transfer,act_confirms_transfer,True,True,0.25,1.0,0.4,True,0.75
+authority_003,A,Q11,post_execution_logic,boolean,false,false,post_execution_does_not_confirm_subject_scope,post_execution_does_not_confirm_subject_scope,True,True,0.8,1.0,0.888888888888889,True,0.2
+authority_003,B,Q11,post_execution_logic,boolean,false,false,post_execution_does_not_confirm_subject_scope,post_execution_does_not_confirm_subject_scope,True,True,0.8,1.0,0.888888888888889,True,0.2
+authority_003,A,Q12,ceo_confirmation,boolean,false,false,presented_power_of_attorney_is_sufficient,presented_power_of_attorney_is_sufficient,True,True,1.0,1.0,1.0,True,0.0
+authority_003,B,Q12,ceo_confirmation,boolean,true,true,additional_authority_basis_required,additional_authority_basis_required,True,True,0.5,1.0,0.6666666666666666,True,0.5
+authority_003,A,Q13,authority_document,status,power_of_attorney,Доверенность № 17/П-26 непосредственно определяет предмет полномочий директора филиала.,power_of_attorney_is_controlling_document,supported,False,,1.0,1.0,1.0,True,0.0
+authority_003,B,Q13,authority_document,status,power_of_attorney,Предмет полномочий директора филиала непосредственно определяет доверенность № 17/П-26.,power_of_attorney_is_controlling_document,answered,False,,1.0,1.0,1.0,True,0.0
+authority_003,A,Q14,signing_status,status,signed_within_presented_authority,Договор подписан в пределах предоставленных полномочий.,signed_within_presented_authority,signed_within_presented_authority,False,True,0.6666666666666666,1.0,0.8,True,0.3333333333333333
+authority_003,B,Q14,signing_status,status,signed_outside_presented_authority,Договор подписан вне предоставленных полномочий.,signed_outside_presented_authority,signed_outside_presented_authority,False,True,0.3333333333333333,1.0,0.5,True,0.6666666666666666
+authority_003,A,Q15,authority_factor,status,no_mismatch,"Несоответствий нет: срок действия доверенности, представитель, предмет и лимит суммы соответствуют условиям заключённого договора.",all_relevant_power_of_attorney_parameters_match,all_relevant_power_of_attorney_parameters_match,False,True,0.5,1.0,0.6666666666666666,True,0.5
+authority_003,B,Q15,authority_factor,status,subject_scope,"Не соответствует предмет (вид) договора: доверенность разрешает подписывать договоры технического обслуживания, ремонта и технической поддержки оборудования, а заключён договор поставки сетевого оборудования.",subject_scope_mismatch,subject_scope_mismatch,False,True,0.5,1.0,0.6666666666666666,True,0.5
+authority_003,A,Q16,authority_conclusion,boolean,true,true,authorized_for_this_deal,authorized_for_this_deal,True,True,0.6666666666666666,1.0,0.8,True,0.3333333333333333
+authority_003,B,Q16,authority_conclusion,boolean,false,false,not_authorized_for_this_deal,not_authorized_for_this_deal,True,True,0.2222222222222222,1.0,0.3636363636363636,True,0.7777777777777778
+authority_003,A,Q2,subject_extraction,status,supply_of_network_equipment_for_ural_branch,Поставка сетевого оборудования для Уральского филиала.,network_equipment_supply_contract,,False,,1.0,1.0,1.0,True,0.0
+authority_003,B,Q2,subject_extraction,status,supply_of_network_equipment_for_ural_branch,Поставка сетевого оборудования для Уральского филиала.,network_equipment_supply_contract,answered,False,,1.0,1.0,1.0,True,0.0
+authority_003,A,Q3,amount_extraction,money,1180000,1180000,contract_amount_1180000,answerable,True,,0.5,1.0,0.6666666666666666,True,0.5
+authority_003,B,Q3,amount_extraction,money,1180000,1180000,contract_amount_1180000,,True,,0.5,1.0,0.6666666666666666,True,0.5
+authority_003,A,Q4,temporal_extraction,boolean,true,true,poa_valid_on_contract_date,poa_valid_on_contract_date,True,True,1.0,1.0,1.0,True,0.0
+authority_003,B,Q4,temporal_extraction,boolean,true,true,poa_valid_on_contract_date,poa_valid_on_contract_date,True,True,0.5,1.0,0.6666666666666666,True,0.5
+authority_003,A,Q5,limit_check,boolean,true,true,power_of_attorney_limit_respected,power_of_attorney_limit_respected,True,True,0.5,1.0,0.6666666666666666,True,0.5
+authority_003,B,Q5,limit_check,boolean,true,true,power_of_attorney_limit_respected,power_of_attorney_limit_respected,True,True,1.0,1.0,1.0,True,0.0
+authority_003,A,Q6,authority_scope,boolean,true,true,within_poa_subject_scope,within_poa_subject_scope,True,True,0.5,1.0,0.6666666666666666,True,0.5
+authority_003,B,Q6,authority_scope,boolean,false,false,outside_poa_subject_scope,outside_poa_subject_scope,True,True,0.3333333333333333,1.0,0.5,True,0.6666666666666666
+authority_003,A,Q7,authority_scope,boolean,true,true,within_presented_authority,within_presented_authority,True,True,0.5,1.0,0.6666666666666666,True,0.5
+authority_003,B,Q7,authority_scope,boolean,false,false,outside_presented_authority,outside_presented_authority,True,True,0.6666666666666666,1.0,0.8,True,0.3333333333333333
+authority_003,A,Q8,authority_vs_approval,boolean,false,false,approval_sheet_not_enough_for_authority,approval_sheet_not_enough_for_authority,True,True,0.6666666666666666,1.0,0.8,True,0.3333333333333333
+authority_003,B,Q8,authority_vs_approval,boolean,false,false,approval_sheet_not_enough_for_authority,approval_sheet_not_enough_for_authority,True,True,0.2857142857142857,1.0,0.4444444444444445,True,0.7142857142857143
+authority_003,A,Q9,authority_vs_signature,boolean,false,false,signature_alone_not_proof_of_authority,signature_alone_not_proof_of_authority,True,True,0.5,0.5,0.5,True,0.5
+authority_003,B,Q9,authority_vs_signature,boolean,false,false,signature_alone_not_proof_of_authority,signature_alone_not_proof_of_authority,True,True,0.16666666666666666,0.5,0.25,True,0.8333333333333334
+acceptance_004,A,Q1,executor_extraction,status,ООО «ПроектЛаб»,ООО «ПроектЛаб»,executor_projectlab,answerable,True,,0.5,1.0,0.6666666666666666,True,0.5
+acceptance_004,B,Q1,executor_extraction,status,ООО «ПроектЛаб»,ООО «ПроектЛаб»,executor_projectlab,,True,,0.25,1.0,0.4,True,0.75
+acceptance_004,A,Q2,amount_extraction,money,780000,780000,service_fee_780000,supported,True,,0.5,1.0,0.6666666666666666,True,0.5
+acceptance_004,B,Q2,amount_extraction,money,780000,780000,service_fee_780000,answerable,True,,0.25,1.0,0.4,True,0.75
+acceptance_004,A,Q3,subject_extraction,status,network_infrastructure_assessment_and_technical_report,"Проведение обследования сетевой инфраструктуры заказчика, подготовка технического отчёта и рекомендаций по результатам обследования.",service_subject,,False,,0.5,1.0,0.6666666666666666,True,0.5
+acceptance_004,B,Q3,subject_extraction,status,network_infrastructure_assessment_and_technical_report,"Проведение обследования сетевой инфраструктуры заказчика, подготовка технического отчёта и рекомендаций по результатам обследования.",service_subject,answered,False,,1.0,1.0,1.0,True,0.0
+acceptance_004,A,Q4,delivery_confirmation,boolean,true,true,report_prepared_and_delivered,supported,True,,0.5,1.0,0.6666666666666666,True,0.5
+acceptance_004,B,Q4,delivery_confirmation,boolean,true,true,report_prepared_and_delivered,supported,True,,0.5,1.0,0.6666666666666666,True,0.5
+acceptance_004,A,Q5,correspondence_extraction,boolean,false,false,substantive_comments_not_recorded,supported,True,,0.5,1.0,0.6666666666666666,True,0.5
+acceptance_004,B,Q5,correspondence_extraction,boolean,false,false,substantive_comments_not_recorded,,True,,0.5,1.0,0.6666666666666666,True,0.5
+acceptance_004,A,Q6,acceptance_status,boolean,true,true,act_signed_by_both,act_signed_by_both,True,True,0.3333333333333333,1.0,0.5,True,0.6666666666666666
+acceptance_004,B,Q6,acceptance_status,boolean,false,false,act_signed_by_executor_only,act_signed_by_executor_only,True,True,0.3333333333333333,1.0,0.5,True,0.6666666666666666
+acceptance_004,A,Q7,formal_acceptance,boolean,true,true,acceptance_formalized,acceptance_formalized,True,True,1.0,1.0,1.0,True,0.0
+acceptance_004,B,Q7,formal_acceptance,boolean,false,false,acceptance_not_formalized,acceptance_not_formalized,True,True,0.5,1.0,0.6666666666666666,True,0.5
+acceptance_004,A,Q8,payment_basis,boolean,true,true,payment_basis_confirmed,payment_basis_confirmed,True,True,1.0,0.75,0.8571428571428571,True,0.0
+acceptance_004,B,Q8,payment_basis,boolean,false,false,payment_basis_not_confirmed,payment_basis_not_confirmed,True,True,0.5,0.5,0.5,True,0.5
+acceptance_004,A,Q9,invoice_logic,boolean,false,false,invoice_alone_not_acceptance,invoice_alone_not_acceptance,True,True,0.5,0.5,0.5,True,0.5
+acceptance_004,B,Q9,invoice_logic,boolean,false,false,invoice_alone_not_acceptance,invoice_alone_not_acceptance,True,True,0.4,1.0,0.5714285714285715,True,0.6
+acceptance_004,A,Q10,internal_request_logic,boolean,false,false,payment_request_not_signature_substitute,payment_request_not_signature_substitute,True,True,0.4,1.0,0.5714285714285715,True,0.6
+acceptance_004,B,Q10,internal_request_logic,boolean,false,false,payment_request_not_signature_substitute,payment_request_not_signature_substitute,True,True,0.2857142857142857,1.0,0.4444444444444445,True,0.7142857142857143
+acceptance_004,A,Q11,report_extraction,boolean,true,true,report_confirms_result_preparation,supported,True,,1.0,1.0,1.0,True,0.0
+acceptance_004,B,Q11,report_extraction,boolean,true,true,report_confirms_result_preparation,supported,True,,1.0,1.0,1.0,True,0.0
+acceptance_004,A,Q12,correspondence_vs_act,boolean,false,false,no_comments_not_proof_of_signature,no_comments_not_proof_of_signature,True,True,0.5,0.5,0.5,True,0.5
+acceptance_004,B,Q12,correspondence_vs_act,boolean,false,false,no_comments_not_proof_of_signature,no_comments_not_proof_of_signature,True,True,0.3333333333333333,1.0,0.5,True,0.6666666666666666
+acceptance_004,A,Q13,controlling_document,status,acceptance_act,Акт сдачи-приёмки услуг № 1/30-09-26,acceptance_act_is_controlling_document,supported,False,,1.0,1.0,1.0,True,0.0
+acceptance_004,B,Q13,controlling_document,status,acceptance_act,Акт сдачи-приёмки услуг непосредственно оформляет приёмку услуг.,acceptance_act_is_controlling_document,supported,False,,1.0,1.0,1.0,True,0.0
+acceptance_004,A,Q14,final_status,status,result_delivered_and_formally_accepted,"Услуги исполнены и формально приняты заказчиком: технический отчёт передан, акт сдачи-приёмки от 30 сентября 2026 г. подписан обеими сторонами, следовательно по договору услуги считаются принятыми.",result_delivered_and_formally_accepted,result_delivered_and_formally_accepted,False,True,1.0,1.0,1.0,True,0.0
+acceptance_004,B,Q14,final_status,status,result_delivered_but_acceptance_not_formalized,"Услуги по существу исполнены: технический отчёт подготовлен и передан заказчику, заказчик подтвердил получение материалов и отсутствие содержательных замечаний. Однако приёмка не формализована, поскольку акт сдачи-приёмки не подписан обеими сторонами: в представленном акте есть подпись исполнителя, но отсутствует подпись заказчика. Следовательно, статус: результат delivered, но формально не принят.",result_delivered_but_acceptance_not_formalized,result_delivered_but_acceptance_not_formalized,False,True,0.75,1.0,0.8571428571428571,False,0.25
+acceptance_004,A,Q15,signature_before_payment,boolean,true,true,customer_signature_present_in_payment_package,customer_signature_present_in_payment_package,True,True,0.25,0.5,0.3333333333333333,True,0.75
+acceptance_004,B,Q15,signature_before_payment,boolean,false,false,customer_signature_missing_in_payment_package,customer_signature_missing_in_payment_package,True,True,0.3333333333333333,1.0,0.5,True,0.6666666666666666
+acceptance_004,A,Q16,completion_status,boolean,true,true,acceptance_procedure_completed,acceptance_procedure_completed,True,True,1.0,0.3333333333333333,0.5,True,0.0
+acceptance_004,B,Q16,completion_status,boolean,false,false,acceptance_procedure_not_completed,acceptance_procedure_not_completed,True,True,1.0,0.5,0.6666666666666666,True,0.0
+notice_005,A,Q1,executor_extraction,status,ООО «ОблакоСервис»,ООО «ОблакоСервис»,executor_oblakoservice,answered,True,,1.0,1.0,1.0,True,0.0
+notice_005,B,Q1,executor_extraction,status,ООО «ОблакоСервис»,ООО «ОблакоСервис»,executor_oblakoservice,answered,True,,1.0,1.0,1.0,True,0.0
+notice_005,A,Q2,subject_extraction,status,managed_backup_services,"Исполнитель оказывает услуги по управляемому резервному копированию корпоративных данных заказчика и сопровождению работ, связанных с восстановлением копий по запросу.",managed_backup_services,answered,False,,1.0,1.0,1.0,True,0.0
+notice_005,B,Q2,subject_extraction,status,managed_backup_services,"Исполнитель оказывает услуги по управляемому резервному копированию корпоративных данных заказчика и сопровождению работ, связанных с восстановлением копий по запросу.",managed_backup_services,,False,,1.0,1.0,1.0,True,0.0
+notice_005,A,Q3,date_extraction,date,2026-10-31,2026-10-31,initial_term_ends_2026_10_31,supported,True,,1.0,1.0,1.0,True,0.0
+notice_005,B,Q3,date_extraction,date,2026-10-31,2026-10-31,initial_term_ends_2026_10_31,,True,,1.0,1.0,1.0,True,0.0
+notice_005,A,Q4,date_extraction,date,2026-10-18,2026-10-18,notice_dated_2026_10_18,answered,True,,1.0,1.0,1.0,True,0.0
+notice_005,B,Q4,date_extraction,date,2026-10-18,2026-10-18,notice_dated_2026_10_18,supported,True,,1.0,1.0,1.0,True,0.0
+notice_005,A,Q5,dispatch_timing,boolean,true,true,notice_sent_by_deadline,notice_sent_by_deadline,True,True,0.3333333333333333,0.5,0.4,True,0.6666666666666666
+notice_005,B,Q5,dispatch_timing,boolean,true,true,notice_sent_by_deadline,notice_sent_by_deadline,True,True,0.3333333333333333,0.5,0.4,True,0.6666666666666666
+notice_005,A,Q6,receipt_timing,boolean,true,true,notice_received_in_time,notice_received_in_time,True,True,0.5,1.0,0.6666666666666666,True,0.5
+notice_005,B,Q6,receipt_timing,boolean,false,false,notice_received_late,notice_received_late,True,True,1.0,1.0,1.0,True,0.0
+notice_005,A,Q7,renewal_logic,boolean,false,false,auto_renewal_not_triggered,auto_renewal_not_triggered,True,True,0.6666666666666666,1.0,0.8,True,0.3333333333333333
+notice_005,B,Q7,renewal_logic,boolean,true,true,auto_renewal_triggered,auto_renewal_triggered,True,True,1.0,1.0,1.0,True,0.0
+notice_005,A,Q8,payment_basis,boolean,false,false,november_payment_basis_absent,november_payment_basis_absent,True,True,0.3333333333333333,1.0,0.5,True,0.6666666666666666
+notice_005,B,Q8,payment_basis,boolean,true,true,november_payment_basis_present,november_payment_basis_present,True,True,0.5,1.0,0.6666666666666666,True,0.5
+notice_005,A,Q9,internal_memo_logic,boolean,false,false,internal_memo_not_termination_notice,internal_memo_not_termination_notice,True,True,0.5,1.0,0.6666666666666666,True,0.5
+notice_005,B,Q9,internal_memo_logic,boolean,false,false,internal_memo_not_termination_notice,internal_memo_not_termination_notice,True,True,0.5,1.0,0.6666666666666666,True,0.5
+notice_005,A,Q10,dispatch_email_logic,boolean,false,false,dispatch_email_not_timely_receipt_proof,dispatch_email_not_timely_receipt_proof,True,True,1.0,1.0,1.0,True,0.0
+notice_005,B,Q10,dispatch_email_logic,boolean,false,false,dispatch_email_not_timely_receipt_proof,dispatch_email_not_timely_receipt_proof,True,True,0.3333333333333333,1.0,0.5,True,0.6666666666666666
+notice_005,A,Q11,contract_term,boolean,true,true,contract_in_force_in_october,supported,True,,0.25,1.0,0.4,True,0.75
+notice_005,B,Q11,contract_term,boolean,true,true,contract_in_force_in_october,supported,True,,1.0,1.0,1.0,True,0.0
+notice_005,A,Q12,controlling_document,status,delivery_confirmation,"Документ, непосредственно подтверждающий дату получения уведомления, — delivery_confirmation_A: извещение о вручении с датой вручения 19 октября 2026 г.",delivery_confirmation_is_controlling_document,answered,False,,1.0,1.0,1.0,True,0.0
+notice_005,B,Q12,controlling_document,status,delivery_confirmation,Документ `delivery_confirmation_B` непосредственно подтверждает дату получения уведомления: дата вручения адресату указана как 22 октября 2026 г.,delivery_confirmation_is_controlling_document,answered,False,,1.0,1.0,1.0,True,0.0
+notice_005,A,Q13,status_conclusion,status,expired_without_renewal,Договор прекратился 31 октября 2026 года и на 1 ноября 2026 года не был продлён.,expired_without_renewal,expired_without_renewal,False,True,0.6666666666666666,1.0,0.8,True,0.3333333333333333
+notice_005,B,Q13,status_conclusion,status,automatically_renewed,Договор на 1 ноября 2026 года автоматически продлён на один год.,automatically_renewed,automatically_renewed,False,True,0.3333333333333333,1.0,0.5,True,0.6666666666666666
+notice_005,A,Q14,internal_request_logic,boolean,false,false,payment_request_not_contract_proof,payment_request_not_contract_proof,True,True,0.16666666666666666,1.0,0.2857142857142857,True,0.8333333333333334
+notice_005,B,Q14,internal_request_logic,boolean,false,false,payment_request_not_contract_proof,payment_request_not_contract_proof,True,True,0.5,1.0,0.6666666666666666,True,0.5
+notice_005,A,Q15,invoice_logic,boolean,false,false,november_invoice_not_payable,november_invoice_not_payable,True,True,0.42857142857142855,1.0,0.6,True,0.5714285714285714
+notice_005,B,Q15,invoice_logic,boolean,true,true,november_invoice_payable,november_invoice_payable,True,True,0.375,1.0,0.5454545454545454,True,0.625
+notice_005,A,Q16,overall_conclusion,boolean,false,false,contract_not_active_in_november,contract_not_active_in_november,True,True,0.25,1.0,0.4,True,0.75
+notice_005,B,Q16,overall_conclusion,boolean,true,true,contract_active_in_november,contract_active_in_november,True,True,0.6666666666666666,1.0,0.8,True,0.3333333333333333
+reconciliation_006,A,Q1,supplier_extraction,status,ООО «СеверТех»,ООО «СеверТех»,supplier_severtekh,supported,True,,0.0,0.0,0.0,True,1.0
+reconciliation_006,B,Q1,supplier_extraction,status,ООО «СеверТех»,ООО «СеверТех»,supplier_severtekh,,True,,0.0,0.0,0.0,True,1.0
+reconciliation_006,A,Q2,amount_extraction,money,32000,32000,unit_price_32000,answered,True,,0.0,0.0,0.0,True,1.0
+reconciliation_006,B,Q2,amount_extraction,money,32000,32000,unit_price_32000,answerable,True,,0.0,0.0,0.0,True,1.0
+reconciliation_006,A,Q3,quantity_extraction,integer,50,50,order_quantity_50,supported,True,,1.0,1.0,1.0,True,0.0
+reconciliation_006,B,Q3,quantity_extraction,integer,50,50,order_quantity_50,,True,,0.5,1.0,0.6666666666666666,True,0.5
+reconciliation_006,A,Q4,amount_extraction,money,1600000,1600000,order_total_1600000,order_total_1600000,True,True,0.5,1.0,0.6666666666666666,True,0.5
+reconciliation_006,B,Q4,amount_extraction,money,1600000,1600000,order_total_1600000,order_total_1600000,True,True,0.5,1.0,0.6666666666666666,True,0.5
+reconciliation_006,A,Q5,amount_extraction,money,32000,32000,invoice_unit_price_32000,supported,True,,1.0,1.0,1.0,True,0.0
+reconciliation_006,B,Q5,amount_extraction,money,32000,32000,invoice_unit_price_32000,answered,True,,1.0,1.0,1.0,True,0.0
+reconciliation_006,A,Q6,invoice_reconciliation,boolean,true,true,invoice_quantity_matches_order,invoice_quantity_matches_order,True,True,0.5,1.0,0.6666666666666666,True,0.5
+reconciliation_006,B,Q6,invoice_reconciliation,boolean,false,false,invoice_quantity_does_not_match_order,invoice_quantity_does_not_match_order,True,True,0.3333333333333333,1.0,0.5,True,0.6666666666666666
+reconciliation_006,A,Q7,invoice_reconciliation,boolean,true,true,invoice_total_matches_order_total,invoice_total_matches_order_total,True,True,0.5,1.0,0.6666666666666666,True,0.5
+reconciliation_006,B,Q7,invoice_reconciliation,boolean,false,false,invoice_total_does_not_match_order_total,invoice_total_does_not_match_order_total,True,True,0.5,1.0,0.6666666666666666,True,0.5
+reconciliation_006,A,Q8,payment_basis,boolean,true,true,payment_without_corrections_allowed,payment_without_corrections_allowed,True,True,0.6,0.6,0.6,True,0.4
+reconciliation_006,B,Q8,payment_basis,boolean,false,false,payment_requires_correction,payment_requires_correction,True,True,0.3333333333333333,0.6,0.42857142857142855,True,0.6666666666666666
+reconciliation_006,A,Q9,internal_request_logic,boolean,false,false,approval_sheet_not_reconciliation,approval_sheet_not_reconciliation,True,True,0.3333333333333333,0.5,0.4,True,0.6666666666666666
+reconciliation_006,B,Q9,internal_request_logic,boolean,false,false,approval_sheet_not_reconciliation,approval_sheet_not_reconciliation,True,True,1.0,0.5,0.6666666666666666,True,0.0
+reconciliation_006,A,Q10,fact_extraction,boolean,true,true,goods_receipt_confirmed,supported,True,,0.0,0.0,0.0,True,1.0
+reconciliation_006,B,Q10,fact_extraction,boolean,true,true,goods_receipt_confirmed,supported,True,,0.0,0.0,0.0,True,1.0
+reconciliation_006,A,Q11,internal_request_logic,boolean,false,false,payment_request_not_enough,payment_request_not_enough,True,True,0.0,0.0,0.0,True,1.0
+reconciliation_006,B,Q11,internal_request_logic,boolean,false,false,payment_request_not_enough,payment_request_not_enough,True,True,0.0,0.0,0.0,True,1.0
+reconciliation_006,A,Q12,controlling_document,status,supplier_invoice,К оплате непосредственно представлен счёт поставщика № 06/26-01 от 25 июня 2026 г. ООО «СеверТех».,supplier_invoice,supported,False,,0.5,1.0,0.6666666666666666,True,0.5
+reconciliation_006,B,Q12,controlling_document,status,supplier_invoice,"Счёт поставщика № 06/26-01 от 25 июня 2026 г., выставленный ООО «СеверТех».",supplier_invoice,supported,False,,0.5,1.0,0.6666666666666666,True,0.5
+reconciliation_006,A,Q13,amount_extraction,money,1600000,1600000,order_total_1600000,answered,True,,1.0,1.0,1.0,True,0.0
+reconciliation_006,B,Q13,amount_extraction,money,1600000,1600000,order_total_1600000,,True,,1.0,1.0,1.0,True,0.0
+reconciliation_006,A,Q14,final_status,status,documents_reconciled_for_payment,Документы сверены без расхождений; счёт согласован к оплате.,documents_reconciled_for_payment,documents_reconciled_for_payment,False,True,0.2,1.0,0.33333333333333337,True,0.8
+reconciliation_006,B,Q14,final_status,status,documents_not_reconciled_due_to_invoice_discrepancy,"Итоговый статус: документы не сверены для оплаты, счёт подлежит направлению на исправление из-за расхождения по количеству и сумме.",documents_not_reconciled_due_to_invoice_discrepancy,documents_not_reconciled_due_to_invoice_discrepancy,False,True,0.2,1.0,0.33333333333333337,True,0.8
+reconciliation_006,A,Q15,invoice_reconciliation,boolean,false,false,corrected_invoice_not_needed,corrected_invoice_not_needed,True,True,0.2,1.0,0.33333333333333337,True,0.8
+reconciliation_006,B,Q15,invoice_reconciliation,boolean,true,true,corrected_invoice_needed,corrected_invoice_needed,True,True,0.4,1.0,0.5714285714285715,True,0.6
+reconciliation_006,A,Q16,final_status,boolean,true,true,invoice_payable_as_presented,invoice_payable_as_presented,True,True,0.2,0.6666666666666666,0.30769230769230765,True,0.8
+reconciliation_006,B,Q16,final_status,boolean,false,false,invoice_not_payable_as_presented,invoice_not_payable_as_presented,True,True,0.2,0.6666666666666666,0.30769230769230765,True,0.8
+amendment_007,A,Q1,executor_extraction,status,ООО «ДатаХост»,ООО «ДатаХост»,executor_datahost,answered,True,,0.5,1.0,0.6666666666666666,True,0.5
+amendment_007,B,Q1,executor_extraction,status,ООО «ДатаХост»,ООО «ДатаХост»,executor_datahost,answered,True,,0.25,1.0,0.4,True,0.75
+amendment_007,A,Q2,subject_extraction,status,аренда_выделенного_серверного_ресурса,Предмет договора: исполнитель предоставляет заказчику выделенный серверный ресурс для размещения и сопровождения прикладных сервисов.,dedicated_server_resource_rental,answered,False,,1.0,1.0,1.0,True,0.0
+amendment_007,B,Q2,subject_extraction,status,аренда_выделенного_серверного_ресурса,Исполнитель предоставляет заказчику выделенный серверный ресурс для размещения и сопровождения прикладных сервисов.,dedicated_server_resource_rental,answered,False,,1.0,1.0,1.0,True,0.0
+amendment_007,A,Q3,amount_extraction,money,200000,200000,initial_monthly_fee_200000,answered,True,,1.0,1.0,1.0,True,0.0
+amendment_007,B,Q3,amount_extraction,money,200000,200000,initial_monthly_fee_200000,answered,True,,1.0,1.0,1.0,True,0.0
+amendment_007,A,Q4,amount_extraction,money,240000,240000,amended_monthly_fee_240000,answered,True,,0.5,1.0,0.6666666666666666,True,0.5
+amendment_007,B,Q4,amount_extraction,money,240000,240000,amended_monthly_fee_240000,answered,True,,1.0,1.0,1.0,True,0.0
+amendment_007,A,Q5,date_extraction,status,июль_2026,Июль 2026 г.,invoice_period_july_2026,supported,False,,1.0,1.0,1.0,True,0.0
+amendment_007,B,Q5,date_extraction,status,июль_2026,июль 2026 г.,invoice_period_july_2026,answered,False,,1.0,1.0,1.0,True,0.0
+amendment_007,A,Q6,temporal_logic,boolean,true,true,new_price_effective_in_july,new_price_effective_in_july,True,True,0.5,0.6666666666666666,0.5714285714285715,True,0.5
+amendment_007,B,Q6,temporal_logic,boolean,false,false,new_price_not_effective_in_july,new_price_not_effective_in_july,True,True,0.3333333333333333,0.6666666666666666,0.4444444444444444,True,0.6666666666666666
+amendment_007,A,Q7,invoice_reconciliation,boolean,true,true,invoice_matches_effective_price,invoice_matches_effective_price,True,True,0.5,1.0,0.6666666666666666,True,0.5
+amendment_007,B,Q7,invoice_reconciliation,boolean,false,false,invoice_uses_price_not_yet_effective,invoice_uses_price_not_yet_effective,True,True,0.42857142857142855,1.0,0.6,True,0.5714285714285714
+amendment_007,A,Q8,payment_basis,boolean,true,true,payment_without_corrections_allowed,payment_without_corrections_allowed,True,True,0.75,0.6,0.6666666666666665,True,0.25
+amendment_007,B,Q8,payment_basis,boolean,false,false,payment_requires_correction,payment_requires_correction,True,True,0.4444444444444444,0.8,0.5714285714285714,True,0.5555555555555556
+amendment_007,A,Q9,internal_memo_logic,boolean,false,false,internal_memo_not_contract_change,internal_memo_not_contract_change,True,True,1.0,1.0,1.0,True,0.0
+amendment_007,B,Q9,internal_memo_logic,boolean,false,false,internal_memo_not_contract_change,internal_memo_not_contract_change,True,True,0.5,1.0,0.6666666666666666,True,0.5
+amendment_007,A,Q10,report_extraction,boolean,false,false,report_not_price_proof,report_not_price_proof,True,True,0.5,0.5,0.5,True,0.5
+amendment_007,B,Q10,report_extraction,boolean,false,false,report_not_price_proof,report_not_price_proof,True,True,0.5,0.5,0.5,True,0.5
+amendment_007,A,Q11,fact_extraction,boolean,true,true,services_provided_in_july,supported,True,,0.5,1.0,0.6666666666666666,True,0.5
+amendment_007,B,Q11,fact_extraction,boolean,true,true,services_provided_in_july,supported,True,,0.25,1.0,0.4,True,0.75
+amendment_007,A,Q12,controlling_document,status,additional_agreement,Дополнительное соглашение № 1 к договору № СР-01/26 от 20 июня 2026 г. (doc_id: amendment_A).,additional_agreement_is_controlling_document,answered,False,,0.3333333333333333,0.5,0.4,True,0.6666666666666666
+amendment_007,B,Q12,controlling_document,status,additional_agreement,Дополнительное соглашение № 1 к договору № СР-01/26 от 20 июня 2026 г. непосредственно изменяет цену договора.,additional_agreement_is_controlling_document,answerable,False,,0.5,1.0,0.6666666666666666,True,0.5
+amendment_007,A,Q13,amount_extraction,money,240000,240000,invoice_amount_240000,answerable,True,,1.0,1.0,1.0,True,0.0
+amendment_007,B,Q13,amount_extraction,money,240000,240000,invoice_amount_240000,answerable,True,,0.5,1.0,0.6666666666666666,True,0.5
+amendment_007,A,Q14,temporal_logic,money,240000,240000,applicable_price_240000,applicable_price_240000,True,True,1.0,0.6666666666666666,0.8,True,0.0
+amendment_007,B,Q14,temporal_logic,money,200000,200000,applicable_price_200000,applicable_price_200000,True,True,0.4,0.6666666666666666,0.5,True,0.6
+amendment_007,A,Q15,threshold_calculation,money,0,0,mismatch_0,mismatch_0,True,True,1.0,1.0,1.0,True,0.0
+amendment_007,B,Q15,threshold_calculation,money,40000,40000,mismatch_40000,mismatch_40000,True,True,1.0,1.0,1.0,True,0.0
+amendment_007,A,Q16,final_status,boolean,true,true,invoice_payable_as_presented,invoice_payable_as_presented,True,True,1.0,0.75,0.8571428571428571,True,0.0
+amendment_007,B,Q16,final_status,boolean,false,false,invoice_requires_correction,invoice_requires_correction,True,True,0.5,1.0,0.6666666666666666,True,0.5
+sla_008,A,Q1,executor_extraction,status,ООО «ОблакоСервис»,ООО «ОблакоСервис»,executor_cloudservice,answered,True,,1.0,1.0,1.0,True,0.0
+sla_008,B,Q1,executor_extraction,status,ООО «ОблакоСервис»,ООО «ОблакоСервис»,executor_cloudservice,,True,,1.0,1.0,1.0,True,0.0
+sla_008,A,Q2,amount_extraction,money,500000,500000,monthly_fee_500000,supported,True,,1.0,1.0,1.0,True,0.0
+sla_008,B,Q2,amount_extraction,money,500000,500000,monthly_fee_500000,,True,,1.0,1.0,1.0,True,0.0
+sla_008,A,Q3,term_extraction,integer,4,4,recovery_sla_4_hours,answered,True,,1.0,1.0,1.0,True,0.0
+sla_008,B,Q3,term_extraction,integer,4,4,recovery_sla_4_hours,answerable,True,,1.0,1.0,1.0,True,0.0
+sla_008,A,Q4,datetime_extraction,datetime,2026-08-12T10:00:00,2026-08-12T10:00:00,incident_registered_at_10_00,,True,,1.0,1.0,1.0,True,0.0
+sla_008,B,Q4,datetime_extraction,datetime,2026-08-12T10:00:00,2026-08-12T10:00:00,incident_registered_at_10_00,answered,True,,0.5,1.0,0.6666666666666666,True,0.5
+sla_008,A,Q5,datetime_extraction,datetime,2026-08-12T10:15:00,2026-08-12T10:15:00,support_request_received_at_10_15,,True,,1.0,1.0,1.0,True,0.0
+sla_008,B,Q5,datetime_extraction,datetime,2026-08-12T10:15:00,2026-08-12T10:15:00,support_request_received_at_10_15,answered,True,,1.0,1.0,1.0,True,0.0
+sla_008,A,Q6,temporal_calculation,integer,239,239,incident_duration_239_minutes,incident_duration_239_minutes,True,True,0.6666666666666666,1.0,0.8,True,0.3333333333333333
+sla_008,B,Q6,temporal_calculation,integer,241,241,incident_duration_241_minutes,incident_duration_241_minutes,True,True,0.3333333333333333,1.0,0.5,True,0.6666666666666666
+sla_008,A,Q7,temporal_logic,boolean,false,false,sla_not_exceeded,sla_not_exceeded,True,True,1.0,1.0,1.0,True,0.0
+sla_008,B,Q7,temporal_logic,boolean,true,true,sla_exceeded,sla_exceeded,True,True,1.0,1.0,1.0,True,0.0
+sla_008,A,Q8,contract_rule_application,boolean,false,false,monthly_fee_reduction_not_applied,monthly_fee_reduction_not_applied,True,True,0.5,1.0,0.6666666666666666,True,0.5
+sla_008,B,Q8,contract_rule_application,boolean,true,true,monthly_fee_reduction_applied,monthly_fee_reduction_applied,True,True,1.0,1.0,1.0,True,0.0
+sla_008,A,Q9,contract_rule_application,status,automatic_monitoring_registration,Отсчёт срока восстановления начинается с момента автоматической регистрации инцидента системой мониторинга.,recovery_clock_starts_from_monitoring_registration,recovery_clock_starts_from_monitoring_registration,False,True,0.5,0.5,0.5,True,0.5
+sla_008,B,Q9,contract_rule_application,status,automatic_monitoring_registration,Отсчёт срока восстановления начинается с момента автоматической регистрации инцидента системой мониторинга.,recovery_clock_starts_from_monitoring_registration,recovery_clock_starts_from_monitoring_registration,False,True,0.5,1.0,0.6666666666666666,True,0.5
+sla_008,A,Q10,fact_extraction,boolean,true,true,critical_incident_registered_on_date,supported,True,,1.0,1.0,1.0,True,0.0
+sla_008,B,Q10,fact_extraction,boolean,true,true,critical_incident_registered_on_date,supported,True,,1.0,1.0,1.0,True,0.0
+sla_008,A,Q11,amount_extraction,money,500000,500000,invoice_amount_500000,supported,True,,1.0,1.0,1.0,True,0.0
+sla_008,B,Q11,amount_extraction,money,500000,500000,invoice_amount_500000,answered,True,,1.0,1.0,1.0,True,0.0
+sla_008,A,Q12,document_identification,status,technical_report,Документ 4 — technical_report_A,technical_report_confirms_recovery_time,answered,False,,1.0,1.0,1.0,True,0.0
+sla_008,B,Q12,document_identification,status,technical_report,Документ technical_report_B (04_Технический_отчёт.txt) подтверждает время восстановления.,technical_report_confirms_recovery_time,supported,False,,1.0,1.0,1.0,True,0.0
+sla_008,A,Q13,percentage_extraction,integer,5,5,reduction_rate_5_percent,answerable,True,,1.0,1.0,1.0,True,0.0
+sla_008,B,Q13,percentage_extraction,integer,5,5,reduction_rate_5_percent,answerable,True,,1.0,1.0,1.0,True,0.0
+sla_008,A,Q14,penalty_calculation,money,0,0,reduction_amount_zero,reduction_amount_zero,True,True,1.0,1.0,1.0,True,0.0
+sla_008,B,Q14,penalty_calculation,money,25000,25000,reduction_amount_25000,reduction_amount_25000,True,True,1.0,1.0,1.0,True,0.0
+sla_008,A,Q15,payment_calculation,money,500000,500000,payable_amount_500000,payable_amount_500000,True,True,0.5,0.75,0.6,True,0.5
+sla_008,B,Q15,payment_calculation,money,475000,475000,payable_amount_475000,payable_amount_475000,True,True,0.5,0.75,0.6,True,0.5
+sla_008,A,Q16,final_status,boolean,true,true,invoice_payable_without_correction,invoice_payable_without_correction,True,True,1.0,1.0,1.0,True,0.0
+sla_008,B,Q16,final_status,boolean,false,false,invoice_requires_sla_correction,invoice_requires_sla_correction,True,True,0.5,1.0,0.6666666666666666,True,0.5
+approval_chain_009,A,Q1,requester_extraction,status,Сергей Волков,Сергей Волков,requested_user_sergey_volkov,answerable,True,,1.0,1.0,1.0,True,0.0
+approval_chain_009,B,Q1,requester_extraction,status,Сергей Волков,Сергей Волков,requested_user_sergey_volkov,,True,,1.0,1.0,1.0,True,0.0
+approval_chain_009,A,Q2,system_extraction,status,Orion-Prod,Orion-Prod,requested_system_orion_prod,supported,True,,0.3333333333333333,1.0,0.5,True,0.6666666666666666
+approval_chain_009,B,Q2,system_extraction,status,Orion-Prod,Orion-Prod,requested_system_orion_prod,,True,,1.0,1.0,1.0,True,0.0
+approval_chain_009,A,Q3,role_extraction,status,привилегированный администратор,привилегированный администратор,requested_privileged_admin_role,answered,True,,1.0,1.0,1.0,True,0.0
+approval_chain_009,B,Q3,role_extraction,status,привилегированный администратор,привилегированный администратор,requested_privileged_admin_role,,True,,0.5,1.0,0.6666666666666666,True,0.5
+approval_chain_009,A,Q4,date_extraction,date,2026-11-17,2026-11-17,access_end_date_2026_11_17,supported,True,,0.3333333333333333,1.0,0.5,True,0.6666666666666666
+approval_chain_009,B,Q4,date_extraction,date,2026-11-17,2026-11-17,access_end_date_2026_11_17,answered,True,,0.25,1.0,0.4,True,0.75
+approval_chain_009,A,Q5,approval_extraction,boolean,true,true,owner_approval_received,supported,True,,1.0,1.0,1.0,True,0.0
+approval_chain_009,B,Q5,approval_extraction,boolean,true,true,owner_approval_received,supported,True,,0.3333333333333333,1.0,0.5,True,0.6666666666666666
+approval_chain_009,A,Q6,security_review_status,status,approved,согласовано,security_review_approved,,False,,1.0,1.0,1.0,True,0.0
+approval_chain_009,B,Q6,security_review_status,status,pending,Результат проверки службы информационной безопасности: рассмотрение не завершено.,security_review_pending,answerable,False,,1.0,1.0,1.0,True,0.0
+approval_chain_009,A,Q7,approval_chain_logic,boolean,true,true,all_mandatory_approvals_received,all_mandatory_approvals_received,True,True,1.0,1.0,1.0,True,0.0
+approval_chain_009,B,Q7,approval_chain_logic,boolean,false,false,mandatory_security_approval_missing,mandatory_security_approval_missing,True,True,1.0,1.0,1.0,True,0.0
+approval_chain_009,A,Q8,activation_timing_logic,boolean,true,true,access_authorized_before_activation,access_authorized_before_activation,True,True,0.5,1.0,0.6666666666666666,True,0.5
+approval_chain_009,B,Q8,activation_timing_logic,boolean,false,false,access_not_authorized_before_activation,access_not_authorized_before_activation,True,True,0.5,1.0,0.6666666666666666,True,0.5
+approval_chain_009,A,Q9,policy_extraction,status,согласование владельца системы и службы информационной безопасности,Требуются согласование владельца информационной системы и согласование службы информационной безопасности.,required_approvals_listed,supported,False,,0.3333333333333333,1.0,0.5,True,0.6666666666666666
+approval_chain_009,B,Q9,policy_extraction,status,согласование владельца системы и службы информационной безопасности,Требуются согласование владельца информационной системы и согласование службы информационной безопасности.,required_approvals_listed,answered,False,,1.0,1.0,1.0,True,0.0
+approval_chain_009,A,Q10,activation_confirmation,boolean,true,true,technical_activation_confirmed,supported,True,,0.25,1.0,0.4,True,0.75
+approval_chain_009,B,Q10,activation_confirmation,boolean,true,true,technical_activation_confirmed,supported,True,,1.0,1.0,1.0,True,0.0
+approval_chain_009,A,Q11,datetime_extraction,datetime,2026-11-10T09:05:00,2026-11-10T09:05:00,access_activated_at_09_05,,True,,0.5,1.0,0.6666666666666666,True,0.5
+approval_chain_009,B,Q11,datetime_extraction,datetime,2026-11-10T09:05:00,2026-11-10T09:05:00,access_activated_at_09_05,,True,,1.0,1.0,1.0,True,0.0
+approval_chain_009,A,Q12,status_extraction,status,активна,Активна.,account_active,supported,False,,0.5,1.0,0.6666666666666666,True,0.5
+approval_chain_009,B,Q12,status_extraction,status,активна,Учётная запись технически активна.,account_active,answered,False,,0.2,1.0,0.33333333333333337,True,0.8
+approval_chain_009,A,Q13,usage_confirmation,boolean,true,true,privileged_access_use_recorded,supported,True,,1.0,1.0,1.0,True,0.0
+approval_chain_009,B,Q13,usage_confirmation,boolean,true,true,privileged_access_use_recorded,supported,True,,0.3333333333333333,1.0,0.5,True,0.6666666666666666
+approval_chain_009,A,Q14,policy_application,boolean,true,true,active_access_complies_with_policy,active_access_complies_with_policy,True,True,0.4166666666666667,1.0,0.5882352941176471,True,0.5833333333333334
+approval_chain_009,B,Q14,policy_application,boolean,false,false,active_access_not_compliant_with_policy,active_access_not_compliant_with_policy,True,True,1.0,0.8,0.888888888888889,True,0.0
+approval_chain_009,A,Q15,continuation_status,boolean,true,true,access_can_remain_active_without_additional_actions,access_can_remain_active_without_additional_actions,True,True,0.4,1.0,0.5714285714285715,True,0.6
+approval_chain_009,B,Q15,continuation_status,boolean,false,false,access_cannot_remain_active_without_additional_actions,access_cannot_remain_active_without_additional_actions,True,True,0.375,0.75,0.5,True,0.625
+approval_chain_009,A,Q16,suspension_requirement,boolean,false,false,no_suspension_required,no_suspension_required,True,True,0.5,0.6666666666666666,0.5714285714285715,True,0.5
+approval_chain_009,B,Q16,suspension_requirement,boolean,true,true,suspension_required_until_completion,suspension_required_until_completion,True,True,0.2857142857142857,0.6666666666666666,0.4,True,0.7142857142857143
+asset_scope_010,A,Q1,executor_extraction,status,ООО «ТехРесурс»,ООО «ТехРесурс».,executor_tekhresurs,supported,False,,1.0,1.0,1.0,True,0.0
+asset_scope_010,A,Q2,customer_extraction,status,ООО «Северный контур»,ООО «Северный контур»,customer_severny_kontur,answered,True,,0.25,1.0,0.4,True,0.75
+asset_scope_010,A,Q3,amount_extraction,money,300000,300000,monthly_fee_300000,answered,True,,1.0,1.0,1.0,True,0.0
+asset_scope_010,A,Q4,list_serial_extraction,status,NX-7421,NX-7421,listed_serial_nx_7421,answerable,True,,1.0,1.0,1.0,True,0.0
+asset_scope_010,A,Q5,asset_name_extraction,status,DB-1,DB-1,repaired_server_db_1,supported,True,,0.5,0.5,0.5,True,0.5
+asset_scope_010,A,Q6,inventory_card_extraction,status,NX-7421,NX-7421,inventory_serial_nx_7421,answerable,True,,1.0,1.0,1.0,True,0.0
+asset_scope_010,A,Q7,scope_match,boolean,true,true,serial_matches_listed,serial_matches_listed,True,True,0.3333333333333333,1.0,0.5,True,0.6666666666666666
+asset_scope_010,A,Q8,scope_application,boolean,true,true,repair_inside_subscription,repair_inside_subscription,True,True,0.42857142857142855,0.75,0.5454545454545454,True,0.5714285714285714
+asset_scope_010,A,Q9,repair_date_extraction,date,2026-11-21,2026-11-21,repair_date_2026_11_21,answered,True,,0.5,1.0,0.6666666666666666,True,0.5
+asset_scope_010,A,Q10,repair_acceptance,boolean,true,true,repair_performed_and_accepted,supported,True,,1.0,1.0,1.0,True,0.0
+asset_scope_010,A,Q11,amount_extraction,money,180000,180000,repair_invoice_180000,supported,True,,1.0,1.0,1.0,True,0.0
+asset_scope_010,A,Q12,document_linking,status,inventory_card,Документ `inventory_card_A` (инвентарная карточка № СВ-ИТ-00418) связывает логическое имя `DB-1` с серийным номером `NX-7421`.,inventory_card_is_linking_document,supported,False,,1.0,1.0,1.0,True,0.0
+asset_scope_010,A,Q13,scope_identifier,status,серийный номер производителя,Серийный номер производителя.,manufacturer_serial_identifier,answerable,False,,0.5,1.0,0.6666666666666666,True,0.5
+asset_scope_010,A,Q14,separate_payment_scope,boolean,false,false,repair_not_separately_payable,repair_not_separately_payable,True,True,0.4444444444444444,1.0,0.6153846153846153,True,0.5555555555555556
+asset_scope_010,A,Q15,invoice_basis,boolean,false,false,invoice_has_no_basis,invoice_has_no_basis,True,True,0.5,0.8,0.6153846153846154,True,0.5
+asset_scope_010,A,Q16,payment_decision,boolean,false,false,payment_request_not_approvable,payment_request_not_approvable,True,True,0.5555555555555556,0.8333333333333334,0.6666666666666667,True,0.4444444444444444
+asset_scope_010,B,Q1,executor_extraction,status,ООО «ТехРесурс»,ООО «ТехРесурс»,executor_tekhresurs,,True,,1.0,1.0,1.0,True,0.0
+asset_scope_010,B,Q2,customer_extraction,status,ООО «Северный контур»,ООО «Северный контур»,customer_severny_kontur,answered,True,,1.0,1.0,1.0,True,0.0
+asset_scope_010,B,Q3,amount_extraction,money,300000,300000,monthly_fee_300000,,True,,1.0,1.0,1.0,True,0.0
+asset_scope_010,B,Q4,list_serial_extraction,status,NX-7421,NX-7421,listed_serial_nx_7421,,True,,0.5,1.0,0.6666666666666666,True,0.5
+asset_scope_010,B,Q5,asset_name_extraction,status,DB-1,DB-1,repaired_server_db_1,answered,True,,0.6666666666666666,1.0,0.8,True,0.3333333333333333
+asset_scope_010,B,Q6,inventory_card_extraction,status,NX-7427,NX-7427,inventory_serial_nx_7427,,True,,1.0,1.0,1.0,True,0.0
+asset_scope_010,B,Q7,scope_match,boolean,false,false,serial_does_not_match_listed,serial_does_not_match_listed,True,True,0.5,1.0,0.6666666666666666,True,0.5
+asset_scope_010,B,Q8,scope_application,boolean,false,false,repair_outside_subscription,repair_outside_subscription,True,True,1.0,0.75,0.8571428571428571,True,0.0
+asset_scope_010,B,Q9,repair_date_extraction,date,2026-11-21,2026-11-21,repair_date_2026_11_21,answerable,True,,1.0,1.0,1.0,True,0.0
+asset_scope_010,B,Q10,repair_acceptance,boolean,true,true,repair_performed_and_accepted,supported,True,,1.0,1.0,1.0,True,0.0
+asset_scope_010,B,Q11,amount_extraction,money,180000,180000,repair_invoice_180000,,True,,1.0,1.0,1.0,True,0.0
+asset_scope_010,B,Q12,document_linking,status,inventory_card,Документ: инвентарная карточка № СВ-ИТ-00418 (doc_id: inventory_card_B).,inventory_card_is_linking_document,,False,,0.5,1.0,0.6666666666666666,True,0.5
+asset_scope_010,B,Q13,scope_identifier,status,серийный номер производителя,Серийный номер производителя.,manufacturer_serial_identifier,answered,False,,1.0,1.0,1.0,True,0.0
+asset_scope_010,B,Q14,separate_payment_scope,boolean,true,true,repair_separately_payable,repair_separately_payable,True,True,0.4,1.0,0.5714285714285715,True,0.6
+asset_scope_010,B,Q15,invoice_basis,boolean,true,true,invoice_has_basis,invoice_has_basis,True,True,0.5555555555555556,1.0,0.7142857142857143,True,0.4444444444444444
+asset_scope_010,B,Q16,payment_decision,boolean,true,true,payment_request_approvable,payment_request_approvable,True,True,0.5555555555555556,0.8333333333333334,0.6666666666666667,True,0.4444444444444444

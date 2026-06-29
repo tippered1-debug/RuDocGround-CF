@@ -1,0 +1,65 @@
+actual,answer_type,case_id,expected,kind,question_id,skill,variant_id
+,money,trip_001,48000,answer_mismatch,Q6,temporal_calculation,A
+,boolean,trip_001,insufficient_information,decision_mismatch,Q15,abstention,A
+,boolean,trip_001,"['destination_address', 'business_purpose_evidence']",missing_information_mismatch,Q15,abstention,A
+,boolean,trip_001,insufficient_information,decision_mismatch,Q15,abstention,B
+,boolean,trip_001,"['destination_address', 'business_purpose_evidence']",missing_information_mismatch,Q15,abstention,B
+,boolean,trip_001,true,answer_mismatch,Q16,business_day_calculation,B
+,code_set,trip_001,"['destination_address', 'business_purpose_evidence']",missing_information_mismatch,Q17,missing_information,A
+,code_set,trip_001,"['destination_address', 'business_purpose_evidence']",missing_information_mismatch,Q17,missing_information,B
+,boolean,procurement_002,['goods_delivery_act'],missing_information_mismatch,Q11,insufficient_information,A
+,boolean,procurement_002,insufficient_information,decision_mismatch,Q12,insufficient_information,A
+,boolean,procurement_002,"['payment_order', 'bank_statement']",missing_information_mismatch,Q12,insufficient_information,A
+,status,procurement_002,direct_purchase_permitted,answer_mismatch,Q15,final_status,A
+,boolean,procurement_002,['goods_delivery_act'],missing_information_mismatch,Q11,insufficient_information,B
+,boolean,procurement_002,"['payment_order', 'bank_statement']",missing_information_mismatch,Q12,insufficient_information,B
+,money,procurement_002,300000,answer_mismatch,Q13,threshold_calculation,B
+,status,procurement_002,competitive_procedure_required,answer_mismatch,Q15,final_status,B
+,status,authority_003,director_ural_branch,answer_mismatch,Q1,signatory_extraction,A
+,status,authority_003,director_ural_branch,answer_mismatch,Q1,signatory_extraction,B
+,status,authority_003,power_of_attorney,answer_mismatch,Q13,authority_document,A
+,status,authority_003,power_of_attorney,answer_mismatch,Q13,authority_document,B
+,status,authority_003,signed_within_presented_authority,answer_mismatch,Q14,signing_status,A
+,status,authority_003,signed_outside_presented_authority,answer_mismatch,Q14,signing_status,B
+,status,authority_003,no_mismatch,answer_mismatch,Q15,authority_factor,A
+,status,authority_003,subject_scope,answer_mismatch,Q15,authority_factor,B
+,status,authority_003,supply_of_network_equipment_for_ural_branch,answer_mismatch,Q2,subject_extraction,A
+,status,authority_003,supply_of_network_equipment_for_ural_branch,answer_mismatch,Q2,subject_extraction,B
+,status,acceptance_004,network_infrastructure_assessment_and_technical_report,answer_mismatch,Q3,subject_extraction,A
+,status,acceptance_004,network_infrastructure_assessment_and_technical_report,answer_mismatch,Q3,subject_extraction,B
+,status,acceptance_004,acceptance_act,answer_mismatch,Q13,controlling_document,A
+,status,acceptance_004,acceptance_act,answer_mismatch,Q13,controlling_document,B
+,status,acceptance_004,result_delivered_and_formally_accepted,answer_mismatch,Q14,final_status,A
+,status,acceptance_004,result_delivered_but_acceptance_not_formalized,answer_mismatch,Q14,final_status,B
+,status,acceptance_004,[],missing_information_mismatch,Q14,final_status,B
+,status,notice_005,managed_backup_services,answer_mismatch,Q2,subject_extraction,A
+,status,notice_005,managed_backup_services,answer_mismatch,Q2,subject_extraction,B
+,status,notice_005,delivery_confirmation,answer_mismatch,Q12,controlling_document,A
+,status,notice_005,delivery_confirmation,answer_mismatch,Q12,controlling_document,B
+,status,notice_005,expired_without_renewal,answer_mismatch,Q13,status_conclusion,A
+,status,notice_005,automatically_renewed,answer_mismatch,Q13,status_conclusion,B
+,status,reconciliation_006,supplier_invoice,answer_mismatch,Q12,controlling_document,A
+,status,reconciliation_006,supplier_invoice,answer_mismatch,Q12,controlling_document,B
+,status,reconciliation_006,documents_reconciled_for_payment,answer_mismatch,Q14,final_status,A
+,status,reconciliation_006,documents_not_reconciled_due_to_invoice_discrepancy,answer_mismatch,Q14,final_status,B
+,status,amendment_007,аренда_выделенного_серверного_ресурса,answer_mismatch,Q2,subject_extraction,A
+,status,amendment_007,аренда_выделенного_серверного_ресурса,answer_mismatch,Q2,subject_extraction,B
+,status,amendment_007,июль_2026,answer_mismatch,Q5,date_extraction,A
+,status,amendment_007,июль_2026,answer_mismatch,Q5,date_extraction,B
+,status,amendment_007,additional_agreement,answer_mismatch,Q12,controlling_document,A
+,status,amendment_007,additional_agreement,answer_mismatch,Q12,controlling_document,B
+,status,sla_008,automatic_monitoring_registration,answer_mismatch,Q9,contract_rule_application,A
+,status,sla_008,automatic_monitoring_registration,answer_mismatch,Q9,contract_rule_application,B
+,status,sla_008,technical_report,answer_mismatch,Q12,document_identification,A
+,status,sla_008,technical_report,answer_mismatch,Q12,document_identification,B
+,status,approval_chain_009,approved,answer_mismatch,Q6,security_review_status,A
+,status,approval_chain_009,pending,answer_mismatch,Q6,security_review_status,B
+,status,approval_chain_009,согласование владельца системы и службы информационной безопасности,answer_mismatch,Q9,policy_extraction,A
+,status,approval_chain_009,согласование владельца системы и службы информационной безопасности,answer_mismatch,Q9,policy_extraction,B
+,status,approval_chain_009,активна,answer_mismatch,Q12,status_extraction,A
+,status,approval_chain_009,активна,answer_mismatch,Q12,status_extraction,B
+,status,asset_scope_010,ООО «ТехРесурс»,answer_mismatch,Q1,executor_extraction,A
+,status,asset_scope_010,inventory_card,answer_mismatch,Q12,document_linking,A
+,status,asset_scope_010,серийный номер производителя,answer_mismatch,Q13,scope_identifier,A
+,status,asset_scope_010,inventory_card,answer_mismatch,Q12,document_linking,B
+,status,asset_scope_010,серийный номер производителя,answer_mismatch,Q13,scope_identifier,B

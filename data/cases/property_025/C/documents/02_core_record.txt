@@ -1,0 +1,5 @@
+[substantive_fact] The renewal notice is late.
+[amount] 30
+[deadline_date] 2026-12-31
+[identifier] LEASE-2501
+[code_set] option_window | delivery_proof

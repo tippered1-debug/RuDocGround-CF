@@ -1,0 +1,82 @@
+{
+  "case_id": "procure_022",
+  "package": "A",
+  "documents": [
+    {
+      "doc_id": "01_реестр_проверки_поставщиков",
+      "filename": "01_Реестр_проверки_поставщиков.txt",
+      "source_file_name": "01_Реестр_проверки_поставщиков.txt",
+      "source_sha256": "ac49fdd2466f93a8fbd59274d5cbb05dd743700c3a18b67e89d027ebad8e9472",
+      "order": 1,
+      "text": "[PARAGRAPH] The supplier registry is authoritative. If registry status is blocked on the check date, the vendor is not eligible regardless of certificates. The check date is the date on the approval sheet.",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "The supplier registry is authoritative. If registry status is blocked on the check date, the vendor is not eligible regardless of certificates. The check date is the date on the approval sheet."
+        }
+      ]
+    },
+    {
+      "doc_id": "02_декларация_антикоррупционная",
+      "filename": "02_Декларация_антикоррупционная.txt",
+      "source_file_name": "02_Декларация_антикоррупционная.txt",
+      "source_sha256": "5203f160e9d3c3163bcc15e8c12a2064fb7e03ab6b0b0c9d0f4b238c1f4bf91b",
+      "order": 2,
+      "text": "[PARAGRAPH] Vendor self-declaration states the company is compliant and has no conflicts of interest.",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "Vendor self-declaration states the company is compliant and has no conflicts of interest."
+        }
+      ]
+    },
+    {
+      "doc_id": "03_сертификат",
+      "filename": "03_Сертификат.txt",
+      "source_file_name": "03_Сертификат_A.txt",
+      "source_sha256": "123a722b109bd7af13a557b2a0a8e68b9dcc31fe6050a993b73023584640e84d",
+      "order": 3,
+      "text": "[PARAGRAPH] Variant A: anti-bribery certificate matches the registry and is current.",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "Variant A: anti-bribery certificate matches the registry and is current."
+        }
+      ]
+    },
+    {
+      "doc_id": "04_лист_проверки_закупки",
+      "filename": "04_Лист_проверки_закупки.txt",
+      "source_file_name": "04_Лист_проверки_закупки.txt",
+      "source_sha256": "2e9cddac083975d1821f970f6e51758f6f81fed03c59e2368bedd484b037ab8f",
+      "order": 6,
+      "text": "[PARAGRAPH] Approval sheet records the check date and the controlling source for vendor status.",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "Approval sheet records the check date and the controlling source for vendor status."
+        }
+      ]
+    },
+    {
+      "doc_id": "05_мемо_комплаенс",
+      "filename": "05_Мемо_комплаенс.txt",
+      "source_file_name": "05_Мемо_комплаенс.txt",
+      "source_sha256": "4c6062b57a4a323081bcdf079a074d773a2a27b94dbf62cba39421716eb6839f",
+      "order": 7,
+      "text": "[PARAGRAPH] Compliance memo explains that one authoritative registry entry overrides all vendor-provided certificates.",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "Compliance memo explains that one authoritative registry entry overrides all vendor-provided certificates."
+        }
+      ]
+    }
+  ],
+  "text": "[DOCUMENT doc_id=01_реестр_проверки_поставщиков]\n=== DOCUMENT 1 | 01_Реестр_проверки_поставщиков.txt ===\n[PARAGRAPH] The supplier registry is authoritative. If registry status is blocked on the check date, the vendor is not eligible regardless of certificates. The check date is the date on the approval sheet.\n[/DOCUMENT]\n\n[DOCUMENT doc_id=02_декларация_антикоррупционная]\n=== DOCUMENT 2 | 02_Декларация_антикоррупционная.txt ===\n[PARAGRAPH] Vendor self-declaration states the company is compliant and has no conflicts of interest.\n[/DOCUMENT]\n\n[DOCUMENT doc_id=03_сертификат]\n=== DOCUMENT 3 | 03_Сертификат.txt ===\n[PARAGRAPH] Variant A: anti-bribery certificate matches the registry and is current.\n[/DOCUMENT]\n\n[DOCUMENT doc_id=04_лист_проверки_закупки]\n=== DOCUMENT 6 | 04_Лист_проверки_закупки.txt ===\n[PARAGRAPH] Approval sheet records the check date and the controlling source for vendor status.\n[/DOCUMENT]\n\n[DOCUMENT doc_id=05_мемо_комплаенс]\n=== DOCUMENT 7 | 05_Мемо_комплаенс.txt ===\n[PARAGRAPH] Compliance memo explains that one authoritative registry entry overrides all vendor-provided certificates.\n[/DOCUMENT]"
+}

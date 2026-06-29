@@ -1,0 +1,24 @@
+[DOCUMENT doc_id=01_реестр_проверки_поставщиков]
+=== DOCUMENT 1 | 01_Реестр_проверки_поставщиков.txt ===
+[PARAGRAPH] The supplier registry is authoritative. If registry status is blocked on the check date, the vendor is not eligible regardless of certificates. The check date is the date on the approval sheet.
+[/DOCUMENT]
+
+[DOCUMENT doc_id=02_декларация_антикоррупционная]
+=== DOCUMENT 2 | 02_Декларация_антикоррупционная.txt ===
+[PARAGRAPH] Vendor self-declaration states the company is compliant and has no conflicts of interest.
+[/DOCUMENT]
+
+[DOCUMENT doc_id=03_сертификат]
+=== DOCUMENT 3 | 03_Сертификат.txt ===
+[PARAGRAPH] Variant B: the registry shows blocked status on the check date, while the certificate still says compliant.
+[/DOCUMENT]
+
+[DOCUMENT doc_id=04_лист_проверки_закупки]
+=== DOCUMENT 6 | 04_Лист_проверки_закупки.txt ===
+[PARAGRAPH] Approval sheet records the check date and the controlling source for vendor status.
+[/DOCUMENT]
+
+[DOCUMENT doc_id=05_мемо_комплаенс]
+=== DOCUMENT 7 | 05_Мемо_комплаенс.txt ===
+[PARAGRAPH] Compliance memo explains that one authoritative registry entry overrides all vendor-provided certificates.
+[/DOCUMENT]

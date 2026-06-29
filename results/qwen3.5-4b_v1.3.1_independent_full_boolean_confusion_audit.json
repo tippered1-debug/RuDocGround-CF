@@ -1,0 +1,1674 @@
+{
+  "count": 291,
+  "gold_distribution": {
+    "true": 138,
+    "false": 153
+  },
+  "predicted_distribution": {
+    "true": 0,
+    "false": 1,
+    "missing": 290
+  },
+  "raw_answer_distribution": {
+    "missing": 290,
+    "json_false": 1
+  },
+  "confusion_matrix": {
+    "true": {
+      "true": 0,
+      "false": 0,
+      "missing": 138
+    },
+    "false": {
+      "true": 0,
+      "false": 1,
+      "missing": 152
+    }
+  },
+  "accuracy_by_class": {
+    "true": 0.0,
+    "false": 0.006535947712418301
+  },
+  "representative_errors": [
+    {
+      "case_id": "trip_001",
+      "variant_id": "A",
+      "question_id": "Q4",
+      "question": "Является ли порог 10 000 руб. максимальной суммой возмещения?",
+      "gold_answer": "false",
+      "gold_decision": "not_a_reimbursement_cap",
+      "raw_schema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "answer": {
+            "type": "boolean"
+          },
+          "decision": {
+            "type": "string",
+            "enum": [
+              "is_a_reimbursement_cap",
+              "not_a_reimbursement_cap"
+            ]
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": []
+          },
+          "evidence_details": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "doc_id": {
+                  "type": "string"
+                },
+                "locator": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "doc_id",
+                "locator"
+              ]
+            },
+            "default": []
+          },
+          "missing_information": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": []
+          },
+          "explanation": {
+            "type": "string",
+            "default": ""
+          }
+        },
+        "required": [
+          "answer",
+          "decision",
+          "evidence",
+          "evidence_details",
+          "missing_information",
+          "explanation"
+        ]
+      },
+      "raw_response": "{\n\"decision\": \"not_a_reimbursement_cap\",\n\"evidence\": [\n\"[PARAGRAPH] 7.2. Базовые лимиты проживания устанавливаются приложением 1 к настоящему Положению в зависимости от категории должности и населённого пункта.\",\n\"[TABLE ROW] Категория работников | Москва и Санкт-Петербург | Города-миллионники | Прочие населённые пункты\",\n\"[TABLE ROW] Генеральный директор, его заместители, финансовый директор | 15 000 руб./ночь | 12 000 руб./ночь | 10 000 руб./ночь\"\n],\n\"reasoning\": \"The provided documents establish that the reimbursement cap for accommodation is determined by specific base limits set in Appendix 1 of the Policy, which vary based on employee category and location (e.g., 15,000 rubles for General Directors in Moscow/Saint Petersburg). The document containing a reference to '10,000 rubles' as a threshold describes an additional verification procedure initiated by the Financial Director ('additional check of documents... if cost exceeds 10,000 rubles'), not a final reimbursement cap. Therefore, 10,000 rubles is not defined in the documents as the maximum sum for reimbursement.\"\n}",
+      "parsed_canonical_answer": null,
+      "exact_comparison": false,
+      "predicted_json_boolean": null,
+      "predicted_missing": true
+    },
+    {
+      "case_id": "trip_001",
+      "variant_id": "B",
+      "question_id": "Q4",
+      "question": "Является ли порог 10 000 руб. максимальной суммой возмещения?",
+      "gold_answer": "false",
+      "gold_decision": "not_a_reimbursement_cap",
+      "raw_schema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "answer": {
+            "type": "boolean"
+          },
+          "decision": {
+            "type": "string",
+            "enum": [
+              "is_a_reimbursement_cap",
+              "not_a_reimbursement_cap"
+            ]
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": []
+          },
+          "evidence_details": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "doc_id": {
+                  "type": "string"
+                },
+                "locator": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "doc_id",
+                "locator"
+              ]
+            },
+            "default": []
+          },
+          "missing_information": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": []
+          },
+          "explanation": {
+            "type": "string",
+            "default": ""
+          }
+        },
+        "required": [
+          "answer",
+          "decision",
+          "evidence",
+          "evidence_details",
+          "missing_information",
+          "explanation"
+        ]
+      },
+      "raw_response": "{\n\"decision\": \"not_a_reimbursement_cap\",\n\"evidence\": [\n\"[PARAGRAPH] 7.2. Базовые лимиты проживания устанавливаются приложением 1 к настоящему Положению в зависимости от категории должности и населённого пункта.\",\n\"[TABLE ROW] Категория работников | Москва и Санкт-Петербург | Города-миллионники | Прочие населённые пункты\",\n\"[TABLE ROW] Генеральный директор, его заместители, финансовый директор | 15 000 руб./ночь | 12 000 руб./ночь | 10 000 руб./ночь\"\n],\n\"reasoning\": \"The provided documents establish that the reimbursement cap for accommodation is determined by specific base limits set in Appendix 1 of the Policy, which vary based on employee category and location (e.g., 15,000 rubles for General Directors in Moscow/Saint Petersburg). The document mentions a threshold of 10,000 rubles only as an internal trigger for additional verification by the Finance Director's office starting September 8, 2026. This is explicitly described as a control measure ('additional check') to identify expenses exceeding certain limits or requiring scrutiny, not as the maximum allowable reimbursement amount itself.\"\n}",
+      "parsed_canonical_answer": null,
+      "exact_comparison": false,
+      "predicted_json_boolean": null,
+      "predicted_missing": true
+    },
+    {
+      "case_id": "trip_001",
+      "variant_id": "A",
+      "question_id": "Q9",
+      "question": "Означает ли предварительное согласование автоматическое возмещение всей суммы?",
+      "gold_answer": "false",
+      "gold_decision": "preapproval_not_final_reimbursement",
+      "raw_schema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "answer": {
+            "type": "boolean"
+          },
+          "decision": {
+            "type": "string",
+            "enum": [
+              "preapproval_not_final_reimbursement",
+              "preapproval_is_final_reimbursement"
+            ]
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": []
+          },
+          "evidence_details": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "doc_id": {
+                  "type": "string"
+                },
+                "locator": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "doc_id",
+                "locator"
+              ]
+            },
+            "default": []
+          },
+          "missing_information": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": []
+          },
+          "explanation": {
+            "type": "string",
+            "default": ""
+          }
+        },
+        "required": [
+          "answer",
+          "decision",
+          "evidence",
+          "evidence_details",
+          "missing_information",
+          "explanation"
+        ]
+      },
+      "raw_response": "{\n\"decision\": \"preapproval_not_final_reimbursement\",\n\"evidence\": [\n\"[PARAGRAPH] 2.6. Предварительное согласование заявки подтверждает допустимость планируемых расходов, но не означает их автоматического возмещения.\",\n\"[PARAGRAPH] 10.8. Перерасход возмещается после утверждения авансового отчёта.\"\n],\n\"documents\": [\n\"policy_01\",\n\"expense_report\"\n]\n}",
+      "parsed_canonical_answer": null,
+      "exact_comparison": false,
+      "predicted_json_boolean": null,
+      "predicted_missing": true
+    },
+    {
+      "case_id": "trip_001",
+      "variant_id": "B",
+      "question_id": "Q9",
+      "question": "Означает ли предварительное согласование автоматическое возмещение всей суммы?",
+      "gold_answer": "false",
+      "gold_decision": "preapproval_not_final_reimbursement",
+      "raw_schema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "answer": {
+            "type": "boolean"
+          },
+          "decision": {
+            "type": "string",
+            "enum": [
+              "preapproval_not_final_reimbursement",
+              "preapproval_is_final_reimbursement"
+            ]
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": []
+          },
+          "evidence_details": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "doc_id": {
+                  "type": "string"
+                },
+                "locator": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "doc_id",
+                "locator"
+              ]
+            },
+            "default": []
+          },
+          "missing_information": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": []
+          },
+          "explanation": {
+            "type": "string",
+            "default": ""
+          }
+        },
+        "required": [
+          "answer",
+          "decision",
+          "evidence",
+          "evidence_details",
+          "missing_information",
+          "explanation"
+        ]
+      },
+      "raw_response": "{\n\"decision\": \"preapproval_not_final_reimbursement\",\n\"evidence\": [\n\"[PARAGRAPH] 2.6. Предварительное согласование заявки подтверждает допустимость планируемых расходов, но не означает их автоматического возмещения.\",\n\"[PARAGRAPH] 10.8. Перерасход возмещается после утверждения авансового отчёта.\"\n],\n\"documents\": [\n\"policy_01\",\n\"expense_report\"\n]\n}",
+      "parsed_canonical_answer": null,
+      "exact_comparison": false,
+      "predicted_json_boolean": null,
+      "predicted_missing": true
+    },
+    {
+      "case_id": "trip_001",
+      "variant_id": "A",
+      "question_id": "Q11",
+      "question": "Было ли продление одобрено работодателем до окончания первоначального срока?",
+      "gold_answer": "true",
+      "gold_decision": "approved_in_time",
+      "raw_schema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "answer": {
+            "type": "boolean"
+          },
+          "decision": {
+            "type": "string",
+            "enum": [
+              "approved_in_time",
+              "approved_after_deadline"
+            ]
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": []
+          },
+          "evidence_details": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "doc_id": {
+                  "type": "string"
+                },
+                "locator": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "doc_id",
+                "locator"
+              ]
+            },
+            "default": []
+          },
+          "missing_information": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": []
+          },
+          "explanation": {
+            "type": "string",
+            "default": ""
+          }
+        },
+        "required": [
+          "answer",
+          "decision",
+          "evidence",
+          "evidence_details",
+          "missing_information",
+          "explanation"
+        ]
+      },
+      "raw_response": "{\n\"decision\": \"approved_in_time\",\n\"evidence\": [\n\"doc_id=policy_01\",\n\"doc_id=trip_request\",\n\"doc_id=sed_extension\",\n\"doc_id=trip_order_249\"\n]\n}",
+      "parsed_canonical_answer": null,
+      "exact_comparison": false,
+      "predicted_json_boolean": null,
+      "predicted_missing": true
+    },
+    {
+      "case_id": "trip_001",
+      "variant_id": "B",
+      "question_id": "Q11",
+      "question": "Было ли продление одобрено работодателем до окончания первоначального срока?",
+      "gold_answer": "true",
+      "gold_decision": "approved_in_time",
+      "raw_schema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "answer": {
+            "type": "boolean"
+          },
+          "decision": {
+            "type": "string",
+            "enum": [
+              "approved_in_time",
+              "approved_after_deadline"
+            ]
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": []
+          },
+          "evidence_details": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "doc_id": {
+                  "type": "string"
+                },
+                "locator": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "doc_id",
+                "locator"
+              ]
+            },
+            "default": []
+          },
+          "missing_information": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": []
+          },
+          "explanation": {
+            "type": "string",
+            "default": ""
+          }
+        },
+        "required": [
+          "answer",
+          "decision",
+          "evidence",
+          "evidence_details",
+          "missing_information",
+          "explanation"
+        ]
+      },
+      "raw_response": "{\n\"decision\": \"approved_in_time\",\n\"evidence\": [\n\"doc_id=policy_01\",\n\"doc_id=trip_request\",\n\"doc_id=sed_extension\",\n\"doc_id=trip_order_249\"\n]\n}",
+      "parsed_canonical_answer": null,
+      "exact_comparison": false,
+      "predicted_json_boolean": null,
+      "predicted_missing": true
+    },
+    {
+      "case_id": "trip_001",
+      "variant_id": "A",
+      "question_id": "Q12",
+      "question": "Подтверждено ли фактическое выполнение служебной задачи 19 сентября?",
+      "gold_answer": "true",
+      "gold_decision": "presence_and_business_activity_confirmed",
+      "raw_schema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "answer": {
+            "type": "boolean"
+          },
+          "decision": {
+            "type": "string",
+            "enum": [
+              "presence_and_business_activity_confirmed",
+              "presence_or_business_activity_not_confirmed"
+            ]
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": []
+          },
+          "evidence_details": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "doc_id": {
+                  "type": "string"
+                },
+                "locator": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "doc_id",
+                "locator"
+              ]
+            },
+            "default": []
+          },
+          "missing_information": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": []
+          },
+          "explanation": {
+            "type": "string",
+            "default": ""
+          }
+        },
+        "required": [
+          "answer",
+          "decision",
+          "evidence",
+          "evidence_details",
+          "missing_information",
+          "explanation"
+        ]
+      },
+      "raw_response": "{\n\"decision\": \"presence_and_business_activity_confirmed\",\n\"evidence\": [\n\"[PARAGRAPH] Встреча завершена 19 сентября 2026 г. в 15:55.\",\n\"[TABLE ROW] №: Решение, 3: ООО «Проектные системы» подготовит обновлённый план устранения замечаний до 22 сентября 2026 г.\"\n],\n\"documents\": [\n\"doc_id=meeting_protocol\",\n\"doc_id=trip_order_241\",\n\"doc_id=sed_extension\",\n\"doc_id=hotel_invoice\",\n\"doc_id=expense_report\"\n]\n}",
+      "parsed_canonical_answer": null,
+      "exact_comparison": false,
+      "predicted_json_boolean": null,
+      "predicted_missing": true
+    },
+    {
+      "case_id": "trip_001",
+      "variant_id": "B",
+      "question_id": "Q12",
+      "question": "Подтверждено ли фактическое выполнение служебной задачи 19 сентября?",
+      "gold_answer": "true",
+      "gold_decision": "presence_and_business_activity_confirmed",
+      "raw_schema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "answer": {
+            "type": "boolean"
+          },
+          "decision": {
+            "type": "string",
+            "enum": [
+              "presence_and_business_activity_confirmed",
+              "presence_or_business_activity_not_confirmed"
+            ]
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": []
+          },
+          "evidence_details": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "doc_id": {
+                  "type": "string"
+                },
+                "locator": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "doc_id",
+                "locator"
+              ]
+            },
+            "default": []
+          },
+          "missing_information": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": []
+          },
+          "explanation": {
+            "type": "string",
+            "default": ""
+          }
+        },
+        "required": [
+          "answer",
+          "decision",
+          "evidence",
+          "evidence_details",
+          "missing_information",
+          "explanation"
+        ]
+      },
+      "raw_response": "{\n\"decision\": \"presence_and_business_activity_confirmed\",\n\"evidence\": [\n\"[PARAGRAPH] Встреча завершена 19 сентября 2026 г. в 15:55.\",\n\"[TABLE ROW] №: Решение, 3: ООО «Проектные системы» подготовит обновлённый план устранения замечаний до 22 сентября 2026 г.\"\n],\n\"documents\": [\n\"doc_id=meeting_protocol\",\n\"doc_id=trip_order_241\",\n\"doc_id=sed_extension\",\n\"doc_id=hotel_invoice\",\n\"doc_id=expense_report\"\n]\n}",
+      "parsed_canonical_answer": null,
+      "exact_comparison": false,
+      "predicted_json_boolean": null,
+      "predicted_missing": true
+    },
+    {
+      "case_id": "trip_001",
+      "variant_id": "A",
+      "question_id": "Q14",
+      "question": "Достаточно ли подтверждена первая поездка на такси?",
+      "gold_answer": "true",
+      "gold_decision": "taxi_expense_supported",
+      "raw_schema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "answer": {
+            "type": "boolean"
+          },
+          "decision": {
+            "type": "string",
+            "enum": [
+              "taxi_expense_supported",
+              "taxi_expense_not_supported"
+            ]
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": []
+          },
+          "evidence_details": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "doc_id": {
+                  "type": "string"
+                },
+                "locator": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "doc_id",
+                "locator"
+              ]
+            },
+            "default": []
+          },
+          "missing_information": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": []
+          },
+          "explanation": {
+            "type": "string",
+            "default": ""
+          }
+        },
+        "required": [
+          "answer",
+          "decision",
+          "evidence",
+          "evidence_details",
+          "missing_information",
+          "explanation"
+        ]
+      },
+      "raw_response": "{\n\"decision\": \"taxi_expense_not_supported\",\n\"evidence\": [\n\"doc_id=policy_01\",\n\"doc_id=trip_order_249\",\n\"doc_id=expense_report\"\n]\n}",
+      "parsed_canonical_answer": null,
+      "exact_comparison": false,
+      "predicted_json_boolean": null,
+      "predicted_missing": true
+    },
+    {
+      "case_id": "trip_001",
+      "variant_id": "B",
+      "question_id": "Q14",
+      "question": "Достаточно ли подтверждена первая поездка на такси?",
+      "gold_answer": "true",
+      "gold_decision": "taxi_expense_supported",
+      "raw_schema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "answer": {
+            "type": "boolean"
+          },
+          "decision": {
+            "type": "string",
+            "enum": [
+              "taxi_expense_supported",
+              "taxi_expense_not_supported"
+            ]
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": []
+          },
+          "evidence_details": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "doc_id": {
+                  "type": "string"
+                },
+                "locator": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "doc_id",
+                "locator"
+              ]
+            },
+            "default": []
+          },
+          "missing_information": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": []
+          },
+          "explanation": {
+            "type": "string",
+            "default": ""
+          }
+        },
+        "required": [
+          "answer",
+          "decision",
+          "evidence",
+          "evidence_details",
+          "missing_information",
+          "explanation"
+        ]
+      },
+      "raw_response": "{\n\"decision\": \"taxi_expense_not_supported\",\n\"evidence\": [\n\"doc_id=policy_01\",\n\"doc_id=trip_order_249\",\n\"doc_id=expense_report\"\n]\n}",
+      "parsed_canonical_answer": null,
+      "exact_comparison": false,
+      "predicted_json_boolean": null,
+      "predicted_missing": true
+    },
+    {
+      "case_id": "trip_001",
+      "variant_id": "A",
+      "question_id": "Q15",
+      "question": "Достаточно ли подтверждена вторая поездка на такси?",
+      "gold_answer": "false",
+      "gold_decision": "insufficient_information",
+      "raw_schema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "answer": {
+            "type": "boolean"
+          },
+          "decision": {
+            "type": "string",
+            "enum": [
+              "insufficient_information",
+              "sufficient_information"
+            ]
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": []
+          },
+          "evidence_details": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "doc_id": {
+                  "type": "string"
+                },
+                "locator": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "doc_id",
+                "locator"
+              ]
+            },
+            "default": []
+          },
+          "missing_information": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": []
+          },
+          "explanation": {
+            "type": "string",
+            "default": ""
+          }
+        },
+        "required": [
+          "answer",
+          "decision",
+          "evidence",
+          "evidence_details",
+          "missing_information",
+          "explanation"
+        ]
+      },
+      "raw_response": "{\n\"decision\": \"insufficient_information\",\n\"evidence\": [\n\"doc_id=trip_request\",\n\"doc_id=sed_extension\",\n\"doc_id=hotel_invoice\",\n\"doc_id=transport_pack\",\n\"doc_id=expense_report\"\n]\n}",
+      "parsed_canonical_answer": null,
+      "exact_comparison": false,
+      "predicted_json_boolean": null,
+      "predicted_missing": true
+    },
+    {
+      "case_id": "trip_001",
+      "variant_id": "B",
+      "question_id": "Q15",
+      "question": "Достаточно ли подтверждена вторая поездка на такси?",
+      "gold_answer": "false",
+      "gold_decision": "insufficient_information",
+      "raw_schema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "answer": {
+            "type": "boolean"
+          },
+          "decision": {
+            "type": "string",
+            "enum": [
+              "insufficient_information",
+              "sufficient_information"
+            ]
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": []
+          },
+          "evidence_details": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "doc_id": {
+                  "type": "string"
+                },
+                "locator": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "doc_id",
+                "locator"
+              ]
+            },
+            "default": []
+          },
+          "missing_information": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": []
+          },
+          "explanation": {
+            "type": "string",
+            "default": ""
+          }
+        },
+        "required": [
+          "answer",
+          "decision",
+          "evidence",
+          "evidence_details",
+          "missing_information",
+          "explanation"
+        ]
+      },
+      "raw_response": "{\n\"decision\": \"insufficient_information\",\n\"evidence\": [\n\"doc_id=trip_request\",\n\"doc_id=sed_extension\",\n\"doc_id=hotel_invoice\",\n\"doc_id=transport_pack\",\n\"doc_id=expense_report\"\n]\n}",
+      "parsed_canonical_answer": null,
+      "exact_comparison": false,
+      "predicted_json_boolean": null,
+      "predicted_missing": true
+    },
+    {
+      "case_id": "trip_001",
+      "variant_id": "A",
+      "question_id": "Q16",
+      "question": "Соблюдён ли срок подачи авансового отчёта?",
+      "gold_answer": "true",
+      "gold_decision": "submitted_on_time",
+      "raw_schema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "answer": {
+            "type": "boolean"
+          },
+          "decision": {
+            "type": "string",
+            "enum": [
+              "submitted_on_time",
+              "submitted_late"
+            ]
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": []
+          },
+          "evidence_details": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "doc_id": {
+                  "type": "string"
+                },
+                "locator": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "doc_id",
+                "locator"
+              ]
+            },
+            "default": []
+          },
+          "missing_information": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": []
+          },
+          "explanation": {
+            "type": "string",
+            "default": ""
+          }
+        },
+        "required": [
+          "answer",
+          "decision",
+          "evidence",
+          "evidence_details",
+          "missing_information",
+          "explanation"
+        ]
+      },
+      "raw_response": "{\n\"decision\": \"submitted_on_time\",\n\"evidence\": [\n\"doc_id=policy_01\",\n\"doc_id=trip_order_249\",\n\"doc_id=expense_report\"\n]\n}",
+      "parsed_canonical_answer": null,
+      "exact_comparison": false,
+      "predicted_json_boolean": null,
+      "predicted_missing": true
+    },
+    {
+      "case_id": "trip_001",
+      "variant_id": "B",
+      "question_id": "Q16",
+      "question": "Соблюдён ли срок подачи авансового отчёта?",
+      "gold_answer": "true",
+      "gold_decision": "submitted_on_time",
+      "raw_schema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "answer": {
+            "type": "boolean"
+          },
+          "decision": {
+            "type": "string",
+            "enum": [
+              "submitted_on_time",
+              "submitted_late"
+            ]
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": []
+          },
+          "evidence_details": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "doc_id": {
+                  "type": "string"
+                },
+                "locator": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "doc_id",
+                "locator"
+              ]
+            },
+            "default": []
+          },
+          "missing_information": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": []
+          },
+          "explanation": {
+            "type": "string",
+            "default": ""
+          }
+        },
+        "required": [
+          "answer",
+          "decision",
+          "evidence",
+          "evidence_details",
+          "missing_information",
+          "explanation"
+        ]
+      },
+      "raw_response": "{\n\"decision\": \"submitted_on_time\",\n\"evidence\": [\n\"doc_id=policy_01\",\n\"doc_id=trip_order_249\",\n\"doc_id=expense_report\"\n]\n}",
+      "parsed_canonical_answer": null,
+      "exact_comparison": false,
+      "predicted_json_boolean": null,
+      "predicted_missing": true
+    },
+    {
+      "case_id": "procurement_002",
+      "variant_id": "A",
+      "question_id": "Q5",
+      "question": "Допустима ли прямая закупка на дату договора?",
+      "gold_answer": "true",
+      "gold_decision": "direct_purchase_allowed",
+      "raw_schema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "answer": {
+            "type": "boolean"
+          },
+          "decision": {
+            "type": "string",
+            "enum": [
+              "direct_purchase_allowed",
+              "direct_purchase_not_allowed"
+            ]
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": []
+          },
+          "evidence_details": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "doc_id": {
+                  "type": "string"
+                },
+                "locator": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "doc_id",
+                "locator"
+              ]
+            },
+            "default": []
+          },
+          "missing_information": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": []
+          },
+          "explanation": {
+            "type": "string",
+            "default": ""
+          }
+        },
+        "required": [
+          "answer",
+          "decision",
+          "evidence",
+          "evidence_details",
+          "missing_information",
+          "explanation"
+        ]
+      },
+      "raw_response": "{\n  \"decision\": \"direct_purchase_not_allowed\",\n  \"evidence\": [\n    \"[doc_id=procurement_policy]\",\n    \"[doc_id=temporary_order]\"\n  ]\n}",
+      "parsed_canonical_answer": null,
+      "exact_comparison": false,
+      "predicted_json_boolean": null,
+      "predicted_missing": true
+    },
+    {
+      "case_id": "procurement_002",
+      "variant_id": "A",
+      "question_id": "Q6",
+      "question": "Требуется ли конкурентная процедура?",
+      "gold_answer": "false",
+      "gold_decision": "competitive_procedure_not_required",
+      "raw_schema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "answer": {
+            "type": "boolean"
+          },
+          "decision": {
+            "type": "string",
+            "enum": [
+              "competitive_procedure_not_required",
+              "competitive_procedure_required"
+            ]
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": []
+          },
+          "evidence_details": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "doc_id": {
+                  "type": "string"
+                },
+                "locator": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "doc_id",
+                "locator"
+              ]
+            },
+            "default": []
+          },
+          "missing_information": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": []
+          },
+          "explanation": {
+            "type": "string",
+            "default": ""
+          }
+        },
+        "required": [
+          "answer",
+          "decision",
+          "evidence",
+          "evidence_details",
+          "missing_information",
+          "explanation"
+        ]
+      },
+      "raw_response": "{\n  \"decision\": \"competitive_procedure_not_required\",\n  \"evidence\": [\n    \"[doc_id=procurement_policy]\",\n    \"[doc_id=temporary_order]\"\n  ]\n}",
+      "parsed_canonical_answer": null,
+      "exact_comparison": false,
+      "predicted_json_boolean": null,
+      "predicted_missing": true
+    },
+    {
+      "case_id": "procurement_002",
+      "variant_id": "A",
+      "question_id": "Q7",
+      "question": "Может ли лист согласования заменить отдельное решение генерального директора?",
+      "gold_answer": "false",
+      "gold_decision": "approval_sheet_not_ceo_decision",
+      "raw_schema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "answer": {
+            "type": "boolean"
+          },
+          "decision": {
+            "type": "string",
+            "enum": [
+              "approval_sheet_ceo_decision",
+              "approval_sheet_not_ceo_decision"
+            ]
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": []
+          },
+          "evidence_details": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "doc_id": {
+                  "type": "string"
+                },
+                "locator": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "doc_id",
+                "locator"
+              ]
+            },
+            "default": []
+          },
+          "missing_information": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": []
+          },
+          "explanation": {
+            "type": "string",
+            "default": ""
+          }
+        },
+        "required": [
+          "answer",
+          "decision",
+          "evidence",
+          "evidence_details",
+          "missing_information",
+          "explanation"
+        ]
+      },
+      "raw_response": "{\n  \"decision\": \"insufficient_information\",\n  \"evidence\": [\n    \"[doc_id=procurement_policy]\",\n    \"[doc_id=temporary_order]\"\n  ]\n}",
+      "parsed_canonical_answer": null,
+      "exact_comparison": false,
+      "predicted_json_boolean": null,
+      "predicted_missing": true
+    },
+    {
+      "case_id": "procurement_002",
+      "variant_id": "A",
+      "question_id": "Q8",
+      "question": "Делает ли подписанный договор закупочную процедуру правомерной?",
+      "gold_answer": "false",
+      "gold_decision": "signed_contract_not_legalization",
+      "raw_schema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "answer": {
+            "type": "boolean"
+          },
+          "decision": {
+            "type": "string",
+            "enum": [
+              "signed_contract_legalization",
+              "signed_contract_not_legalization"
+            ]
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": []
+          },
+          "evidence_details": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "doc_id": {
+                  "type": "string"
+                },
+                "locator": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "doc_id",
+                "locator"
+              ]
+            },
+            "default": []
+          },
+          "missing_information": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": []
+          },
+          "explanation": {
+            "type": "string",
+            "default": ""
+          }
+        },
+        "required": [
+          "answer",
+          "decision",
+          "evidence",
+          "evidence_details",
+          "missing_information",
+          "explanation"
+        ]
+      },
+      "raw_response": "{\n  \"decision\": \"signed_contract_legalization\",\n  \"evidence\": [\n    \"[doc_id=procurement_policy]\",\n    \"[doc_id=temporary_order]\"\n  ]\n}",
+      "parsed_canonical_answer": null,
+      "exact_comparison": false,
+      "predicted_json_boolean": null,
+      "predicted_missing": true
+    },
+    {
+      "case_id": "procurement_002",
+      "variant_id": "A",
+      "question_id": "Q9",
+      "question": "Может ли платёжная заявка сама по себе заменить требуемую конкурентную процедуру или отдельное письменное решение генерального директора?",
+      "gold_answer": "false",
+      "gold_decision": "payment_request_not_legalization",
+      "raw_schema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "answer": {
+            "type": "boolean"
+          },
+          "decision": {
+            "type": "string",
+            "enum": [
+              "payment_request_legalization",
+              "payment_request_not_legalization"
+            ]
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": []
+          },
+          "evidence_details": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "doc_id": {
+                  "type": "string"
+                },
+                "locator": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "doc_id",
+                "locator"
+              ]
+            },
+            "default": []
+          },
+          "missing_information": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": []
+          },
+          "explanation": {
+            "type": "string",
+            "default": ""
+          }
+        },
+        "required": [
+          "answer",
+          "decision",
+          "evidence",
+          "evidence_details",
+          "missing_information",
+          "explanation"
+        ]
+      },
+      "raw_response": "{\n  \"decision\": \"payment_request_not_legalization\",\n  \"evidence\": [\n    \"[DOCUMENT doc_id=procurement_policy]\",\n    \"[DOCUMENT doc_id=temporary_order]\"\n  ]\n}",
+      "parsed_canonical_answer": null,
+      "exact_comparison": false,
+      "predicted_json_boolean": null,
+      "predicted_missing": true
+    },
+    {
+      "case_id": "procurement_002",
+      "variant_id": "A",
+      "question_id": "Q11",
+      "question": "Достаточно ли данных, чтобы установить факт поставки товара?",
+      "gold_answer": "false",
+      "gold_decision": "insufficient_information",
+      "raw_schema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "answer": {
+            "type": "boolean"
+          },
+          "decision": {
+            "type": "string",
+            "enum": [
+              "sufficient_information",
+              "insufficient_information"
+            ]
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": []
+          },
+          "evidence_details": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "doc_id": {
+                  "type": "string"
+                },
+                "locator": {
+                  "anyOf": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "doc_id",
+                "locator"
+              ]
+            },
+            "default": []
+          },
+          "missing_information": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "default": []
+          },
+          "explanation": {
+            "type": "string",
+            "default": ""
+          }
+        },
+        "required": [
+          "answer",
+          "decision",
+          "evidence",
+          "evidence_details",
+          "missing_information",
+          "explanation"
+        ]
+      },
+      "raw_response": "{\n  \"decision\": \"sufficient_information\",\n  \"evidence\": [\n    \"[doc_id=procurement_policy]\",\n    \"[doc_id=temporary_order]\"\n  ]\n}",
+      "parsed_canonical_answer": null,
+      "exact_comparison": false,
+      "predicted_json_boolean": null,
+      "predicted_missing": true
+    }
+  ]
+}

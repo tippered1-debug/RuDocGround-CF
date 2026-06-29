@@ -1,0 +1,137 @@
+{
+  "case_id": "it_023",
+  "package": "C",
+  "documents": [
+    {
+      "doc_id": "policy",
+      "filename": "01_policy.txt",
+      "source_file_name": "01_policy.txt",
+      "source_sha256": "981f68416fc7c30881aae300ca0e23fe9cc702a397cc3d3358b98ba148caa90f",
+      "order": 1,
+      "text": "[PARAGRAPH] [controlling_rule] The SLA penalty waiver case is governed by the sla_policy.\n[PARAGRAPH] [authoritative_source] sla_policy is the authoritative source for this package.\n[PARAGRAPH] [domain] IT / SLA",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[controlling_rule] The SLA penalty waiver case is governed by the sla_policy."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[authoritative_source] sla_policy is the authoritative source for this package."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[domain] IT / SLA"
+        }
+      ]
+    },
+    {
+      "doc_id": "core_record",
+      "filename": "02_core_record.txt",
+      "source_file_name": "02_core_record.txt",
+      "source_sha256": "c3b3c5ec0a1fd44c341c969b7f52275bf851aa569737a0e2e9a09126f6b9e194",
+      "order": 2,
+      "text": "[PARAGRAPH] [substantive_fact] The outage report was filed late.\n[PARAGRAPH] [amount] 50000\n[PARAGRAPH] [deadline_date] 2026-11-10T16:00:00\n[PARAGRAPH] [identifier] SLA-2301\n[PARAGRAPH] [code_set] waiver_clause | service_credit",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[substantive_fact] The outage report was filed late."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[amount] 50000"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[deadline_date] 2026-11-10T16:00:00"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[identifier] SLA-2301"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[code_set] waiver_clause | service_credit"
+        }
+      ]
+    },
+    {
+      "doc_id": "nuisance_memo",
+      "filename": "03_nuisance_memo.txt",
+      "source_file_name": "03_nuisance_memo.txt",
+      "source_sha256": "c521d9e54a73b066b1b63f22e13c82055fc2ff49e0a9535d587d80330b7b4f24",
+      "order": 3,
+      "text": "[PARAGRAPH] [reference_number] SLA-3301\n[PARAGRAPH] [timestamp] 2026-11-10T15:20:00\n[PARAGRAPH] [case_tag] it_023",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[reference_number] SLA-3301"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[timestamp] 2026-11-10T15:20:00"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[case_tag] it_023"
+        }
+      ]
+    },
+    {
+      "doc_id": "decision_memo",
+      "filename": "04_decision_memo.txt",
+      "source_file_name": "04_decision_memo.txt",
+      "source_sha256": "67ce2a44093deab1a68bf31d865bf261cd88f0926d6016acc3cb6d237c68d37c",
+      "order": 4,
+      "text": "[PARAGRAPH] [final_status] not_waived\n[PARAGRAPH] [decision_reason] The decision follows the substantive fact and the controlling source.",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[final_status] not_waived"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[decision_reason] The decision follows the substantive fact and the controlling source."
+        }
+      ]
+    },
+    {
+      "doc_id": "support_note",
+      "filename": "05_support_note.txt",
+      "source_file_name": "05_support_note.txt",
+      "source_sha256": "85ae30dc76fb4173cd6fcdf9de0182679fdb48a430e3b2712709290f162e4d2f",
+      "order": 5,
+      "text": "[PARAGRAPH] [support_note_sufficient] true\n[PARAGRAPH] [missing_information] No mandatory supporting document is missing.\n[PARAGRAPH] [support_note] The supporting note is sufficient.",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[support_note_sufficient] true"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[missing_information] No mandatory supporting document is missing."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[support_note] The supporting note is sufficient."
+        }
+      ]
+    }
+  ],
+  "text": "[DOCUMENT doc_id=policy]\n=== DOCUMENT 1 | 01_policy.txt ===\n[PARAGRAPH] [controlling_rule] The SLA penalty waiver case is governed by the sla_policy.\n[PARAGRAPH] [authoritative_source] sla_policy is the authoritative source for this package.\n[PARAGRAPH] [domain] IT / SLA\n[/DOCUMENT]\n\n[DOCUMENT doc_id=core_record]\n=== DOCUMENT 2 | 02_core_record.txt ===\n[PARAGRAPH] [substantive_fact] The outage report was filed late.\n[PARAGRAPH] [amount] 50000\n[PARAGRAPH] [deadline_date] 2026-11-10T16:00:00\n[PARAGRAPH] [identifier] SLA-2301\n[PARAGRAPH] [code_set] waiver_clause | service_credit\n[/DOCUMENT]\n\n[DOCUMENT doc_id=nuisance_memo]\n=== DOCUMENT 3 | 03_nuisance_memo.txt ===\n[PARAGRAPH] [reference_number] SLA-3301\n[PARAGRAPH] [timestamp] 2026-11-10T15:20:00\n[PARAGRAPH] [case_tag] it_023\n[/DOCUMENT]\n\n[DOCUMENT doc_id=decision_memo]\n=== DOCUMENT 4 | 04_decision_memo.txt ===\n[PARAGRAPH] [final_status] not_waived\n[PARAGRAPH] [decision_reason] The decision follows the substantive fact and the controlling source.\n[/DOCUMENT]\n\n[DOCUMENT doc_id=support_note]\n=== DOCUMENT 5 | 05_support_note.txt ===\n[PARAGRAPH] [support_note_sufficient] true\n[PARAGRAPH] [missing_information] No mandatory supporting document is missing.\n[PARAGRAPH] [support_note] The supporting note is sufficient.\n[/DOCUMENT]"
+}

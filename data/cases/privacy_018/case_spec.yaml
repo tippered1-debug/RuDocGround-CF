@@ -1,0 +1,16 @@
+{
+  "case_id": "privacy_018",
+  "domain": "privacy and infosec",
+  "counterfactual_change_type": "The notice deadline is missed.",
+  "controlling_document": "policy",
+  "document_ids": [
+    "policy",
+    "core_record",
+    "nuisance_memo",
+    "decision_memo",
+    "support_note"
+  ],
+  "expected_questions": 14,
+  "gold_rows": 42,
+  "group": "batch1"
+}

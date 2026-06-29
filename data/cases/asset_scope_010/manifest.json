@@ -1,0 +1,115 @@
+{
+  "case_id": "asset_scope_010",
+  "documents": [
+    {
+      "doc_id": "maintenance_contract",
+      "neutral_file_name": "01_Договор_технического_обслуживания.txt",
+      "source_file_name": "01_Договор_технического_обслуживания.txt",
+      "source_sha256": "fa12a03bd178c985eae404c8af9fd7acaf9ce94bb4fbaa2aaddad94080bccd19",
+      "variant_a_sha256": "fa12a03bd178c985eae404c8af9fd7acaf9ce94bb4fbaa2aaddad94080bccd19",
+      "variant_b_sha256": "fa12a03bd178c985eae404c8af9fd7acaf9ce94bb4fbaa2aaddad94080bccd19",
+      "source_drive_id": null,
+      "order": 1,
+      "included_in_variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "doc_id": "covered_equipment_list",
+      "neutral_file_name": "02_Перечень_обслуживаемого_оборудования.txt",
+      "source_file_name": "02_Перечень_обслуживаемого_оборудования.txt",
+      "source_sha256": "22f88dc96b9bd7f053d2efbbab04b52d4d4ea3d307f6847918067ad08eff91de",
+      "variant_a_sha256": "22f88dc96b9bd7f053d2efbbab04b52d4d4ea3d307f6847918067ad08eff91de",
+      "variant_b_sha256": "22f88dc96b9bd7f053d2efbbab04b52d4d4ea3d307f6847918067ad08eff91de",
+      "source_drive_id": null,
+      "order": 2,
+      "included_in_variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "doc_id": "inventory_card_A",
+      "neutral_file_name": "03_Инвентарная_карточка.txt",
+      "source_file_name": "03_Инвентарная_карточка_A.txt",
+      "source_sha256": "84511a9197a4aa869b1bf83c1ec261b41a08751b190e8f068d57421e053c5424",
+      "variant_a_sha256": "84511a9197a4aa869b1bf83c1ec261b41a08751b190e8f068d57421e053c5424",
+      "variant_b_sha256": null,
+      "source_drive_id": null,
+      "order": 3,
+      "included_in_variants": [
+        "A"
+      ]
+    },
+    {
+      "doc_id": "inventory_card_B",
+      "neutral_file_name": "03_Инвентарная_карточка.txt",
+      "source_file_name": "03_Инвентарная_карточка_B.txt",
+      "source_sha256": "7c1e040192015cbd79de92eae7bb1ac74f883d9454d651dff963232a0168eae8",
+      "variant_a_sha256": null,
+      "variant_b_sha256": "7c1e040192015cbd79de92eae7bb1ac74f883d9454d651dff963232a0168eae8",
+      "source_drive_id": null,
+      "order": 3,
+      "included_in_variants": [
+        "B"
+      ]
+    },
+    {
+      "doc_id": "repair_request",
+      "neutral_file_name": "04_Заявка_на_аварийный_ремонт.txt",
+      "source_file_name": "04_Заявка_на_аварийный_ремонт.txt",
+      "source_sha256": "3a4c2f8daaf1472f997320edfae1c617b72b112e83943bcfa46f9777d8bb2db0",
+      "variant_a_sha256": "3a4c2f8daaf1472f997320edfae1c617b72b112e83943bcfa46f9777d8bb2db0",
+      "variant_b_sha256": "3a4c2f8daaf1472f997320edfae1c617b72b112e83943bcfa46f9777d8bb2db0",
+      "source_drive_id": null,
+      "order": 4,
+      "included_in_variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "doc_id": "repair_act",
+      "neutral_file_name": "05_Акт_выполненных_ремонтных_работ.txt",
+      "source_file_name": "05_Акт_выполненных_ремонтных_работ.txt",
+      "source_sha256": "7448127fddadfb17975be8ca728860dd560e7493c21e8a7d6e04195c4041e02b",
+      "variant_a_sha256": "7448127fddadfb17975be8ca728860dd560e7493c21e8a7d6e04195c4041e02b",
+      "variant_b_sha256": "7448127fddadfb17975be8ca728860dd560e7493c21e8a7d6e04195c4041e02b",
+      "source_drive_id": null,
+      "order": 5,
+      "included_in_variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "doc_id": "repair_invoice",
+      "neutral_file_name": "06_Счёт_за_аварийный_ремонт.txt",
+      "source_file_name": "06_Счёт_за_аварийный_ремонт.txt",
+      "source_sha256": "aa40d35a43ec7fbb9d5140e6def8eb4c3f9d7149e68eb1c2ab9573c16a129f6b",
+      "variant_a_sha256": "aa40d35a43ec7fbb9d5140e6def8eb4c3f9d7149e68eb1c2ab9573c16a129f6b",
+      "variant_b_sha256": "aa40d35a43ec7fbb9d5140e6def8eb4c3f9d7149e68eb1c2ab9573c16a129f6b",
+      "source_drive_id": null,
+      "order": 6,
+      "included_in_variants": [
+        "A",
+        "B"
+      ]
+    },
+    {
+      "doc_id": "payment_request",
+      "neutral_file_name": "07_Заявка_на_оплату_ремонта.txt",
+      "source_file_name": "07_Заявка_на_оплату_ремонта.txt",
+      "source_sha256": "1af15c8835a5039037e6c3f9676f3754596579c85ab4affe06c04822211eddbb",
+      "variant_a_sha256": "1af15c8835a5039037e6c3f9676f3754596579c85ab4affe06c04822211eddbb",
+      "variant_b_sha256": "1af15c8835a5039037e6c3f9676f3754596579c85ab4affe06c04822211eddbb",
+      "source_drive_id": null,
+      "order": 7,
+      "included_in_variants": [
+        "A",
+        "B"
+      ]
+    }
+  ]
+}

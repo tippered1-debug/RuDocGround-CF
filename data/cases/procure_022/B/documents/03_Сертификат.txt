@@ -1,0 +1,1 @@
+Variant B: the registry shows blocked status on the check date, while the certificate still says compliant.

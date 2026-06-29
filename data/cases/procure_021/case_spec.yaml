@@ -1,0 +1,16 @@
+{
+  "case_id": "procure_021",
+  "domain": "procurement and compliance",
+  "counterfactual_change_type": "The mandatory comparator is present.",
+  "controlling_document": "policy",
+  "document_ids": [
+    "policy",
+    "core_record",
+    "nuisance_memo",
+    "decision_memo",
+    "support_note"
+  ],
+  "expected_questions": 14,
+  "gold_rows": 42,
+  "group": "batch2"
+}

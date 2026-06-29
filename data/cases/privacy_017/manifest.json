@@ -1,0 +1,83 @@
+{
+  "case_id": "privacy_017",
+  "documents": [
+    {
+      "doc_id": "01_политика_передачи_пдн",
+      "neutral_file_name": "01_Политика_передачи_ПДн.txt",
+      "source_file_name": "01_Политика_передачи_ПДн.txt",
+      "source_sha256": "4ce8d91415654325e8107b12d666c1a53d3ea7c5d3f72a65b78536a74ea54ede",
+      "variant_a_sha256": "4ce8d91415654325e8107b12d666c1a53d3ea7c5d3f72a65b78536a74ea54ede",
+      "variant_b_sha256": "4ce8d91415654325e8107b12d666c1a53d3ea7c5d3f72a65b78536a74ea54ede",
+      "variant_c_sha256": "4ce8d91415654325e8107b12d666c1a53d3ea7c5d3f72a65b78536a74ea54ede",
+      "order": 1,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "02_договор_обработки_пдн",
+      "neutral_file_name": "02_Договор_обработки_ПДн.txt",
+      "source_file_name": "02_Договор_обработки_ПДн.txt",
+      "source_sha256": "0d944759ef3ce2a32a93d31f5cefca82efb173e1a161f3189e855e448167c8e3",
+      "variant_a_sha256": "0d944759ef3ce2a32a93d31f5cefca82efb173e1a161f3189e855e448167c8e3",
+      "variant_b_sha256": "0d944759ef3ce2a32a93d31f5cefca82efb173e1a161f3189e855e448167c8e3",
+      "variant_c_sha256": "0d944759ef3ce2a32a93d31f5cefca82efb173e1a161f3189e855e448167c8e3",
+      "order": 2,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "03_оценка_передачи",
+      "neutral_file_name": "03_Оценка_передачи.txt",
+      "source_file_name": "03_Оценка_передачи_A.txt",
+      "source_sha256": "2675ee65fc888be2b83686a681dc008aec190920f523e5e7739898534789a36a",
+      "variant_a_sha256": "2675ee65fc888be2b83686a681dc008aec190920f523e5e7739898534789a36a",
+      "variant_b_sha256": "75d7a68c29831801ed8486cfb563a4576746280f397e8aec057fb7b376544084",
+      "variant_c_sha256": "389f4888385ba70d6439afbbb1e7be5dc678d2c097d4fba7d9e040c934c5ac0b",
+      "order": 3,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "04_список_реквизитов",
+      "neutral_file_name": "04_Список_реквизитов.txt",
+      "source_file_name": "04_Список_реквизитов.txt",
+      "source_sha256": "92212f0f8e8600004ce10eb6c22a48e58df5cbe8bbed442d0e1ce0e3d5926925",
+      "variant_a_sha256": "92212f0f8e8600004ce10eb6c22a48e58df5cbe8bbed442d0e1ce0e3d5926925",
+      "variant_b_sha256": "92212f0f8e8600004ce10eb6c22a48e58df5cbe8bbed442d0e1ce0e3d5926925",
+      "variant_c_sha256": "92212f0f8e8600004ce10eb6c22a48e58df5cbe8bbed442d0e1ce0e3d5926925",
+      "order": 6,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "05_служебная_записка_иб",
+      "neutral_file_name": "05_Служебная_записка_ИБ.txt",
+      "source_file_name": "05_Служебная_записка_ИБ.txt",
+      "source_sha256": "cc6046a3409feb5bed64548dbefe6289875e5f4ecaac9c143f41ffbaa92568da",
+      "variant_a_sha256": "cc6046a3409feb5bed64548dbefe6289875e5f4ecaac9c143f41ffbaa92568da",
+      "variant_b_sha256": "cc6046a3409feb5bed64548dbefe6289875e5f4ecaac9c143f41ffbaa92568da",
+      "variant_c_sha256": "cc6046a3409feb5bed64548dbefe6289875e5f4ecaac9c143f41ffbaa92568da",
+      "order": 7,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    }
+  ],
+  "changed_fragment_A_to_B": "Basis changes to consent, but one recipient lacks a consent record.",
+  "changed_fragment_A_to_C": "Department code and signature block order change only.",
+  "document_grounded_only": true
+}

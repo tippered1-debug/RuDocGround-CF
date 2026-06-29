@@ -1,0 +1,1 @@
+Internal policy allows transfer of personal data only on one of three documented bases: contract necessity, explicit consent, or intra-group processor instruction. The policy fully determines admissibility and has priority over the onboarding note.

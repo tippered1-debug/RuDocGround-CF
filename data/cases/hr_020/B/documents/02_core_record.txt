@@ -1,0 +1,5 @@
+[substantive_fact] The signer is inside delegated authority.
+[amount] purchase_contracts
+[deadline_date] 2026-10-15
+[identifier] DEL-2001
+[code_set] authority_scope | delegated_signing

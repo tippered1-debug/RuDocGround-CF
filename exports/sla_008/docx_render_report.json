@@ -1,0 +1,55 @@
+{
+  "case_id": "sla_008",
+  "files": [
+    {
+      "file_name": "01_Договор_на_сопровождение_облачной_платформы.docx",
+      "docx_path": "/Users/stefanbidzamov/goldlink-sla-008-clean/exports/sla_008/docx/01_Договор_на_сопровождение_облачной_платформы.docx",
+      "source_txt": "/Users/stefanbidzamov/goldlink-sla-008-clean/data/source_documents/sla_008/01_Договор_на_сопровождение_облачной_платформы.txt",
+      "pages": 1
+    },
+    {
+      "file_name": "02_Журнал_системы_мониторинга.docx",
+      "docx_path": "/Users/stefanbidzamov/goldlink-sla-008-clean/exports/sla_008/docx/02_Журнал_системы_мониторинга.docx",
+      "source_txt": "/Users/stefanbidzamov/goldlink-sla-008-clean/data/source_documents/sla_008/02_Журнал_системы_мониторинга.txt",
+      "pages": 1
+    },
+    {
+      "file_name": "03_Обращение_в_службу_поддержки.docx",
+      "docx_path": "/Users/stefanbidzamov/goldlink-sla-008-clean/exports/sla_008/docx/03_Обращение_в_службу_поддержки.docx",
+      "source_txt": "/Users/stefanbidzamov/goldlink-sla-008-clean/data/source_documents/sla_008/03_Обращение_в_службу_поддержки.txt",
+      "pages": 1
+    },
+    {
+      "file_name": "04_Технический_отчёт_A.docx",
+      "docx_path": "/Users/stefanbidzamov/goldlink-sla-008-clean/exports/sla_008/docx/04_Технический_отчёт_A.docx",
+      "source_txt": "/Users/stefanbidzamov/goldlink-sla-008-clean/data/source_documents/sla_008/04_Технический_отчёт_A.txt",
+      "pages": 1
+    },
+    {
+      "file_name": "04_Технический_отчёт_B.docx",
+      "docx_path": "/Users/stefanbidzamov/goldlink-sla-008-clean/exports/sla_008/docx/04_Технический_отчёт_B.docx",
+      "source_txt": "/Users/stefanbidzamov/goldlink-sla-008-clean/data/source_documents/sla_008/04_Технический_отчёт_B.txt",
+      "pages": 1
+    },
+    {
+      "file_name": "05_Ежемесячный_отчёт_за_август.docx",
+      "docx_path": "/Users/stefanbidzamov/goldlink-sla-008-clean/exports/sla_008/docx/05_Ежемесячный_отчёт_за_август.docx",
+      "source_txt": "/Users/stefanbidzamov/goldlink-sla-008-clean/data/source_documents/sla_008/05_Ежемесячный_отчёт_за_август.txt",
+      "pages": 1
+    },
+    {
+      "file_name": "06_Счёт_за_август_2026.docx",
+      "docx_path": "/Users/stefanbidzamov/goldlink-sla-008-clean/exports/sla_008/docx/06_Счёт_за_август_2026.docx",
+      "source_txt": "/Users/stefanbidzamov/goldlink-sla-008-clean/data/source_documents/sla_008/06_Счёт_за_август_2026.txt",
+      "pages": 1
+    },
+    {
+      "file_name": "07_Заявка_на_оплату.docx",
+      "docx_path": "/Users/stefanbidzamov/goldlink-sla-008-clean/exports/sla_008/docx/07_Заявка_на_оплату.docx",
+      "source_txt": "/Users/stefanbidzamov/goldlink-sla-008-clean/data/source_documents/sla_008/07_Заявка_на_оплату.txt",
+      "pages": 1
+    }
+  ],
+  "zip_path": "/Users/stefanbidzamov/goldlink-sla-008-clean/exports/sla_008/sla_008_docx.zip",
+  "notes": "DOCX generated directly from the final sla_008 TXT sources."
+}

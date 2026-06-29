@@ -1,0 +1,48 @@
+[DOCUMENT doc_id=sla_contract]
+=== DOCUMENT 1 | 01_Договор_на_сопровождение_облачной_платформы.txt ===
+[PARAGRAPH] executor
+[PARAGRAPH] Исполнитель: ООО «ОблакоСервис».
+[PARAGRAPH] monthly_fee
+[PARAGRAPH] 500 000 руб. в месяц
+[PARAGRAPH] recovery_limit
+[PARAGRAPH] не более 4 часов
+[PARAGRAPH] monitoring_start
+[PARAGRAPH] с момента автоматической регистрации инцидента системой мониторинга
+[PARAGRAPH] reduction_rate
+[PARAGRAPH] уменьшается на 5 %
+[/DOCUMENT]
+
+[DOCUMENT doc_id=sla_monitoring_log]
+=== DOCUMENT 2 | 02_Журнал_системы_мониторинга.txt ===
+[PARAGRAPH] incident_registered
+[PARAGRAPH] Критический инцидент № CI-2026-08-12-01 зарегистрирован автоматически системой мониторинга
+[PARAGRAPH] 12 августа 2026 г., 10:00
+[/DOCUMENT]
+
+[DOCUMENT doc_id=sla_support_request]
+=== DOCUMENT 3 | 03_Обращение_в_службу_поддержки.txt ===
+[PARAGRAPH] received_at
+[PARAGRAPH] Запрос в службу поддержки поступил 12 августа 2026 г. в 10:15
+[/DOCUMENT]
+
+[DOCUMENT doc_id=technical_report_B]
+=== DOCUMENT 5 | 04_Технический_отчёт.txt ===
+[PARAGRAPH] restoration_time
+[PARAGRAPH] Восстановление завершено в 14:01.
+[/DOCUMENT]
+
+[DOCUMENT doc_id=monthly_report]
+=== DOCUMENT 6 | 05_Ежемесячный_отчёт_за_август.txt ===
+[PARAGRAPH] Ежемесячный отчёт за август 2026 г.
+[/DOCUMENT]
+
+[DOCUMENT doc_id=sla_invoice]
+=== DOCUMENT 7 | 06_Счёт_за_август_2026.txt ===
+[PARAGRAPH] invoice_amount
+[PARAGRAPH] Сумма к оплате: 500 000 руб.
+[/DOCUMENT]
+
+[DOCUMENT doc_id=payment_request]
+=== DOCUMENT 8 | 07_Заявка_на_оплату.txt ===
+[PARAGRAPH] Просим оплатить счёт за август 2026 г.
+[/DOCUMENT]

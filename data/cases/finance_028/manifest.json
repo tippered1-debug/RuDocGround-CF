@@ -1,0 +1,83 @@
+{
+  "case_id": "finance_028",
+  "documents": [
+    {
+      "doc_id": "policy",
+      "neutral_file_name": "01_policy.txt",
+      "source_file_name": "01_policy.txt",
+      "source_sha256": "b522daae7c4eb3136db24331dd9de5379398a8711e589e1ddeeed663a1e38379",
+      "variant_a_sha256": "b522daae7c4eb3136db24331dd9de5379398a8711e589e1ddeeed663a1e38379",
+      "variant_b_sha256": "b522daae7c4eb3136db24331dd9de5379398a8711e589e1ddeeed663a1e38379",
+      "variant_c_sha256": "b522daae7c4eb3136db24331dd9de5379398a8711e589e1ddeeed663a1e38379",
+      "order": 1,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "core_record",
+      "neutral_file_name": "02_core_record.txt",
+      "source_file_name": "02_core_record.txt",
+      "source_sha256": "96dc56c6a1d671b0e3cb3ae518a948da422aa81da739152a0afc7545cab29e6b",
+      "variant_a_sha256": "96dc56c6a1d671b0e3cb3ae518a948da422aa81da739152a0afc7545cab29e6b",
+      "variant_b_sha256": "e8015fb985d2a6c3088ed2c51d16176d38622b39b40f883308b9a388349dd220",
+      "variant_c_sha256": "96dc56c6a1d671b0e3cb3ae518a948da422aa81da739152a0afc7545cab29e6b",
+      "order": 2,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "nuisance_memo",
+      "neutral_file_name": "03_nuisance_memo.txt",
+      "source_file_name": "03_nuisance_memo.txt",
+      "source_sha256": "86f82800bcf93ec4b2d78537c05453bbc22a2e1c8b077e53030aa9e74ca161f7",
+      "variant_a_sha256": "86f82800bcf93ec4b2d78537c05453bbc22a2e1c8b077e53030aa9e74ca161f7",
+      "variant_b_sha256": "86f82800bcf93ec4b2d78537c05453bbc22a2e1c8b077e53030aa9e74ca161f7",
+      "variant_c_sha256": "4bdb198ba12d3e10408a5c4ff3086db9fef261bcb139961307619826e72cecbf",
+      "order": 3,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "decision_memo",
+      "neutral_file_name": "04_decision_memo.txt",
+      "source_file_name": "04_decision_memo.txt",
+      "source_sha256": "f86feba336fddbe50240734ffddaa6a16ea4debc0c9a4375ab0b171f3a762f24",
+      "variant_a_sha256": "f86feba336fddbe50240734ffddaa6a16ea4debc0c9a4375ab0b171f3a762f24",
+      "variant_b_sha256": "34ec328c38e9a8001b29881c4286e10c881ae35841c5d2c39732a05b36c75af0",
+      "variant_c_sha256": "f86feba336fddbe50240734ffddaa6a16ea4debc0c9a4375ab0b171f3a762f24",
+      "order": 4,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "support_note",
+      "neutral_file_name": "05_support_note.txt",
+      "source_file_name": "05_support_note.txt",
+      "source_sha256": "85ae30dc76fb4173cd6fcdf9de0182679fdb48a430e3b2712709290f162e4d2f",
+      "variant_a_sha256": "85ae30dc76fb4173cd6fcdf9de0182679fdb48a430e3b2712709290f162e4d2f",
+      "variant_b_sha256": "85ae30dc76fb4173cd6fcdf9de0182679fdb48a430e3b2712709290f162e4d2f",
+      "variant_c_sha256": "85ae30dc76fb4173cd6fcdf9de0182679fdb48a430e3b2712709290f162e4d2f",
+      "order": 5,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    }
+  ],
+  "changed_fragment_A_to_B": "The receipt is substantiated.",
+  "changed_fragment_A_to_C": "Nuisance memo reference ADV-3301 and timestamp 2026-09-15T08:14:00.",
+  "document_grounded_only": true
+}

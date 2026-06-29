@@ -1,0 +1,137 @@
+{
+  "case_id": "finance_028",
+  "package": "B",
+  "documents": [
+    {
+      "doc_id": "policy",
+      "filename": "01_policy.txt",
+      "source_file_name": "01_policy.txt",
+      "source_sha256": "b522daae7c4eb3136db24331dd9de5379398a8711e589e1ddeeed663a1e38379",
+      "order": 1,
+      "text": "[PARAGRAPH] [controlling_rule] The Advance report substantiation case is governed by the reimbursement_policy.\n[PARAGRAPH] [authoritative_source] reimbursement_policy is the authoritative source for this package.\n[PARAGRAPH] [domain] finance and calculations",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[controlling_rule] The Advance report substantiation case is governed by the reimbursement_policy."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[authoritative_source] reimbursement_policy is the authoritative source for this package."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[domain] finance and calculations"
+        }
+      ]
+    },
+    {
+      "doc_id": "core_record",
+      "filename": "02_core_record.txt",
+      "source_file_name": "02_core_record.txt",
+      "source_sha256": "96dc56c6a1d671b0e3cb3ae518a948da422aa81da739152a0afc7545cab29e6b",
+      "order": 2,
+      "text": "[PARAGRAPH] [substantive_fact] The receipt is substantiated.\n[PARAGRAPH] [amount] 0\n[PARAGRAPH] [deadline_date] 2026-09-18\n[PARAGRAPH] [identifier] ADV-2801\n[PARAGRAPH] [code_set] substantiation | receipts",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[substantive_fact] The receipt is substantiated."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[amount] 0"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[deadline_date] 2026-09-18"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[identifier] ADV-2801"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[code_set] substantiation | receipts"
+        }
+      ]
+    },
+    {
+      "doc_id": "nuisance_memo",
+      "filename": "03_nuisance_memo.txt",
+      "source_file_name": "03_nuisance_memo.txt",
+      "source_sha256": "86f82800bcf93ec4b2d78537c05453bbc22a2e1c8b077e53030aa9e74ca161f7",
+      "order": 3,
+      "text": "[PARAGRAPH] [reference_number] ADV-2801\n[PARAGRAPH] [timestamp] 2026-09-15T08:00:00\n[PARAGRAPH] [case_tag] finance_028",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[reference_number] ADV-2801"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[timestamp] 2026-09-15T08:00:00"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[case_tag] finance_028"
+        }
+      ]
+    },
+    {
+      "doc_id": "decision_memo",
+      "filename": "04_decision_memo.txt",
+      "source_file_name": "04_decision_memo.txt",
+      "source_sha256": "f86feba336fddbe50240734ffddaa6a16ea4debc0c9a4375ab0b171f3a762f24",
+      "order": 4,
+      "text": "[PARAGRAPH] [final_status] reimbursable\n[PARAGRAPH] [decision_reason] The decision follows the substantive fact and the controlling source.",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[final_status] reimbursable"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[decision_reason] The decision follows the substantive fact and the controlling source."
+        }
+      ]
+    },
+    {
+      "doc_id": "support_note",
+      "filename": "05_support_note.txt",
+      "source_file_name": "05_support_note.txt",
+      "source_sha256": "85ae30dc76fb4173cd6fcdf9de0182679fdb48a430e3b2712709290f162e4d2f",
+      "order": 5,
+      "text": "[PARAGRAPH] [support_note_sufficient] true\n[PARAGRAPH] [missing_information] No mandatory supporting document is missing.\n[PARAGRAPH] [support_note] The supporting note is sufficient.",
+      "elements": [
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[support_note_sufficient] true"
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[missing_information] No mandatory supporting document is missing."
+        },
+        {
+          "kind": "paragraph",
+          "style": "Normal",
+          "text": "[support_note] The supporting note is sufficient."
+        }
+      ]
+    }
+  ],
+  "text": "[DOCUMENT doc_id=policy]\n=== DOCUMENT 1 | 01_policy.txt ===\n[PARAGRAPH] [controlling_rule] The Advance report substantiation case is governed by the reimbursement_policy.\n[PARAGRAPH] [authoritative_source] reimbursement_policy is the authoritative source for this package.\n[PARAGRAPH] [domain] finance and calculations\n[/DOCUMENT]\n\n[DOCUMENT doc_id=core_record]\n=== DOCUMENT 2 | 02_core_record.txt ===\n[PARAGRAPH] [substantive_fact] The receipt is substantiated.\n[PARAGRAPH] [amount] 0\n[PARAGRAPH] [deadline_date] 2026-09-18\n[PARAGRAPH] [identifier] ADV-2801\n[PARAGRAPH] [code_set] substantiation | receipts\n[/DOCUMENT]\n\n[DOCUMENT doc_id=nuisance_memo]\n=== DOCUMENT 3 | 03_nuisance_memo.txt ===\n[PARAGRAPH] [reference_number] ADV-2801\n[PARAGRAPH] [timestamp] 2026-09-15T08:00:00\n[PARAGRAPH] [case_tag] finance_028\n[/DOCUMENT]\n\n[DOCUMENT doc_id=decision_memo]\n=== DOCUMENT 4 | 04_decision_memo.txt ===\n[PARAGRAPH] [final_status] reimbursable\n[PARAGRAPH] [decision_reason] The decision follows the substantive fact and the controlling source.\n[/DOCUMENT]\n\n[DOCUMENT doc_id=support_note]\n=== DOCUMENT 5 | 05_support_note.txt ===\n[PARAGRAPH] [support_note_sufficient] true\n[PARAGRAPH] [missing_information] No mandatory supporting document is missing.\n[PARAGRAPH] [support_note] The supporting note is sufficient.\n[/DOCUMENT]"
+}

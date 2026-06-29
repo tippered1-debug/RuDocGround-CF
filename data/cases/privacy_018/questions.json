@@ -1,0 +1,75 @@
+{
+  "case_id": "privacy_018",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Which document controls the security incident notification clock case?",
+      "answer_type": "categorical"
+    },
+    {
+      "question_id": "Q2",
+      "question": "What reference number is shown in the nuisance memo?",
+      "answer_type": "identifier"
+    },
+    {
+      "question_id": "Q3",
+      "question": "What timestamp is shown in the nuisance memo?",
+      "answer_type": "datetime"
+    },
+    {
+      "question_id": "Q4",
+      "question": "Was the notification submitted on time?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q5",
+      "question": "What is the incident-notice outcome?",
+      "answer_type": "categorical"
+    },
+    {
+      "question_id": "Q6",
+      "question": "How many hours remain until the notification deadline in the core record?",
+      "answer_type": "integer"
+    },
+    {
+      "question_id": "Q7",
+      "question": "What deadline timestamp is recorded in the core record?",
+      "answer_type": "datetime"
+    },
+    {
+      "question_id": "Q8",
+      "question": "Which control codes apply to the notification clock?",
+      "answer_type": "code_set"
+    },
+    {
+      "question_id": "Q9",
+      "question": "What identifier is shown in the core record?",
+      "answer_type": "identifier"
+    },
+    {
+      "question_id": "Q10",
+      "question": "Is the supporting note sufficient?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q11",
+      "question": "Is any mandatory supporting document missing?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q12",
+      "question": "Which authoritative source controls the case?",
+      "answer_type": "categorical"
+    },
+    {
+      "question_id": "Q13",
+      "question": "Did the nuisance memo reference number change in C?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q14",
+      "question": "What is the overall procedural status?",
+      "answer_type": "categorical"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "case_id": "procure_022",
+  "documents": [
+    {
+      "doc_id": "01_реестр_проверки_поставщиков",
+      "neutral_file_name": "01_Реестр_проверки_поставщиков.txt",
+      "source_file_name": "01_Реестр_проверки_поставщиков.txt",
+      "source_sha256": "ac49fdd2466f93a8fbd59274d5cbb05dd743700c3a18b67e89d027ebad8e9472",
+      "variant_a_sha256": "ac49fdd2466f93a8fbd59274d5cbb05dd743700c3a18b67e89d027ebad8e9472",
+      "variant_b_sha256": "ac49fdd2466f93a8fbd59274d5cbb05dd743700c3a18b67e89d027ebad8e9472",
+      "variant_c_sha256": "ac49fdd2466f93a8fbd59274d5cbb05dd743700c3a18b67e89d027ebad8e9472",
+      "order": 1,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "02_декларация_антикоррупционная",
+      "neutral_file_name": "02_Декларация_антикоррупционная.txt",
+      "source_file_name": "02_Декларация_антикоррупционная.txt",
+      "source_sha256": "5203f160e9d3c3163bcc15e8c12a2064fb7e03ab6b0b0c9d0f4b238c1f4bf91b",
+      "variant_a_sha256": "5203f160e9d3c3163bcc15e8c12a2064fb7e03ab6b0b0c9d0f4b238c1f4bf91b",
+      "variant_b_sha256": "5203f160e9d3c3163bcc15e8c12a2064fb7e03ab6b0b0c9d0f4b238c1f4bf91b",
+      "variant_c_sha256": "5203f160e9d3c3163bcc15e8c12a2064fb7e03ab6b0b0c9d0f4b238c1f4bf91b",
+      "order": 2,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "03_сертификат",
+      "neutral_file_name": "03_Сертификат.txt",
+      "source_file_name": "03_Сертификат_A.txt",
+      "source_sha256": "123a722b109bd7af13a557b2a0a8e68b9dcc31fe6050a993b73023584640e84d",
+      "variant_a_sha256": "123a722b109bd7af13a557b2a0a8e68b9dcc31fe6050a993b73023584640e84d",
+      "variant_b_sha256": "9bcdb3823917be90237ffcce4e503192cc3244a320d0cc22f11b6410305f2bc0",
+      "variant_c_sha256": "8ba1617466c1f7e11ccdeed82fd29835f8f8080825001fbf30ad9f7f3ed36749",
+      "order": 3,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "04_лист_проверки_закупки",
+      "neutral_file_name": "04_Лист_проверки_закупки.txt",
+      "source_file_name": "04_Лист_проверки_закупки.txt",
+      "source_sha256": "2e9cddac083975d1821f970f6e51758f6f81fed03c59e2368bedd484b037ab8f",
+      "variant_a_sha256": "2e9cddac083975d1821f970f6e51758f6f81fed03c59e2368bedd484b037ab8f",
+      "variant_b_sha256": "2e9cddac083975d1821f970f6e51758f6f81fed03c59e2368bedd484b037ab8f",
+      "variant_c_sha256": "2e9cddac083975d1821f970f6e51758f6f81fed03c59e2368bedd484b037ab8f",
+      "order": 6,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "05_мемо_комплаенс",
+      "neutral_file_name": "05_Мемо_комплаенс.txt",
+      "source_file_name": "05_Мемо_комплаенс.txt",
+      "source_sha256": "4c6062b57a4a323081bcdf079a074d773a2a27b94dbf62cba39421716eb6839f",
+      "variant_a_sha256": "4c6062b57a4a323081bcdf079a074d773a2a27b94dbf62cba39421716eb6839f",
+      "variant_b_sha256": "4c6062b57a4a323081bcdf079a074d773a2a27b94dbf62cba39421716eb6839f",
+      "variant_c_sha256": "4c6062b57a4a323081bcdf079a074d773a2a27b94dbf62cba39421716eb6839f",
+      "order": 7,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    }
+  ],
+  "changed_fragment_A_to_B": "Authoritative registry status becomes blocked on the check date.",
+  "changed_fragment_A_to_C": "Certificate email/footer text changes only.",
+  "document_grounded_only": true
+}

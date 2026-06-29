@@ -1,0 +1,5 @@
+[substantive_fact] All required return items are present.
+[amount] 2
+[deadline_date] 2026-10-21
+[identifier] HR-3001
+[code_set] offboarding | asset_return

@@ -1,0 +1,15 @@
+{
+  "case_id": "logistics_014",
+  "domain": "supply and logistics",
+  "counterfactual_change_type": "threshold crossing",
+  "controlling_document": "01_транспортный_регламент_холодовой_цепи",
+  "document_ids": [
+    "01_транспортный_регламент_холодовой_цепи",
+    "02_договор_поставки_молочной_продукции",
+    "03_лог_температуры",
+    "04_акт_приёмки_на_складе",
+    "05_служебная_записка_логиста"
+  ],
+  "expected_questions": 14,
+  "gold_rows": 42
+}

@@ -1,0 +1,83 @@
+{
+  "case_id": "it_023",
+  "documents": [
+    {
+      "doc_id": "policy",
+      "neutral_file_name": "01_policy.txt",
+      "source_file_name": "01_policy.txt",
+      "source_sha256": "981f68416fc7c30881aae300ca0e23fe9cc702a397cc3d3358b98ba148caa90f",
+      "variant_a_sha256": "981f68416fc7c30881aae300ca0e23fe9cc702a397cc3d3358b98ba148caa90f",
+      "variant_b_sha256": "981f68416fc7c30881aae300ca0e23fe9cc702a397cc3d3358b98ba148caa90f",
+      "variant_c_sha256": "981f68416fc7c30881aae300ca0e23fe9cc702a397cc3d3358b98ba148caa90f",
+      "order": 1,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "core_record",
+      "neutral_file_name": "02_core_record.txt",
+      "source_file_name": "02_core_record.txt",
+      "source_sha256": "c3b3c5ec0a1fd44c341c969b7f52275bf851aa569737a0e2e9a09126f6b9e194",
+      "variant_a_sha256": "c3b3c5ec0a1fd44c341c969b7f52275bf851aa569737a0e2e9a09126f6b9e194",
+      "variant_b_sha256": "c259f401cc0fdcb4c748a1fac228737959aef51b3fa1226b1a991d96e637a9ab",
+      "variant_c_sha256": "c3b3c5ec0a1fd44c341c969b7f52275bf851aa569737a0e2e9a09126f6b9e194",
+      "order": 2,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "nuisance_memo",
+      "neutral_file_name": "03_nuisance_memo.txt",
+      "source_file_name": "03_nuisance_memo.txt",
+      "source_sha256": "c521d9e54a73b066b1b63f22e13c82055fc2ff49e0a9535d587d80330b7b4f24",
+      "variant_a_sha256": "c521d9e54a73b066b1b63f22e13c82055fc2ff49e0a9535d587d80330b7b4f24",
+      "variant_b_sha256": "c521d9e54a73b066b1b63f22e13c82055fc2ff49e0a9535d587d80330b7b4f24",
+      "variant_c_sha256": "06aa8f95935c01940930d5b2a067658f11280149fbe6116581d277aea8de2c3c",
+      "order": 3,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "decision_memo",
+      "neutral_file_name": "04_decision_memo.txt",
+      "source_file_name": "04_decision_memo.txt",
+      "source_sha256": "67ce2a44093deab1a68bf31d865bf261cd88f0926d6016acc3cb6d237c68d37c",
+      "variant_a_sha256": "67ce2a44093deab1a68bf31d865bf261cd88f0926d6016acc3cb6d237c68d37c",
+      "variant_b_sha256": "4e94f5b68b948114bcf142979b4bc2538309078e2d2ada545d38fdcd09fda0af",
+      "variant_c_sha256": "67ce2a44093deab1a68bf31d865bf261cd88f0926d6016acc3cb6d237c68d37c",
+      "order": 4,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "doc_id": "support_note",
+      "neutral_file_name": "05_support_note.txt",
+      "source_file_name": "05_support_note.txt",
+      "source_sha256": "85ae30dc76fb4173cd6fcdf9de0182679fdb48a430e3b2712709290f162e4d2f",
+      "variant_a_sha256": "85ae30dc76fb4173cd6fcdf9de0182679fdb48a430e3b2712709290f162e4d2f",
+      "variant_b_sha256": "85ae30dc76fb4173cd6fcdf9de0182679fdb48a430e3b2712709290f162e4d2f",
+      "variant_c_sha256": "85ae30dc76fb4173cd6fcdf9de0182679fdb48a430e3b2712709290f162e4d2f",
+      "order": 5,
+      "included_in_variants": [
+        "A",
+        "B",
+        "C"
+      ]
+    }
+  ],
+  "changed_fragment_A_to_B": "The outage report was filed on time.",
+  "changed_fragment_A_to_C": "Nuisance memo reference SLA-3301 and timestamp 2026-11-10T15:20:00.",
+  "document_grounded_only": true
+}

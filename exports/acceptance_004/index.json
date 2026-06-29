@@ -1,0 +1,15 @@
+{
+  "case_id": "acceptance_004",
+  "docx_files": [
+    "01_Договор_оказания_услуг.docx",
+    "02_Техническое_задание.docx",
+    "03_Технический_отчёт.docx",
+    "04_Служебная_переписка.docx",
+    "05_Акт_сдачи-приёмки_A.docx",
+    "05_Акт_сдачи-приёмки_B.docx",
+    "06_Счёт_на_оплату.docx",
+    "07_Заявка_на_оплату.docx"
+  ],
+  "report": "/Users/stefanbidzamov/goldlink/exports/acceptance_004/docx_render_report.json",
+  "contact_sheet": "/Users/stefanbidzamov/goldlink/exports/acceptance_004/contact_sheet.png"
+}

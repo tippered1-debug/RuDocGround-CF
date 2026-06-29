@@ -1,0 +1,75 @@
+{
+  "case_id": "logistics_014",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "What is the controlling temperature range?",
+      "answer_type": "categorical"
+    },
+    {
+      "question_id": "Q2",
+      "question": "Was any temperature reading above the allowed maximum?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q3",
+      "question": "Did the deviation last more than 30 minutes?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q4",
+      "question": "Should the party be placed on hold?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q5",
+      "question": "Is the shipment eligible for acceptance?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q6",
+      "question": "Which document has priority for the temperature rule?",
+      "answer_type": "categorical"
+    },
+    {
+      "question_id": "Q7",
+      "question": "What is the documented excursion duration in B?",
+      "answer_type": "integer"
+    },
+    {
+      "question_id": "Q8",
+      "question": "Is the complaint itself sufficient to decide acceptance?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q9",
+      "question": "Is the route number changed between A and C?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q10",
+      "question": "Is the consignee the same in A, B, and C?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q11",
+      "question": "Which status best fits A?",
+      "answer_type": "categorical"
+    },
+    {
+      "question_id": "Q12",
+      "question": "Which status best fits B?",
+      "answer_type": "categorical"
+    },
+    {
+      "question_id": "Q13",
+      "question": "Does the monitoring log contain the decisive evidence?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q14",
+      "question": "Would C change the temperature-based conclusion?",
+      "answer_type": "boolean"
+    }
+  ]
+}

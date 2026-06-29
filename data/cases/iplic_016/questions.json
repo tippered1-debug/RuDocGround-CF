@@ -1,0 +1,75 @@
+{
+  "case_id": "iplic_016",
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question": "Does the escrow agreement allow release after a missed cure deadline?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q2",
+      "question": "Was a valid notice delivered before the cure period started?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q3",
+      "question": "Did the vendor fail to deliver a working build in A?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q4",
+      "question": "Did the vendor fail to deliver a working build in B?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q5",
+      "question": "What material is released on trigger?",
+      "answer_type": "code_set"
+    },
+    {
+      "question_id": "Q6",
+      "question": "Is customer data part of the release?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q7",
+      "question": "Does the counsel memo control over the license summary?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q8",
+      "question": "Has the cure deadline expired in B?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q9",
+      "question": "Does C change the trigger status?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q10",
+      "question": "Is the support log the decisive evidence source?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q11",
+      "question": "What is the trigger event category?",
+      "answer_type": "categorical"
+    },
+    {
+      "question_id": "Q12",
+      "question": "Was a separate confirmation required before release?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q13",
+      "question": "Would the page-number change in C matter?",
+      "answer_type": "boolean"
+    },
+    {
+      "question_id": "Q14",
+      "question": "Is release authorized in A?",
+      "answer_type": "boolean"
+    }
+  ]
+}

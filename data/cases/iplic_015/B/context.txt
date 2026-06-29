@@ -1,0 +1,35 @@
+[DOCUMENT doc_id=policy]
+=== DOCUMENT 1 | 01_policy.txt ===
+[PARAGRAPH] [controlling_rule] The Territory license scope case is governed by the license_agreement.
+[PARAGRAPH] [authoritative_source] license_agreement is the authoritative source for this package.
+[PARAGRAPH] [domain] licenses and IP
+[/DOCUMENT]
+
+[DOCUMENT doc_id=core_record]
+=== DOCUMENT 2 | 02_core_record.txt ===
+[PARAGRAPH] [substantive_fact] The license covers two regions.
+[PARAGRAPH] [amount] 2
+[PARAGRAPH] [deadline_date] 2026-09-30
+[PARAGRAPH] [identifier] LIC-1501
+[PARAGRAPH] [code_set] territory_scope | renewal_gate
+[/DOCUMENT]
+
+[DOCUMENT doc_id=nuisance_memo]
+=== DOCUMENT 3 | 03_nuisance_memo.txt ===
+[PARAGRAPH] [reference_number] LIC-1501
+[PARAGRAPH] [timestamp] 2026-09-01T12:00:00
+[PARAGRAPH] [case_tag] iplic_015
+[/DOCUMENT]
+
+[DOCUMENT doc_id=decision_memo]
+=== DOCUMENT 4 | 04_decision_memo.txt ===
+[PARAGRAPH] [final_status] two_regions
+[PARAGRAPH] [decision_reason] The decision follows the substantive fact and the controlling source.
+[/DOCUMENT]
+
+[DOCUMENT doc_id=support_note]
+=== DOCUMENT 5 | 05_support_note.txt ===
+[PARAGRAPH] [support_note_sufficient] true
+[PARAGRAPH] [missing_information] No mandatory supporting document is missing.
+[PARAGRAPH] [support_note] The supporting note is sufficient.
+[/DOCUMENT]
