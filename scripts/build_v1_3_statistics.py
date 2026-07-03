@@ -9,7 +9,7 @@ from rudocground.statistics import build_statistics_artifacts
 
 def build_argument_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Build case-clustered bootstrap and protocol-effect statistics for RuDocGround-CF v1.3.1")
-    parser.add_argument("--gold", default="data/v1_3_full_gold.jsonl")
+    parser.add_argument("--gold", default="data/gold.jsonl")
     parser.add_argument("--independent-predictions", default="results/qwen3.5-4b_v1.3.1_independent_full_predictions.jsonl")
     parser.add_argument("--independent-counterfactual", default="results/qwen3.5-4b_v1.3.1_independent_full_counterfactual_corrected.json")
     parser.add_argument("--independent-bundle", default="results/qwen3.5-4b_v1.3.1_release_bundle.json")
